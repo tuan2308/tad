@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body>
+    
+<script>
+
+var cdnCss = ['tad/effect/chuky1/fonts2/stylesheet.css']
+
+var cdnJs = ['tad/effect/chuky1/fonts2/stylesheet.css']
+
+
+$(document).ready(function(){
+
+var cdnDm = "https://cdn.taoanhdep.com/"
+
+
+if (typeof (cdnCss) !== 'undefined') {
+
+    for(i=0;i<cdnCss.length;i++){
+
+        var cdnCssTag = '<link href="'+cdnDm+cdnCss[i]+'" media="all">'
+
+        $('head').append(cdnCssTag)
+    }
+
+
+}
+
+
+if (typeof (cdnCss) !== 'undefined') {
+
+for(i=0;i<cdnCss.length;i++){
+
+    var cdnJsTag = '<script src="'+cdnDm+cdnCss[i]+'">'
+
+    $('head').append(cdnJsTag)
+}
+
+
+}
+
+
+
+
+});
+
+
+
+
+
+
+</script>
+
+
+</body>
+</html>
