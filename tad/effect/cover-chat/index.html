@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css"
+        integrity="sha512-0SPWAwpC/17yYyZ/4HSllgaK7/gg9OlVozq8K7rf3J8LvCjYEEIfzzpnA2/SSjpGIunCSD18r3UhvDcu/xncWA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script src="../testcr.js" type="text/javascript"></script>
+    <script src="https://cdn.taoanhdep.com/tad/tv/tad-crop.js" type="text/javascript"></script>
+
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="tad-demoanh"><a
+                    href="https://1.bp.blogspot.com/-Iq84QSPgjq0/YVZuD7SJLfI/AAAAAAAAxwk/HoxgEnU8a2MZ6viNIWML6cgZbcMApl8rgCNcBGAsYHQ/s0/taoanhdep--tichxanh.jpg"
+                    imageanchor="1"><img alt="Tạo ảnh tên facebook có dấu tích xanh sống ảo" border="0"
+                        class="img-thumbnail mt-0" data-original-height="720" data-original-width="1280"
+                        src="https://1.bp.blogspot.com/-Iq84QSPgjq0/YVZuD7SJLfI/AAAAAAAAxwk/HoxgEnU8a2MZ6viNIWML6cgZbcMApl8rgCNcBGAsYHQ/s0/taoanhdep--tichxanh.jpg"
+                        title="Tạo ảnh tên facebook có dấu tích xanh sống ảo">
+                    <div class="phongtoanh"><i class="fas fa-search-plus"></i></div>
+                </a></div>
+        </div>
+        <div class="col-md-6">
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-1936887719551664"
+                data-ad-slot="8495386474" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+    <hr>
+    <p>
+        Đây là hiệu ứng có thể giúp bạn sống ảo với dấu tích xanh xác nhận chính chủ của facebook. Hiệu ứng ảnh này giúp
+        bạn tạo ra một ảnh chụp màn hình điện thoại trang cá nhân facebook giống như trang cá nhân của bạn nhưng có thêm
+        dấu tích xanh xác nhận. Bạn cũng có thể tuỳ biến thông tin theo ý muốn của mình, ví dụ như điều chỉnh số lượng
+        người theo dõi thật nhiều để sống ảo nhé.
+        <br />
+        <b>Hướng dẫn:</b>
+        <br>
+        - Chọn tải lên ảnh đại diện và ảnh bìa của bạn.
+        <br>
+        - Nhập tên của bạn và các thông tin khác<br />
+        - Nhấn nút <b>Tạo ảnh</b><br />
+        - Nhấn nút <b>Tải ảnh về</b> hoặc giữ vào ảnh 3 giây để lưu ảnh.
+    </p>
+    <p>Nếu bạn muốn giao diện máy tính thì vào đây để tạo nhé <a
+            href="https://www.taoanhdep.com/p/tao-anh-trang-ca-nhan-giao-dien-may-tinh.html"
+            class="badge badge-primary">Tại đây</a></p>
+    <hr />
+    <!--more-->
+    <style>
+        .xulyhinhanh img {
+            margin: 0 !important
+        }
+
+        .chonanh-avt {
+            width: 38px;
+            height: 38px;
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 10px
+        }
+
+        .img-preview1,
+        .img-preview2 {
+            width: 36px;
+            height: 36px;
+            background: url(http://2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png);
+            background-size: 36px
+        }
+
+        #chonanhModal1,
+        #chonanhModal2 {
+            display: block !important
+        }
+
+        #chonanhModal1:not(.show),
+        #chonanhModal2:not(.show) {
+            opacity: 0;
+            visibility: hidden
+        }
+
+        .img-container1,
+        .img-preview1,
+        .img-container2,
+        .img-preview2 {
+            background-color: #f7f7f7;
+            text-align: center;
+            width: 100%
+        }
+
+        .img-container1,
+        .img-container2 {
+            margin-bottom: 1rem;
+            max-height: 300px;
+            min-height: 280px
+        }
+
+        .img-container1>img,
+        .img-container2>img {
+            max-width: 100%
+        }
+
+        .img-preview1,
+        .img-preview2 {
+            float: left;
+            margin-bottom: .5rem;
+            margin-right: .5rem;
+            overflow: hidden
+        }
+
+        .img-preview1,
+        .img-preview2>img {
+            max-width: 100%
+        }
+        .chonnen {
+    max-height: 300px;
+    overflow: auto;
+}
+        .chonnen .img-thumbnail{width:100%;object-fit:cover;height:100px;cursor:pointer;margin:0}.chonnen>div{height:100px;width:100%}
+        .chonnen .active .img-thumbnail{box-shadow:0 0 0 .2rem rgba(38,143,255,.5)}
+    </style>
+    <div class="xulyhinhanh">
+        <label><b>Chọn avatar*</b></label>
+        <div class="mb-2">
+            <div class="chonanh-avt">
+                <div class="img-preview1 img-preview"></div>
+            </div>
+            <button type="button" class="btn btn-primary btn-chonanh1" data-toggle="modal" data-target="#chonanhModal1">
+                <i class="fas fa-upload"></i> Chọn ảnh
+            </button>
+            <div class="modal fade" id="chonanhModal1" tabindex="-1" role="dialog" aria-labelledby="chonanhModal1Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="chonanhModalLabel">Chọn ảnh từ thiết bị</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="actions1">
+                                <div class="docs-buttons1">
+                                    <label class="btn btn-primary btn-upload btn-upanh1" for="inputImage1"
+                                        title="Upload image file">
+                                        <input type="file" class="sr-only" id="inputImage1" name="file"
+                                            accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff">
+                                        <span><i class="fas fa-upload"></i> Chọn ảnh</span>
+                                    </label>
+                                    <div class="cropanh-container1 mt-2" style="display:none">
+                                        <div class="img-container1">
+                                            <img src="" alt="Tạo ảnh đẹp">
+                                        </div>
+                                        <div class="d-flex float-right">
+                                            <div class="btn-group mr-2">
+                                                <button type="button" class="btn btn-primary" data-method="rotate"
+                                                    data-option="-45" title="Rotate Left">
+                                                    <i class="fa fa-undo"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-primary" data-method="rotate"
+                                                    data-option="45" title="Rotate Right">
+                                                    <i class="fa fa-redo"></i>
+                                                </button>
+                                            </div>
+                                            <div class="btn-group mr-2">
+                                                <button type="button" class="btn btn-primary" data-method="scaleX"
+                                                    data-option="-1" title="Flip Horizontal">
+                                                    <i class="fa fa-arrows-alt-h"></i>
+                                                </button>
+                                                <button type="button" class="btn btn-primary" data-method="scaleY"
+                                                    data-option="-1" title="Flip Vertical">
+                                                    <i class="fa fa-arrows-alt-v"></i>
+                                                </button>
+                                            </div>
+                                            <button type="button" class="btn btn-primary" id="cropanh1"
+                                                data-method="getCroppedCanvas" data-dismiss="modal"
+                                                data-option="{ &quot;width&quot;: 550, &quot;height&quot;: 550}">
+                                                Cắt ảnh
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label><b>Chọn ảnh nền*</b></label>
+        <div class="mb-2">
+            <div class="chonanh-avt">
+                <div class="img-preview2 img-preview"></div>
+            </div>
+            <button type="button" class="btn btn-primary btn-chonanh2 btn-chonnen" data-toggle="modal"
+                data-target="#chonanhModal2">
+                <i class="fas fa-image"></i> Chọn ảnh
+            </button>
+            <div class="modal fade" id="chonanhModal2" tabindex="-1" role="dialog" aria-labelledby="chonanhModal2Label"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="card-header modal-header" style=" padding: .75rem 1.25rem; ">
+                            <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                                <li class="nav-item"> <a class="nav-link active" id="home-tab" data-toggle="tab"
+                                        href="#home" role="tab" aria-controls="home" aria-selected="true">Chọn nền</a>
+                                </li>
+                                <li class="nav-item"> <a class="nav-link" id="profile-tab" data-toggle="tab"
+                                        href="#profile" role="tab" aria-controls="profile" aria-selected="false">Tải ảnh
+                                        lên</a> </li>
+                            </ul><button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+                                    aria-hidden="true">×</span> </button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <div style="clear:both"></div>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel"
+                                    aria-labelledby="home-tab">
+                                    <div class="chonnen row row-cols-2 row-cols-md-3"></div>
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div id="actions2">
+                                        <div class="docs-buttons2">
+                                            <label class="btn btn-primary btn-upload btn-upanh2" for="inputImage2"
+                                                title="Upload image file">
+                                                <input type="file" class="sr-only" id="inputImage2" name="file"
+                                                    accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff">
+                                                <span><i class="fas fa-upload"></i> Chọn ảnh</span>
+                                            </label>
+                                            <div class="cropanh-container2 mt-2" style="display:none">
+                                                <div class="img-container2">
+                                                    <img src="" alt="Tạo ảnh đẹp">
+                                                </div>
+                                                <div class="d-flex float-right">
+                                                    <div class="btn-group mr-2">
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-method="rotate" data-option="-45" title="Rotate Left">
+                                                            <i class="fa fa-undo"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-method="rotate" data-option="45" title="Rotate Right">
+                                                            <i class="fa fa-redo"></i>
+                                                        </button>
+                                                    </div>
+                                                    <div class="btn-group mr-2">
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-method="scaleX" data-option="-1"
+                                                            title="Flip Horizontal">
+                                                            <i class="fa fa-arrows-alt-h"></i>
+                                                        </button>
+                                                        <button type="button" class="btn btn-primary"
+                                                            data-method="scaleY" data-option="-1" title="Flip Vertical">
+                                                            <i class="fa fa-arrows-alt-v"></i>
+                                                        </button>
+                                                    </div>
+                                                    <button type="button" class="btn btn-primary" id="cropanh2"
+                                                        data-method="getCroppedCanvas" data-dismiss="modal"
+                                                        data-option="{ &quot;width&quot;: 550, &quot;height&quot;: 550}">
+                                                        Cắt ảnh
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <label for="customRange1">Độ mờ ảnh nền</label>
+
+        <input type="range" class="custom-range" id="tad-blur" value="5" min="0" max="10" step="1">
+
+
+        <label><b>Nhập tên*</b></label>
+        <input class="form-control tad-in-text1 mb-2" type="text" value="Tuấn Deeptry" placeholder="Tên của bạn" value="">
+        Tên phụ
+        <input class="form-control tad-in-text2 mb-2" type="text" value="Fb.com/tuan2308" placeholder="Có thể để trống" value="">
+
+
+
+        <div class="mt-3">
+            <button type="button" class="btn btn-primary" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+                ảnh</button>
+        </div>
+        <div id="img-out" class="my-2"></div>
+
+    </div>
+
+    <canvas id="temp" width="1702" height="630" style="display: none;"></canvas>
+
+
+
+    <input class="dk1 d-none" value="">
+    <input class="dk2 d-none" value="">
+    <img src="https://1.bp.blogspot.com/-Ac5fDxGJKLU/XsaCd_9gqWI/AAAAAAAAeuQ/Hrgi9lEVnjEuQ0-UrEyJieJTlt_FuoiIgCPcBGAYYCw/s0-c/tai-tho-iphone-x.jpg"
+        crossorigin="anonymous" id="Cimg1" class="d-none">
+    <img src="https://1.bp.blogspot.com/-EGC6XKj6oEQ/YDthmBmQALI/AAAAAAAApRM/82uC9VWwjHI866-3tPQxU9MiVVypgqIWwCNcBGAsYHQ/s0/hinh-nen-buon-tam-trang.jpg"
+        crossorigin="anonymous" id="Cimg2" class="d-none">
+    <script>var tvtad = ""; var hinhnen = 12; var tenanhxuat = "anhbiachat"; var rongh2 = 1702; var daih2 = 630;</script>
+
+
+    <script type='text/javascript'>
+
+
+
+
+
+
+        $(document).ready(function () {
+            // if (window.location.hostname == tmbq) {
+
+
+
+            function draw() {
+
+                var text1 = $(".tad-in-text1").val().toUpperCase();
+                var text2 = $(".tad-in-text2").val().toUpperCase();
+                var cimg1 = document.getElementById("Cimg1");
+                var cimg2 = document.getElementById("Cimg2");
+
+                var a = new Image();
+                a.crossOrigin = "Anonymous";
+                a.src = "https://lh3.googleusercontent.com/-fZCMTr-l7G8/YWpPNl2dZ_I/AAAAAAAAyRc/1BArOWj6NSUr0shPcOQoYICvocT7RyDDACNcBGAsYHQ/s0/layer.png";
+                a.onload = function () {
+
+                    var c = document.getElementById("temp");
+                    var ctx = c.getContext("2d");
+
+                    ctx.clearRect(0, 0, c.width, c.height);
+
+
+
+
+
+
+
+                    ctx.save();
+
+                    ctx.fillStyle = "#fff";
+                    ctx.font = "35px UTM Neutra";
+                    ctx.textAlign = "center";
+
+               
+                    var ctext = text2.split("").join(String.fromCharCode(8200))
+                    
+                    var width = ctx.measureText(ctext).width;
+                    var padding = 100;
+
+                    ctx.fillRect(c.width / 2 - width / 2 - padding / 2, 510, width + padding, 50);
+
+                    ctx.globalCompositeOperation = "destination-out";
+
+
+
+                    ctx.fillText(ctext, c.width / 2, 550);
+
+                    ctx.restore();
+
+
+
+                
+
+
+      
+    //gra
+    ctx.save();
+    ctx.globalCompositeOperation = "destination-over";
+               gradient2 = ctx.createLinearGradient(0, 0, 0, 630);
+               gradient2.addColorStop(0, "rgba(0,0,0,0)");
+           
+             gradient2.addColorStop(1, "rgba(0,0,0,0.5)");
+               ctx.fillStyle = gradient2;
+               ctx.fillRect(0, 0, 1702, 630);
+               ctx.restore();
+
+              //bg
+              ctx.save();
+              ctx.globalCompositeOperation = "destination-over";
+                 var tblur = $("#tad-blur").val();
+
+                 ctx.filter = "blur(" + tblur + "px)";
+                 ctx.drawImage(cimg2, -10, -10, 1722, 650);
+                 ctx.restore();
+                
+                    //layer
+
+                    ctx.save();
+
+                    ctx.drawImage(a, 0, 0, 1702, 630);
+
+
+                    ctx.restore();
+
+
+                    //avt
+                    ctx.save();
+                    ctx.beginPath();
+                    ctx.translate(724, 116);
+
+                    var sizeavt = 255;
+
+                    ctx.arc(sizeavt / 2, sizeavt / 2, sizeavt / 2, 0, Math.PI * 2, true);
+                    ctx.closePath();
+                    ctx.clip();
+
+                    ctx.drawImage(cimg1, 0, 0, sizeavt, sizeavt);
+
+                    ctx.arc(sizeavt / 2, sizeavt / 2, sizeavt / 2, 0, Math.PI * 2, true);
+                    ctx.lineWidth = 10;
+                    ctx.strokeStyle = "white";
+                    ctx.stroke();
+
+                    ctx.restore();
+
+                    ctx.save();
+                    ctx.fillStyle = "#fff";
+                    ctx.font = "65px SVN-Transformer";
+                    ctx.textAlign = "center";
+                    ctx.fillText(text1, c.width / 2, 500);
+                    ctx.restore();
+
+                    c.toBlob(function(i) {
+											var t = URL.createObjectURL(i);
+											$("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + t + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img><a href='" + t + "' class='btn btn-block btn-primary mt-2' download='taoanhdep_" + tenanhxuat + "'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a>");
+											$("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh");
+											$("#img-out").show()
+										}, "image/jpeg")
+
+
+
+
+                }
+
+            }
+
+  
+
+            function showlist() {
+                $(".chonnen").html("");
+                // for (let i = 1; i < hinhnen + 1; i++) { $(".chonnen").append("<div class='col mb-3 text-center'><img alt='Hình nền' class='img-thumbnail' src='https://cdn.taoanhdep.com/cover-wallpaper/" + i + ".jpg'></div>"); }
+                
+                
+                var arr=["https://lh3.googleusercontent.com/-RYbyDjmrpog/YWqI1bvF24I/AAAAAAAAyR8/iMjKYuRr7zMPAanv6_xBiPEuNBwHOiUNACNcBGAsYHQ/s200/1.jpg",
+            
+            "https://1.bp.blogspot.com/-GFEx6MCOc5U/YQnlwK9rt7I/AAAAAAAAv2Y/5atxGCDP3f04gnoEcPozTfn04478FFFlQCNcBGAsYHQ/s200/avatar-anime.jpg",
+            
+            ];
+
+arr.forEach(function(item, index){
+    console.log(item);
+
+    $(".chonnen").append("<div class='col mb-3 text-center'><img alt='Hình nền' class='img-thumbnail' src='"+item+"'></div>");
+
+
+});
+                
+                
+                $("#cropanh").click(function () {
+                    $(".dk1").val(1);
+                    $(".chonnen div").removeClass("active");
+                });
+                $(".chonnen div").click(function () {
+                    $(".btn-chonnen").html("<i class='fas fa-image'></i> Chọn nền khác");
+                    $(".dk2").val(1);
+                    $(".chonnen div").removeClass("active");
+                    $(this).addClass("active");
+                    var cropimg = $(this).children().attr("src").replace(/s200/g,"s0");
+
+
+                    $("#Cimg2").attr("src", cropimg);
+                    $(".img-preview2").css("background-image", "url(" + cropimg + ")").css("background-size", "cover").css("background-position", "center");
+                    $('#chonanhModal2').modal('hide');
+                });
+            }
+            $(".btn-chonnen").one("click", function () { showlist() });
+
+
+            // $("head").append(xlha);
+            // $("head").append(cssCrop);
+            $("body").append("<input class='cropanh d-none' value=''>")
+            var dk1 = $(".dk1").val();
+            var dk2 = $(".dk1").val();
+            $("#tad-taianhve").hide();
+            $(".tad-ketqua").hide();
+
+
+            $("#tad-taoanh").click(function () {
+                var e = new Date();
+                var f = ((e.getHours() < 10) ? "0" : "") + e.getHours() + ":" + ((e.getMinutes() < 10) ? "0" : "") + e.getMinutes();
+                var d = f;
+                $(".tad-time").text(d)
+                if ($(".dk1").val() == "") {
+                    alert("Vui lòng chọn avatar");
+                    $('#chonanhModal1').modal('show');
+                    return false;
+                }
+                if ($(".dk2").val() == "") {
+                    alert("Vui lòng chọn ảnh nền");
+                    showlist();
+                    $('#chonanhModal2').modal('show');
+                    return false;
+                }
+                if ($(".tad-in-text1").val() == "") {
+                    alert("Bạn chưa nhập tên");
+                    $(".tad-in-text1").focus();
+                    return false;
+                }
+                if ($(".tad-in-text2").val() == "") {
+                    alert("Bạn chưa nhập tên phụ");
+                    $(".tad-in-text2").focus();
+                    return false;
+                }
+
+                t1 = $(".tad-in-text1").val();
+                $(".tad-out-text1").html(t1);
+                t2 = $(".tad-in-text2").val();
+                $(".tad-out-text2").html(t2);
+
+                $("#cropanh1").click();
+                $("#cropanh2").click();
+
+
+                $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
+                $("#img-out").hide();
+
+                setTimeout(function () {
+
+                    //draw
+
+                    draw();
+
+
+                }, 1000);
+
+
+
+
+
+
+
+
+
+
+            });
+
+
+
+            $(".btn-upanh1").click(function () {
+                $(".cropanh-container1 .cropper-container").remove();
+                'use strict';
+                var Cropper = window.Cropper;
+                var URL = window.URL || window.webkitURL;
+                var container = document.querySelector('.img-container1');
+                var image = container.getElementsByTagName('img').item(0);
+                var download = document.getElementById('download1');
+                var actions = document.getElementById('actions1');
+                var options = {
+                    aspectRatio: 1 / 1,
+                    viewMode: 1,
+                    preview: '.img-preview1',
+                    autoCrop: true,
+                    strict: true,
+                    background: true,
+                    autoCropArea: 1
+                };
+                var cropper = new Cropper(image, options);
+                var originalImageURL = image.src;
+                var uploadedImageType = 'image/jpeg';
+                var uploadedImageURL;
+                if (!document.createElement('canvas').getContext) {
+                    $('button[data-method="getCroppedCanvas"]').prop('disabled', true);
+                }
+                if (typeof document.createElement('cropper').style.transition === 'undefined') {
+                    $('button[data-method="rotate"]').prop('disabled', true);
+                    $('button[data-method="scale"]').prop('disabled', true);
+                }
+                actions.querySelector('.docs-buttons1').onclick = function (event) {
+                    var e = event || window.event;
+                    var target = e.target || e.srcElement;
+                    var cropped;
+                    var result;
+                    var input;
+                    var data;
+                    if (!cropper) {
+                        return;
+                    }
+                    while (target !== this) {
+                        if (target.getAttribute('data-method')) {
+                            break;
+                        }
+                        target = target.parentNode;
+                    }
+                    if (target === this || target.disabled || target.className.indexOf('disabled') > -1) {
+                        return;
+                    }
+                    data = {
+                        method: target.getAttribute('data-method'),
+                        target: target.getAttribute('data-target'),
+                        option: target.getAttribute('data-option') || undefined,
+                        secondOption: target.getAttribute('data-second-option') || undefined
+                    };
+                    cropped = cropper.cropped;
+                    if (data.method) {
+                        if (typeof data.target !== 'undefined') {
+                            input = document.querySelector(data.target);
+                            if (!target.hasAttribute('data-option') && data.target && input) {
+                                try {
+                                    data.option = JSON.parse(input.value);
+                                } catch (e) {
+                                    console.log(e.message);
+                                }
+                            }
+                        }
+                        switch (data.method) {
+                            case 'rotate':
+                                if (cropped) {
+                                    cropper.clear();
+                                }
+                                break;
+                            case 'getCroppedCanvas':
+                                try {
+                                    data.option = JSON.parse(data.option);
+                                } catch (e) {
+                                    console.log(e.message);
+                                }
+                                if (uploadedImageType === 'image/jpeg') {
+                                    if (!data.option) {
+                                        data.option = {};
+                                    }
+                                    data.option.fillColor = '#fff';
+                                }
+                                break;
+                        }
+                        result = cropper[data.method](data.option, data.secondOption);
+                        switch (data.method) {
+                            case 'rotate':
+                                if (cropped) {
+                                    cropper.crop();
+                                }
+                                break;
+                            case 'scaleX':
+                            case 'scaleY':
+                                target.setAttribute('data-option', -data.option);
+                                break;
+                            case 'getCroppedCanvas':
+                                result.toBlob(function (j) {
+                                    var i = URL.createObjectURL(j);
+                                    $("#Cimg1").attr("src", i)
+                                }, "image/jpeg", 1);
+                                break;
+                            case 'destroy':
+                                cropper = null;
+                                if (uploadedImageURL) {
+                                    URL.revokeObjectURL(uploadedImageURL);
+                                    uploadedImageURL = '';
+                                    image.src = originalImageURL;
+                                }
+                                break;
+                        }
+                        if (typeof result === 'object' && result !== cropper && input) {
+                            try {
+                                input.value = JSON.stringify(result);
+                            } catch (e) {
+                                console.log(e.message);
+                            }
+                        }
+                    }
+                };
+                document.body.onkeydown = function (event) {
+                    var e = event || window.event;
+                    if (!cropper || this.scrollTop > 300) {
+                        return;
+                    }
+                    switch (e.keyCode) {
+                        case 37:
+                            e.preventDefault();
+                            cropper.move(-1, 0);
+                            break;
+                        case 38:
+                            e.preventDefault();
+                            cropper.move(0, -1);
+                            break;
+                        case 39:
+                            e.preventDefault();
+                            cropper.move(1, 0);
+                            break;
+                        case 40:
+                            e.preventDefault();
+                            cropper.move(0, 1);
+                            break;
+                    }
+                };
+                $(".cropanh-container1").hide();
+                var inputImage = document.getElementById('inputImage1');
+                if (URL) {
+                    inputImage.onchange = function () {
+                        var files = this.files;
+                        var file;
+                        if (cropper && files && files.length) {
+                            file = files[0];
+                            if (/^image\/\w+/.test(file.type)) {
+                                uploadedImageType = file.type;
+                                if (uploadedImageURL) {
+                                    URL.revokeObjectURL(uploadedImageURL);
+                                }
+                                image.src = uploadedImageURL = URL.createObjectURL(file);
+                                cropper.destroy();
+                                cropper = new Cropper(image, options);
+                                inputImage.value = null;
+                                $(".cropanh-container1").show();
+                                $(".dk1").val(1)
+                                $(".btn-upanh1 span,.btn-chonanh1").html("<i class='fas fa-upload'></i> Chọn ảnh khác");
+                            } else {
+                                window.alert('Please choose an image file.');
+                            }
+                        }
+                    };
+                } else {
+                    inputImage.disabled = true;
+                    inputImage.parentNode.className += ' disabled';
+                }
+            });
+            $(".btn-upanh2").click(function () {
+                $(".cropanh-container2 .cropper-container").remove();
+                'use strict';
+                var Cropper = window.Cropper;
+                var URL = window.URL || window.webkitURL;
+                var container = document.querySelector('.img-container2');
+                var image = container.getElementsByTagName('img').item(0);
+                var download = document.getElementById('download2');
+                var actions = document.getElementById('actions2');
+                var options = {
+                    aspectRatio: 1702 / 630,
+                    viewMode: 1,
+                    preview: '.img-preview2',
+                    autoCrop: true,
+                    strict: true,
+                    background: true,
+                    autoCropArea: 1
+                };
+                var cropper = new Cropper(image, options);
+                var originalImageURL = image.src;
+                var uploadedImageType = 'image/jpeg';
+                var uploadedImageURL;
+                if (!document.createElement('canvas').getContext) {
+                    $('button[data-method="getCroppedCanvas"]').prop('disabled', true);
+                }
+                if (typeof document.createElement('cropper').style.transition === 'undefined') {
+                    $('button[data-method="rotate"]').prop('disabled', true);
+                    $('button[data-method="scale"]').prop('disabled', true);
+                }
+                actions.querySelector('.docs-buttons2').onclick = function (event) {
+                    var e = event || window.event;
+                    var target = e.target || e.srcElement;
+                    var cropped;
+                    var result;
+                    var input;
+                    var data;
+                    if (!cropper) {
+                        return;
+                    }
+                    while (target !== this) {
+                        if (target.getAttribute('data-method')) {
+                            break;
+                        }
+                        target = target.parentNode;
+                    }
+                    if (target === this || target.disabled || target.className.indexOf('disabled') > -1) {
+                        return;
+                    }
+                    data = {
+                        method: target.getAttribute('data-method'),
+                        target: target.getAttribute('data-target'),
+                        option: target.getAttribute('data-option') || undefined,
+                        secondOption: target.getAttribute('data-second-option') || undefined
+                    };
+                    cropped = cropper.cropped;
+                    if (data.method) {
+                        if (typeof data.target !== 'undefined') {
+                            input = document.querySelector(data.target);
+                            if (!target.hasAttribute('data-option') && data.target && input) {
+                                try {
+                                    data.option = JSON.parse(input.value);
+                                } catch (e) {
+                                    console.log(e.message);
+                                }
+                            }
+                        }
+                        switch (data.method) {
+                            case 'rotate':
+                                if (cropped) {
+                                    cropper.clear();
+                                }
+                                break;
+                            case 'getCroppedCanvas':
+                                try {
+                                    data.option = JSON.parse(data.option);
+                                } catch (e) {
+                                    console.log(e.message);
+                                }
+                                if (uploadedImageType === 'image/jpeg') {
+                                    if (!data.option) {
+                                        data.option = {};
+                                    }
+                                    data.option.fillColor = '#fff';
+                                }
+                                break;
+                        }
+                        result = cropper[data.method](data.option, data.secondOption);
+                        switch (data.method) {
+                            case 'rotate':
+                                if (cropped) {
+                                    cropper.crop();
+                                }
+                                break;
+                            case 'scaleX':
+                            case 'scaleY':
+                                target.setAttribute('data-option', -data.option);
+                                break;
+                            case 'getCroppedCanvas':
+                                if (result) {
+                                    result.toBlob(function (j) {
+                                        var i = URL.createObjectURL(j);
+                                        $("#Cimg2").attr("src", i)
+                                    }, "image/jpeg", 1);
+
+                                }
+                                break;
+                            case 'destroy':
+                                cropper = null;
+                                if (uploadedImageURL) {
+                                    URL.revokeObjectURL(uploadedImageURL);
+                                    uploadedImageURL = '';
+                                    image.src = originalImageURL;
+                                }
+                                break;
+                        }
+                        if (typeof result === 'object' && result !== cropper && input) {
+                            try {
+                                input.value = JSON.stringify(result);
+                            } catch (e) {
+                                console.log(e.message);
+                            }
+                        }
+                    }
+                };
+                document.body.onkeydown = function (event) {
+                    var e = event || window.event;
+                    if (!cropper || this.scrollTop > 300) {
+                        return;
+                    }
+                    switch (e.keyCode) {
+                        case 37:
+                            e.preventDefault();
+                            cropper.move(-1, 0);
+                            break;
+                        case 38:
+                            e.preventDefault();
+                            cropper.move(0, -1);
+                            break;
+                        case 39:
+                            e.preventDefault();
+                            cropper.move(1, 0);
+                            break;
+                        case 40:
+                            e.preventDefault();
+                            cropper.move(0, 1);
+                            break;
+                    }
+                };
+                $(".cropanh-container2").hide();
+                var inputImage = document.getElementById('inputImage2');
+                if (URL) {
+                    inputImage.onchange = function () {
+                        var files = this.files;
+                        var file;
+                        if (cropper && files && files.length) {
+                            file = files[0];
+                            if (/^image\/\w+/.test(file.type)) {
+                                uploadedImageType = file.type;
+                                if (uploadedImageURL) {
+                                    URL.revokeObjectURL(uploadedImageURL);
+                                }
+                                image.src = uploadedImageURL = URL.createObjectURL(file);
+                                cropper.destroy();
+                                cropper = new Cropper(image, options);
+                                inputImage.value = null;
+                                $(".cropanh-container2").show();
+                                $(".dk2").val(1)
+                                $(".btn-upanh2 span,.btn-chonanh2").html("<i class='fas fa-upload'></i> Chọn ảnh khác");
+                            } else {
+                                window.alert('Please choose an image file.');
+                            }
+                        }
+                    };
+                } else {
+                    inputImage.disabled = true;
+                    inputImage.parentNode.className += ' disabled';
+                }
+            });
+        }
+            // }
+        );
+
+    </script>
+
+
+</body>
+
+</html>

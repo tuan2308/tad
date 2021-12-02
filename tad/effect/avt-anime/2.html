@@ -1,0 +1,13 @@
+<script>
+var es_fb = navigator.userAgent.toLowerCase().indexOf("fb") > -1;
+var es_zalo = navigator.userAgent.toLowerCase().indexOf("zalo") > -1;
+
+
+if (es_zalo) {
+	$("#tad-taoanh").html("<i class='fas fa-lock'></i> Bạn đang vào website từ Zalo. Hãy sử dụng trình duyệt Chrome hoặc Safari để tiếp tục tạo ảnh.").addClass("disabled-im").after("<div class='mt-3 text-center'>(Bạn có thể chọn dấu ba chấm góc phải và chọn Mở bằng trình duyệt)</div>")
+};
+
+if (es_fb) {
+	$("#tad-taoanh").html("<i class='fas fa-lock'></i> Bạn đang vào website từ facebook. Hãy sử dụng trình duyệt Chrome hoặc Safari để tiếp tục tạo ảnh.").addClass("disabled-im").after("<div class='mt-3 text-center'>(Bạn có thể chọn dấu ba chấm góc phải và chọn Mở bằng trình duyệt)</div>")
+};
+</script>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body>
+
+    <canvas id="temp" width="3000" height="2000"
+    style="border:1px solid #d3d3d3;">
+    Your browser does not support the canvas element.
+    </canvas>
+    
+    <script>
+
+
+
+
+                    var b = new Image();
+                b.crossOrigin = "Anonymous";
+                b.src = "https://1.bp.blogspot.com/-NTQ5McD1rI8/YTcf8-yMBYI/AAAAAAAAxCQ/aNOxwGM21XkpaEfYwcrpSIgi9pMkSB59gCNcBGAsYHQ/w350-h265-p-k-no-nu/var2.jpg";
+                b.onload = function () {
+
+
+
+    var c = document.getElementById("temp");
+    var ctx = c.getContext("2d");
+
+    ctx.fillRect(0, 0, c.width, c.height);
+
+    ctx.drawImage(b,0,0,c.width,c.height);
+
+
+    ctx.globalCompositeOperation = "destination-atop";
+
+
+    ctx.fillStyle = "red";
+    ctx.font = "900 300px Montserrat";
+    ctx.textAlign = "center";
+    ctx.textBaseline = 'middle';
+    ctx.fillText("Ngọc Tuấn",c.width/2,c.height/2);
+
+
+
+} 
+
+
+    </script>
+
+
+
+</body>
+</html>

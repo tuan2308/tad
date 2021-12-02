@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+        <script crossorigin='anonymous'
+            integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+            src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+    
+    
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+    
+        <meta charset="utf-8">
+     
+    </head>
+    <body> 
+     
+
+<button id="abc">ádasd</button>
+
+
+<!-- <iframe name="tadlinkup" id="tadlinkup" style="display: none;"></iframe> -->
+<form  id="formShare">
+<input id="urlUp" name="entry.440378470" placeholder="Họ tên" type="text" value=""/>
+<button type="submit">Gửi</button>
+</form>
+
+<script>
+
+$("#abc").click(function(){
+
+    $('#formShare #urlUp').val("ahihi")
+
+    $('#formShare button').click();
+
+});
+
+
+
+
+
+$('#formShare').submit(function(e){
+    e.preventDefault();
+    $.ajax({
+        url: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScQ9-jU80GgaVTp4zkmjyNhUZcXB4TWIolCAWp3Nl-AKfxkQA/formResponse',
+        type: 'post',
+        data:$('#formShare').serialize(),
+        success:function(){
+            // Whatever you want to do after the form is successfully submitted
+        }
+    });
+});
+
+</script>
+
+
+
+</html>

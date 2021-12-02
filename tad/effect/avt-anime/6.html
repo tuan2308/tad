@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+<body>
+    
+    <div>
+       <img src="https://lh3.googleusercontent.com/-P7XQdZVpCvs/YYy1IdIN5jI/AAAAAAAA0e4/LURXZi7uvn8WSYhD6tMxr0ZqGxh5eSSOwCNcBGAsYHQ/w350-h265-p-k-no-nu/anh-bia-lien-quan-mobile.jpg" alt="">
+       <button>Download</button>
+    </div>
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.2/FileSaver.min.js" integrity="sha512-k8F8QynmFNURwbUJC8drKA+fo3YfNvjqKzStdydD6au+MzvxBoRnxH8E31RJXwDY9DrnEiPhh9wBoDSIxhkyHQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    let btnDownload = document.querySelector('button');
+    let img = document.querySelector('img');
+     
+     
+    // Must use FileSaver.js 2.0.2 because 2.0.3 has issues.
+    btnDownload.addEventListener('click', () => {
+        let imagePath = img.getAttribute('src');
+        let fileName = getFileName(imagePath);
+        saveAs(imagePath, fileName);
+    });
+     
+    function getFileName(str) {
+        return str.substring(str.lastIndexOf('/') + 1)
+    }</script>
+
+
+</body>
+</html>

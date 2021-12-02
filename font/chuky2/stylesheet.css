@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('UTMAvo.woff2') format('woff2'),
+        url('UTMAvo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Dutchbrigade';
+    src: url('Dutchbrigade-Regular.woff2') format('woff2'),
+        url('Dutchbrigade-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signature Collection';
+    src: url('SignatureCollection.woff2') format('woff2'),
+        url('SignatureCollection.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

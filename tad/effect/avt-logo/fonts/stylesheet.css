@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'GMV DIN Pro Cond';
+    src: url('GMVDINPro-CondBold.woff2') format('woff2'),
+        url('GMVDINPro-CondBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Neutra';
+    src: url('UTMNeutra.woff2') format('woff2'),
+        url('UTMNeutra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

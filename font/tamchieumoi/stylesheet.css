@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UTM Windsor BT';
+    src: url('UTMWindsorBT.woff2') format('woff2'),
+        url('UTMWindsorBT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

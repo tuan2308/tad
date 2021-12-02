@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Monogram Left';
+    src: url('MonogramLeft-Regular.woff2') format('woff2'),
+        url('MonogramLeft-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monogram Center';
+    src: url('MonogramCenter-Regular.woff2') format('woff2'),
+        url('MonogramCenter-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monogram Frames';
+    src: url('MonogramFrames-Regular.woff2') format('woff2'),
+        url('MonogramFrames-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Monogram Right';
+    src: url('MonogramRight-Regular.woff2') format('woff2'),
+        url('MonogramRight-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

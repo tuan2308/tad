@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'SVN-Suargie';
+    src: url('SVN-Suargie.woff2') format('woff2'),
+        url('SVN-Suargie.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('Montserrat-Light.woff2') format('woff2'),
+        url('Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Alpine KT';
+    src: url('UTMAlpineKT.woff2') format('woff2'),
+        url('UTMAlpineKT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Skill';
+    src: url('SVN-Skill.woff2') format('woff2'),
+        url('SVN-Skill.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

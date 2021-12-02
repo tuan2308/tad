@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'UTM Gods Word';
+    src: url('UTMGodsWordBold.woff2') format('woff2'),
+        url('UTMGodsWordBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

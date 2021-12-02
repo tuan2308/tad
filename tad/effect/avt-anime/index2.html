@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="container">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.9/fabric.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.7/hammer.min.js"
+        integrity="sha512-fKSoxqVPlyflaK5sUZYigOGAnjMChqysp0xksbgt+pI5N+e4fT5DGGMdvLS6MvYo4S6rZ2gmg5tUpMwpNk0AcA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.taoanhdep.com/tphoto/FileSaver.js"></script>
+    <script src="https://cdn.taoanhdep.com/tphoto/fontfaceobserver.js"></script>
+    <script src="https://cdn.taoanhdep.com/tphoto/fabriccontrol.js"></script>
+    <link href='https://cdn.taoanhdep.com/tad/effect/avt-anime/fonts/stylesheet.css' media='all' rel='stylesheet' />
+    <link rel='stylesheet'
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" />
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
+
+
+
+
+    <style>
+        .chonanh-avt {
+            width: 38px;
+            height: 38px;
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 10px;
+        }
+
+        .img-preview {
+            width: 36px;
+            height: 36px;
+            background: url(//2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png) no-repeat center;
+            background-size: 36px;
+        }
+
+        .canvas-container {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        .lower-canvas {
+            width: 100% !important;
+            height: auto !important;
+            position: relative !important;
+        }
+
+        .upper-canvas {
+            width: 100% !important;
+            height: auto !important;
+            position: absolute !important;
+        }
+
+        #doimaunen {
+            border-radius: .25rem !important
+        }
+
+        .demomau {
+            position: absolute;
+            padding: 10px;
+            right: 0;
+            margin: 7px;
+            border: 2px solid #ddd;
+            border-radius: 3px;
+            z-index: 9;
+            pointer-events: none
+        }
+    </style>
+    <label><b>Upload ảnh (png)*</b></label>
+    <div class="mb-2">
+        <div class="chonanh-avt">
+            <div class="img-preview"></div>
+        </div>
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-upanh btn-showchonanh" data-toggle="modal"
+            data-target="#chonanhModal">
+            Chọn ảnh
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="chonanhModal" tabindex="-1" role="dialog" aria-labelledby="chonanhModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="chonanhModalLabel">Chọn ảnh từ thiết bị</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+
+                        <label class="btn btn-primary m-0 mb-2  btn-upload btn-upanh btn-block" for="tad-themanh"><i
+                                class="fas fa-upload"></i> Chọn ảnh</label>
+                        <input type="file" id="tad-themanh" accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff" class="d-none" />
+                        <div class="democan">
+                            <canvas id="temp" width="500" height="500" style="width:100%;border: 1px solid #ced4da;
+border-radius: .25rem;"></canvas>
+                            <div class="float-right"> <button type="button"
+                                    class="btn btn-huongdan btn-secondary mr-2">Hướng dẫn</button>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Lưu</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <input class="form-control tad-in-text0 mb-2" placeholder="Nhập tên" value="">
+
+    <input class="form-control tad-in-text1 mb-2" style="text-transform:uppercase" placeholder="Nhập tên" value="">
+
+    <div class="input-group mb-2">
+        <input class="form-control colorpicker-element" id="doimaunen" placeholder="Nhập mã màu" value="#5ea9d4">
+        <div class="demomau demomaunen" style="background-color: #5ea9d4"></div>
+    </div>
+    <div>
+
+    </div>
+
+
+    <div class="mt-3">
+        <button type="button" class="btn btn-primary disabled" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+            ảnh</button>
+    </div>
+    <div id="img-out"></div>
+    <script>
+
+$(".btn-huongdan").click(function(){
+
+alert("tự mò đi cái gì cũng hỏi")
+
+});
+
+var i = $(".tad-in-text0");
+		var e = $(".tad-in-text1");
+		i.on("input", function() {
+			c()
+		});
+		e.on("input", function() {
+			c()
+		});
+
+		function c() {
+			if (undefined !== i.val() && i.val().length == 0) {
+				$("#tad-taoanh").addClass("disabled")
+			} else {
+				if (undefined !== e.val() && e.val().length == 0) {
+					$("#tad-taoanh").addClass("disabled")
+				} else {
+					$("#tad-taoanh").removeClass("disabled")
+				}
+			}
+		}
+
+        $(".btn-showchonanh").one("click", function () {
+
+            $(".democan").hide();
+
+        });
+
+        var myfont = new FontFaceObserver("MTD William Letter")
+        myfont.load().then(function () {
+
+
+            var myfont = new FontFaceObserver("Steelfish")
+            myfont.load().then(function () {
+
+
+                var canvas = new fabric.Canvas('temp');
+
+                fabric.Object.prototype.customiseCornerIcons({
+                    settings: {
+                        borderColor: 'white',
+                        cornerSize: 10,
+                        cornerShape: 'circle',
+                        cornerBackgroundColor: 'white',
+                        cornerPadding: 20
+                    }
+                });
+
+
+                $("#doimaunen").colorpicker().change(function () {
+                    var a = $("#doimaunen").val();
+                    $(".demomau").css("background-color", a);
+                    $(".active span").css("color", a);
+                    colorBg = a
+                    canvas.backgroundColor = a
+                    canvas.renderAll();
+                });
+
+                //draw
+
+
+
+                var t0 = "Tạo ảnh đẹp";
+                var t1 = "TAOANHDEP";
+
+                var text0 = new fabric.Textbox(t0, {
+                    left: 0,
+                    top: 15,
+                    width: 500,
+                    textAlign: 'center',
+                    fontFamily: "MTD William Letter",
+                    fill: "#fff",
+                    fontSize: 80,
+                    "selectable": false,
+                });
+                var text1 = new fabric.Textbox(t1, {
+                    left: 0,
+                    top: 120,
+                    width: 500,
+                    textAlign: 'center',
+                    fontFamily: "Steelfish",
+                    fill: "transparent",
+                    fontSize: 120,
+                    strokeWidth: 2,
+                    stroke: 'white',
+                    "selectable": false,
+                });
+                var text2 = new fabric.Textbox(t1, {
+                    left: 0,
+                    top: 240,
+                    width: 500,
+                    textAlign: 'center',
+                    fontFamily: "Steelfish",
+                    fill: "rgb(255 255 255 / 70%)",
+                    fontSize: 120,
+                    "selectable": false,
+                });
+                var text3 = new fabric.Textbox(t1, {
+                    left: 0,
+                    top: 360,
+                    width: 500,
+                    textAlign: 'center',
+                    fontFamily: "Steelfish",
+                    fill: "transparent",
+                    fontSize: 120,
+                    strokeWidth: 2,
+                    stroke: 'white', "selectable": false,
+                });
+
+                var layer;
+
+
+
+
+                canvas.backgroundColor = "#5ea9d4";
+                canvas.renderAll();
+
+                canvas.add(text0)
+
+
+
+                canvas.add(text1)
+
+
+                canvas.add(text2)
+
+
+
+                canvas.add(text3)
+
+
+                fabric.Image.fromURL('https://1.bp.blogspot.com/-JOEKOo7oVAk/YUcLpxJQYhI/AAAAAAAAxY4/cuZzr2q9rG0omo4KhV-8NNr7FR1OUCP2QCNcBGAsYHQ/s0/line.png', function (myImg) {
+                    var img1 = myImg.set({ left: 0, top: 0, width: canvas.width, height: canvas.height, "selectable": false, });
+                    canvas.add(img1);
+                }, { crossOrigin: 'anonymous' });
+
+                var gradient = new fabric.Gradient({
+                    coords: {
+                        x1: 0,
+                        y1: 0,
+                        x2: 0,
+                        y2: canvas.height
+                    },
+                    gradientUnits: 'percentage',
+                    colorStops: [{
+                        offset: '0',
+                        color: 'rgba(0,0,0,0.05)',
+                    }, {
+                        offset: '0.5',
+                        color: 'rgba(0,0,0,0)'
+                    }, {
+                        offset: '1',
+                        color: 'rgba(0,0,0,0.1)'
+                    }]
+                });
+
+
+                var square = new fabric.Rect({
+
+                    width: canvas.width,
+                    height: canvas.height,
+                    left: 0,
+                    top: 0,
+                    fill: gradient, "selectable": false
+
+                });
+
+                canvas.add(square);
+
+
+
+
+                $(".tad-in-text1").on("change", function () {
+
+                    edittext = $(this).val().toUpperCase();
+
+                    text1.set('text', edittext);
+                    text2.set('text', edittext);
+                    text3.set('text', edittext);
+                    canvas.renderAll();
+                });
+
+                $(".tad-in-text0").on("change", function () {
+                    text0.set('text', $(this).val());
+                    canvas.renderAll();
+                });
+
+
+
+                $("#tad-themanh").on("change", function (e) {
+
+
+
+
+
+                    var file = e.target.files[0];
+                    var reader = new FileReader();
+                    reader.onload = function (f) {
+                  
+
+      var data = URL.createObjectURL(e.target.files[0]);
+
+
+                        $(".img-preview").css("background-image", "url(" + data + ")");
+
+                        var max = 900;
+
+                        fabric.Image.fromURL(data, function (img) {
+
+                            canvas.remove(layer);
+                            fabric.Image.fromURL(data, function (img) {
+                                
+                                if (img.width < max || img.height < max) {
+                                    layer = img.set({
+                                        left: canvas.width / 2 - img.width * 0.5 / 2,
+                                        top: canvas.height / 2 - img.height * 0.5 / 2
+                                    }, { crossOrigin: 'anonymous' }).scale(0.5);
+
+                                } else {
+                                    if (img.width >= img.height) {
+                                        if (img.width > max) {
+                                            let scale = (max / img.height) * 0.5;
+                                            layer = img.set({
+                                                left: canvas.width / 2 - img.width * scale / 2,
+                                                top: canvas.height / 2 - img.height * scale / 2
+                                            }).scale(scale);
+
+                                        }
+                                    }
+                                    if (img.width < img.height) {
+                                        if (img.height > max) {
+                                            let scale = (max / img.height) * 0.5;
+                                            layer = img.set({
+                                                left: canvas.width / 2 - img.width * scale / 2,
+                                                top: canvas.height / 2 - img.height * scale / 2
+                                            }).scale(scale);
+
+                                        }
+                                    }
+                                }
+                                canvas.add(layer);
+
+                                canvas.renderAll();
+                                canvas.setActiveObject(layer);
+                            });
+
+
+                        });
+                    };
+                    reader.readAsDataURL(file);
+
+                    $(".democan").show();
+                    $(".btn-upanh").html("<i class='fas fa-upload'></i> Chọn ảnh khác");
+                    $("#chonanhModalLabel").text("Điều chỉnh")
+                });
+
+                let currentScale = null
+                let currentScaleX = null
+                let currentScaleY = null
+                let currentRotation = null
+                let adjustScale = 1
+                let adjustScaleX = 1
+                let adjustScaleY = 1
+                let adjustRotation = 0
+                let hammer = new Hammer.Manager(canvas.upperCanvasEl);
+                let rotate = new Hammer.Rotate();
+                let pinch = new Hammer.Pinch();
+                hammer.add([pinch, rotate])
+                hammer.get('rotate').set({
+                    enable: true
+                })
+                hammer.get('pinch').set({
+                    enable: true
+                })
+                hammer.on("pinchstart rotatestart", (e) => {
+                    console.log("start");
+                    adjustRotation -= e.rotation
+                    if (canvas.getActiveObject()) {
+                        var object = canvas.getActiveObject()
+                        adjustScaleX = object.scaleX
+                        adjustScaleY = object.scaleY
+                    }
+                })
+                hammer.on("pinchmove rotatemove", (e) => {
+                    currentRotation = adjustRotation + e.rotation
+                    currentScale = adjustScale * e.scale
+                    if (canvas.getActiveObject()) {
+                        var object = canvas.getActiveObject()
+                        currentScaleX = adjustScaleX * e.scale
+                        currentScaleY = adjustScaleY * e.scale
+                        if (!(currentScaleX > object.minScaleLimit && currentScaleY > object.minScaleLimit)) {
+                            currentScaleX = object.scaleX
+                            currentScaleY = object.scaleY
+                        }
+                        object.set({
+                            lockMovementX: true,
+                            lockMovementY: true
+                        })
+                        object.set('scaleX', currentScaleX);
+                        object.set('scaleY', currentScaleY);
+                        object.rotate(currentRotation)
+                        object.setCoords()
+                        canvas.renderAll()
+                    }
+                })
+                hammer.on("pinchend rotateend", (e) => {
+                    adjustScale = currentScale;
+                    adjustRotation = currentRotation;
+                    adjustScaleX = currentScaleX;
+                    adjustScaleY = currentScaleY;
+                    if (canvas.getActiveObject()) {
+                        var object = canvas.getActiveObject()
+                        setTimeout(function () {
+                            object.set({
+                                lockMovementX: false,
+                                lockMovementY: false
+                            })
+                        }, 300)
+                    }
+                    canvas.renderAll()
+                })
+
+                var tenanhxuat = "avatar_anime"
+
+                $("#tad-taoanh").click(function () {
+                    $("#img-out").hide();
+                    $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
+                    canvas.deactivateAll();
+                    canvas.renderAll();
+
+                    $("#temp").get(0).toBlob(function (p) {
+                        var q = URL.createObjectURL(p);
+                        $("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + q + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img><a href='" + q + "' class='btn btn-block btn-primary mt-2'  download='taoanhdep_" + tenanhxuat + "'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a>");
+                        setTimeout(function () {
+                            $("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh");
+                            $("#img-out").show()
+                        }, 1000)
+                    }, "image/png")
+
+
+                });
+
+            });
+        });
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>

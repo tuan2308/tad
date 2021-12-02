@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'UTM Avo';
+    src: url('UTMAvoBold.woff2') format('woff2'),
+        url('UTMAvoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'iCiel Pony';
+    src: url('iCielPony.woff2') format('woff2'),
+        url('iCielPony.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Duepuntozero';
+    src: url('UTMDuepuntozero.woff2') format('woff2'),
+        url('UTMDuepuntozero.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Bango';
+    src: url('SVN-Bango.woff2') format('woff2'),
+        url('SVN-Bango.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Alpine KT';
+    src: url('UTMAlpineKT.woff2') format('woff2'),
+        url('UTMAlpineKT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'Kenyan Coffee Rg';
+    src: url('KenyanCoffeeRg-Regular.woff2') format('woff2'),
+        url('KenyanCoffeeRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Marvel';
+    src: url('Marvel-Regular.woff2') format('woff2'),
+        url('Marvel-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

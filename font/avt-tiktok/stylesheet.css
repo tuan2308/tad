@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Sniglet';
+    src: url('Sniglet-ExtraBold.woff2') format('woff2'),
+        url('Sniglet-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

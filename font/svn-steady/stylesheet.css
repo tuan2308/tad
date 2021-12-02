@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'SVN-Steady';
+    src: url('SVN-Steady.woff2') format('woff2'),
+        url('SVN-Steady.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

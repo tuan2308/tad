@@ -1,0 +1,160 @@
+.tad-main {
+    background: url(./bg.jpg);
+    width: 2000px;
+    height: 1200px;
+    position: relative;
+}
+.tad-main>*{
+    position: absolute;
+
+}
+
+.tad-avt {
+    background: url(./avt.jpg);
+    width: 480px;
+    height: 480px;
+    background-size: cover;
+    
+    left: 266px;
+    top: 180px;
+    border-radius: 100%;
+}.tad-layer {
+    background: url(./layer.png);
+    width: 2000px;
+    height: 1200px;
+    
+    z-index: 999;
+}
+
+.tad-out-text1 {
+    
+    top: 850px;
+    left: 330px;
+    font-size: 60px;
+    font-family: "UTM Akashi";
+    color: #fff;
+    z-index: 999;
+    font-style: italic;
+    padding: 0 50px;
+    background: rgb(38 203 228 / 60%);
+    text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+}.tad-out-text2 {
+    
+    top: 970px;
+    left: 230px;
+    font-size: 40px;
+    font-family: "UTM Akashi";
+    color: #111;
+    z-index: 999;
+    font-style: italic;
+    padding: 0 50px;
+    background: rgb(255 255 255 / 60%);
+}.tad-out-text3 {
+    
+    top: 100px;
+    right: 50px;
+    font-size: 60px;
+    width: 1000px;
+    text-align: center;
+    font-family: "UTM Akashi";
+    color: #f5f940;
+    z-index: 999;
+    font-style: italic;
+    text-shadow: 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000, 0 0 7px #000;
+}.tad-out-text4 {
+    font-family: "UTM Talling";
+    
+    font-size: 60px;
+    top: 205px;
+    background: #f5f940;
+    right: 50px;
+    color: #000;
+    width: 1000px;
+    text-align: center;z-index: 999;
+}.tad-out-text5 {
+    
+    bottom: 50px;
+    left: 0;
+    font-size: 36px;
+    font-family: "UTM Akashi";
+    color: #fff;
+    z-index: 999;
+    font-style: italic;
+    width: 100%;
+    text-align: center;
+    background: rgb(0 0 0 / 60%);
+}
+.tad-out-info1 {
+    
+    top: 370px;
+    left: 1270px;
+    font-size: 72px;
+    font-family: "UTM Akashi";
+    color: #fff;
+    z-index: 999;
+    font-style: italic;
+    padding: 0 50px;
+    background: rgb(38 145 228 / 60%);
+    text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+}
+
+.tad-out-info2 {
+    
+    top: 583px;
+    left: 1270px;
+    font-size: 72px;
+    font-family: "UTM Akashi";
+    color: #fff;
+    z-index: 999;
+    font-style: italic;
+    padding: 0 50px;
+    background: rgb(228 38 195 / 60%);
+    text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+}
+
+.tad-out-info3 {
+    
+    top: 798px;
+    left: 1270px;
+    font-size: 72px;
+    font-family: "UTM Akashi";
+    color: #fff;
+    z-index: 999;
+    font-style: italic;
+    padding: 0 50px;
+    background: rgb(65 228 38 / 60%);
+    text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+}
+.tad-out-icon1 {
+    top: 838px;
+    left: 85px;
+    height: 120px;
+    width: 120px;
+    background: url(./ic1.png);
+    background-size: contain;
+}.tad-out-icon2 {
+    top: 360px;
+    left: 1050px;
+    height: 120px;
+    width: 120px;
+    background: url(./ic-zalo.png);
+    background-size: contain;
+}
+
+.tad-out-icon3 {
+    top: 580px;
+    left: 1050px;
+    height: 120px;
+    width: 120px;
+    background: url(./ic-momo.png);
+    background-size: contain;
+}
+
+.tad-out-icon4 {
+    top: 793px;
+    left: 1050px;
+    height: 120px;
+    width: 120px;
+    background: url(./ic-phone.png);
+    background-size: contain;
+}

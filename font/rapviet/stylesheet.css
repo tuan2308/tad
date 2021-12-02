@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RapViet';
+    src: url('9Slide07RapViet.woff2') format('woff2'),
+        url('9Slide07RapViet.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

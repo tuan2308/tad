@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Uncle Ben';
+    src: url('UncleBen.woff2') format('woff2'),
+        url('UncleBen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Asem Kandis';
+    src: url('AsemKandis.woff2') format('woff2'),
+        url('AsemKandis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Augustia';
+    src: url('Augustia.woff2') format('woff2'),
+        url('Augustia.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Astrolight';
+    src: url('Astrolight.woff2') format('woff2'),
+        url('Astrolight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scripture';
+    src: url('Scripture.woff2') format('woff2'),
+        url('Scripture.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Katastrophe';
+    src: url('Katastrophe.woff2') format('woff2'),
+        url('Katastrophe.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Redheads Script';
+    src: url('RedheadsScript.woff2') format('woff2'),
+        url('RedheadsScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arion Typeface';
+    src: url('ArionTypeface.woff2') format('woff2'),
+        url('ArionTypeface.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Sharpen';
+    src: url('SVN-Sharpen.woff2') format('woff2'),
+        url('SVN-Sharpen.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Astronout';
+    src: url('SVN-Astronout.woff2') format('woff2'),
+        url('SVN-Astronout.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

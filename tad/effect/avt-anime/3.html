@@ -1,0 +1,78 @@
+ <script crossorigin='anonymous'
+integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<input type="file" accept="image/*">
+
+
+
+<canvas id="myCanvas" width="300" height="150" style="border:1px solid #d3d3d3;">
+    Your browser does not support the HTML5 canvas tag.</canvas>
+
+    <button onclick="share()">ádfasdasd</button>
+<script>
+
+var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(100, 75, 50, 0, 2 * Math.PI);
+        ctx.stroke();
+
+$('document').ready(function () {
+
+
+
+
+  $('input[type=file]').on('change', function () {
+
+
+    try {
+var img = document.getElementById('myCanvas').toDataURL('image/jpeg', 0.9).split(',')[1];
+} catch(e) {
+    var img = document.getElementById('myCanvas').toDataURL().split(',')[1];
+}
+
+console.log($(this).get(0).files);
+
+
+    var $files = $(this).get(0).files;
+
+
+
+    if ($files.length) {
+      if ($files[0].size > $(this).data('max-size') * 1024) {
+        console.log('Vui lòng chọn file có dung lượng nhỏ hơn!');
+        return false;
+      }
+      
+      console.log('Đang upload hình ảnh lên imgur...');
+      var apiUrl = 'https://api.imgur.com/3/image';
+      var apiKey = 'df99960fdd7f0b6';
+      var settings = {
+        async: false,
+        crossDomain: true,
+        processData: false,
+        contentType: false,
+        type: 'POST',
+        url: apiUrl,
+        headers: {
+          Authorization: 'Client-ID ' + apiKey,
+          Accept: 'application/json',
+        },
+        mimeType: 'multipart/form-data',
+      };
+      var formData = new FormData();
+      formData.append('image', $files[0]);
+      settings.data = formData;
+      $.ajax(settings).done(function (response) {
+        console.log(response);
+
+        var obj = JSON.parse(response);
+document.getElementById("output").innerHTML = obj.data.link;
+
+      });
+    }
+  });
+});
+</script>
+
+<div id="output"></div>

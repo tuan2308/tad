@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body>
+
+    <style>.navbar-collapse.collapsing { transition: none !important; overflow: visible !important; height: initial !important; position: initial !important; }
+        .chonmau.ngang { overflow: auto; margin-bottom: 10px!important; flex-wrap: nowrap!important; display: flex; }.chonmau.ngang>div { -ms-flex: none; flex: none; width: 130px; margin-right: 15px; margin-bottom: 15px; text-align: center; }
+        .chonnen.ngang>div { -ms-flex: none; flex: none; width: 130px; margin-right: 15px; margin-bottom: 15px; text-align: center; } .chonnen.ngang { overflow: auto; margin-bottom: 10px!important; flex-wrap: nowrap!important; display: flex; padding-left: 5px; }
+        .chonnen>div { cursor: pointer; }
+        @media only screen and (max-width: 320px) { .chonmau.ngang>div { width:160px } }
+        </style>
+  
+    <script src="./cr.js" type="text/javascript"></script>
+    <script src="https://cdn.taoanhdep.com/tad/tv/tad-crop.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.5.12/cropper.min.css"
+        integrity="sha512-0SPWAwpC/17yYyZ/4HSllgaK7/gg9OlVozq8K7rf3J8LvCjYEEIfzzpnA2/SSjpGIunCSD18r3UhvDcu/xncWA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+        .xulyhinhanh img {
+            margin: 0 !important
+        }
+
+        .chonanh-avt {
+            width: 38px;
+            height: 38px;
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 10px
+        }
+
+        .img-preview {
+            width: 36px;
+            height: 36px;
+            background: url(//2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png) no-repeat center;
+            background-size: 36px
+        }
+
+        #chonanhModal {
+            display: block !important
+        }
+
+        #chonanhModal:not(.show) {
+            opacity: 0;
+            visibility: hidden
+        }
+
+        .img-container,
+        .img-preview {
+            background-color: #f7f7f7;
+            text-align: center;
+            width: 100%
+        }
+
+        .img-container {
+            margin-bottom: 1rem;
+            max-height: 300px;
+            min-height: 280px
+        }
+
+        .img-container>img {
+            max-width: 100%
+        }
+
+        .img-preview {
+            margin: auto !important;
+            margin-bottom: .5rem;
+            margin-right: .5rem;
+            overflow: hidden
+        }
+
+        .img-preview>img {
+            max-width: 100%
+        }
+
+        #temp {
+            position: fixed;
+            height: 0;
+            top: 0;
+            left: 0;
+            overflow: hidden
+        }
+    </style>
+<label>Chọn kiểu</label>
+  <div class="chonmau ngang tad-scrollbar">
+    <div>
+    <a href="https://1.bp.blogspot.com/-e4Sd8SaPFG0/XsE10JR1y-I/AAAAAAAAehI/V7xCC1eVL4U7ovV32Cch4sD2DdsRPVZ-ACNcBGAsYHQ/s1600/kieu2.jpg" data-src="https://1.bp.blogspot.com/-e4Sd8SaPFG0/XsE10JR1y-I/AAAAAAAAehI/V7xCC1eVL4U7ovV32Cch4sD2DdsRPVZ-ACNcBGAsYHQ/s1600/kieu2.jpg" data-fancybox="gallery"><img alt="Tai thỏ giống google pixel 2 xl" class="img-thumbnail" src="https://1.bp.blogspot.com/-e4Sd8SaPFG0/XsE10JR1y-I/AAAAAAAAehI/V7xCC1eVL4U7ovV32Cch4sD2DdsRPVZ-ACNcBGAsYHQ/s300/kieu2.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input" value="https://3.bp.blogspot.com/-pqPNESfJBcg/Xr_zbC4tkPI/AAAAAAAAedQ/QEq-uKfiUE8_2uu3y4ZepEPovowSppTwgCNcBGAsYHQ/s0/1.png" checked="">
+    <label class="custom-control-label" for="customRadioInline1">Kiểu 1</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-JrYN_sJum9Y/YJYQySMEKbI/AAAAAAAAseo/KPT8MD38uEcjlV5oH0OhSfX1-LM1tqbigCNcBGAsYHQ/s0/kieu2.jpg" data-src="https://1.bp.blogspot.com/-JrYN_sJum9Y/YJYQySMEKbI/AAAAAAAAseo/KPT8MD38uEcjlV5oH0OhSfX1-LM1tqbigCNcBGAsYHQ/s0/kieu2.jpg" data-fancybox="gallery"><img alt="Tai thỏ bông" class="img-thumbnail" src="https://1.bp.blogspot.com/-JrYN_sJum9Y/YJYQySMEKbI/AAAAAAAAseo/KPT8MD38uEcjlV5oH0OhSfX1-LM1tqbigCNcBGAsYHQ/s300/kieu2.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/--d60JUjb9H4/YJYQw-vKNNI/AAAAAAAAsec/-pf--WqV9DcipE0TCmb9iQF0PbEppU9BgCNcBGAsYHQ/s0/2.png">
+    <label class="custom-control-label" for="customRadioInline2">Kiểu 2</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://4.bp.blogspot.com/-fSOjmhZt34M/XsE3k_vrvEI/AAAAAAAAeh4/htSRJBTVYEsdlB6YYx32l1XkLT-QLN1JQCNcBGAsYHQ/s1600/kieu4.jpg" data-src="https://4.bp.blogspot.com/-fSOjmhZt34M/XsE3k_vrvEI/AAAAAAAAeh4/htSRJBTVYEsdlB6YYx32l1XkLT-QLN1JQCNcBGAsYHQ/s1600/kieu4.jpg" data-fancybox="gallery"><img alt="Tai dấu chân chó, mèo" class="img-thumbnail" src="https://4.bp.blogspot.com/-fSOjmhZt34M/XsE3k_vrvEI/AAAAAAAAeh4/htSRJBTVYEsdlB6YYx32l1XkLT-QLN1JQCNcBGAsYHQ/s300/kieu4.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline3" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-JmsjehEoSiA/Xr_tjToW3II/AAAAAAAAecg/plQr9_ajLNIPj6vVFZ4dp-zd9HE02UCSgCNcBGAsYHQ/s0/3.png">
+    <label class="custom-control-label" for="customRadioInline3">Kiểu 3</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-yxX5yh2QRHo/YJXU_wAe17I/AAAAAAAAsdE/AcBBB--nIdo6S6Ld2b9k8NXh7LGBlWDeACNcBGAsYHQ/s0/kieu4.jpg" data-src="https://1.bp.blogspot.com/-yxX5yh2QRHo/YJXU_wAe17I/AAAAAAAAsdE/AcBBB--nIdo6S6Ld2b9k8NXh7LGBlWDeACNcBGAsYHQ/s0/kieu4.jpg" data-fancybox="gallery"><img alt="Tai gấu" class="img-thumbnail" src="https://1.bp.blogspot.com/-yxX5yh2QRHo/YJXU_wAe17I/AAAAAAAAsdE/AcBBB--nIdo6S6Ld2b9k8NXh7LGBlWDeACNcBGAsYHQ/s300/kieu4.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline4" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-tE4w3FahAHA/YJXUoALWlmI/AAAAAAAAsc8/yHYyyAYjowUdwaO6TjKMy4My9YHrQknWwCNcBGAsYHQ/s0/4.png">
+    <label class="custom-control-label" for="customRadioInline4">Kiểu 4</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-hZyeazKq4YA/XsE10y6t2jI/AAAAAAAAehM/twVSwhZkcZIy0rNrbZ8jwJksZGYCbIb-gCNcBGAsYHQ/s1600/kieu5.jpg" data-src="https://1.bp.blogspot.com/-hZyeazKq4YA/XsE10y6t2jI/AAAAAAAAehM/twVSwhZkcZIy0rNrbZ8jwJksZGYCbIb-gCNcBGAsYHQ/s1600/kieu5.jpg" data-fancybox="gallery"><img alt="Tai gấu" class="img-thumbnail" src="https://1.bp.blogspot.com/-hZyeazKq4YA/XsE10y6t2jI/AAAAAAAAehM/twVSwhZkcZIy0rNrbZ8jwJksZGYCbIb-gCNcBGAsYHQ/s300/kieu5.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline5" name="customRadioInline1" class="custom-control-input" value="https://2.bp.blogspot.com/-msr-J1CAiIU/Xr_v4hW9NbI/AAAAAAAAedA/NUxHXbD1SrYffI8gPS5dJmqMg_HGowp9gCNcBGAsYHQ/s0/5.png">
+    <label class="custom-control-label" for="customRadioInline5">Kiểu 5</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://2.bp.blogspot.com/-BFzijif9TcM/XsE11CVW-OI/AAAAAAAAehU/CjQSTXHqDYkrKCiKc7xrH6FOa6PF752uwCNcBGAsYHQ/s1600/kieu6.jpg" data-src="https://2.bp.blogspot.com/-BFzijif9TcM/XsE11CVW-OI/AAAAAAAAehU/CjQSTXHqDYkrKCiKc7xrH6FOa6PF752uwCNcBGAsYHQ/s1600/kieu6.jpg" data-fancybox="gallery"><img alt="Tai mèo" class="img-thumbnail" src="https://2.bp.blogspot.com/-BFzijif9TcM/XsE11CVW-OI/AAAAAAAAehU/CjQSTXHqDYkrKCiKc7xrH6FOa6PF752uwCNcBGAsYHQ/s300/kieu6.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline6" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-QL6Z5bVYwc4/XsEunV7LCOI/AAAAAAAAef0/2sjnScbIA7EwbE9BRMVcuf_xvQK78N_ewCNcBGAsYHQ/s0/6.png">
+    <label class="custom-control-label" for="customRadioInline6">Kiểu 6</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://4.bp.blogspot.com/-pPP3zub5s2Q/XsTk2Gd07mI/AAAAAAAAens/ZBD34QIf-18tX_Kw5sVPiQuiSQKhUHTuwCNcBGAsYHQ/s1600/kieu7.jpg" data-src="https://4.bp.blogspot.com/-pPP3zub5s2Q/XsTk2Gd07mI/AAAAAAAAens/ZBD34QIf-18tX_Kw5sVPiQuiSQKhUHTuwCNcBGAsYHQ/s1600/kieu7.jpg" data-fancybox="gallery"><img alt="Tai mèo" class="img-thumbnail" src="https://4.bp.blogspot.com/-pPP3zub5s2Q/XsTk2Gd07mI/AAAAAAAAens/ZBD34QIf-18tX_Kw5sVPiQuiSQKhUHTuwCNcBGAsYHQ/s300/kieu7.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline7" name="customRadioInline1" class="custom-control-input" value="https://3.bp.blogspot.com/-qJpqdaTM8ZA/XsTj8LzxxkI/AAAAAAAAem8/ueBE1fDxssMyoYNJyQnxHC47wgkstQJzQCNcBGAsYHQ/s0/7.png">
+    <label class="custom-control-label" for="customRadioInline7">Kiểu 7</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://2.bp.blogspot.com/-2WoZYf3tRdM/XsTk19YcjTI/AAAAAAAAeno/_CX7qmstDvURatJpPCiqgvd3XCWmIpLdgCNcBGAsYHQ/s1600/kieu8.jpg" data-src="https://2.bp.blogspot.com/-2WoZYf3tRdM/XsTk19YcjTI/AAAAAAAAeno/_CX7qmstDvURatJpPCiqgvd3XCWmIpLdgCNcBGAsYHQ/s1600/kieu8.jpg" data-fancybox="gallery"><img alt="Tai chuột trái tim" class="img-thumbnail" src="https://2.bp.blogspot.com/-2WoZYf3tRdM/XsTk19YcjTI/AAAAAAAAeno/_CX7qmstDvURatJpPCiqgvd3XCWmIpLdgCNcBGAsYHQ/s300/kieu8.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline8" name="customRadioInline1" class="custom-control-input" value="https://3.bp.blogspot.com/-orfwK4MsjAE/XsTkHvWG64I/AAAAAAAAenI/77XVG0Pb8rohKpp6RKkiaK4YanTzg8NQACNcBGAsYHQ/s0/8.png">
+    <label class="custom-control-label" for="customRadioInline8">Kiểu 8</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/--iG-3BTvyDs/XsXXrb0GoTI/AAAAAAAAerA/EYO8ZwD64-sp42dDZU51t483kcfN2Na3wCNcBGAsYHQ/s1600/kieu9.jpg" data-src="https://1.bp.blogspot.com/--iG-3BTvyDs/XsXXrb0GoTI/AAAAAAAAerA/EYO8ZwD64-sp42dDZU51t483kcfN2Na3wCNcBGAsYHQ/s1600/kieu9.jpg" data-fancybox="gallery"><img alt="Tai trái tim" class="img-thumbnail" src="https://1.bp.blogspot.com/--iG-3BTvyDs/XsXXrb0GoTI/AAAAAAAAerA/EYO8ZwD64-sp42dDZU51t483kcfN2Na3wCNcBGAsYHQ/s300/kieu9.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline9" name="customRadioInline1" class="custom-control-input" value="https://4.bp.blogspot.com/--lq2ItpENAw/XsXXDfsGT3I/AAAAAAAAeqk/tvnAKDyBQv0ZGUMFzG6oUxBuyaGIIbyagCNcBGAsYHQ/s0/9.png">
+    <label class="custom-control-label" for="customRadioInline9">Kiểu 9</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://2.bp.blogspot.com/-bycp2sr1y5U/XsXXrdCHonI/AAAAAAAAerE/c5NUynNk64EQvk8uqepYdO5vlKXFDVg_QCNcBGAsYHQ/s1600/kieu10.jpg" data-src="https://2.bp.blogspot.com/-bycp2sr1y5U/XsXXrdCHonI/AAAAAAAAerE/c5NUynNk64EQvk8uqepYdO5vlKXFDVg_QCNcBGAsYHQ/s1600/kieu10.jpg" data-fancybox="gallery"><img alt="Tai trái tim" class="img-thumbnail" src="https://2.bp.blogspot.com/-bycp2sr1y5U/XsXXrdCHonI/AAAAAAAAerE/c5NUynNk64EQvk8uqepYdO5vlKXFDVg_QCNcBGAsYHQ/s300/kieu10.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline10" name="customRadioInline1" class="custom-control-input" value="https://3.bp.blogspot.com/-kApHGKpXO2Y/XsXXDVvG74I/AAAAAAAAeqo/Kp9BagQsVsIeFJPdnjE9lwiw55ASYR_nACNcBGAsYHQ/s0/10.png">
+    <label class="custom-control-label" for="customRadioInline10">Kiểu 10</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-zfSPTppR3_M/X6o2_WatveI/AAAAAAAAk1g/cMXrcnwnYp8sxWlDM91XaT0q9XmSsiiBgCNcBGAsYHQ/s0/kieu11.jpg" data-src="https://1.bp.blogspot.com/-zfSPTppR3_M/X6o2_WatveI/AAAAAAAAk1g/cMXrcnwnYp8sxWlDM91XaT0q9XmSsiiBgCNcBGAsYHQ/s0/kieu11.jpg" data-fancybox="gallery"><img alt="Tai heo" class="img-thumbnail" src="https://1.bp.blogspot.com/-zfSPTppR3_M/X6o2_WatveI/AAAAAAAAk1g/cMXrcnwnYp8sxWlDM91XaT0q9XmSsiiBgCNcBGAsYHQ/s300/kieu11.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline11" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-LjapMyjbVoc/X6o23jJjDGI/AAAAAAAAk1c/Qg8Kr1xdR-Uw6QqYDdSNKTKg4ERT7R1qQCNcBGAsYHQ/s0/11.png">
+    <label class="custom-control-label" for="customRadioInline11">Kiểu 11</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-EFeuSoumaLg/X6o4j-XhadI/AAAAAAAAk10/yzkrKVj4GrkYdO7NHagqK2-uwfPdAHdUwCNcBGAsYHQ/s0/kieu12.jpg" data-src="https://1.bp.blogspot.com/-EFeuSoumaLg/X6o4j-XhadI/AAAAAAAAk10/yzkrKVj4GrkYdO7NHagqK2-uwfPdAHdUwCNcBGAsYHQ/s0/kieu12.jpg" data-fancybox="gallery"><img alt="Tai đeo nơ" class="img-thumbnail" src="https://1.bp.blogspot.com/-EFeuSoumaLg/X6o4j-XhadI/AAAAAAAAk10/yzkrKVj4GrkYdO7NHagqK2-uwfPdAHdUwCNcBGAsYHQ/s300/kieu12.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline12" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-zn4axCtj3XY/X6o4j6A2BbI/AAAAAAAAk1w/_94JVph-T3EaPlaqYkFbcdaTZK6FOOskACNcBGAsYHQ/s0/12.png">
+    <label class="custom-control-label" for="customRadioInline12">Kiểu 12</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-Ce9ZH02eoOU/X6pEzQz37AI/AAAAAAAAk3U/c7t1kvBVsO4L8ZNviFDNyNmBZXHiPVI6QCNcBGAsYHQ/s0/kieu13.jpg" data-src="https://1.bp.blogspot.com/-Ce9ZH02eoOU/X6pEzQz37AI/AAAAAAAAk3U/c7t1kvBVsO4L8ZNviFDNyNmBZXHiPVI6QCNcBGAsYHQ/s0/kieu13.jpg" data-fancybox="gallery"><img alt="Tai heo" class="img-thumbnail" src="https://1.bp.blogspot.com/-Ce9ZH02eoOU/X6pEzQz37AI/AAAAAAAAk3U/c7t1kvBVsO4L8ZNviFDNyNmBZXHiPVI6QCNcBGAsYHQ/s300/kieu13.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline13" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-TmyQAfulcQU/X6pEza3BZsI/AAAAAAAAk3Q/EXD-U0DVG4UZUF-6QlpTo1bcXxmQBb76QCNcBGAsYHQ/s0/13.png">
+    <label class="custom-control-label" for="customRadioInline13">Kiểu 13</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-AOFpFL_H1wo/X6paS2BbIXI/AAAAAAAAk30/tbAZFCRWRl05ijilGoOH8J1Fn2MfhkSPACNcBGAsYHQ/s0/kieu14.jpg" data-src="https://1.bp.blogspot.com/-AOFpFL_H1wo/X6paS2BbIXI/AAAAAAAAk30/tbAZFCRWRl05ijilGoOH8J1Fn2MfhkSPACNcBGAsYHQ/s0/kieu14.jpg" data-fancybox="gallery"><img alt="Tai mắt ếch" class="img-thumbnail" src="https://1.bp.blogspot.com/-AOFpFL_H1wo/X6paS2BbIXI/AAAAAAAAk30/tbAZFCRWRl05ijilGoOH8J1Fn2MfhkSPACNcBGAsYHQ/s300/kieu14.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline14" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-inmvzePlXo0/X6paSqBS22I/AAAAAAAAk3w/_3j3VH6K2skRC65IRPo0KJ-ybpqi0BDuQCNcBGAsYHQ/s0/14.png">
+    <label class="custom-control-label" for="customRadioInline14">Kiểu 14</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-2uAQfRcN5U8/X6poKp-U4hI/AAAAAAAAk4w/VrNJfMBzvwArVlBy5nLcEu-B_uH4x2FcQCNcBGAsYHQ/s0/kieu15.jpg" data-src="https://1.bp.blogspot.com/-2uAQfRcN5U8/X6poKp-U4hI/AAAAAAAAk4w/VrNJfMBzvwArVlBy5nLcEu-B_uH4x2FcQCNcBGAsYHQ/s0/kieu15.jpg" data-fancybox="gallery"><img alt="Tai tuần lộc" class="img-thumbnail" src="https://1.bp.blogspot.com/-2uAQfRcN5U8/X6poKp-U4hI/AAAAAAAAk4w/VrNJfMBzvwArVlBy5nLcEu-B_uH4x2FcQCNcBGAsYHQ/s300/kieu15.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline15" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-SSBWOhUkTqQ/X6poKzGKmeI/AAAAAAAAk40/At8GuPizOqoVvRIUdn_udTEG5lnTDe6FACNcBGAsYHQ/s0/15.png">
+    <label class="custom-control-label" for="customRadioInline15">Kiểu 15</label>
+    </div>
+    </div>
+    <div>
+    <a href="https://1.bp.blogspot.com/-niim0xMCqc4/YJYQwxcRR7I/AAAAAAAAsek/xwiTR27NZ5oA8C_qqRtWXAPpRuQHS2VUgCNcBGAsYHQ/s0/kieu16.jpg" data-src="https://1.bp.blogspot.com/-niim0xMCqc4/YJYQwxcRR7I/AAAAAAAAsek/xwiTR27NZ5oA8C_qqRtWXAPpRuQHS2VUgCNcBGAsYHQ/s0/kieu16.jpg" data-fancybox="gallery"><img alt="Tai cắm sừng" class="img-thumbnail" src="https://1.bp.blogspot.com/-niim0xMCqc4/YJYQwxcRR7I/AAAAAAAAsek/xwiTR27NZ5oA8C_qqRtWXAPpRuQHS2VUgCNcBGAsYHQ/s300/kieu16.jpg">
+    <i class="fas fa-search-plus"></i></a>
+    <div class="custom-control custom-radio custom-control-inline">
+    <input type="radio" id="customRadioInline16" name="customRadioInline1" class="custom-control-input" value="https://1.bp.blogspot.com/-uvOYcAaiNwA/YJYQwy5fl-I/AAAAAAAAseg/tucoAK1-JeMH4VjcjtztrhQPSOnGKUOJQCNcBGAsYHQ/s0/16.png">
+    <label class="custom-control-label" for="customRadioInline16">Kiểu 16</label>
+    </div>
+    </div>
+    </div>
+
+    <label><b>Upload ảnh (jpg)*</b></label>
+    <div class="xulyhinhanh">
+        <div class="chonanh-avt">
+            <div class="img-preview"></div>
+        </div>
+        <button type="button" class="btn btn-primary btn-chonanh" data-toggle="modal" data-target="#chonanhModal">
+            <i class="fas fa-upload"></i> Chọn ảnh
+        </button>
+        <div class="modal fade" id="chonanhModal" tabindex="-1" role="dialog" aria-labelledby="chonanhModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="chonanhModalLabel">Chọn ảnh từ thiết bị</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="actions">
+                            <div class="docs-buttons">
+                                <label class="btn btn-primary btn-upload btn-upanh" for="inputImage"
+                                    title="Upload image file">
+                                    <input type="file" class="sr-only" id="inputImage" name="file"
+                                        accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff">
+                                    <span><i class="fas fa-upload"></i> Chọn ảnh</span>
+                                </label>
+                                <div class="cropanh-container mt-2" style="display:none">
+                                    <div class="img-container">
+                                        <img alt="Tạo ảnh đẹp" src="">
+                                    </div>
+                                    <div class="d-flex float-right">
+                                        <div class="btn-group mr-2">
+                                            <button type="button" class="btn btn-primary" data-method="rotate"
+                                                data-option="-45" title="Rotate Left">
+                                                <i class="fa fa-undo"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-primary" data-method="rotate"
+                                                data-option="45" title="Rotate Right">
+                                                <i class="fa fa-redo"></i>
+                                            </button>
+                                        </div>
+                                        <div class="btn-group mr-2">
+                                            <button type="button" class="btn btn-primary" data-method="scaleX"
+                                                data-option="-1" title="Flip Horizontal">
+                                                <i class="fa fa-arrows-alt-h"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-primary" data-method="scaleY"
+                                                data-option="-1" title="Flip Vertical">
+                                                <i class="fa fa-arrows-alt-v"></i>
+                                            </button>
+                                        </div>
+                                        <button type="button" class="btn btn-primary" id="cropanh"
+                                            data-method="getCroppedCanvas" data-dismiss="modal"
+                                            data-option="{ &quot;width&quot;: 1200, &quot;height&quot;: 2600}">
+                                            Cắt ảnh
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <button type="button" class="btn btn-primary disabled" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+                ảnh</button>
+        </div>
+        <div id="img-out" class="my-2"></div>
+
+        <style>.tad-ip{width:145px;height:300px;position:relative;margin:auto}.tad-screen { position: absolute; width: 119px; left: 13px; top: 21px; height: 260px; background-size: cover!important; }.tad-khung { background: url(https://1.bp.blogspot.com/-7NlmTIXAkS4/YJYBmPNeumI/AAAAAAAAseU/2vdBAYsnNsoiP4xu_Y1ayBoT_SGrL8RAwCNcBGAsYHQ/s0/ip.png) center; position: absolute; width: 145px; height: 300px; background-size: cover; z-index: 999; }.tad-bg:before{background-size:auto;height:320px;top:-10px;left:-10px;width:105%;position:absolute;content:"";filter:blur(8px);-webkit-filter:blur(8px)}.tad-bg{position:relative;overflow:hidden;border-radius:.25rem}</style>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+        <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Xem trước</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+        </button>
+        </div>
+        <div class="modal-body">
+        <div class="tad-bg"><div class="tad-ip"><div class="tad-khung"></div><div class="tad-screen">
+        </div>
+        </div></div>
+        <a class="btn btn-block btn-primary mb-0 mt-2 btn-tav"><i class="fas fa-cloud-download-alt"></i> Tải ảnh về</a></div>
+        <div class="ip-style"></div>
+        </div>
+        </div>
+        </div>
+        
+
+        <canvas width="1200" height="2600" id="temp"></canvas>
+
+        <img class="d-none" crossorigin="anonymous" id="Cimg"
+        src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png" />
+
+        <script>
+
+            var tyle = 1200/2600; vmode = 1 ;var tenanhxuat = "tai_tho";
+
+$(document).ready(function(){
+    
+    
+    // if(window.location.hostname==tmbq){
+        
+        
+    //     $("head").append(jqueryCrop);$("head").append(jsCrop);$("head").append(cssCrop);
+
+
+            var imgtich = "https://3.bp.blogspot.com/-pqPNESfJBcg/Xr_zbC4tkPI/AAAAAAAAedQ/QEq-uKfiUE8_2uu3y4ZepEPovowSppTwgCNcBGAsYHQ/s0/1.png";
+          
+
+            $("#tad-taoanh").click(function () {
+                $("#cropanh").click();
+                $("#img-out").hide();
+            $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
+
+
+                draw();
+            });
+
+
+            $(".chonmau input").click(function () {
+
+                imgtich = $(".chonmau input:checked").val();
+
+            });
+
+
+
+
+
+            function draw() {
+
+                var cimg = document.getElementById('Cimg');
+                cimg.onload = function () {
+                
+                        var tich = new Image;
+                        tich.crossOrigin = "Anonymous";
+                        tich.src = imgtich;
+                        tich.onload = function () {
+
+                            var nguon = new Image;
+                            nguon.crossOrigin = "Anonymous";
+                            nguon.src = "https://1.bp.blogspot.com/-o2nqj8PkHVs/YRfGJdk1NmI/AAAAAAAAwSI/EjgXs_urnh0RLvA7z_FuuMI7FX3bau6QQCNcBGAsYHQ/s0/nguon.png";
+                            nguon.onload = function () {
+
+                            var c = document.getElementById('temp');
+                            var ctx = c.getContext('2d');
+                            ctx.drawImage(cimg, 0, 0, c.width, c.height);
+
+                            ctx.drawImage(tich, 0, 0, c.width, c.height);
+
+
+                        
+                            ctx.drawImage(nguon, 0, 0, c.width, c.height);
+
+
+                            c.toBlob(function(i) {
+                                    var j = URL.createObjectURL(i);
+                                    $("#img-out").html("<label class='mt-2'> Kết quả: <button type='button' class='badge btn btn-primary tad-xemtruoc' data-toggle='modal' data-target='#exampleModal'> Xem trước </button></label></label><img src='" + j + "' alt='Tạo ảnh đẹp' class='img-thumbnail'></img><a href='" + j + "' class='btn btn-block btn-primary mt-2'  download='taoanhdep_" + tenanhxuat + "'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a>");$(".tad-xemtruoc").click(function(){$(".ip-style").html("<style>.tad-screen, .tad-bg:before { background: url("+j+") center; }</style>");$(".btn-tav").attr("download","taoanhdep_"+tenanhxuat+".jpg").attr("href",j);});
+                                  
+
+
+                                    setTimeout(function(){   $("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh");
+                                    $("#img-out").show() }, 1000);
+
+                                }, "image/jpeg");
+
+
+                        
+                    }
+                }
+            }
+        }
+
+// }
+
+
+});
+
+
+        </script>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'MTD William Letter';
+    src: url('MTD.woff2') format('woff2'),
+        url('MTD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Steelfish';
+    src: url('SteelfishRg-Regular.woff2') format('woff2'),
+        url('SteelfishRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

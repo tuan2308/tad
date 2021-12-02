@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UTM Banque';
+    src: url('UTMBanque.woff2') format('woff2'),
+        url('UTMBanque.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

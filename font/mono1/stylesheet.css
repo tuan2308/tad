@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'mono1';
+    src: url('mono1.woff2') format('woff2'),
+        url('mono1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
