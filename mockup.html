@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<script crossorigin='anonymous'
+integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+<link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+</head>
+<body>
+  <div class="sdfas"></div>
+
+  <input type="text"  placeholder="url mark" class="form-control urlmark" >
+
+  <input type="text" value="copy" class="form-control" id="myInput">
+  <button class="btn btn-primary submit" style="
+  position: fixed;
+  top: 10px;
+  right: 10px;
+">Copy</button>
+<div id="temp">
+    <canvas width=3000 height=3000></canvas>
+  </div>
+
+
+<h1>This is a Heading</h1>
+<p>This is a paragraph.</p>
+
+<label>Step: <input type=range min=0 max=5 value=32></label><span>32</span><br>
+
+<style>
+  body {
+    background: #333;
+}
+#temp {
+    background-color: #fff;
+    background-image: url(https://1.bp.blogspot.com/-c0zMHnF5Y58/YMmshAVD89I/AAAAAAAAt48/LMNOiPK6wrInAPYFckcc-3mzpMcLH_rLQCNcBGAsYHQ/s0/mark1.png);
+    margin: 0;
+    background-size: 2000px;
+    background-repeat: no-repeat;
+}
+</style>
+
+<script>
+
+var str="";
+
+/* Quadrilateral Transform - (c) Ken Nilsen, CC3.0-Attr */
+var img = new Image();  img.onload = go;
+img.src = "https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png";
+
+function go() {
+  var me = this,
+      stepEl = document.querySelector("input"),
+      stepTxt = document.querySelector("span"),
+      c = document.querySelector("canvas"),
+      ctx = c.getContext("2d"),
+      corners = [{x: 258, y: 478}
+,{x: 1025, y: 577}
+,{x: 1066, y: 1108}
+, {x: 255, y: 1124}
+      ],
+      radius = 10, cPoint, timer,  // for mouse handling
+      step = 32;                    // resolution
+
+  update();
+
+  // render image to quad using current settings
+  function render() {
+		
+    var p1, p2, p3, p4, y1c, y2c, y1n, y2n,
+        w = img.width - 1,         // -1 to give room for the "next" points
+        h = img.height - 1;
+
+    ctx.clearRect(0, 0, c.width, c.height);
+ctx.save();
+    for(y = 0; y < h; y += step) {
+      for(x = 0; x < w; x += step) {
+        y1c = lerp(corners[0], corners[3],  y / h);
+        y2c = lerp(corners[1], corners[2],  y / h);
+        y1n = lerp(corners[0], corners[3], (y + step) / h);
+        y2n = lerp(corners[1], corners[2], (y + step) / h);
+
+        // corners of the new sub-divided cell p1 (ul) -> p2 (ur) -> p3 (br) -> p4 (bl)
+        p1 = lerp(y1c, y2c,  x / w);
+        p2 = lerp(y1c, y2c, (x + step) / w);
+        p3 = lerp(y1n, y2n, (x + step) / w);
+        p4 = lerp(y1n, y2n,  x / w);
+        ctx.globalAlpha = 0;
+        ctx.drawImage(img, x, y, step, step,  p1.x, p1.y, // get most coverage for w/h:
+            Math.ceil(Math.max(step, Math.abs(p2.x - p1.x), Math.abs(p4.x - p3.x))) + 1,
+            Math.ceil(Math.max(step, Math.abs(p1.y - p4.y), Math.abs(p2.y - p3.y))) + 1)
+      }
+    }
+  }
+  ctx.restore()
+  function lerp(p1, p2, t) {
+    return {
+      x: p1.x + (p2.x - p1.x) * t, 
+      y: p1.y + (p2.y - p1.y) * t}
+  }
+
+  /* Stuff for demo: -----------------*/
+  function drawCorners() {
+    ctx.globalAlpha = 1;
+    ctx.strokeStyle = "#09f"; 
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    // border
+    for(var i = 0, p; p = corners[i++];) ctx[i ? "lineTo" : "moveTo"](p.x, p.y);
+    ctx.closePath();
+    // circular handles
+    for(i = 0; p = corners[i++];) {
+      ctx.moveTo(p.x + radius, p.y); 
+      ctx.arc(p.x, p.y, radius, 0, 6.28);
+    }
+    ctx.stroke()
+  }
+	
+  function getXY(e) {
+    var r = c.getBoundingClientRect();
+    return {x: e.clientX - r.left, y: e.clientY - r.top}
+  }
+	
+  function inCircle(p, pos) {
+    var dx = pos.x - p.x,
+        dy = pos.y - p.y;
+    return dx*dx + dy*dy <= radius * radius
+  }
+
+  // handle mouse
+  c.onmousedown = function(e) {
+    var pos = getXY(e);
+    for(var i = 0, p; p = corners[i++];) {if (inCircle(p, pos)) {cPoint = p; break}}
+
+
+  }
+  window.onmousemove = function(e) {
+    if (cPoint) {
+      var pos = getXY(e);
+      cPoint.x = pos.x; cPoint.y = pos.y;
+      cancelAnimationFrame(timer);
+      timer = requestAnimationFrame(update.bind(me))
+    }
+  }
+  window.onmouseup = function() {cPoint = null}
+  
+  stepEl.oninput = function() {
+    stepTxt.innerHTML = (step = Math.pow(2, +this.value));
+    update();
+  }
+  
+  function update() {render();drawCorners();
+
+  
+ str = JSON.stringify(corners).replace(/"/g,'');
+
+  
+  }
+
+
+  
+}
+
+$(".submit").click(function(){
+
+$("#myInput").val(str)
+
+
+var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+  alert("Copied the text: " + copyText.value);
+
+  
+
+});
+
+
+
+$(".urlmark").on("change",function(){
+
+mark = $(this).val();
+
+$("#temp").css('background-image', 'url("' + mark + '")');
+
+});
+
+</script>
+
+
+</body>
+</html>
