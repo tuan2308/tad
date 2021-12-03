@@ -10,7 +10,7 @@ var dsAnime = [
 	}, 
 	
 	{
-		imgAnime: "https://lh3.googleusercontent.com/-dfaM_NjAG00/Yam2CMVWxlI/AAAAAAAA128/Y1eTGTAVGhkyu3hcZYQ1rDbtrfd0FXQzgCNcBGAsYHQ/h240/harry-potter.png",
+		imgAnime: "https://lh3.googleusercontent.com/-fVRCHPJnNm0/Yan0wzqmX5I/AAAAAAAA134/RdF0fFytk_cQPvBndNw1JKHPsz9B_kXEwCNcBGAsYHQ/h240/harry-potter.png",
 		colorBg: "#bf2121"
 	}, 
 	{
