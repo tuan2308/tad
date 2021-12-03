@@ -1,5 +1,12 @@
 var dsAnime = [
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-dfaM_NjAG00/Yam2CMVWxlI/AAAAAAAA128/Y1eTGTAVGhkyu3hcZYQ1rDbtrfd0FXQzgCNcBGAsYHQ/h240/harry-potter.png",
+		colorBg: "#759930"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-W25kOL7bmvQ/Yam073siyZI/AAAAAAAA120/9AKlNHAsUAMg1G8I4dlDtkk26WAXBgQXwCNcBGAsYHQ/h240/tanya-degurechaff.png",
+		colorBg: "#679066"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-0TwS9oWHsl0/Yad45XB-kYI/AAAAAAAA1ys/J_O7X8WLp1kf94wzfbbKrWqCvrxnsg62gCNcBGAsYHQ/h240/Sanae.png",
 		colorBg: "#85c276"
@@ -2048,8 +2055,18 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-G9V_Wss352c/Yad7bwRL9AI/AAAAAAAA1zE/_G294zsh8rYnmfOM6Rx5qk_6yUjSFBTYQCNcBGAsYHQ/h240/kurama.png",
 	colorBg: "#f88e4a"
 }, 
+{
+	imgAnime: "https://lh3.googleusercontent.com/-Gx1j37L3MNU/Yam2TPHM6wI/AAAAAAAA13E/DAqgByx5JLApjbJAJ4HcBdOlMOrs5hW5wCNcBGAsYHQ/h240/Hyuga-Hanabi.png",
+	colorBg: "#a94646"
+}, 
 
 {
+	imgAnime: "https://lh3.googleusercontent.com/-2dKbegXJWiw/Yam2qQr8ljI/AAAAAAAA13M/od8WkA79mMEYZHdNwV8Rf_U1Og7szYwGgCNcBGAsYHQ/h240/Rin-Nohara.png",
+	colorBg: "#cd9e9e"
+}, 
+
+{
+
 	imgAnime: "https://1.bp.blogspot.com/-UQDKkhQBO1g/YQj2sRzBrRI/AAAAAAAAv04/tEpL58TzhB4gMJLp0GmebOs9o-Wq76wcgCNcBGAsYHQ/h240/taki.png",
 	colorBg: "#539bc5"
 }, {
