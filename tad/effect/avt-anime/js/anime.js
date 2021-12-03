@@ -1,5 +1,15 @@
 var dsAnime = [
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-k84inroZ9YA/YanzlNznObI/AAAAAAAA13w/ZaNXXPS3nfMdQP-Xd5yvKafyJblaLIAWwCNcBGAsYHQ/h240/Nibutani-Shinka.png",
+		colorBg: "#da3c3f"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Ggc2kAjJ8Dw/YanzFzakkwI/AAAAAAAA13o/W4rKYALpB_k6cbx4jk5eEuf7JrhIRstrgCNcBGAsYHQ/h240/Laala-Manaka.png",
+		colorBg: "#d98be7"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-dfaM_NjAG00/Yam2CMVWxlI/AAAAAAAA128/Y1eTGTAVGhkyu3hcZYQ1rDbtrfd0FXQzgCNcBGAsYHQ/h240/harry-potter.png",
 		colorBg: "#bf2121"
 	}, 
@@ -1895,6 +1905,13 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-XBr4TvyyrQ8/YTy9zUwImqI/AAAAAAAAxHA/By3sKe8GXWY6wPegXq7tbmBFG5RxYngdwCNcBGAsYHQ/h240/katakuri.png",
 	colorBg: "#e63e77"
 },
+
+{
+    imgAnime: "https://lh3.googleusercontent.com/-3zKzHVN7wJQ/YanyJfiiFwI/AAAAAAAA13g/_NkAIduf3LszhHEtiRmPVuhKzUQ0wefrQCNcBGAsYHQ/h240/Vinsmoke-Niji.png",
+    colorBg: "#3f70a8"
+}, 
+
+
 {
 	imgAnime: "https://lh3.googleusercontent.com/-aFgGjScpUsA/Yad6hVFIMiI/AAAAAAAA1y8/Ch8qai4iAtICQidDaZYwhIjCfkpZYoc5gCNcBGAsYHQ/h240/Vinsmoke-Ichiji.png",
 	colorBg: "#b64238"
@@ -2064,6 +2081,14 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-2dKbegXJWiw/Yam2qQr8ljI/AAAAAAAA13M/od8WkA79mMEYZHdNwV8Rf_U1Og7szYwGgCNcBGAsYHQ/h240/Rin-Nohara.png",
 	colorBg: "#cd9e9e"
 }, 
+
+{
+    imgAnime: "https://lh3.googleusercontent.com/-vPITIJJOqnA/YanuZDQOnhI/AAAAAAAA13Y/_LOHQEhX4bkJozQ5uUJK1vY3GpNzwFjBACNcBGAsYHQ/h240/iruka.png",
+    colorBg: "#517676"
+}, 
+
+
+
 
 {
 
