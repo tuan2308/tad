@@ -1,7 +1,7 @@
 var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-dfaM_NjAG00/Yam2CMVWxlI/AAAAAAAA128/Y1eTGTAVGhkyu3hcZYQ1rDbtrfd0FXQzgCNcBGAsYHQ/h240/harry-potter.png",
-		colorBg: "#759930"
+		colorBg: "#bf2121"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-W25kOL7bmvQ/Yam073siyZI/AAAAAAAA120/9AKlNHAsUAMg1G8I4dlDtkk26WAXBgQXwCNcBGAsYHQ/h240/tanya-degurechaff.png",
