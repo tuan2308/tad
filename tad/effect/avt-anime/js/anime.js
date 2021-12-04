@@ -1,9 +1,5 @@
 var dsAnime = [
-	{
-		imgAnime: "https://i.imgur.com/tfiR4xC.png#Uchiha-Izuna",
-		colorBg: "#da3c3f",
-	}, 
-	
+
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-k84inroZ9YA/YanzlNznObI/AAAAAAAA13w/ZaNXXPS3nfMdQP-Xd5yvKafyJblaLIAWwCNcBGAsYHQ/h240/Nibutani-Shinka.png",
