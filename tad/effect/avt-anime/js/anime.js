@@ -4,7 +4,7 @@ var dsAnime = [
 		colorBg: "#ce6b81"
 	}, 
 	{
-		imgAnime: "https://1.bp.blogspot.com/-ty5nx2ulC-Q/YVWkQiI5JWI/AAAAAAAAxuc/MAuUbGDTKP8pGoowZ4ZkSEIVvXkwKSNtwCNcBGAsYHQ/h240/shichimiya.png",
+		imgAnime: "https://i.imgur.com/VhT7wdn.png#shichimiya",
 		colorBg: "#f8879e"
 	},
 
