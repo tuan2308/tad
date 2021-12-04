@@ -1446,8 +1446,8 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-vt5-jzGiOH8/YSOWo5xH6JI/AAAAAAAAwmM/0D9lOvuInp4QEowOZmTPw8JkzJ87RFqxACNcBGAsYHQ/h240/milim.png",
 	colorBg: "#dcaaa4"
 },  {
-	imgAnime: "https://i.imgur.com/9Sz2gFF.png#takemichi",
-	colorBg: "#3ea8c6"
+	imgAnime: "https://i.imgur.com/UgOq4ri.png#takemichi",
+	colorBg: "#ebbc6b"
 }, {
 	imgAnime: "https://i.imgur.com/vQwqjVN.png#Hinata-Tachibana",
 	colorBg: "#e68e92"
