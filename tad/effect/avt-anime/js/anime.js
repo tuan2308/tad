@@ -1051,7 +1051,7 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-_CKMldqP13w/YX_Ip1pj_pI/AAAAAAAAzEc/VW29mXeM73cRmwo5EadX3BJV97LQ9MyWgCNcBGAsYHQ/h240/hori.png",
 	colorBg: "#ffb72b"
 }, {
-	imgAnime: "https://lh3.googleusercontent.com/-9SpihUBY-EY/YXK1jtNQ2pI/AAAAAAAAyio/Xn1v7rCkHZkt9H2o9EMs7Euc106QC-y_ACNcBGAsYHQ/h240/lugh.png",
+	imgAnime: "https://lh3.googleusercontent.com/-9SpihUBY-EY/YXK1jtNQ2pI/AAAAAAAAyio/Xn1v7rCkHZkt9H2o9EMs7Euc106QC-y_ACNcBGAsYHQ/h240/lugh-tuatha-de.png",
 	colorBg: "#6480db"
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-EwHGLkkXJHU/YXK1Nbx02lI/AAAAAAAAyig/OXscDQ9dDf0__MxVwSRgU_1oGC29xbrHACNcBGAsYHQ/h240/lala-satalin-deviluke.png",
