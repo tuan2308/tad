@@ -1,5 +1,14 @@
 var dsAnime = [
 	{
+		imgAnime: "https://i.imgur.com/0TfjO01.png#Touka-Takanashi",
+		colorBg: "#ce6b81"
+	}, 
+	{
+		imgAnime: "https://1.bp.blogspot.com/-ty5nx2ulC-Q/YVWkQiI5JWI/AAAAAAAAxuc/MAuUbGDTKP8pGoowZ4ZkSEIVvXkwKSNtwCNcBGAsYHQ/h240/shichimiya.png",
+		colorBg: "#f8879e"
+	},
+
+	{
 		imgAnime: "https://i.imgur.com/OgihNWT.png#cool-boy",
 		colorBg: "#9fc177"
 	}, 
@@ -1256,10 +1265,7 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-3W9_NlCIWYc/YVWrtuvZlII/AAAAAAAAxvY/BnzvILd6XAAK2y1nFG_a5jVojCSMpce_QCNcBGAsYHQ/h240/shirogane-noel.png",
 	colorBg: "#7ccc5a"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-ty5nx2ulC-Q/YVWkQiI5JWI/AAAAAAAAxuc/MAuUbGDTKP8pGoowZ4ZkSEIVvXkwKSNtwCNcBGAsYHQ/h240/shichimiya.png",
-	colorBg: "#f8879e"
-}, {
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-aUwKF3nuIVw/YVWjmIyZNcI/AAAAAAAAxuU/l1okySWBpyw_aXGldHuft3NOq8nkdGHhACNcBGAsYHQ/h240/shuna.png",
 	colorBg: "#e03f70"
 }, {
