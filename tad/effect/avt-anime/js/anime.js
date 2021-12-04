@@ -1,5 +1,9 @@
 var dsAnime = [
 	{
+		imgAnime: "https://i.imgur.com/FbMxpcP.png#shizue-izawa",
+		colorBg: "#44aca6"
+	}, 
+	{
 		imgAnime: "https://i.imgur.com/0TfjO01.png#Touka-Takanashi",
 		colorBg: "#ce6b81"
 	}, 
