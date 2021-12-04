@@ -1446,11 +1446,11 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-vt5-jzGiOH8/YSOWo5xH6JI/AAAAAAAAwmM/0D9lOvuInp4QEowOZmTPw8JkzJ87RFqxACNcBGAsYHQ/h240/milim.png",
 	colorBg: "#dcaaa4"
 },  {
-	imgAnime: "https://1.bp.blogspot.com/-LJRRo4gBs7Q/YRO2VozYvyI/AAAAAAAAwGs/L-KaVFidh5IJd6JhRQgOCQ1yWlJPWl3bQCNcBGAsYHQ/h240/takemichi.png",
+	imgAnime: "https://i.imgur.com/9Sz2gFF.png#takemichi",
 	colorBg: "#3ea8c6"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-uRWT9cFz-YM/YRO2V63jXNI/AAAAAAAAwGw/SFnxNJ_o70c9MKAL-oPXcgCz38vrMwiLACNcBGAsYHQ/h240/hina.png",
-	colorBg: "#ef93a2"
+	imgAnime: "https://i.imgur.com/vQwqjVN.png#Hinata-Tachibana",
+	colorBg: "#e68e92"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-gc5EIlvG8-I/YYJHg9kJM8I/AAAAAAAAzKo/chVZZiQbzp4Uhh6fV3ZOOYZBYZCLb8PAwCNcBGAsYHQ/h240/naoto.png",
 	colorBg: "#49a6e1"
@@ -1496,7 +1496,13 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-CSUXv_6Mzyk/YReHh4rwvFI/AAAAAAAAwRw/YTY2ZPSXRHYFmL93Q1vvnAdk2rYqx_3KQCNcBGAsYHQ/h240/izana-kurokawa.png",
 	colorBg: "#746db6"
-}, {
+},
+{
+	imgAnime: "https://i.imgur.com/pj2Dhmv.png#kakuchou-hitto",
+	colorBg: "#4a56a2"
+},
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-pQ0-vSzmK9I/YSOV-Abl-PI/AAAAAAAAwmE/-lFZ7zCBgt0gQIpaFepjW0DqtRAYO1x2QCNcBGAsYHQ/h240/kazutora.png",
 	colorBg: "#d7ba61"
 }, {
