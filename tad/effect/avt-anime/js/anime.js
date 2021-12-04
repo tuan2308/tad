@@ -1479,6 +1479,9 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-6ZoqKHAqDHQ/YRY20hJoUwI/AAAAAAAAwPU/H0ubM8HXIv4RfYfttJPK_16ZKc2uGWLGACNcBGAsYHQ/h240/baji.png",
 	colorBg: "#6b625b"
 }, {
+	imgAnime: "https://i.imgur.com/CJyKhIf.png#Baji",
+	colorBg: "#dd3a40"
+},{
 	imgAnime: "https://1.bp.blogspot.com/-g9cX0xoMw0w/YReDa7UKVVI/AAAAAAAAwRg/P3wp1Jmrox8Awe-iWZoJzxuqrNq-yr4eQCNcBGAsYHQ/h240/haitani-ran.png",
 	colorBg: "#d1ae59"
 }, {
