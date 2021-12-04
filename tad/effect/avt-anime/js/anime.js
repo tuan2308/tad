@@ -1,5 +1,11 @@
 var dsAnime = [
 	{
+		imgAnime: "https://i.imgur.com/tfiR4xC.png#Uchiha-Izuna",
+		colorBg: "#da3c3f",
+	}, 
+	
+
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-k84inroZ9YA/YanzlNznObI/AAAAAAAA13w/ZaNXXPS3nfMdQP-Xd5yvKafyJblaLIAWwCNcBGAsYHQ/h240/Nibutani-Shinka.png",
 		colorBg: "#da3c3f"
 	}, 
@@ -2052,7 +2058,14 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-hQS6uQuxWTo/YRj8PN8QL7I/AAAAAAAAwVY/rFO88neKNQA4uzGHPZ1eKDcB3_ldZXk3gCNcBGAsYHQ/h240/uchiha-shisui.png",
 	colorBg: "#595f41"
-}, {
+},
+{
+	imgAnime: "https://i.imgur.com/tfiR4xC.png#Uchiha-Izuna",
+	colorBg: "#da3c3f",
+}, 
+
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-RWk_79P5Hu4/YRj9uoKnPbI/AAAAAAAAwVo/zqNQfLLGwtMw_KlHjwnSAvrmL1J59XLvQCNcBGAsYHQ/h240/hinata-hyuga.png",
 	colorBg: "#816e87"
 }, {
