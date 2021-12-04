@@ -1,6 +1,12 @@
 var dsAnime = [
-
-
+	{
+		imgAnime: "https://i.imgur.com/OgihNWT.png#cool-boy",
+		colorBg: "#9fc177"
+	}, 
+	{
+		imgAnime: "https://i.imgur.com/viNOHdm.png#Beelzebub",
+		colorBg: "#bc4d53"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-k84inroZ9YA/YanzlNznObI/AAAAAAAA13w/ZaNXXPS3nfMdQP-Xd5yvKafyJblaLIAWwCNcBGAsYHQ/h240/Nibutani-Shinka.png",
 		colorBg: "#da3c3f"
@@ -1918,6 +1924,13 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-aFgGjScpUsA/Yad6hVFIMiI/AAAAAAAA1y8/Ch8qai4iAtICQidDaZYwhIjCfkpZYoc5gCNcBGAsYHQ/h240/Vinsmoke-Ichiji.png",
 	colorBg: "#b64238"
 },
+
+{
+	imgAnime: "https://i.imgur.com/FDX2QK6.png#vinsmoke-yonji",
+	colorBg: "#63bc43"
+},
+
+
 
 {
 	imgAnime: "https://lh3.googleusercontent.com/-06C5QjXT_WI/YXpg6a_QnVI/AAAAAAAAy8g/YCqQWPEnH9QNZP_AwE7GCqHIuY29i3vlQCNcBGAsYHQ/h240/sabo.png",
