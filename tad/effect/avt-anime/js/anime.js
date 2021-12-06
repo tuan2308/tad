@@ -1,6 +1,14 @@
 var dsAnime = [
 
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-sFp2YB3bp2g/YX4bm1iWDvI/AAAAAAAAy-Y/s644FKJuw2QV2hYeF7YrFUmUYsI8sFf8ACNcBGAsYHQ/h240/kawaki.png",
+		colorBg: "#b95768"
+	},
+	{
+		imgAnime: "https://i.imgur.com/cuqVtQ9.png#Sumire-Kakei",
+		colorBg: "#9575bf"
+	},
+	{
 		imgAnime: "https://i.imgur.com/vewqmY5.png#Hoshizaki-Rika",
 		colorBg: "#f5a56b"
 	},
@@ -723,7 +731,16 @@ var dsAnime = [
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-QiYDEqyvCXw/YaTJLG5-86I/AAAAAAAA1sc/qBUlUEgmwmocHsoLC_MmxYrF2W3qo28wgCNcBGAsYHQ/h240/Sarvente.png",
 	colorBg: "#fc4fa5"
-},{
+},
+
+{
+	imgAnime: "https://i.imgur.com/5YlMc7b.png#selever",
+	colorBg: "#d85bab"
+},
+
+
+
+{
 	imgAnime: "https://lh3.googleusercontent.com/-1GwKNvzKX2A/YY4kc-aM-ZI/AAAAAAAA0jk/19v7IlDaXysCh1dpI3LwqYmmlBG4BLHPACNcBGAsYHQ/h240/pico.png",
 	colorBg: "#ffca4a"
 },{
@@ -954,9 +971,6 @@ var dsAnime = [
 },{
 	imgAnime: "https://1.bp.blogspot.com/-JGrthO2Roh8/YRJ1ubT0qFI/AAAAAAAAwE8/TXJjlZupyOAAcaNrXp-1HnBkRBwr1YCTwCNcBGAsYHQ/h240/kaori-miyazono.png",
 	colorBg: "#82778a"
-},{
-	imgAnime: "https://lh3.googleusercontent.com/-sFp2YB3bp2g/YX4bm1iWDvI/AAAAAAAAy-Y/s644FKJuw2QV2hYeF7YrFUmUYsI8sFf8ACNcBGAsYHQ/h240/kawaki.png",
-	colorBg: "#b95768"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-amHkN74EZ9I/YX4ZkGoZO6I/AAAAAAAAy-I/Gls-Vd4cvIU5o861gToThwILqoj-hyJ9wCNcBGAsYHQ/h240/starfire.png",
 	colorBg: "#af2b38"
@@ -2081,7 +2095,7 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-CS2v0BvqwBE/YRS0bnCbVzI/AAAAAAAAwKA/rXLqcIbI9pEmR7pnH-VoXGNVstDhEJ_AgCNcBGAsYHQ/h240/Senju-Tsunade.png",
 	colorBg: "#4c7c60"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-7Ddn00y0l2g/YTn3SB_1tXI/AAAAAAAAxD4/xgBQacU0qI08aywsKsHfkwNNGVi8WsCkACNcBGAsYHQ/h240/jraiya.png",
+	imgAnime: "https://1.bp.blogspot.com/-7Ddn00y0l2g/YTn3SB_1tXI/AAAAAAAAxD4/xgBQacU0qI08aywsKsHfkwNNGVi8WsCkACNcBGAsYHQ/h240/jiraiya.png",
 	colorBg: "#834f55"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-Ff2_CyJAqrg/YTy8KQGBFcI/AAAAAAAAxG4/w5EtgEAz5zc1CJkeyD9b9xotEiQjCKnoACNcBGAsYHQ/h240/boruto.png",
