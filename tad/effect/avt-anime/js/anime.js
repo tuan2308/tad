@@ -15,7 +15,7 @@ var dsAnime = [
 	
 	
 	{
-		imgAnime: "https://i.imgur.com/6H7mPBw.png#Anya-Forger",
+		imgAnime: "https://i.imgur.com/2qurnAQ.png#Anya-Forger",
 		colorBg: "#7fcbb6"
 	}, 
 	
