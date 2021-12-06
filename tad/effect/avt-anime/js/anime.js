@@ -1,4 +1,10 @@
 var dsAnime = [
+
+	{
+		imgAnime: "https://i.imgur.com/dfo0o17.png#Asuka-Tanaka",
+		colorBg: "#6db2e3"
+	}, 
+
 	{
 		imgAnime: "https://i.imgur.com/hko2vyF.png#bojji",
 		colorBg: "#4e8ad0"
@@ -869,9 +875,6 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-5Li7B9xSV6w/YYJGYZZZwCI/AAAAAAAAzKg/66iiuLQEoEkCOCMMFZITVvATXUHgK_1hQCNcBGAsYHQ/h240/valt-aoi.png",
 	colorBg: "#438be2"
 },{
-	imgAnime: "https://lh3.googleusercontent.com/-gYgGG8n6xOg/YX_JieXszcI/AAAAAAAAzEk/EEunf6spzekm4MksvG9MM0Q35-5z9jIpgCNcBGAsYHQ/h240/Ojou.png",
-	colorBg: "#b71e2d"
-},{
 	imgAnime: "https://lh3.googleusercontent.com/-TPfJtn78dPk/YX_HZYUNWQI/AAAAAAAAzEM/UUsS-5qFAl44wynnvJbn9efabY-FdaunQCNcBGAsYHQ/h240/shu-kurenai.png",
 	colorBg: "#b43c4e"
 },{
@@ -1155,7 +1158,18 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-Y0xQNjrvRkE/YTzCrwT1oeI/AAAAAAAAxHY/hSXuMA2co6o1PWt8QQeXlDPilOwd77QSwCNcBGAsYHQ/h240/du-ca.png",
 	colorBg: "#ff99b6"
-}, {
+}, 
+
+{
+	imgAnime: "https://i.imgur.com/Qi8Aoq1.png#Tsunomaki-Watame",
+	colorBg: "#e8a593"
+},
+{
+	imgAnime: "https://lh3.googleusercontent.com/-gYgGG8n6xOg/YX_JieXszcI/AAAAAAAAzEk/EEunf6spzekm4MksvG9MM0Q35-5z9jIpgCNcBGAsYHQ/h240/Nakiri-Ayame.png",
+	colorBg: "#b71e2d"
+},
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-BIrM18_ZZL0/YRKw_XC78GI/AAAAAAAAwFE/dYGr-JTSLkI2RwHgv-kOyAra7tnzAaM8gCNcBGAsYHQ/h240/gura.png",
 	colorBg: "#5ea9d4"
 }, {
