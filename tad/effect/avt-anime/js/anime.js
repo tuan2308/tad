@@ -1,4 +1,14 @@
 var dsAnime = [
+
+	{
+		imgAnime: "https://i.imgur.com/vewqmY5.png#Hoshizaki-Rika",
+		colorBg: "#f5a56b"
+	},
+
+	{
+		imgAnime: "https://i.imgur.com/Jjk2cGA.png#Morgiana",
+		colorBg: "#f56b99"
+	},
 	{
 		imgAnime: "https://i.imgur.com/EJiLind.png#Komi-Shouko",
 		colorBg: "#7a6adb"
