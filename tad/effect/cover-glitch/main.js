@@ -1,6 +1,5 @@
 $(document).ready(function() {
 	if (window.location.hostname == tmbq) {
-		var g = "";
 
 		function f() {
           
