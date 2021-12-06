@@ -1,5 +1,14 @@
 var dsAnime = [
 	{
+		imgAnime: "https://i.imgur.com/hko2vyF.png#bojji",
+		colorBg: "#4e8ad0"
+	}, 
+	{
+		imgAnime: "https://i.imgur.com/6JWipKg.png#nobara-kugisaki",
+		colorBg: "#8658b4"
+	}, 
+
+	{
 		imgAnime: "https://i.imgur.com/FbMxpcP.png#shizue-izawa",
 		colorBg: "#44aca6"
 	}, 
@@ -1569,7 +1578,14 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-F9rhPF9O8J4/YSIUQyTi76I/AAAAAAAAwig/QNLWOJHXkSA2D8uW0uujvnzPN1IgxlTyACNcBGAsYHQ/h240/rikka.png",
 	colorBg: "#62bdc1"
-}, {
+},
+
+{
+	imgAnime: "https://i.imgur.com/6ICYnLf.png#rikka",
+	colorBg: "#9777b6"
+},
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-vhdXscLwLpA/YSC8vcHGfGI/AAAAAAAAwh8/vzuq8pP8LtA7htrWe-cmRlWgeZ-X20p7ACNcBGAsYHQ/h240/mahito.png",
 	colorBg: "#7d919a"
 }, {
@@ -1851,7 +1867,13 @@ var dsAnime = [
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-9f8sw62NASs/YYdyEgYoUiI/AAAAAAAAz30/1cBeD5o0Z74niYsQaXdLyRBgUiqDZwTVQCNcBGAsYHQ/h240/Haibara-Ai.png",
 	colorBg: "#56b9de"
-}, {
+},
+{
+	imgAnime: "https://i.imgur.com/fbeI3wi.png#mary-sera",
+	colorBg: "#56a28c"
+},
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-BOUOT5544EE/YTn8rFxtVoI/AAAAAAAAxEo/tVMle4919CM7y1QMkLXoTipaHT8jzi4tACNcBGAsYHQ/h240/aoko.png",
 	colorBg: "#c773b9"
 }, {
