@@ -2022,7 +2022,15 @@ var dsAnime = [
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-BlkaQFCEN84/YX01P-ZG1PI/AAAAAAAAy90/uc-TSwVDYaEICjHyz2tYeDThM4AVfaJqgCNcBGAsYHQ/h240/yamato.png",
 	colorBg: "#bd3030"
-},{
+},
+
+{
+	imgAnime: "https://i.imgur.com/HtVQGyT.png#Kikunojo",
+	colorBg: "#c874e1"
+},
+
+
+{
 	imgAnime: "https://lh3.googleusercontent.com/-oxxLdQIMJSw/YX53fbkZvEI/AAAAAAAAzAI/qJTbNX1HsSQl6bgU6uA5Zp-kC9jkonzBACNcBGAsYHQ/h240/kaido-rejiu.png",
 	colorBg: "#ff82a2"
 }, {
