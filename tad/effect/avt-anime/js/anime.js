@@ -1528,7 +1528,7 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-jLfCUVt-ku0/YTYq0NerZWI/AAAAAAAAxA4/gVC7DcTa1moHl0fQP0WXgvTYceIdY_Y9gCNcBGAsYHQ/h240/Souya-Kawata.png",
 	colorBg: "#58cae2"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-MBFCmQ98WG4/YTn7X3NJUDI/AAAAAAAAxEg/AHA618tJDA4TCLF4tQxzc0FbqPihngo3wCNcBGAsYHQ/h240/Haruchiyo Sanzu.png",
+	imgAnime: "https://1.bp.blogspot.com/-MBFCmQ98WG4/YTn7X3NJUDI/AAAAAAAAxEg/AHA618tJDA4TCLF4tQxzc0FbqPihngo3wCNcBGAsYHQ/h240/Haruchiyo-Sanzu.png",
 	colorBg: "#d7337d"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-0pXhCQQM1-4/YUxjytHAf5I/AAAAAAAAxio/K4ROor3_djo9t_vu2Ax1Gh8e4buC33wFQCNcBGAsYHQ/h240/shinichiro-sano.png",
@@ -1949,7 +1949,10 @@ var dsAnime = [
 	colorBg: "#63bc43"
 },
 
-
+{
+	imgAnime: "https://i.imgur.com/OJMiW38.png#vinsmoke-sanji",
+	colorBg: "#eac545"
+},
 
 {
 	imgAnime: "https://lh3.googleusercontent.com/-06C5QjXT_WI/YXpg6a_QnVI/AAAAAAAAy8g/YCqQWPEnH9QNZP_AwE7GCqHIuY29i3vlQCNcBGAsYHQ/h240/sabo.png",
