@@ -1,12 +1,13 @@
 var dsAnime = [
 	{
-		imgAnime: "https://i.imgur.com/KV7wM30.png#Najimi-Osana",
-		colorBg: "#b26adb"
-	}, 
-	{
 		imgAnime: "https://i.imgur.com/EJiLind.png#Komi-Shouko",
 		colorBg: "#7a6adb"
 	},
+	{
+		imgAnime: "https://i.imgur.com/KV7wM30.png#Najimi-Osana",
+		colorBg: "#b26adb"
+	}, 
+	
 	{
 		imgAnime: "https://i.imgur.com/gcskpVO.png#Damian-Desmond",
 		colorBg: "#de484c"
