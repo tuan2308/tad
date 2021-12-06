@@ -1,5 +1,23 @@
 var dsAnime = [
-
+	{
+		imgAnime: "https://i.imgur.com/KV7wM30.png#Najimi-Osana",
+		colorBg: "#b26adb"
+	}, 
+	{
+		imgAnime: "https://i.imgur.com/EJiLind.png#Komi-Shouko",
+		colorBg: "#7a6adb"
+	},
+	{
+		imgAnime: "https://i.imgur.com/gcskpVO.png#Damian-Desmond",
+		colorBg: "#de484c"
+	}, 
+	
+	
+	{
+		imgAnime: "https://i.imgur.com/6H7mPBw.png#Anya-Forger",
+		colorBg: "#7fcbb6"
+	}, 
+	
 	{
 		imgAnime: "https://i.imgur.com/dfo0o17.png#Asuka-Tanaka",
 		colorBg: "#6db2e3"
@@ -919,9 +937,6 @@ var dsAnime = [
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-Rt4w0oV-mjI/YX4gDMxZ9kI/AAAAAAAAy_A/424kyT1_wMEwc8oqqERdpiLdTxyOQCbBQCNcBGAsYHQ/h240/kiana.png",
 	colorBg: "#ffb243"
-},{
-	imgAnime: "https://lh3.googleusercontent.com/-K9Bz2vCU_eg/YX4e-8m2E7I/AAAAAAAAy-4/XRhzVuePfw0F6O7SonhOYJDiRcaxzeHVwCNcBGAsYHQ/h240/komi-san.png",
-	colorBg: "#b459cb"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-QINx8LuNbR0/YX4d7UPZruI/AAAAAAAAy-g/2I35CyrgK641K1EZMNtn1A1w4UwDMxhnwCNcBGAsYHQ/h240/arima-kousei.png",
 	colorBg: "#5fa9c1"
