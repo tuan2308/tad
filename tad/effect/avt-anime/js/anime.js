@@ -1,5 +1,12 @@
 var dsAnime = [
-
+	{
+		imgAnime: "https://i.imgur.com/QdVEjXL.png#yuu-mashiro",
+		colorBg: "#6cc0b4"
+	}, 
+	{
+		imgAnime: "https://i.imgur.com/da9cboN.png#Tamako-Kitashirakawa",
+		colorBg: "#e69cb3"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-sFp2YB3bp2g/YX4bm1iWDvI/AAAAAAAAy-Y/s644FKJuw2QV2hYeF7YrFUmUYsI8sFf8ACNcBGAsYHQ/h240/kawaki.png",
 		colorBg: "#b95768"
@@ -1709,9 +1716,15 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-lmhjUoye2F4/YRkc5pWLuFI/AAAAAAAAwXg/SlINgvp3Fyk3NIbw_tHYpwR9FibI0Qd4gCNcBGAsYHQ/h240/tanmoshi.png",
 	colorBg: "#5f88b8"
 }, {
+	imgAnime: "https://i.imgur.com/5D3Cgwu.png#zero-two",
+	colorBg: "#e69cb3"
+}, {
 	imgAnime: "https://1.bp.blogspot.com/--fQyJVG_a8w/YQjvnVLWzVI/AAAAAAAAv0o/h0zvBsl8ui8BslbvieRhT_S-tF9pgQ8ugCNcBGAsYHQ/h240/zero-two.png",
 	colorBg: "#d89194"
-}, {
+}, 
+
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-UurSmwFQu3w/YRkDhF5a50I/AAAAAAAAwWo/GE3qZZ31Sv82R8dRYLMy3dEwnKfTeqHSQCNcBGAsYHQ/h240/ichigo.png",
 	colorBg: "#76b1db"
 }, {
@@ -1820,10 +1833,10 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-GPKm4bZODgM/YRR5xF1ovKI/AAAAAAAAwIY/aDh53Q3kFksIimdSTQl-lVKcKaFLuV3sQCNcBGAsYHQ/h240/luna.png",
 	colorBg: "#db98c1"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-FeUaudTnGfw/YRPh8v5oiaI/AAAAAAAAwHM/HCDEzHqRlT8kbTDtAX8QQw8XP2rGKk8FgCNcBGAsYHQ/h240/rimuru.png",
+	imgAnime: "https://1.bp.blogspot.com/-FeUaudTnGfw/YRPh8v5oiaI/AAAAAAAAwHM/HCDEzHqRlT8kbTDtAX8QQw8XP2rGKk8FgCNcBGAsYHQ/h240/Rimuru-Tempest.png",
 	colorBg: "#5d9bae"
 },  {
-	imgAnime: "https://lh3.googleusercontent.com/-F_XciqcWiOU/YY4rc3_JBgI/AAAAAAAA0kM/_LJHy5OK7AMb-o2lLv9bWTACBvIjDDM-ACNcBGAsYHQ/h240/Rimuru.png",
+	imgAnime: "https://lh3.googleusercontent.com/-F_XciqcWiOU/YY4rc3_JBgI/AAAAAAAA0kM/_LJHy5OK7AMb-o2lLv9bWTACBvIjDDM-ACNcBGAsYHQ/h240/Rimuru-Tempest.png",
 	colorBg: "#69a6dd"
 },  {
 	imgAnime: "https://1.bp.blogspot.com/-fXoRvwNdIpE/YRj-dpN1SKI/AAAAAAAAwVw/dIvo1Bcg4w8-rUbmB4qJ2ipIK2NKEWw-QCNcBGAsYHQ/h240/oikawa-tooru.png",
