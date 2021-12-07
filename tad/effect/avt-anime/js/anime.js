@@ -2,7 +2,7 @@ var dsAnime = [
 
 	{
 		imgAnime: "https://i.imgur.com/5D3Cgwu.png#zero-two",
-		colorBg: "#e69cb3"
+		colorBg: "#e85f8a"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/--fQyJVG_a8w/YQjvnVLWzVI/AAAAAAAAv0o/h0zvBsl8ui8BslbvieRhT_S-tF9pgQ8ugCNcBGAsYHQ/h240/zero-two.png",
 		colorBg: "#d89194"
