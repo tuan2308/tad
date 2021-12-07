@@ -21,14 +21,7 @@ var dsAnime = [
 		imgAnime: "https://i.imgur.com/da9cboN.png#Tamako-Kitashirakawa",
 		colorBg: "#e69cb3"
 	}, 
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-sFp2YB3bp2g/YX4bm1iWDvI/AAAAAAAAy-Y/s644FKJuw2QV2hYeF7YrFUmUYsI8sFf8ACNcBGAsYHQ/h240/kawaki.png",
-		colorBg: "#b95768"
-	},
-	{
-		imgAnime: "https://i.imgur.com/cuqVtQ9.png#Sumire-Kakei",
-		colorBg: "#9575bf"
-	},
+	
 	{
 		imgAnime: "https://i.imgur.com/vewqmY5.png#Hoshizaki-Rika",
 		colorBg: "#f5a56b"
@@ -2231,7 +2224,7 @@ var dsAnime = [
 }, 
 
 {
-    imgAnime: "https://imgur.com/hxqZDbD#danzo",
+    imgAnime: "https://i.imgur.com/hxqZDbD.png#danzo",
     colorBg: "#956fa9"
 }, 
 
@@ -2271,7 +2264,14 @@ var dsAnime = [
     imgAnime: "https://i.imgur.com/6eUvNHf.png#sadara",
     colorBg: "#c75449"
 }, 
-
+{
+	imgAnime: "https://lh3.googleusercontent.com/-sFp2YB3bp2g/YX4bm1iWDvI/AAAAAAAAy-Y/s644FKJuw2QV2hYeF7YrFUmUYsI8sFf8ACNcBGAsYHQ/h240/kawaki.png",
+	colorBg: "#b95768"
+},
+{
+	imgAnime: "https://i.imgur.com/cuqVtQ9.png#Sumire-Kakei",
+	colorBg: "#9575bf"
+},
 
 {
 
