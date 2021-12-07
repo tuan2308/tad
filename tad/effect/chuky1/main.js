@@ -50,8 +50,6 @@ $(document).ready(function() {
 							e.restore();
 							var c = $(".tad-in-text1").val();
 							var d = $(".tad-in-text2").val();
-							var i = k.width / 2;
-							var p = 360;
 							e.save();
 							e.font = "115px AR DARLING";
 							e.fillStyle = f;
