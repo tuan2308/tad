@@ -1,4 +1,18 @@
 var dsAnime = [
+
+	{
+		imgAnime: "https://i.imgur.com/5D3Cgwu.png#zero-two",
+		colorBg: "#e69cb3"
+	}, {
+		imgAnime: "https://1.bp.blogspot.com/--fQyJVG_a8w/YQjvnVLWzVI/AAAAAAAAv0o/h0zvBsl8ui8BslbvieRhT_S-tF9pgQ8ugCNcBGAsYHQ/h240/zero-two.png",
+		colorBg: "#d89194"
+	}, 
+	
+	
+	{
+		imgAnime: "https://1.bp.blogspot.com/-UurSmwFQu3w/YRkDhF5a50I/AAAAAAAAwWo/GE3qZZ31Sv82R8dRYLMy3dEwnKfTeqHSQCNcBGAsYHQ/h240/ichigo.png",
+		colorBg: "#76b1db"
+	},
 	{
 		imgAnime: "https://i.imgur.com/QdVEjXL.png#yuu-mashiro",
 		colorBg: "#6cc0b4"
@@ -1715,19 +1729,7 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-lmhjUoye2F4/YRkc5pWLuFI/AAAAAAAAwXg/SlINgvp3Fyk3NIbw_tHYpwR9FibI0Qd4gCNcBGAsYHQ/h240/tanmoshi.png",
 	colorBg: "#5f88b8"
-}, {
-	imgAnime: "https://i.imgur.com/5D3Cgwu.png#zero-two",
-	colorBg: "#e69cb3"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/--fQyJVG_a8w/YQjvnVLWzVI/AAAAAAAAv0o/h0zvBsl8ui8BslbvieRhT_S-tF9pgQ8ugCNcBGAsYHQ/h240/zero-two.png",
-	colorBg: "#d89194"
-}, 
-
-
-{
-	imgAnime: "https://1.bp.blogspot.com/-UurSmwFQu3w/YRkDhF5a50I/AAAAAAAAwWo/GE3qZZ31Sv82R8dRYLMy3dEwnKfTeqHSQCNcBGAsYHQ/h240/ichigo.png",
-	colorBg: "#76b1db"
-}, {
+},  {
 	imgAnime: "https://1.bp.blogspot.com/-BhMRkGfKEcQ/YRkCyrujOOI/AAAAAAAAwWg/nYTTrmR57wUZKr6ekHmd_h6g4G46F7wygCNcBGAsYHQ/h240/yosano-akiko.png",
 	colorBg: "#7b8ed4"
 }, {
