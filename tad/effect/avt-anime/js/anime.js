@@ -2230,7 +2230,47 @@ var dsAnime = [
     colorBg: "#517676"
 }, 
 
+{
+    imgAnime: "https://imgur.com/hxqZDbD#danzo",
+    colorBg: "#956fa9"
+}, 
 
+{
+    imgAnime: "https://i.imgur.com/B8N8ZzN.png#izumi-uchiha",
+    colorBg: "#956fa9"
+}, 
+{
+    imgAnime: "https://i.imgur.com/bbWIypr.png#sai",
+    colorBg: "#868c9c"
+}, 
+{
+    imgAnime: "https://i.imgur.com/LiGp7s3.png#yamato",
+    colorBg: "#8fa380"
+}, 
+{
+    imgAnime: "https://i.imgur.com/HAuAnqk.png#shino",
+    colorBg: "#9ba576"
+}, 
+{
+    imgAnime: "https://i.imgur.com/YVUferU.png#kiba",
+    colorBg: "#9ba576"
+}, 
+{
+    imgAnime: "https://i.imgur.com/do1kbDp.png#ino",
+    colorBg: "#a67bc7"
+}, 
+{
+    imgAnime: "https://i.imgur.com/k7dv76l.png#konohamaru",
+    colorBg: "#69a0aa"
+}, 
+{
+    imgAnime: "https://i.imgur.com/dKQWn2t.png#choji",
+    colorBg: "#b24b4b"
+}, 
+{
+    imgAnime: "https://i.imgur.com/6eUvNHf.png#sadara",
+    colorBg: "#c75449"
+}, 
 
 
 {
