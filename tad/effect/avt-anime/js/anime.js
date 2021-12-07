@@ -1,8 +1,5 @@
 var dsAnime = [
-	{
-		imgAnime: "https://1.bp.blogspot.com/-2InVDhAxc8g/YQ_S1fnAICI/AAAAAAAAwBs/9EP8aMGV-WMHHSEcLsC5JcIogqmU7GuBQCNcBGAsYHQ/h240/sung-jinwoo.png",
-		colorBg: "#294c6d"
-	},
+	
 	{
 		imgAnime: "https://i.imgur.com/z7Nz1Ac.png#zero-two",
 		colorBg: "#e85f8a"
@@ -348,7 +345,13 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-9wLr0RF_SEs/YZOEawD3JKI/AAAAAAAA1DY/hiN3L0q7aSQRer4CjUqK3qHrNr5tdQtDgCNcBGAsYHQ/h240/Matsuda-Takato.png",
 		colorBg: "#31acea"
-	},{
+	},
+	{
+		imgAnime: "https://1.bp.blogspot.com/-2InVDhAxc8g/YQ_S1fnAICI/AAAAAAAAwBs/9EP8aMGV-WMHHSEcLsC5JcIogqmU7GuBQCNcBGAsYHQ/h240/sung-jinwoo.png",
+		colorBg: "#294c6d"
+	},
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-1S8qPMb-9s0/YZOD5dp4KeI/AAAAAAAA1DQ/0tDDQh4IvnoYj1kofA9q9b-I7AnnUX_kACNcBGAsYHQ/h240/hachiman.png",
 		colorBg: "#3c7cd4"
 	},{
