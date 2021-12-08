@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Holimount';
+    src: url('Holimount.woff2') format('woff2'),
+        url('Holimount.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Scripture';
+    src: url('Scripture.woff2') format('woff2'),
+        url('Scripture.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Asem-Kandis';
+    src: url('Asem-Kandis.woff2') format('woff2'),
+        url('Asem-Kandis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Holimount swash';
+    src: url('Holimountswash.woff2') format('woff2'),
+        url('Holimountswash.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
