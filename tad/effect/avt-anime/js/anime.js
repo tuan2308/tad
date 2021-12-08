@@ -869,7 +869,14 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-YXmjYIR-yGA/YSOYCV-tiLI/AAAAAAAAwmc/Hbf1fHEUZ8UTg9einGTcUsZZ7bZrwRghACNcBGAsYHQ/h240/kaguya.png",
 	colorBg: "#cf332b"
-}, {
+},
+{
+	imgAnime: "https://1.bp.blogspot.com/-jM6COnizSUQ/YRkARvWMdjI/AAAAAAAAwWA/udx-Gdg32Y8bEENZIV3q5CI5nOqCstFrQCNcBGAsYHQ/h240/albedo.png",
+	colorBg: "#5d598f"
+},
+
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-s0VbdUnhjUA/YSOXkxqAJII/AAAAAAAAwmU/hSKwGzCiqAYXxsLfAf01m9sV-CdHSOqigCNcBGAsYHQ/h240/ainz-ooal-gown.png",
 	colorBg: "#9463bf"
 }, {
@@ -950,9 +957,6 @@ var dsAnime = [
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-OPUv8BBx4Rk/YRkBGf-JVoI/AAAAAAAAwWI/5y6IsQSeE5gNx5WF4Y3-W_a2C7khMZ98wCNcBGAsYHQ/h240/anko.png",
 	colorBg: "#71a7d4"
-}, {
-	imgAnime: "https://1.bp.blogspot.com/-jM6COnizSUQ/YRkARvWMdjI/AAAAAAAAwWA/udx-Gdg32Y8bEENZIV3q5CI5nOqCstFrQCNcBGAsYHQ/h240/albedo.png",
-	colorBg: "#5d598f"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-Pkj0LEwj3sQ/YRj9OC_B_XI/AAAAAAAAwVg/avaHbvdGwPE5ZNrR9jMPbhnPoRtO_XsPQCNcBGAsYHQ/h240/izumi-sagiri.png",
 	colorBg: "#4eadd0"
