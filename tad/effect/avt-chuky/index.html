@@ -66,7 +66,7 @@
 
 
     <script>tenanhxuat = "avt_tiktok";</script>
-    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/avt-tiktok/stylesheet.css" />
+    <link rel="stylesheet" media='all' href="./fonts/stylesheet.css" />
     <script>
   function xoa_dau(b) {
 	b = b.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
@@ -103,14 +103,7 @@
                 var c = document.getElementById("myCanvas");
                 var ctx = c.getContext("2d");
 
-                var colorBg = "#fff";
-                $("#doimaunen").colorpicker().change(function () {
-                    var a = $("#doimaunen").val();
-                    $(".demomau").css("background-color", a);
-
-                    colorBg = a
-                    draw();
-                });
+              
 
                 var w = true;
                 var v = false;
