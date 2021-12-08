@@ -47,13 +47,13 @@ function thongbaotd(a){
       
         var es_gsa = navigator.userAgent.toLowerCase (). indexOf ('gsa')> -1; if (es_gsa) {
         
-        $("#img-out").after("<div class='alert alert-danger mt-3'><i class='fas fa-exclamation-circle'></i> Hãy sử dụng trình duyệt Safari để tải được ảnh</div>")
+        $("#tad-taoanh").after("<div class='alert alert-danger mt-3'><i class='fas fa-exclamation-circle'></i> Hãy sử dụng trình duyệt Safari để tải được ảnh</div>")
         
         } 
         
         var es_crios = navigator.userAgent.toLowerCase (). indexOf ('crios')> -1; if (es_crios) {
         
-        $("#img-out").after("<div class='alert alert-danger mt-3'><i class='fas fa-exclamation-circle'></i> Hãy sử dụng trình duyệt Safari để tải được ảnh</div>")
+        $("#tad-taoanh").after("<div class='alert alert-danger mt-3'><i class='fas fa-exclamation-circle'></i> Hãy sử dụng trình duyệt Safari để tải được ảnh</div>")
         
         } 
     
