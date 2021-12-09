@@ -1,10 +1,10 @@
 var dsAnime = [
 	{
-		imgAnime: "https://i.imgur.com/ToaLUId.png#Blue-lock",
+		imgAnime: "https://lh3.googleusercontent.com/-wBjwcCkntIo/YbFsNMUoDrI/AAAAAAAA2AM/hhdLhamM7lAOzWKIxFVIjv2dHq4-sJk2gCNcBGAsYHQ/h240/Blue-lock.png",
 		colorBg: "#4ab7e4"
 	}, 
 	{
-		imgAnime: "https://i.imgur.com/dby1mf0.png#Noriko-Sonozaki",
+		imgAnime: "https://lh3.googleusercontent.com/-08Bx7CLUl9E/YbFsN4Df-KI/AAAAAAAA2AY/gxfTS4vXa0U2NxhgYY4H1AvMLzk2HyyIACNcBGAsYHQ/h240/Noriko-Sonozaki.png",
 		colorBg: "#5c9ad9"
 	}, 
 	{
@@ -72,7 +72,7 @@ var dsAnime = [
 		colorBg: "#8658b4"
 	}, 
 	{
-		imgAnime: "https://i.imgur.com/Pxy235M.png#Maki-Zenin",
+		imgAnime: "https://lh3.googleusercontent.com/-Ez8do3xxe1A/YbFsNVAWKcI/AAAAAAAA2AQ/FRbVad1E1w4DF1xncgd3ARMOPm5OOCn5gCNcBGAsYHQ/h240/Maki-Zenin.png",
 		colorBg: "#3a8270"
 	}, 
 	{
@@ -1345,7 +1345,7 @@ colorBg: "#cd3333"
 
 
 {
-	imgAnime: "https://i.imgur.com/R1cgQgx.png#Yui",
+	imgAnime: "https://lh3.googleusercontent.com/-0GuEBuxmXjA/YbFsOQNWZJI/AAAAAAAA2Ac/eryfHVZvCH8ReYN3vL-4HM_WAzUg--3xACNcBGAsYHQ/h240/Yui.png",
 	colorBg: "#e69cb3"
 },
 
@@ -2344,7 +2344,7 @@ colorBg: "#cd3333"
 	colorBg: "#9575bf"
 },
 {
-    imgAnime: "https://i.imgur.com/ibF5Ym8.png#Himawari",
+    imgAnime: "https://lh3.googleusercontent.com/-IoPG320hfPw/YbFsNd4MHQI/AAAAAAAA2AU/YkkfM1_oJcQST8c5754OXQJdqsxtlWM5QCNcBGAsYHQ/h240/Himawari.png",
     colorBg: "#64ccea"
 }, 
 
