@@ -1,5 +1,12 @@
 var dsAnime = [
-	
+	{
+		imgAnime: "https://i.imgur.com/ToaLUId.png#Blue-lock",
+		colorBg: "#4ab7e4"
+	}, 
+	{
+		imgAnime: "https://i.imgur.com/dby1mf0.png#Noriko-Sonozaki",
+		colorBg: "#5c9ad9"
+	}, 
 	{
 		imgAnime: "https://i.imgur.com/z7Nz1Ac.png#zero-two",
 		colorBg: "#e85f8a"
@@ -2333,6 +2340,10 @@ colorBg: "#cd3333"
 	imgAnime: "https://i.imgur.com/cuqVtQ9.png#Sumire-Kakei",
 	colorBg: "#9575bf"
 },
+{
+    imgAnime: "https://i.imgur.com/ibF5Ym8.png#Himawari",
+    colorBg: "#64ccea"
+}, 
 
 {
 
