@@ -1311,14 +1311,20 @@ colorBg: "#cd3333"
 	imgAnime: "https://1.bp.blogspot.com/-OTOSiz2rU-4/YSITiEffGbI/AAAAAAAAwiY/Rb_HPPC3xQMe0XoXHAD7ghgMrF3GIvbrgCNcBGAsYHQ/h240/toge-inumaki.png",
 	colorBg: "#5d6595"
 }, 
-
+{
+	imgAnime: "https://lh3.googleusercontent.com/-pp6ytHRiSMc/YbG3DIjy8dI/AAAAAAAA2Fk/mOH98dYzxL4yl7dI66mNp_jNaEEQ5KPSACNcBGAsYHQ/h240/kirito.png",
+	colorBg: "#6cc9da"
+},
 {
 	imgAnime: "https://1.bp.blogspot.com/-uRFL4Oqz5bE/YVm9-MXe73I/AAAAAAAAx2M/oasK1eU9WgoJJs80sTlKl9-0rxX7otHcQCNcBGAsYHQ/h240/kirito.png",
-	colorBg: "#29d0c2"
+	colorBg: "#41bfb5"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-puDGBCBEpMA/YRKx4G7KMPI/AAAAAAAAwFM/_JNx3_dZ75AOAl9Yi5AK6OBGtWV9q2hQACNcBGAsYHQ/h240/kirito.png",
 	colorBg: "#5998a8"
-}, {
+},
+
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-kdZ-a-Ba0Kw/YRKyjigWqNI/AAAAAAAAwFU/4G11nbPJ9HsmqGt2NbQ8SQiUN0esTVfJwCNcBGAsYHQ/h240/asuna.png",
 	colorBg: "#f75148"
 }, {
