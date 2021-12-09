@@ -59,10 +59,13 @@ var dsAnime = [
 	}, 
 	
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-g9ySyanPPKQ/YbGznnmQbkI/AAAAAAAA2FU/g39UA9lHgosKTzVXCZP-2wmB9HhrVfGwgCNcBGAsYHQ/h240/Asuka-Tanaka.png",
+		colorBg: "#c6a67b"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-6V_fKrkR_U0/YbFulvFhRnI/AAAAAAAA2Bs/EtBs1N8sAgkB_asJ1TWS8UBTesb_ZzbwgCNcBGAsYHQ/h240/Asuka-Tanaka.png",
 		colorBg: "#6db2e3"
 	}, 
-
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-qphgpMIYY1Y/YbFuqZjrNsI/AAAAAAAA2B0/UmL1e_S4piUOBPs24Yd9oqleJVM8cS_ogCNcBGAsYHQ/h240/bojji.png",
 		colorBg: "#4e8ad0"
@@ -401,6 +404,9 @@ var dsAnime = [
 {
 	imgAnime: "https://lh3.googleusercontent.com/-OCPwWPe7Wx0/YZIsUWKkx7I/AAAAAAAA09Q/Symf9SBk4OoDa2VmENxFJfMZgUVdqxBmwCNcBGAsYHQ/h240/pikachu.png",
 	colorBg: "#f8ce3a"
+},{
+	imgAnime: "https://lh3.googleusercontent.com/-NiQiVn5bwC0/YbGxEUbzF2I/AAAAAAAA2FE/lMHlpvX6fMAcQvJL3ZkHkuVpQQP1ixvqgCNcBGAsYHQ/h240/Tsutarja.png",
+	colorBg: "#abca5b"
 },
 {
 	imgAnime: "https://lh3.googleusercontent.com/-BC18ZEh_alY/YZDUkNaLnOI/AAAAAAAA0s4/OrCl-R2MZwYxBLbyWE5nQyN7No6wNBXkwCNcBGAsYHQ/h240/rachel-gardner.png",
@@ -823,7 +829,7 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/-hlXBKoilBWk/YTYs7BfU1SI/AAAAAAAAxBI/PocXO2ZkZ4gXqGP28gmLm0fAD2h6_M_EQCNcBGAsYHQ/h240/shiori-asagiri.png",
 	colorBg: "#6677a6"
 }, {
-	imgAnime: "https://1.bp.blogspot.com/-Ue9JgZFiDa0/YTDEDdvksAI/AAAAAAAAw7A/7NK_0YhtWHY799sYCFcY0hLXbHkB-KpjQCNcBGAsYHQ/h240/yato.png",
+	imgAnime: "https://1.bp.blogspot.com/-Ue9JgZFiDa0/YTDEDdvksAI/AAAAAAAAw7A/7NK_0YhtWHY799sYCFcY0hLXbHkB-KpjQCNcBGAsYHQ/h240/yato-noragami.png",
 	colorBg: "#505061"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-ttJapMwcp0Y/YTDDQeQ8J-I/AAAAAAAAw64/a4HG6G-N7u0fkSyewCRZdwu2gXAQvv-5QCNcBGAsYHQ/h240/yuu-otosaka.png",
@@ -1095,9 +1101,6 @@ colorBg: "#cd3333"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-YKTkl17_RJE/YZYRtegjVII/AAAAAAAA1R8/Ys75tftdXnY2dVoZLh04if9SySVDAERKwCNcBGAsYHQ/h240/karin.png",
 	colorBg: "#e68599"
-},{
-	imgAnime: "https://lh3.googleusercontent.com/-pTNSZVtEdWE/YZYNlhL0WhI/AAAAAAAA1R0/vP4iiaF6CFkEEamrgEh999JgLak9YEnKQCNcBGAsYHQ/h240/hitoka-yachi.png",
-	colorBg: "#c8b28a"
 },
 {
 	imgAnime: "https://1.bp.blogspot.com/-pZ9KtoMLkiY/YUxhvlR0KBI/AAAAAAAAxig/h1DcX4FNIr84-QJZm61dkY1t_B2xE4Z9ACNcBGAsYHQ/h240/tohru.png",
@@ -1254,7 +1257,13 @@ colorBg: "#cd3333"
 },{
 	imgAnime: "https://lh3.googleusercontent.com/-YGB4G6j4ihc/YaLphSDfKhI/AAAAAAAA1mI/ckCJe7UFgowKkqbwGFGFo6LCYEEe700sgCNcBGAsYHQ/h240/Aether.png",
 	colorBg: "#e4b671"
-},{
+},
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-sjEfiihnKEQ/YbG0XznS5NI/AAAAAAAA2Fc/UDsftncN5549QJ9gJeo2tlT-_1nvGpk1QCNcBGAsYHQ/h240/lumine.png",
+	colorBg: "#6f9fc4"
+},
+{
 	imgAnime: "https://lh3.googleusercontent.com/-A0JmU2vBqas/YX4hW-PovmI/AAAAAAAAy_I/HEk4MLQ_nS0YtFTlaibeGMVf9oHZrecZgCNcBGAsYHQ/h240/klee.png",
 	colorBg: "#d64131"
 }, {
@@ -1528,7 +1537,7 @@ colorBg: "#cd3333"
 		imgAnime: "https://1.bp.blogspot.com/-C7Z2kPSCCRU/YRR3nMkiUpI/AAAAAAAAwIE/xtcFk4AWj_IJkWTAnyO_5JHH99mHuXsDQCNcBGAsYHQ/h240/tsukishima.png",
 		colorBg: "#233579"
 	}, {
-		imgAnime: "https://1.bp.blogspot.com/-ZaAIqpupQ4o/YRSGK765q2I/AAAAAAAAwI0/GByV26sVTMsUvYvivsZMPE8dEYTSQINHQCNcBGAsYHQ/h240/hinata.png",
+		imgAnime: "https://1.bp.blogspot.com/-ZaAIqpupQ4o/YRSGK765q2I/AAAAAAAAwI0/GByV26sVTMsUvYvivsZMPE8dEYTSQINHQCNcBGAsYHQ/h240/Hinata-Shoyo.png",
 		colorBg: "#508cb6"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-W6Miadfk_GE/YRj_WxKAjmI/AAAAAAAAwV4/l0WseQgMeKQG62tC2Xyy264_H1MtLidfwCNcBGAsYHQ/h240/kageyama-tobio.png",
@@ -1539,6 +1548,15 @@ colorBg: "#cd3333"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-yOj3s3hEzsE/YYeLQrRT-OI/AAAAAAAAz5A/DNBAEsKWaogalLq6yeQgBztbDOi51R2aQCNcBGAsYHQ/h240/Sugawara.png",
 		colorBg: "#66acd0"
+	},
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-oCj4w-jx9-o/YbGxpzLy3YI/AAAAAAAA2FM/wnggFV8lHdUPHm1Ls3woWIelGEI_8HF8gCNcBGAsYHQ/h240/kiyoko-Shimizu.png",
+		colorBg: "#6bb5c5"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-pTNSZVtEdWE/YZYNlhL0WhI/AAAAAAAA1R0/vP4iiaF6CFkEEamrgEh999JgLak9YEnKQCNcBGAsYHQ/h240/hitoka-yachi.png",
+		colorBg: "#c8b28a"
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-q6amnLdL5gc/YSy2VFQmhXI/AAAAAAAAw2E/ExCR7ggPpsAaWSVbEbnxqDR8_34NFBt9wCNcBGAsYHQ/h240/koro-sensei.png",
