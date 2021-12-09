@@ -1335,6 +1335,11 @@ colorBg: "#cd3333"
 
 
 {
+	imgAnime: "https://i.imgur.com/R1cgQgx.png#Yui",
+	colorBg: "#e69cb3"
+},
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-xb561qOPUcI/YRYevHx7j-I/AAAAAAAAwN4/Y-z3NiL5rxgQA6FhdZ9JrJf0jkkfZfhCQCNcBGAsYHQ/h240/midoriya.png",
 	colorBg: "#3b867a"
 	},{

@@ -53,7 +53,9 @@
     <div style="touch-action:none">
         <input class="custom-range mb-2 tad-in-size2" type="range" value="300" step="10" min="100" max="1000">
     </div>
-
+    <div style="touch-action:none">
+        <input class="custom-range mb-2 tad-in-margin2" type="range" value="50" step="10" min="-100" max="100">
+    </div>
     <label>Xem trước:</label>
     <canvas id="myCanvas" width="2000" height="1200" style="width:100%;border: 1px solid;">
         Your browser does not support the canvas element.
@@ -66,7 +68,7 @@
 
 
     <script>tenanhxuat = "avt_tiktok";</script>
-    <link rel="stylesheet" media='all' href="./fonts/stylesheet.css" />
+    <link rel="stylesheet" media='all' href="./fonts/stylesheet2.css" />
     <script>
   function xoa_dau(b) {
 	b = b.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
@@ -93,7 +95,7 @@
                     $(".tad-in-text1").val("")
                     draw();
                 });
-                $(".tad-in-text1,.tad-in-size1,.tad-in-font1,.tad-in-text2,.tad-in-size2").on("input", function () {
+                $(".tad-in-text1,.tad-in-size1,.tad-in-font1,.tad-in-text2,.tad-in-size2,.tad-in-margin2").on("input", function () {
                     draw()
                 });
 
@@ -116,6 +118,7 @@
 
                     var dz = $(".tad-in-text2").val();
                     var bz = $(".tad-in-size2").val();
+                    var cl = $(".tad-in-margin2").val();
                     document.fonts.load("10pt " + a).then(function () {
 
                         document.fonts.load("10pt Holimount swash").then(function () {
@@ -140,8 +143,7 @@ ctx.fillStyle = "#fff"
                             ctx.textBaseline = "middle";
                             ctx.textAlign = "center";
                             ctx.font = bz + "pt Holimount swash";
-
-                            ctx.fillText(dz, c.width / 2, c.height/2+50 - bz/2);
+                            ctx.fillText(dz, c.width / 2, c.height/2 + cl*1 - bz/2);
 
                             ctx.restore();
 

@@ -1,11 +1,4 @@
-@font-face {
-    font-family: 'Holimount';
-    src: url('Holimount.woff2') format('woff2'),
-        url('Holimount.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
+
 
 @font-face {
     font-family: 'Scripture';
@@ -24,11 +17,27 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Holimount';
+    src: url('Holimount.eot');
+    src: url('Holimount.eot?#iefix') format('embedded-opentype'),
+        url('Holimount.woff2') format('woff2'),
+        url('Holimount.woff') format('woff'),
+        url('Holimount.ttf') format('truetype'),
+        url('Holimount.svg#Holimount') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'Holimount swash';
-    src: url('Holimountswash.woff2') format('woff2'),
-        url('Holimountswash.woff') format('woff');
+    src: url('Holimountswash.eot');
+    src: url('Holimountswash.eot?#iefix') format('embedded-opentype'),
+        url('Holimountswash.woff2') format('woff2'),
+        url('Holimountswash.woff') format('woff'),
+        url('Holimountswash.ttf') format('truetype'),
+        url('Holimountswash.svg#Holimountswash') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
