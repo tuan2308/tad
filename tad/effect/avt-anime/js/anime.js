@@ -71,7 +71,10 @@ var dsAnime = [
 		imgAnime: "https://i.imgur.com/6JWipKg.png#nobara-kugisaki",
 		colorBg: "#8658b4"
 	}, 
-
+	{
+		imgAnime: "https://i.imgur.com/Pxy235M.png#Maki-Zenin",
+		colorBg: "#3a8270"
+	}, 
 	{
 		imgAnime: "https://i.imgur.com/FbMxpcP.png#shizue-izawa",
 		colorBg: "#44aca6"
