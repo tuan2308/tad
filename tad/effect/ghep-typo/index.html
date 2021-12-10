@@ -21,343 +21,308 @@
 </head>
 
 <body class="col-lg-6">
-    <style>
-        .chonanh-avt {
-            width: 38px;
-            height: 38px;
-            float: left;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            overflow: hidden;
-            margin-right: 10px
-        }
 
-        .img-preview {
-            width: 36px;
-            height: 36px;
-            background: url(//2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png) no-repeat center;
-            background-size: 36px
-        }
-        .democan {
-    background: #eee;
-    border-radius: 0.25rem;
-    border: 1px solid #ddd;
-}
-        .canvas-container {
-            width: 100% !important;
-            height: auto !important;display: flex;
-        }
-
-        .lower-canvas {
-            width: 100% !important;
-            height: auto !important;
-            position: relative !important
-        }
-
-        .upper-canvas {
-            width: 100% !important;
-            height: auto !important;
-            position: absolute !important
-        }
-
-
-
-        .tad-dai .lower-canvas, .tad-dai .upper-canvas {
-    max-height: 500px;
-    width: auto !important;
-    top: inherit !important;
-    left: inherit !important;
-}
-
-
-
-.canvas-container.tad-dai {justify-content: center;}
-
-    </style>
-
-<label>Màu chữ typo</label>
-
-<div class="chonmau mb-2">
-       
-    <div class="custom-control custom-radio custom-control-inline">
+        <!--more-->
+        <style>.chonanh-avt{width:38px;height:38px;float:left;border:1px solid #ddd;border-radius:5px;overflow:hidden;margin-right:10px}.img-preview{width:36px;height:36px;background:url(//2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png) no-repeat center;background-size:36px}.democan{background:#eee;overflow: hidden;border-radius:.25rem;border:1px solid #ddd}.canvas-container{width:100%!important;height:auto!important;display:flex}.lower-canvas{width:100%!important;height:auto!important;position:relative!important}.upper-canvas{width:100%!important;height:auto!important;position:absolute!important}.tad-dai .lower-canvas,.tad-dai .upper-canvas{max-height:375px;width:auto!important;top:inherit!important;left:inherit!important}.canvas-container.tad-dai{justify-content:center}div#tad-chonkieu{overflow:auto;margin-bottom:10px!important;flex-wrap:nowrap!important;display:flex;padding-left:5px;max-height:160px}div#tad-chonkieu>div{width:100px;height:100px;overflow: hidden;margin-top:10px;margin-bottom:10px;margin-right:15px;background-color:#fff;border:1px solid #dee2e6;border-radius:.25rem;max-width:100%;cursor:pointer;-ms-flex:none;flex:none;position:relative}div#tad-chonkieu>div.active{box-shadow:0 0 0 .2rem rgba(38,143,255,0.5);border-color:rgba(38,143,255,0.5)}div#tad-chonkieu img{margin:0;width:100%}@media only screen and (max-width:576px){div#tad-chonkieu{max-height:250px;flex-direction:column;flex-wrap:wrap!important;align-content:flex-start}div#tad-chonkieu>div{width:80px;height:80px}}</style>
+        <div id="tad-chonkieu" class="chonlogo tad-scrollbar"></div>
+        <label>Màu chữ typo</label>
+        <div class="chonmau mb-2">
+        <div class="custom-control custom-radio custom-control-inline">
         <input type="radio" id="kieu1" name="kieu1" class="custom-control-input" checked="">
         <label class="custom-control-label" for="kieu1">Đen</label>
         </div>
-
-    <div class="custom-control custom-radio custom-control-inline">
+        <div class="custom-control custom-radio custom-control-inline">
         <input type="radio" id="kieu2" name="kieu1" class="custom-control-input">
         <label class="custom-control-label" for="kieu2">Trắng</label>
         </div>
- 
- 
-    </div>
-
-
-    <label><b>Upload ảnh (png)*</b></label>
-    <div class="mb-2">
+        </div>
+        <label><b>Upload ảnh (png)*</b></label>
+        <div class="mb-2">
         <div class="chonanh-avt">
-            <div class="img-preview"></div>
+        <div class="img-preview"></div>
         </div>
         <label class="btn btn-primary m-0 mb-2 btn-upanh mr-2" for="tad-themanh"><i class="fas fa-upload"></i> Chọn
-            ảnh</label>
+        ảnh</label>
         <input type="file" id="tad-themanh" accept=".jpg,.jpeg,.png,.gif,.bmp,.tiff" class="d-none" />
-        <button class="btn btn-primary collapsed mb-2" style="display:none" id="tad-dc" style="" type="button"
-            data-toggle="collapse" data-target="#collapseDieuchinh" aria-expanded="false"
-            aria-controls="collapseDieuchinh"><i class="fas fa-arrows-alt"></i></button>
-    </div>
-    <div class="collapse" id="collapseDieuchinh">
+        <button class="btn btn-primary collapsed mb-2" style="display:none" id="tad-dc" style="" type="button" data-toggle="collapse" data-target="#collapseDieuchinh" aria-expanded="false" aria-controls="collapseDieuchinh"><i class="fas fa-arrows-alt"></i></button>
+        </div>
+        <div class="collapse" id="collapseDieuchinh">
         <label class="m1">Điều chỉnh:
-            <a href="javascript:void(0)"
-                onclick="alert('Dùng 1 ngón tay để di chuyển\nDùng 2 ngón tay để xoay, thu nhỏ, phóng to')"><i
-                    class="far fa-question-circle"></i></a>
+        <a href="javascript:void(0)" onclick="alert('Dùng 1 ngón tay để di chuyển\nDùng 2 ngón tay để xoay, thu nhỏ, phóng to')"><i class="far fa-question-circle"></i></a>
         </label>
         <div class="democan" class="mt-3">
-            <canvas id="temp" width="500" height="500"></canvas>
+        <canvas id="temp" width="500" height="500"></canvas>
         </div>
-    </div>
+        <div class="mt-2">
 
-    <div>
-    </div>
-    <div class="mt-3">
-        <button type="button" class="btn btn-primary disabled" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
-            ảnh</button>
-    </div>
-    <div id="img-out"></div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.9/fabric.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.7/hammer.min.js"
-        integrity="sha512-fKSoxqVPlyflaK5sUZYigOGAnjMChqysp0xksbgt+pI5N+e4fT5DGGMdvLS6MvYo4S6rZ2gmg5tUpMwpNk0AcA=="
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.taoanhdep.com/tphoto/FileSaver.js"></script>
-    <script src="https://cdn.taoanhdep.com/tphoto/fontfaceobserver.js"></script>
-    <script src="https://cdn.taoanhdep.com/tphoto/fabriccontrol.js"></script>
-    <link href='https://cdn.taoanhdep.com/tad/effect/avt-anime/fonts/stylesheet.css' media='all' rel='stylesheet' />
-    <link rel='stylesheet'
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" />
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
-
-
-
-    <script>/*<![CDATA[*/
-
-        var tenanhxuat = "avatar_anime";
-        $(document).ready(function () {
-            if (window.location.hostname == tmbq) {
-                $(".btn-huongdan").click(function () {
-                    alert("tự mò đi cái gì cũng hỏi")
-                });
-                var e = $(".tad-in-text0");
-                var h = $(".tad-in-text1");
-                e.on("input", function () {
-                    g()
-                });
-                h.on("input", function () {
-                    g()
-                });
-
-                function g() {
-                    if (undefined !== e.val() && e.val().length == 0) {
-                        $("#tad-taoanh").addClass("disabled")
-                    } else {
-                        if (undefined !== h.val() && h.val().length == 0) {
-                            $("#tad-taoanh").addClass("disabled")
-                        } else {
-                            $("#tad-taoanh").removeClass("disabled")
-                        }
-                    }
-                }
-                var c = new FontFaceObserver("MTD William Letter");
-                c.load().then(function () {
-                    var a = new FontFaceObserver("Steelfish");
-                    a.load().then(function () {
-                        var O = new fabric.Canvas("temp");
-
-
-                        fabric.Object.prototype.customiseCornerIcons({
-                            settings: {
-                                borderColor: "white",
-                                cornerSize: 10,
-                                cornerShape: "circle",
-                                cornerBackgroundColor: "white",
-                                cornerPadding: 20
-                            }
-                        });
-
-
-                        var b;
-                        O.backgroundColor = "#999";
-                        O.renderAll();
-
+            <label>Độ sáng</label>
+            <div style="touch-action:none">
+                <input class="custom-range mb-2 tad-in-brightness" type="range" value="0" step="1" min="-50" max="50">
+                </div>
+            
+                <label>Tương phản</label>
+            <div style="touch-action:none">
+                <input class="custom-range mb-2 tad-in-contrast" type="range" value="0" step="1" min="-50" max="50">
+                </div>
+            
+            <label>Vỡ hạt</label>
+                <div style="touch-action:none">
+                    <input class="custom-range mb-2 tad-in-noise" type="range" value="0" step="1" min="0" max="100">
                     
-                        $(".tad-in-text1").on("input", function () {
-                            edittext = $(this).val().toUpperCase();
-                            I.set("text", edittext);
-                            K.set("text", edittext);
-                            L.set("text", edittext);
-                            O.renderAll()
-                        });
-                        $(".tad-in-text0").on("input", function () {
-                            G.set("text", $(this).val());
-                            O.renderAll()
-                        });
-                        $("#tad-themanh").on("change", function (j) {
-               
-                            var k = j.target.files[0];
-                            var i = new FileReader();
-                            i.onload = function (l) {
-                                var m = URL.createObjectURL(j.target.files[0]);
-                                $(".img-preview").css("background-image", "url(" + m + ")");
-                                var max = 500;
-                                fabric.Image.fromURL(m, function (o) {
-                                    O.remove(b);
-                                    fabric.Image.fromURL(m, function (q) {
-                                        if (q.width >= q.height) {
-
-                                            O.setDimensions({ width: max, height: max * q.height / q.width });
-
-                                            $(".canvas-container").removeClass("tad-dai")
-                                            console.log("a")
-                                        }
-                                        else {
-                                            O.setDimensions({ width: max * q.width / q.height, height: max });
-                                            $(".canvas-container").addClass("tad-dai")
-                                            console.log("b")
-                                        }
-                                        O.setBackgroundImage(q, O.renderAll.bind(O), {
-                                            scaleX: O.width / q.width,
-                                            scaleY: O.height / q.height
-                                        });
+        
+        </div>
+        
+            
+            </div>
+        
+        </div>
+       
 
 
-                                        O.renderAll();
-
-                                    })
-                                })
-                            };
-                            i.readAsDataURL(k);
-
-
-
-
-                            $("#tad-dc").show();
-                            $("#collapseDieuchinh").collapse('show');
-                            $(".btn-upanh").html("<i class='fas fa-upload'></i> Chọn ảnh khác")
-                        });
-
-
-                        fabric.Image.fromURL("https://3.bp.blogspot.com/-tyBj-iCPMkA/Xp6kh4MDvXI/AAAAAAAAByU/3S9lFVsRcHQKAShT_AiHgQSCrHq4LZ-agCLcBGAsYHQ/s1600/52469048_342701919919557_4698409718895345664_n.jpg", function (i) {
-                            var j = i.set({
-                                left: 20,
-                                top: 20,
-                                width: O.width,
-                                height: O.height,
-                                globalCompositeOperation:"multiply",
-                                
-
-                            }).scale(0.5);
-                           
-
-
-                            var filter = new fabric.Image.filters.Invert();
-j.filters.push(filter);
-j.applyFilters(O.renderAll.bind(O));
-
-
-                            O.add(j)
-                            O.setActiveObject(j);
-                           
-                        }, {
-                            crossOrigin: "anonymous"
-                        });
-
-
-                        $(".chonmau #kieu2").click(function(){
-
-
-                        })
-
-
-                        var B = null;
-                        var d = null;
-                        var f = null;
-                        var C = null;
-                        var D = 1;
-                        var M = 1;
-                        var N = 1;
-                        var F = 0;
-                        var R = new Hammer.Manager(O.upperCanvasEl);
-                        var A = new Hammer.Rotate();
-                        var Q = new Hammer.Pinch();
-                        R.add([Q, A]);
-                        R.get("rotate").set({
-                            enable: true
-                        });
-                        R.get("pinch").set({
-                            enable: true
-                        });
-                        R.on("pinchstart rotatestart", function (j) {
-                            console.log("start");
-                            F -= j.rotation;
-                            if (O.getActiveObject()) {
-                                var i = O.getActiveObject();
-                                M = i.scaleX;
-                                N = i.scaleY
-                            }
-                        });
-                        R.on("pinchmove rotatemove", function (j) {
-                            C = F + j.rotation;
-                            B = D * j.scale;
-                            if (O.getActiveObject()) {
-                                var i = O.getActiveObject();
-                                d = M * j.scale;
-                                f = N * j.scale;
-                                if (!(d > i.minScaleLimit && f > i.minScaleLimit)) {
-                                    d = i.scaleX;
-                                    f = i.scaleY
+        <div class="mt-2">
+        <button type="button" class="btn btn-primary disabled" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo ảnh</button>
+        </div>
+        <div id="img-out"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.9/fabric.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.7/hammer.min.js" integrity="sha512-fKSoxqVPlyflaK5sUZYigOGAnjMChqysp0xksbgt+pI5N+e4fT5DGGMdvLS6MvYo4S6rZ2gmg5tUpMwpNk0AcA==" crossorigin="anonymous"></script>
+        <script src="https://cdn.taoanhdep.com/tphoto/FileSaver.js"></script>
+        <script src="https://cdn.taoanhdep.com/tphoto/fontfaceobserver.js"></script>
+        <script src="https://cdn.taoanhdep.com/tphoto/fabriccontrol.js"></script>
+        <link href='https://cdn.taoanhdep.com/tad/effect/avt-anime/fonts/stylesheet.css' media='all' rel='stylesheet' />
+        <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
+        <script>
+        var tenanhxuat="typo";
+        listTypo=["https://lh3.googleusercontent.com/-oFYNfJJVsZ4/YbIEkz6GUlI/AAAAAAAA2HM/fvFRlmluaEMGipoIuWzO_G6PW-5c2x9bwCNcBGAsYHQ/h240/t0.jpg","https://lh3.googleusercontent.com/-18Zne1bOD4Q/YbIkL9EcRxI/AAAAAAAA2Is/zpL9Q3MoI9A8pu48QzQX6XNy5O6kbvfOQCNcBGAsYHQ/h240/t0.jpg","https://lh3.googleusercontent.com/-pIEvobpIx3M/YbH6oBdnO2I/AAAAAAAA2Fw/plJLFw1LsWYw52zbz_ycqUIm8UMlkY_tgCNcBGAsYHQ/h240/t1.jpg","https://lh3.googleusercontent.com/-bdUV4PuOha0/YbH6phjhY5I/AAAAAAAA2GI/NHO6wkg1SksF242F6KPm8TxZfLgJFepJgCNcBGAsYHQ/h240/t2.jpg","https://lh3.googleusercontent.com/-PYML8HDLAyk/YbH6p_j6CaI/AAAAAAAA2GM/oJOjFYiIQcoPDEbGgPBRdMf_OFun9UWKgCNcBGAsYHQ/h240/t3.jpg","https://lh3.googleusercontent.com/-ORQp4OLIovA/YbH6qMomqmI/AAAAAAAA2GQ/D8Rg4S8xZREa7nKGDhBe1802os1oOZ3FgCNcBGAsYHQ/h240/t4.jpg","https://lh3.googleusercontent.com/-WwOA6bS1v8c/YbH6qaIIIeI/AAAAAAAA2GU/HrRsPEg8790IL1ieTY8LoRMLnC1J40dvACNcBGAsYHQ/h240/t5.jpg","https://lh3.googleusercontent.com/-pOOCTCfQ2gA/YbH6qjol0QI/AAAAAAAA2GY/_L_YxKgnkWwBWe9L3cUubwF-8jloo-J4gCNcBGAsYHQ/h240/t6.jpg","https://lh3.googleusercontent.com/-88l1J3_SBvU/YbH6rHkUKPI/AAAAAAAA2Gc/rTfTLnYeqHAHYNQPcJ3g-SK9-WWvl6H8ACNcBGAsYHQ/h240/t7.jpg","https://lh3.googleusercontent.com/-4YZK3k8qsxE/YbH6rVMKs2I/AAAAAAAA2Gg/8ai8JRrBEn0MG27osX92IJZeoz_WiDSoACNcBGAsYHQ/h240/t8.jpg","https://lh3.googleusercontent.com/-0WdTBVUBcBs/YbH6rgOv1JI/AAAAAAAA2Gk/iuvLFzl0xKsVSct_RY3_K9ym1GPZmf5XACNcBGAsYHQ/h240/t9.jpg","https://lh3.googleusercontent.com/-bCvaiNKAxOI/YbH6oCzQM3I/AAAAAAAA2Fs/PWrDOKEU9pkW-aTrnIc1Q3lyGKJlfcPGACNcBGAsYHQ/h240/t10.jpg","https://lh3.googleusercontent.com/--JOJ3LNEY8c/YbH6oJsoGHI/AAAAAAAA2F0/_aVhMoRexwEt3HEc3QgMmY5bezwedfwewCNcBGAsYHQ/h240/t11.jpg","https://lh3.googleusercontent.com/-y-GVjGEWTt4/YbH6ow68ZFI/AAAAAAAA2F4/xeepcJ1UOu4xghq9vIUYhTrrE0JwykSNwCNcBGAsYHQ/h240/t12.jpg","https://lh3.googleusercontent.com/-9p_RXGG0w9o/YbH6pL0whWI/AAAAAAAA2F8/u5R8Xgow3-EyLwnMRgFgkF_hZTnM3joxACNcBGAsYHQ/h240/t13.jpg","https://lh3.googleusercontent.com/-hTi1OFNSUzI/YbH6pP1SoaI/AAAAAAAA2GA/znM-nUy7EFMZ1mTuHNcxZBZEWJLgfjXvwCNcBGAsYHQ/h240/t14.jpg","https://lh3.googleusercontent.com/-stwR_pBe4NA/YbH6ppM5ksI/AAAAAAAA2GE/h2nDwcwDbcIPRXPt4DaUsJvgc8hheBm4gCNcBGAsYHQ/h240/t15.jpg","https://lh3.googleusercontent.com/-7H9_AJJVpH4/YbIhZW7T2UI/AAAAAAAA2HU/abGtzWbImNsiEsvQTHIM6uad20V63FW8gCNcBGAsYHQ/h240/t16.jpg","https://lh3.googleusercontent.com/-kATC3z0AbSo/YbIhZVVCxGI/AAAAAAAA2Hc/Ku_eeTPO4LYsLn-bfMe61d3hkPGK0_a4ACNcBGAsYHQ/h240/t17.jpg","https://lh3.googleusercontent.com/-7ldOJx67OSE/YbIhZZY3s6I/AAAAAAAA2HY/dh6dpM4RgtkiTGj01K7tDBr6nbb_UbG-gCNcBGAsYHQ/h240/t18.jpg","https://lh3.googleusercontent.com/-o3TFKpTOLkc/YbIhaJFDj2I/AAAAAAAA2Hg/VT1RmHKh1-MTKiJ0wI2sHJxK39cZHi1dACNcBGAsYHQ/h240/t19.jpg","https://lh3.googleusercontent.com/-uKbgIRRB4ZA/YbIhaeQ-EoI/AAAAAAAA2Hk/PUP4kOQ_AEwQ_g7wLuBrWBEl0qlNiNUwQCNcBGAsYHQ/h240/t20.jpg","https://lh3.googleusercontent.com/-zlbrqkphUTE/YbIhaS_Y-wI/AAAAAAAA2Ho/o1TdUmUxUGMyG0SELvoUPYjZ9TeJFluUQCNcBGAsYHQ/h240/t21.jpg","https://lh3.googleusercontent.com/-m3-LOPECjmU/YbIhawFLbsI/AAAAAAAA2Hs/3IWb2bJF6SUu6tvZo20GL-e0gzPQTOxRACNcBGAsYHQ/h240/t22.jpg","https://lh3.googleusercontent.com/-evvsJCUylIA/YbIhbPOmy1I/AAAAAAAA2Hw/-2KVAiAr2gwWAL4OsREWDAkrYJAmSlfuQCNcBGAsYHQ/h240/t23.jpg","https://lh3.googleusercontent.com/-_dTK0UVIrDU/YbIhbWAgQwI/AAAAAAAA2H0/C8qIhWLQhLImdKr7QyfNFTG0LwbucRnbQCNcBGAsYHQ/h240/t24.jpg","https://lh3.googleusercontent.com/-aJnJ5k-zjYw/YbIhbaHEjaI/AAAAAAAA2H4/vP3cYD6j-YcuUwF7UxE-KllFE-Prv_aQQCNcBGAsYHQ/h240/t25.jpg","https://lh3.googleusercontent.com/-UzpZlMulDz0/YbIhb6QAZSI/AAAAAAAA2H8/WM8uV8puj9Qlog4Hag62ox5SBSmjQ8MRACNcBGAsYHQ/h240/t26.jpg","https://lh3.googleusercontent.com/-40gKm-Gk6A0/YbIhcMyQAoI/AAAAAAAA2IA/9Cqw57h63egcl25DuT-zQ5X0aCtc5qqQQCNcBGAsYHQ/h240/t27.jpg","https://lh3.googleusercontent.com/-wi9gGHVpp1A/YbIhcQYlTUI/AAAAAAAA2IE/xiHGhTLibdcscfiCuZwm_shc3PHToaFPwCNcBGAsYHQ/h240/t28.jpg","https://lh3.googleusercontent.com/-CTSVEsnPt7E/YbIhcte8Q8I/AAAAAAAA2II/3H5m4ybPSZUzmXZTl6acslDZBJTdsZVVgCNcBGAsYHQ/h240/t29.jpg","https://lh3.googleusercontent.com/-75MFJRPPEak/YbIhc6ReTEI/AAAAAAAA2IM/yqyLr3hyyw0jEIl3J_ko5vgfJse8QNw0wCNcBGAsYHQ/h240/t30.jpg","https://lh3.googleusercontent.com/-JMNn9lfuA0E/YbIkL8dPn6I/AAAAAAAA2Iw/MisUQ7_rmSk0YxIZrjopMELORRhR-GedgCNcBGAsYHQ/h240/t31.jpg","https://lh3.googleusercontent.com/-JcwBBImiVqY/YbIkL1fB_WI/AAAAAAAA2I0/OCFkiAr4oGkL_8qakP0Ue9RH4NoyxKVGACNcBGAsYHQ/h240/t32.jpg","https://lh3.googleusercontent.com/-zvfn0SLxbtg/YbIkMrckPeI/AAAAAAAA2I4/t4wqzvwDfr8382SCkWrElhyQRD2cschaQCNcBGAsYHQ/h240/t33.jpg","https://lh3.googleusercontent.com/-oRhIOBT0Wm8/YbIkM6d80oI/AAAAAAAA2I8/SR_g4QvbhA4CFFH0HMhA5a6JOFJR6OnugCNcBGAsYHQ/h240/t34.jpg","https://lh3.googleusercontent.com/-cjlMXSi4fYs/YbIkNPa8xfI/AAAAAAAA2JA/QTQW4zfsjzEu_9OBFhlW6SS5oxqkt_WpwCNcBGAsYHQ/h240/t35.jpg","https://lh3.googleusercontent.com/-vYuJFSVbZsc/YbIkNe7tDwI/AAAAAAAA2JE/bWUwCGwdRpojwsbkkRztN2bm5TSPdirjACNcBGAsYHQ/h240/t36.jpg"];
+        </script>
+         <script>
+         $(document).ready(function() {
+            if (window.location.hostname == tmbq) {
+                for (var h = 0; h < listTypo.length; h++) {
+                    $(".chonlogo").append("<div><img alt='Logo Block' src='" + listTypo[h] + "'></div>")
+                }
+                var m = new fabric.Canvas("temp");
+                fabric.Object.prototype.customiseCornerIcons({
+                    settings: {
+                        borderColor: "white",
+                        cornerSize: 15,
+                        cornerShape: "circle",
+                        cornerBackgroundColor: "white",
+                        cornerPadding: 20
+                    }
+                });
+                var r;var cc;
+                m.backgroundColor = "#999";
+                $("#tad-themanh").on("change", function(d) {
+                    var b = d.target.files[0];
+                    var f = new FileReader();
+                    f.onload = function(v) {
+                        var u = URL.createObjectURL(d.target.files[0]);
+                        $(".img-preview").css("background-image", "url(" + u + ")");
+                        var k = 750;
+                        fabric.Image.fromURL(u, function(w) {
+                            m.remove(r);
+                            fabric.Image.fromURL(u, function(x) {
+                                if (x.width >= x.height) {
+                                    m.setDimensions({
+                                        width: k,
+                                        height: k * x.height / x.width
+                                    });
+                                    $(".canvas-container").removeClass("tad-dai");
+                                    console.log("a")
+                                } else {
+                                    m.setDimensions({
+                                        width: k * 1.2 * x.width / x.height,
+                                        height: k * 1.2
+                                    });
+                                    $(".canvas-container").addClass("tad-dai");
+                                    console.log("b")
                                 }
-                                i.set({
-                                    lockMovementX: true,
-                                    lockMovementY: true
+                                m.setBackgroundImage(x, m.renderAll.bind(m), {
+                                    scaleX: m.width / x.width,
+                                    scaleY: m.height / x.height,
+
                                 });
-                                i.set("scaleX", d);
-                                i.set("scaleY", f);
-                                i.rotate(C);
-                                i.setCoords();
-                                O.renderAll()
-                            }
-                        });
-                        R.on("pinchend rotateend", function (j) {
-                            D = B;
-                            F = C;
-                            M = d;
-                            N = f;
-                            if (O.getActiveObject()) {
-                                var i = O.getActiveObject();
-                                setTimeout(function () {
-                                    i.set({
-                                        lockMovementX: false,
-                                        lockMovementY: false
-                                    })
-                                }, 300)
-                            }
-                            O.renderAll()
-                        });
-                        $("#tad-taoanh").click(function () {
-                            $("#img-out").hide();
-                            $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
-                            O.deactivateAll();
-                            O.renderAll();
-                            tadUpload($("#temp").get(0))
+
+          
+                                m.renderAll()
+                            })
                         })
-                    })
+                    };
+                    f.readAsDataURL(b);
+                    $("#tad-dc").show();
+                    $("#collapseDieuchinh").collapse("show");
+                    $(".btn-upanh").html("<i class='fas fa-upload'></i> Chọn ảnh khác");
+                    $("#tad-taoanh").removeClass("disabled")
+                });
+               
+               
+               //
+
+
+
+$(".tad-in-brightness").on("change",function(){
+var zz = $(".tad-in-brightness").val();
+m.backgroundImage.filters[0] = new fabric.Image.filters.Brightness({
+brightness: parseInt(zz, 10)
+});
+m.backgroundImage.applyFilters(m.renderAll.bind(m));
+});
+
+
+
+$(".tad-in-noise").on("change",function(){
+   var zzz= $(".tad-in-noise").val();
+m.backgroundImage.filters[1] = new fabric.Image.filters.Noise({
+    noise: parseInt(zzz, 10)
+        });
+        m.backgroundImage.applyFilters(m.renderAll.bind(m));
+});
+
+$(".tad-in-contrast").on("change",function(){
+   var zzzz= $(".tad-in-contrast").val();
+m.backgroundImage.filters[2] = new fabric.Image.filters.Contrast({
+    contrast: parseInt(zzzz, 10)
+        });
+        m.backgroundImage.applyFilters(m.renderAll.bind(m));
+});
+
+//
+               
+                var t = 2;
+                var l;
+                fabric.Image.fromURL("https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png", function(d) {
+                    var b = d.set({
+                        left: 20,
+                        top: 20,
+                        width: m.width,
+                        height: m.height,
+                        globalCompositeOperation: "multiply"
+                    }).scale(0.5);
+                    l = b;
+                    m.add(b);
+                    m.setActiveObject(b);
+                    m.renderAll();
+                    $(".chonlogo").children("div:first-child").click()
+                }, {
+                    crossOrigin: "anonymous"
+                });
+                $(".chonlogo div").click(function() {
+                    var f = $(this).children("img").attr("src").replace(/h240/g, "s0");
+                    $(".chonlogo div").removeClass("active");
+                    $(this).addClass("active");
+                    m.item(0).setSrc(f, function(k) {
+                        k.scaleToWidth(300);
+                        k.scaleToHeight(300)
+                    });
+                    m.renderAll();
+                    var b = new Image();
+                    b.onload = function() {
+                        m.renderAll()
+                    };
+                    b.src = f;
+                    var d = setInterval(function() {
+                        m.renderAll()
+                    }, 100);
+                    setTimeout(function() {
+                        clearInterval(d)
+                    }, 3000)
+                });
+
+
+
+                $(".chonmau #kieu1").click(function() {
+                    if (t == 1) {
+                        var b = new fabric.Image.filters.Invert();
+                        l.filters.push(b);
+                        l.set("globalCompositeOperation", "multiply");
+                        l.applyFilters(m.renderAll.bind(m))
+                    }
+                    t = 2
+                });
+                $(".chonmau #kieu2").click(function() {
+                    if (t == 2) {
+                        var b = new fabric.Image.filters.Invert();
+                        l.filters.push(b);
+                        l.set("globalCompositeOperation", "screen");
+                        l.applyFilters(m.renderAll.bind(m))
+                    }
+                    t = 1
+                });
+                var e = null;
+                var q = null;
+                var n = null;
+                var c = null;
+                var a = 1;
+                var p = 1;
+                var o = 1;
+                var s = 0;
+                var i = new Hammer.Manager(m.upperCanvasEl);
+                var g = new Hammer.Rotate();
+                var j = new Hammer.Pinch();
+                i.add([j, g]);
+                i.get("rotate").set({
+                    enable: true
+                });
+                i.get("pinch").set({
+                    enable: true
+                });
+                i.on("pinchstart rotatestart", function(b) {
+                    console.log("start");
+                    s -= b.rotation;
+                    if (m.getActiveObject()) {
+                        var d = m.getActiveObject();
+                        p = d.scaleX;
+                        o = d.scaleY
+                    }
+                });
+                i.on("pinchmove rotatemove", function(b) {
+                    c = s + b.rotation;
+                    e = a * b.scale;
+                    if (m.getActiveObject()) {
+                        var d = m.getActiveObject();
+                        q = p * b.scale;
+                        n = o * b.scale;
+                        if (!(q > d.minScaleLimit && n > d.minScaleLimit)) {
+                            q = d.scaleX;
+                            n = d.scaleY
+                        }
+                        d.set({
+                            lockMovementX: true,
+                            lockMovementY: true
+                        });
+                        d.set("scaleX", q);
+                        d.set("scaleY", n);
+                        d.rotate(c);
+                        d.setCoords();
+                        m.renderAll()
+                    }
+                });
+                i.on("pinchend rotateend", function(b) {
+                    a = e;
+                    s = c;
+                    p = q;
+                    o = n;
+                    if (m.getActiveObject()) {
+                        var d = m.getActiveObject();
+                        setTimeout(function() {
+                            d.set({
+                                lockMovementX: false,
+                                lockMovementY: false
+                            })
+                        }, 300)
+                    }
+                    m.renderAll()
+                });
+                $("#tad-taoanh").click(function() {
+                    $("#img-out").hide();
+                    $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
+                    m.deactivateAll();
+                    m.renderAll();
+                    tadUpload($("#temp").get(0))
                 })
             }
-        });
-
-
-        /*]]>*/</script>
-
-
-</body>
+        }); </script>
+       </body>
 
 </html>
