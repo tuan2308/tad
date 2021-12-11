@@ -1,5 +1,11 @@
 var dsAnime = [
-
+	{
+		imgAnime: "https://1.bp.blogspot.com/--O_jkT24LQc/YREX0A8kAZI/AAAAAAAAwEE/8X8hJ2z6Z5A3n2-b2D_oOCkBKo_TWj4zgCNcBGAsYHQ/h240/oreki.png",
+		colorBg: "#2b587e"
+	}, {
+		imgAnime: "https://1.bp.blogspot.com/-UckB2jBckBc/YRkEzD9LLJI/AAAAAAAAwW4/rxNah_hYNLAEwe3RhVH0m3BOQJP70i_KgCNcBGAsYHQ/h240/chitanda-eru.png",
+		colorBg: "#80729a"
+	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-pZ9KtoMLkiY/YUxhvlR0KBI/AAAAAAAAxig/h1DcX4FNIr84-QJZm61dkY1t_B2xE4Z9ACNcBGAsYHQ/h240/tohru.png",
 		colorBg: "#ffc560"
@@ -2415,13 +2421,7 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-NnBymrk0IMQ/YROeO7_sOTI/AAAAAAAAwGc/ziDDpGoDW1ofzcwpVDHm8-3V5StfyTwBQCNcBGAsYHQ/h240/uzaki.png",
 		colorBg: "#5b7eae"
-	}, {
-		imgAnime: "https://1.bp.blogspot.com/--O_jkT24LQc/YREX0A8kAZI/AAAAAAAAwEE/8X8hJ2z6Z5A3n2-b2D_oOCkBKo_TWj4zgCNcBGAsYHQ/h240/oreki.png",
-		colorBg: "#2b587e"
-	}, {
-		imgAnime: "https://1.bp.blogspot.com/-UckB2jBckBc/YRkEzD9LLJI/AAAAAAAAwW4/rxNah_hYNLAEwe3RhVH0m3BOQJP70i_KgCNcBGAsYHQ/h240/chitanda-eru.png",
-		colorBg: "#80729a"
-	}, {
+	},  {
 		imgAnime: "https://1.bp.blogspot.com/-jb5ctGDinwo/YREd5q25CMI/AAAAAAAAwEM/q-FFPwT5r40aFjuSf-L_AZYU3BA-CJlCgCNcBGAsYHQ/h240/chaheain.png",
 		colorBg: "#581f27"
 	},
