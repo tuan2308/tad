@@ -620,10 +620,6 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-3aSPuaPlg5U/YaDdpzYw3hI/AAAAAAAA1hM/mt8E9OwhgMQc68-5XQtDzDdT9tc0NE2KwCNcBGAsYHQ/h240/Mereoleona.png",
 		colorBg: "#d26d41"
 	},
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-4p0omaa4ukw/YZza7Cab7SI/AAAAAAAA1ac/rMkudx8HvqEDE7oquCrudUUh66Xq9UPoQCNcBGAsYHQ/h240/reiji.png",
-		colorBg: "#478cff"
-	},
 
 
 
@@ -2489,6 +2485,10 @@ var dsAnime = [
         colorBg: "#bea581"
     },
 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-4p0omaa4ukw/YZza7Cab7SI/AAAAAAAA1ac/rMkudx8HvqEDE7oquCrudUUh66Xq9UPoQCNcBGAsYHQ/h240/reiji.png",
+		colorBg: "#478cff"
+	},
 
 ];
 console.log(Object.keys(dsAnime).length);
