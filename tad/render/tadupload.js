@@ -7,14 +7,20 @@ tadcanv = b;
 if (typeof (dd) !== 'undefined')
 {
 
-    var z = b.toDataURL('image/'+dd);
+var z = b.toDataURL('image/'+dd);
+
+$("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='"+z+"' alt='Kết quả' class='img-thumbnail'><a href='#' class='btn btn-block btn-primary mt-2 taianh' onclick='taianh(&#39;png&#39;)'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a><button class='btn btn-block btn-outline-primary mt-2 tad-shareimg' onclick='shareImg()'><i class='fas fa-share'></i> Chia sẻ ảnh</button><div id='share-out'></div>");
+
 
 }
 else{
 var z = b.toDataURL('image/jpeg',0.9);
+
+$("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='"+z+"' alt='Kết quả' class='img-thumbnail'><a href='#' class='btn btn-block btn-primary mt-2 taianh' onclick='taianh()'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a><button class='btn btn-block btn-outline-primary mt-2 tad-shareimg' onclick='shareImg()'><i class='fas fa-share'></i> Chia sẻ ảnh</button><div id='share-out'></div>");
+
 }
 
-$("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='"+z+"' alt='Kết quả' class='img-thumbnail'><a href='#' class='btn btn-block btn-primary mt-2 taianh' onclick='taianh()'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a><button class='btn btn-block btn-outline-primary mt-2 tad-shareimg' onclick='shareImg()'><i class='fas fa-share'></i> Chia sẻ ảnh</button><div id='share-out'></div>")
+
 
 
 
@@ -47,14 +53,38 @@ $('#formTime').submit();
 
 }
 
-function taianh(){
+function taianh(ddd){
 var linkt = $("#img-out img").attr("src");
 $(".taianh").attr("href",linkt)
-$(".taianh").attr("download","taoanhdep_"+tenanhxuat)
+
+if (typeof (ddd) !== 'undefined')
+{
+
+$(".taianh").attr("download","taoanhdep_"+tenanhxuat+"."+ddd)
+
+}
+else{
+
+$(".taianh").attr("download","taoanhdep_"+tenanhxuat+".jpg")
+
 }
 
 
-if(window.location.hostname!="\x77\x77\x77\x2E\x74\x61\x6F\x61\x6E\x68\x64\x65\x70\x2E\x63\x6F\x6D"){window.location="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x61\x6F\x61\x6E\x68\x64\x65\x70\x7A\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D\x2F"}
+
+
+
+}
+
+
+
+function taianhpng(){
+var linkt = $("#img-out img").attr("src");
+$(".taianh").attr("href",linkt)
+$(".taianh").attr("download","taoanhdep_"+tenanhxuat+".png")
+}
+
+
+// if(window.location.hostname!="\x77\x77\x77\x2E\x74\x61\x6F\x61\x6E\x68\x64\x65\x70\x2E\x63\x6F\x6D"){window.location="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x61\x6F\x61\x6E\x68\x64\x65\x70\x7A\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D\x2F"}
 
 
 function shareImg() {
@@ -62,13 +92,13 @@ function shareImg() {
   
 	$(".tad-shareimg").html("<span class='spinner-border spinner-border-sm'></span> Đang tải ảnh lên").addClass("disabled").blur();
 
-	var b = $("#img-out img").attr("src").split(",")[1];
+	var b = tadcanv.toDataURL().attr("src").split(",")[1];
 
 	$.ajax({
 		url: "https://api.imgur.com/3/image",
 		type: "POST",
 		headers: {
-			Authorization: "Client-ID 69ed3ac654c3326",
+			Authorization: "Client-ID 906acd390f9ab78",
 			Accept: "application/json"
 		},
 		dataType: "json",
