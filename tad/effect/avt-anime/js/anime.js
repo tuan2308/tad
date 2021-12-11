@@ -378,6 +378,19 @@ var dsAnime = [
         imgAnime: "https://1.bp.blogspot.com/-qrSN7NyHQpQ/YRkCVDzuf5I/AAAAAAAAwWY/rACWWd0jBXUCF4ged36vtY5cnpk0c_WXwCNcBGAsYHQ/h240/sakura-nanamine.png",
         colorBg: "#9fb764"
     }, 
+	{
+        imgAnime: "https://1.bp.blogspot.com/-D6__O-_msvQ/YUxcfZbNRUI/AAAAAAAAxhw/KUzvixoS9xAU6a0FIvCsK9oLAbr7NL5_gCNcBGAsYHQ/h240/laika.png",
+        colorBg: "#e73441"
+    }, {
+        imgAnime: "https://1.bp.blogspot.com/-SvqAQE5aKVA/YTn_UlWetaI/AAAAAAAAxE4/4s9BtFjUmGMrkicA5PsNuiHQKjL0Nee9QCNcBGAsYHQ/h240/flatorte.png",
+        colorBg: "#6f39e1"
+    }, 
+
+    {
+        imgAnime: "https://lh3.googleusercontent.com/-XHkWasLStGU/YbFvJnbYqbI/AAAAAAAA2CU/mQRc0TfHFNEF1p4LvM2xWqpfgkBsQ48hACNcBGAsYHQ/h240/Beelzebub.png",
+        colorBg: "#bc4d53"
+    },
+
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-We064NIlvN4/YbFtAQRoOzI/AAAAAAAA2Aw/2Y1gohTqiEIndlNyQg2g1tj7mE01CrqXgCNcBGAsYHQ/h240/zero-two.png",
@@ -1850,11 +1863,6 @@ var dsAnime = [
 
 
 
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-XHkWasLStGU/YbFvJnbYqbI/AAAAAAAA2CU/mQRc0TfHFNEF1p4LvM2xWqpfgkBsQ48hACNcBGAsYHQ/h240/Beelzebub.png",
-		colorBg: "#bc4d53"
-	},
-
 
 
 	{
@@ -2275,13 +2283,7 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-urdU6IbNqQk/YUxeB70TiZI/AAAAAAAAxiI/2paKVfAeQbg8Yv3-UamgL5sUnd2CBJgBQCNcBGAsYHQ/h240/chika.png",
 		colorBg: "#ef6f89"
-	}, {
-		imgAnime: "https://1.bp.blogspot.com/-D6__O-_msvQ/YUxcfZbNRUI/AAAAAAAAxhw/KUzvixoS9xAU6a0FIvCsK9oLAbr7NL5_gCNcBGAsYHQ/h240/laika.png",
-		colorBg: "#e73441"
-	}, {
-		imgAnime: "https://1.bp.blogspot.com/-SvqAQE5aKVA/YTn_UlWetaI/AAAAAAAAxE4/4s9BtFjUmGMrkicA5PsNuiHQKjL0Nee9QCNcBGAsYHQ/h240/flatorte.png",
-		colorBg: "#6f39e1"
-	}, {
+	},{
 		imgAnime: "https://1.bp.blogspot.com/-w9EzCw6GH9I/YUXPAfgxqOI/AAAAAAAAxWc/PJT2hm8IyA01FnFFZag6JJuuWtt6yqVUACNcBGAsYHQ/h240/azusa.png",
 		colorBg: "#346cfd"
 	},  {
