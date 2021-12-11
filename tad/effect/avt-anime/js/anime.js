@@ -317,7 +317,10 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-jXl6-T3ZDqU/YSIdY5NKglI/AAAAAAAAwjY/BwD8wWrB_Fk0_WfW8hNXOEFruLsULSImACNcBGAsYHQ/h240/sakura-saber.png",
 		colorBg: "#6ab9be"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-2eQk_ifc0OY/YbSqZLjoeiI/AAAAAAAA2No/4-PKWj0msQA_KxuRrp6NX3Xjqqda2ZIdACNcBGAsYHQ/h240/alter-saber.png",
+		colorBg: "#f24949"
+	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-Tn8X-VeRFDg/YSIWAH53gwI/AAAAAAAAwiw/IlI2FTaBpp4FUwdp4sFMX0RUEuST-AkvwCNcBGAsYHQ/h240/yugi.png",
 		colorBg: "#47a0e5"
