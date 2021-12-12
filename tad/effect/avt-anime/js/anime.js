@@ -381,7 +381,10 @@ var dsAnime = [
 	{
         imgAnime: "https://1.bp.blogspot.com/-VrjL5ENpGOA/YSYygPaJ8OI/AAAAAAAAwqU/wV_PIJdICOkS2rRNUhIEDsRtU7FtVHDpwCNcBGAsYHQ/h240/hanako.png",
         colorBg: "#845c5c"
-    }, 
+    },  {
+		imgAnime: "https://lh3.googleusercontent.com/-z4YyJLgoK4Y/YY9Pn8QpdII/AAAAAAAA0pA/_uD0aPpxWFsKh_OsOZoL1P7-b5fAM_sVACNcBGAsYHQ/h240/Yako.png",
+		colorBg: "#f05c80"
+	}, 
 
 {
         imgAnime: "https://1.bp.blogspot.com/-qrSN7NyHQpQ/YRkCVDzuf5I/AAAAAAAAwWY/rACWWd0jBXUCF4ged36vtY5cnpk0c_WXwCNcBGAsYHQ/h240/sakura-nanamine.png",
@@ -2036,10 +2039,7 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-v6Iah7M-Fa8/YY9V8aM9k0I/AAAAAAAA0pw/4NZLtA0EptQpBLVrYCgYyjLbxcrOu1QLwCNcBGAsYHQ/h240/Akutagawa-Ryuunosuke.png",
 		colorBg: "#6152d0"
-	}, {
-		imgAnime: "https://lh3.googleusercontent.com/-z4YyJLgoK4Y/YY9Pn8QpdII/AAAAAAAA0pA/_uD0aPpxWFsKh_OsOZoL1P7-b5fAM_sVACNcBGAsYHQ/h240/Yako.png",
-		colorBg: "#f05c80"
-	}, {
+	},{
 		imgAnime: "https://lh3.googleusercontent.com/-Lhwq4J-Iu_k/YY9Oc1yhYSI/AAAAAAAA0ow/Lo8TBlpqGeQskXLOnO-pjvnVSC6bXf31ACNcBGAsYHQ/h240/Sakurayashiki.png",
 		colorBg: "#d879b1"
 	}, {
