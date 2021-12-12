@@ -800,7 +800,13 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-b80EJ6JXLcE/YTND-eB200I/AAAAAAAAw-Y/pkRv43Nk0o8VvY2vqVVUw6HtQWPVVYAogCNcBGAsYHQ/h240/leonhart.png",
 		colorBg: "#949586"
-	}, {
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-mr_MUM90nbg/YbX8dtdLykI/AAAAAAAA2Og/AkWUQfj-8IQZLl1in3-lKzZReuEuSvVIgCNcBGAsYHQ/h240/Armin-Arlert.png",
+		colorBg: "#f6b857"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-Li0ulhiEInw/YYu6vQjZo0I/AAAAAAAA0YI/W1wZzQVgAvIi3vjL1b1TVEmpQGlzvkGZACNcBGAsYHQ/h240/Pieck-Finger.png",
 		colorBg: "#a18072"
 	}, {
@@ -1871,7 +1877,28 @@ var dsAnime = [
 
 
 
-	////
+	////newwww
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-fVoYNvnyfw0/YbYCsyoyh6I/AAAAAAAA2PA/W6xAtZIeW9c2tXuYGlrgRuJW-vYADGs7QCNcBGAsYHQ/h240/talulah.png",
+		colorBg: "#1f0e0e"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-QZrt_4mdkk0/YbYBchwAFvI/AAAAAAAA2O4/PBJQ4FjDaKkfO7irXD0ubWGlAUReUhpIwCNcBGAsYHQ/h240/Lirin.png",
+		colorBg: "#ef94ac"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-km0pk0dWhsE/YbX_QKfAwhI/AAAAAAAA2Ow/Lyg24Wu9cVQhQjXGdYbQIU8b8kztJ9YqwCNcBGAsYHQ/h240/Mikaela-Hyakuya.png",
+		colorBg: "#42373b"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-k5lgrk61JNc/YbX9Sn9w0bI/AAAAAAAA2Oo/c0uonyfOPNY6Jb0EmJHB-3gKwRo1CDvJACNcBGAsYHQ/h240/Hanakoizumi.png",
+		colorBg: "#f6b857"
+	}, 
+	
+
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-14-uoh6OmQo/YbWfiNOMsAI/AAAAAAAA2OA/k9KEzJtdeNEhB0R0gujgBdYL6bdJiiVDACNcBGAsYHQ/h240/Noir-Stadia.png",
