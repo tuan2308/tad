@@ -319,7 +319,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-2eQk_ifc0OY/YbSqZLjoeiI/AAAAAAAA2No/4-PKWj0msQA_KxuRrp6NX3Xjqqda2ZIdACNcBGAsYHQ/h240/alter-saber.png",
-		colorBg: "#f24949"
+		colorBg: "#4950f2"
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-Tn8X-VeRFDg/YSIWAH53gwI/AAAAAAAAwiw/IlI2FTaBpp4FUwdp4sFMX0RUEuST-AkvwCNcBGAsYHQ/h240/yugi.png",
@@ -519,6 +519,10 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-F_XciqcWiOU/YY4rc3_JBgI/AAAAAAAA0kM/_LJHy5OK7AMb-o2lLv9bWTACBvIjDDM-ACNcBGAsYHQ/h240/Rimuru-Tempest.png",
 		colorBg: "#69a6dd"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-eY_Y35CDLjg/YbWfH5tlbhI/AAAAAAAA2N4/cGYaibrsbl4t4EnzSopFQ534bjer1sk1QCNcBGAsYHQ/h240/Rimuru-Tempest.png",
+		colorBg: "#7698bf"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-yv0RqJ05So0/YbFu1V8B_-I/AAAAAAAA2CA/YJT6YUX3X-cLz5vo1sv4thtsx_JT8OBmgCNcBGAsYHQ/h240/shizue-izawa.png",
@@ -1066,7 +1070,13 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-hZz72N2WAUA/YQuqjFY78dI/AAAAAAAAv5E/e8Yqg6WF3Bkx4YJKqImoFVHAXuFIkvcnQCNcBGAsYHQ/h240/ran.png",
 		colorBg: "#8770b9"
-	}, {
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-n57-8prZW6U/YbWgBE3fE9I/AAAAAAAA2OI/XhM9CgP8a5MyJTCiBsdEdCn12GxcHfKXgCNcBGAsYHQ/h240/heiji-hattori.png",
+		colorBg: "#1991bf"
+	},
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-9f8sw62NASs/YYdyEgYoUiI/AAAAAAAAz30/1cBeD5o0Z74niYsQaXdLyRBgUiqDZwTVQCNcBGAsYHQ/h240/Haibara-Ai.png",
 		colorBg: "#56b9de"
 	},
@@ -1821,9 +1831,14 @@ var dsAnime = [
 }, 
 
 {
-	imgAnime: "https://lh3.googleusercontent.com/-gvNvhP_Sb4w/YY9S6qiNcrI/AAAAAAAA0pg/BeWDvtLgQHEaHVVIjDZLwDTLc6NftYnqgCNcBGAsYHQ/h240/yume-nijino.png",
-	colorBg: "#d86f9f"
+    imgAnime: "https://lh3.googleusercontent.com/-gvNvhP_Sb4w/YY9S6qiNcrI/AAAAAAAA0pg/BeWDvtLgQHEaHVVIjDZLwDTLc6NftYnqgCNcBGAsYHQ/h240/yume-nijino.png",
+    colorBg: "#d86f9f"
 },
+{
+    imgAnime: "https://lh3.googleusercontent.com/-q2BbiqhIMP0/YbWhAo6jqCI/AAAAAAAA2OQ/R6KcGmt7Z38RRm_v0Be8TuMw9rrSg8ArwCNcBGAsYHQ/h240/Hoshimiya-Ichigo.png",
+    colorBg: "#f499b1"
+}, 
+
 {
 	imgAnime: "https://lh3.googleusercontent.com/-UpvgGRlIbSA/YZIvWr-DRKI/AAAAAAAA09w/2qtCrxsIQcAVBGhCIp7RZj8fBpFE8gWzgCNcBGAsYHQ/h240/Mahiru-Kasumi.png",
 	colorBg: "#f28598"
@@ -1854,6 +1869,12 @@ var dsAnime = [
 
 
 	////
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-14-uoh6OmQo/YbWfiNOMsAI/AAAAAAAA2OA/k9KEzJtdeNEhB0R0gujgBdYL6bdJiiVDACNcBGAsYHQ/h240/Noir-Stadia.png",
+		colorBg: "#56d087"
+	},
+
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-O0c7tWikhDk/YbSk9EntO2I/AAAAAAAA2NA/B0eVUjwCopwWnVJLtSU2qOz1asFslNiygCNcBGAsYHQ/h240/Archer.png",
 		colorBg: "#ab9b9b"
