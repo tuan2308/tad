@@ -2524,4 +2524,6 @@ var dsAnime = [
 	},
 
 ];
-console.log(Object.keys(dsAnime).length);
+
+
+document.querySelector(".label-chonnv span").innerText = "("+Object.keys(dsAnime).length+")"
