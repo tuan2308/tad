@@ -1086,7 +1086,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/--qHPY72UBEw/YbWiv0q3vXI/AAAAAAAA2OY/stKHN6lgDlwSpzbvCyYpr8L9ZMaM2IAUgCNcBGAsYHQ/h240/gin.png",
-		colorBg: "#5656b5"
+		colorBg: "#cf3434"
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-BOUOT5544EE/YTn8rFxtVoI/AAAAAAAAxEo/tVMle4919CM7y1QMkLXoTipaHT8jzi4tACNcBGAsYHQ/h240/aoko.png",
