@@ -411,7 +411,15 @@ var dsAnime = [
         imgAnime: "https://1.bp.blogspot.com/-Sadys_4ngkc/YToCQp02P8I/AAAAAAAAxFQ/U6OqMDxYg6gajZ5qAQwHVYKHOJOkVCWNwCNcBGAsYHQ/h240/yui-hirasawa.png",
         colorBg: "#f3af5f"
     },  
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-9SpihUBY-EY/YXK1jtNQ2pI/AAAAAAAAyio/Xn1v7rCkHZkt9H2o9EMs7Euc106QC-y_ACNcBGAsYHQ/h240/lugh-tuatha-de.png",
+		colorBg: "#6480db"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-bDdgD_0gHq8/YbcYGdNkUII/AAAAAAAA2QQ/hFRekA-REbEXq7zlL7M1NRc2mUYUn016QCNcBGAsYHQ/h240/Dia-Vicorne.png",
+		colorBg: "#76d9e0"
+	}, 
+	
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-We064NIlvN4/YbFtAQRoOzI/AAAAAAAA2Aw/2Y1gohTqiEIndlNyQg2g1tj7mE01CrqXgCNcBGAsYHQ/h240/zero-two.png",
@@ -1400,7 +1408,12 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-OOz-Iz36dJE/YYu4e4PK0TI/AAAAAAAA0Xo/TbcaGDhEGOcg0nSx5exmPxMODDEdfWg7QCNcBGAsYHQ/h240/beerus.png",
 		colorBg: "#976dbf"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-lyhF7u2l8tg/YbcVOqZ2nrI/AAAAAAAA2P4/j2aFThG0u84lWt8YJNSYC6Fkgf2IGLx2gCNcBGAsYHQ/h240/kefla.png",
+		colorBg: "#7fb63f"
+	}, 
+	
+	
 	{
 		imgAnime: "https://1.bp.blogspot.com/-x64VmYubxkQ/YROJ3n7BzfI/AAAAAAAAwF8/NSvGfJCRg7kSs9KTHWob_X7mcZDRq7eTgCNcBGAsYHQ/h240/natsu.png",
 		colorBg: "#b63232"
@@ -1575,6 +1588,16 @@ var dsAnime = [
 		colorBg: "#3e78e3"
 	},
 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-vFS_-yX5XjQ/YbcWIIBLXtI/AAAAAAAA2QA/Alxgq_TiqrM5XjHaj2ha4JLMqwJXf0dFwCNcBGAsYHQ/h240/Sir-Crocodile.png",
+		colorBg: "#7fb63f"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-YM53F3uWdbk/YbcWlJUgdYI/AAAAAAAA2QI/mHDt6IzwvgMmM0MMizelAvjYtU3iEXCLwCNcBGAsYHQ/h240/Carrot.png",
+		colorBg: "#ef9f77"
+	}, 
+///one pice
 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/h240/naruto.png",
@@ -2276,10 +2299,9 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-_CKMldqP13w/YX_Ip1pj_pI/AAAAAAAAzEc/VW29mXeM73cRmwo5EadX3BJV97LQ9MyWgCNcBGAsYHQ/h240/hori.png",
 		colorBg: "#ffb72b"
-	}, {
-		imgAnime: "https://lh3.googleusercontent.com/-9SpihUBY-EY/YXK1jtNQ2pI/AAAAAAAAyio/Xn1v7rCkHZkt9H2o9EMs7Euc106QC-y_ACNcBGAsYHQ/h240/lugh-tuatha-de.png",
-		colorBg: "#6480db"
-	}, {
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-EwHGLkkXJHU/YXK1Nbx02lI/AAAAAAAAyig/OXscDQ9dDf0__MxVwSRgU_1oGC29xbrHACNcBGAsYHQ/h240/lala-satalin-deviluke.png",
 		colorBg: "#57a5b1"
 	}, {
