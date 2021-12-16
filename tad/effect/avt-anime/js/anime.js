@@ -1951,6 +1951,10 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-xh4KekOoff0/Ybr5C5y85WI/AAAAAAAA2Xk/uEpCDD1joDYZS3Yw-o1yLEUgBjzy9zcdACNcBGAsYHQ/h240/Jennet.png",
+		colorBg: "#f9e182"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-tkhFZoL9I84/Ybr3RQ7WI7I/AAAAAAAA2Xc/2qXOhDAMVU4_ipqncf0I243rBzxIr7ruACNcBGAsYHQ/h240/rai.png",
 		colorBg: "#9b1418"
 	}, 
