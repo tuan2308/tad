@@ -816,6 +816,11 @@ var dsAnime = [
 		colorBg: "#5fb84a"
 	}, 
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-ucj86_mPgL4/YbyFS1UGbQI/AAAAAAAA2e0/RkeRd4_ITMkNuwDdhYvbxzjp96RPabqKQCNcBGAsYHQ/h240/Miwa-Kasumi.png",
+		colorBg: "#4dbfef"
+	}, 
+
+	{
 		imgAnime: "https://1.bp.blogspot.com/-fmUtM-zQM9o/YRYgO6j-0mI/AAAAAAAAwOI/Bh8niC5NzB4Jkjyk946vCQCXo3cI2l-1wCNcBGAsYHQ/h240/asta.png",
 		colorBg: "#413b3b"
 	},
@@ -1239,7 +1244,17 @@ var dsAnime = [
 	{
 		imgAnime: "https://1.bp.blogspot.com/-fTYk9A3OTZA/YSOVIMv5JEI/AAAAAAAAwl8/UqhUayokibcjXGOAakuQ7rlnWzKmylVJQCNcBGAsYHQ/h240/doraemon.png",
 		colorBg: "#58d3e9"
-	}, {
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-7oWTx1FefxI/YbyIaGK3KiI/AAAAAAAA2fQ/eOw-aBVR3Agl10_RnabxlXElWs-eOV1YgCNcBGAsYHQ/h240/doraemon.png",
+		colorBg: "#3bdbf8"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-m57lv-KDRmY/YbyJZWwK-zI/AAAAAAAA2fY/dG8xtdW7iykSoXTb-wprE-tqdm4pZHK1ACNcBGAsYHQ/h240/doraemon.png",
+		colorBg: "#45baeb"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-REeSAUh2TG4/YRjg_r4LpNI/AAAAAAAAwU4/PeXKDChyqUkpBxCRK9W_0ftwKJJWzEiFwCNcBGAsYHQ/h240/nobita.png",
 		colorBg: "#e6b030"
 	}, {
@@ -1301,7 +1316,17 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-nDX2y2Dub6c/YTzFBBLoCiI/AAAAAAAAxHo/7GzF-Th7U6wCOYeg4lqFeI9mQ1TOktVOgCNcBGAsYHQ/h240/conan.png",
 		colorBg: "#256ccd"
-	}, {
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-C3LdSYs-F1A/YbyHcCMJ2MI/AAAAAAAA2fE/PRzs68z6Dcc3plEyfvf1DYLWQAy9sIzlwCNcBGAsYHQ/h240/conan.png",
+		colorBg: "#dd685c"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-bbfgqH0x6hs/YbyHqguGISI/AAAAAAAA2fI/fjzPTDQM0-cCQGZCLCCVajXkXN8c-HE5gCNcBGAsYHQ/h240/conan.png",
+		colorBg: "#a47569"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-72_sWVkpfXg/YQuqjPD3tXI/AAAAAAAAv5A/dAiMGo-9vrsMGlQzS4SAXxt2BWmi3G8NwCNcBGAsYHQ/h240/shinichi.png",
 		colorBg: "#55b5ff"
 	}, {
@@ -2030,7 +2055,10 @@ var dsAnime = [
 //
 
 
-
+{
+    imgAnime: "https://lh3.googleusercontent.com/--HHFVR4QkTE/YbyGiklcm7I/AAAAAAAA2e8/q5tbb-FB9bs5cdytxpivLp3pWj1AuRHrQCNcBGAsYHQ/h240/cute-boy.png",
+    colorBg: "#f8ca3e"
+}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-BrCbdZUqVi0/YbFvE6sIPvI/AAAAAAAA2CQ/145Yk71SYAUk2LpVME6ZvA2DRb_9YQ2egCNcBGAsYHQ/h240/cool-boy.png",
 		colorBg: "#9fc177"
@@ -2053,7 +2081,14 @@ var dsAnime = [
 
 
 	////newwww
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-P3S31PEkYHg/YbyEhRvGGXI/AAAAAAAA2es/nZlHTzmv41ATcF2FGlr-W1MKcg9BL388wCNcBGAsYHQ/h240/owen-knight.png",
+		colorBg: "#a0a0a0"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-ZLSvHahvxy4/YbyCRMELfuI/AAAAAAAA2ek/EShEwCwDAZscMs2nOu4Gxgqc_ZZ0bUA4QCNcBGAsYHQ/h240/Geordo-Stuart.png",
+		colorBg: "#f7ba59"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-Ko1s9rPMHbU/Ybssl86010I/AAAAAAAA2YU/e70CzcCWH2odXlJzYz0eMlR0c32TQkshwCNcBGAsYHQ/h240/Ishigami-Yu.png",
 		colorBg: "#71b8c8"
