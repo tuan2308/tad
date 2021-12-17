@@ -56,13 +56,13 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-ZTW2Ytci2gc/YQkMQ0IycxI/AAAAAAAAv1I/QDnmL3LLZxQ3uj0UpIokrXYX8uwJRgJBgCNcBGAsYHQ/h240/tomioka-giyuu.png",
 		colorBg: "#223657"
 	},{
+		imgAnime: "https://lh3.googleusercontent.com/-rnqKr0Oefos/Ybxf8MhJ0uI/AAAAAAAA2d8/dpl8SUTB6tMOKnLxyqaKwgqrke6J0bpgwCNcBGAsYHQ/h240/tomioka-giyuu.png",
+		colorBg: "#039df6"
+	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-RGg4K1SqXzc/YbxfgS0jTbI/AAAAAAAA2d0/tdLAEFgm3UIwPa1Eiu-XKM9G34VRkKS0wCNcBGAsYHQ/h240/tomioka-giyuu.png",
 		colorBg: "#6284e5"
 	}, 
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-rnqKr0Oefos/Ybxf8MhJ0uI/AAAAAAAA2d8/dpl8SUTB6tMOKnLxyqaKwgqrke6J0bpgwCNcBGAsYHQ/h240/tomioka-giyuu.png",
-		colorBg: "#039df6"
-	}, 	 {
+		 {
 		imgAnime: "https://1.bp.blogspot.com/-mSeoBZHv-cw/YQkM6De4UUI/AAAAAAAAv1Q/MEr020DjhR8Ob0ioe2vPflEGqtYtpjYPQCNcBGAsYHQ/h240/kocho-shinobu.png",
 		colorBg: "#ae9dd9"
 	}, 
