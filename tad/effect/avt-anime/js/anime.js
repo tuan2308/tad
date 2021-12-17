@@ -31,18 +31,39 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-1lzQ9TBEEtA/YQqczRz91DI/AAAAAAAAv3Y/xSE5cIapEx81y-drb8pTFBX5sXytr-DZACNcBGAsYHQ/h240/nezuko.png",
 		colorBg: "#ffa6ac"
 	}, 
+
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-mvR7-v8tdSk/Ybwji9KgJaI/AAAAAAAA2cs/62hJi8AspNQ__nHhYcfA1HdjtGQiIdpbACNcBGAsYHQ/h240/nezuko.png",
 		colorBg: "#edb6b2"
 	}, 
-	
+	{
+    imgAnime: "https://lh3.googleusercontent.com/-V_VgAWQAC0o/Ybxj617y15I/AAAAAAAA2eE/BAmwYD9mBis4KnBpy8rrzu1-paOPKOVLgCNcBGAsYHQ/h240/nezuko.png",
+    colorBg: "#ef7094"
+}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-ZTW2Ytci2gc/YQkMQ0IycxI/AAAAAAAAv1I/QDnmL3LLZxQ3uj0UpIokrXYX8uwJRgJBgCNcBGAsYHQ/h240/tomioka-giyuu.png",
 		colorBg: "#223657"
-	}, {
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-RGg4K1SqXzc/YbxfgS0jTbI/AAAAAAAA2d0/tdLAEFgm3UIwPa1Eiu-XKM9G34VRkKS0wCNcBGAsYHQ/h240/tomioka-giyuu.png",
+		colorBg: "#6284e5"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-rnqKr0Oefos/Ybxf8MhJ0uI/AAAAAAAA2d8/dpl8SUTB6tMOKnLxyqaKwgqrke6J0bpgwCNcBGAsYHQ/h240/tomioka-giyuu.png",
+		colorBg: "#039df6"
+	}, 	 {
 		imgAnime: "https://1.bp.blogspot.com/-mSeoBZHv-cw/YQkM6De4UUI/AAAAAAAAv1Q/MEr020DjhR8Ob0ioe2vPflEGqtYtpjYPQCNcBGAsYHQ/h240/kocho-shinobu.png",
 		colorBg: "#ae9dd9"
-	}, {
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-w8ijUodvIYE/YbxedxwbLYI/AAAAAAAA2dk/mhCNvOaDBqg_FAmNTI-9-Wj7tRmIBCUxwCNcBGAsYHQ/h240/kocho-shinobu.png",
+		colorBg: "#837fcb"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-bLA1T-sL12o/Ybxe-tin4kI/AAAAAAAA2ds/PLokFlREWiwyfb5qLHSznxfDzViz7anhwCNcBGAsYHQ/h240/kocho-shinobu.png",
+		colorBg: "#9787db"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-x9g2Y6JIfTM/YXpbDhHq8iI/AAAAAAAAy74/C0SsBrVzBewUzrdqlM4e_KpP0QC2HUx1ACNcBGAsYHQ/h240/rengoku-kyojuro.png",
 		colorBg: "#f7b431"
 	}, {
