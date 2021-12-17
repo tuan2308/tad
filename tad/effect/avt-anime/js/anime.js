@@ -4,6 +4,10 @@ var dsAnime = [
 		colorBg: "#4cba93"
 	}, 
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-HfdEbDXmcf4/Ybxrtv-YV-I/AAAAAAAA2eU/bJKFqbIs_M0Id1iDG3XRLcZAf3QCwxVVwCNcBGAsYHQ/h240/tanjiro.png",
+		colorBg: "#3da6df"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-PnB4NQb6dns/YbwhuDtR1wI/AAAAAAAA2cY/OXGTfzuz78YPeGXuDqghfbIJUUb6-j7WgCNcBGAsYHQ/h240/tanjiro.png",
 		colorBg: "#40bf8c"
 	}, 
@@ -18,7 +22,10 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-L0aytmHp2p8/YbwhuZiwx0I/AAAAAAAA2cg/vlKelcit6rwjDrwAl3THdtLIlE-UonZhwCNcBGAsYHQ/h240/Zenitsu.png",
 		colorBg: "#f0ae3d"
 	}, 
-	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-TeMoN2A-5ac/YbxtaV-dEqI/AAAAAAAA2ec/oocD4eDCpyQkv9Q47CYzH5VU8Tc7EjsagCNcBGAsYHQ/h240/zenitsu.png",
+		colorBg: "#fdcd59"
+	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-DZnM8Bi1E5U/YRYieXtGPkI/AAAAAAAAwOg/Uf5Z5I8B1OkfiRf-WsPtmvhhPI2FjpIlwCNcBGAsYHQ/h240/inosuke.png",
 		colorBg: "#a58266"
