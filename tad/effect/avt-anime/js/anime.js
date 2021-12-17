@@ -48,7 +48,14 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-umb_ogjyVC8/YXpWhGI_4pI/AAAAAAAAy7Y/4JSlagjti7cjv0tMTAaqd2ZLFeGDCUCmgCNcBGAsYHQ/h240/uzui-tengen.png",
 		colorBg: "#d52d2d"
-	}, {
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-DdQsFvZuGJo/YbwnHmWDM-I/AAAAAAAA2c0/IQsg9qnP_wAAyVO9JUC6coCiNPgVys62gCNcBGAsYHQ/h240/uzui-tengen.png",
+		colorBg: "#9e525e"
+	}, 
+	
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-RDGiHxwXE9U/YXpXDAKrQfI/AAAAAAAAy7g/i6eyt1bJjLshbtMWCTL7ZXPmg13gO5iMgCNcBGAsYHQ/h240/kanroji-mitsuri.png",
 		colorBg: "#aecd40"
 	}, {
@@ -103,7 +110,15 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-xuj_Dk_DwIo/YSzu0bEAk6I/AAAAAAAAw2M/Rpbv5dbTHm4ru3ngvXXfUj9KBxR-Yw2DQCNcBGAsYHQ/h240/akaza.png",
 		colorBg: "#df94a7"
 	}, 
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-U57zgxEQT_c/Ybwq5IME35I/AAAAAAAA2c8/tgqrKovfmnIoRcTnzMQOwzIPJ2Wh1dxtQCNcBGAsYHQ/h240/Hantengu.png",
+		colorBg: "#f2b335"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-IPIH4fyo8fE/Ybwrh7b0C2I/AAAAAAAA2dE/IvyuWK2rjLMFl0mzJ8FTZ0W14-vWBNYnACNcBGAsYHQ/h240/Gyokko.png",
+		colorBg: "#9c4da5"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-yOmVd3piyN4/YbcSBozbdrI/AAAAAAAA2Po/KIhCPsRyk3UaS4lCmWCTalyjifpgJTrHQCNcBGAsYHQ/h240/Daki.png",
 		colorBg: "#d73359"
