@@ -27,6 +27,11 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-QcMzSX1FwVw/YbwhuDdm4cI/AAAAAAAA2cc/BDoz8cP1XrU74RQ9_wtwrEPaX8CbX3wQgCNcBGAsYHQ/h240/Inosuke.png",
 		colorBg: "#4c7ebd"
 	}, 
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-4Mlz9SZchv8/Ybxq5FWRO_I/AAAAAAAA2eM/77Sa5dwVW3EbcSF54I2xQFFLf7feF_JhQCNcBGAsYHQ/h240/inosuke.png",
+		colorBg: "#6493ea"
+	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-1lzQ9TBEEtA/YQqczRz91DI/AAAAAAAAv3Y/xSE5cIapEx81y-drb8pTFBX5sXytr-DZACNcBGAsYHQ/h240/nezuko.png",
 		colorBg: "#ffa6ac"
