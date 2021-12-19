@@ -256,7 +256,10 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-JxnlDlN8Fm0/YXaf9nnVVJI/AAAAAAAAyns/ZIes6EYSBxQRTLQMNPMMD42tHuTonnntACNcBGAsYHQ/h240/futaba-rio.png",
 		colorBg: "#ae9e82"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Rll97SErf0g/Yb737Pc8SQI/AAAAAAAA2js/lDMoaXf2Mj8nd8Usp0lOeUnog9UZyf5WQCNcBGAsYHQ/h240/Tokoyami-Towa.png",
+		colorBg: "#ff9ec3"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-t-f4TnRAKq4/YWwkrb5hYRI/AAAAAAAAyZE/O8hpW3m7rF452GxzYG3xfYy9tbAGlq5ZACNcBGAsYHQ/h240/pekora.png",
 		colorBg: "#738dd8"
@@ -576,7 +579,10 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-z4YyJLgoK4Y/YY9Pn8QpdII/AAAAAAAA0pA/_uD0aPpxWFsKh_OsOZoL1P7-b5fAM_sVACNcBGAsYHQ/h240/Yako.png",
 		colorBg: "#f05c80"
 	}, 
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-DsJCkAvDjkQ/Yb78HfVjCGI/AAAAAAAA2kk/3BJ0dz62wvQuMQ_ymZlXCo8oVhrQCon9QCNcBGAsYHQ/h240/akane-aoi.png",
+		colorBg: "#a684d1"
+	}, 
 {
         imgAnime: "https://1.bp.blogspot.com/-qrSN7NyHQpQ/YRkCVDzuf5I/AAAAAAAAwWY/rACWWd0jBXUCF4ged36vtY5cnpk0c_WXwCNcBGAsYHQ/h240/sakura-nanamine.png",
         colorBg: "#9fb764"
@@ -1164,7 +1170,13 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-kEFP8gx1MGA/YU7ZVnh6rdI/AAAAAAAAxnU/GVkk7lDh0Ss8VrdrjWmeEAMFsbQ0BmmFwCNcBGAsYHQ/h240/subaru.png",
 		colorBg: "#ff9e2e"
-	}, {
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-e7LHtoN1nxQ/Yb74askA6eI/AAAAAAAA2j4/ZTzcLmGybwUv4sAFQaKWcB-wXjw04kU3gCNcBGAsYHQ/h240/Echidna.png",
+		colorBg: "#cc9eff"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-QySgGHQhIoI/YROZ-v4_rlI/AAAAAAAAwGU/jRJEmaRhtDMh9SgFeq27R0dL6BJyXUA5ACNcBGAsYHQ/h240/rem.png",
 		colorBg: "#52a1ff"
 	}, {
@@ -2082,6 +2094,23 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-8SiTjLopIro/Yb770VJpTLI/AAAAAAAA2kc/u_ov_KL3ncMHfv_c_mBMBMX21OqtavHmQCNcBGAsYHQ/h240/Mahiru-Banba.png",
+		colorBg: "#9892d1"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Ilrfu1GZD1w/Yb76ifyC4YI/AAAAAAAA2kM/718BHBcuVxIULujWEOR9XqWl2gjh5t4ugCNcBGAsYHQ/h240/adagaki-aki.png",
+		colorBg: "#e5abcc"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-aYZuMUJVImc/Yb74zClQ--I/AAAAAAAA2kE/FoMAi26AE9QaqbW1B4Ye06GHEelYGJWewCNcBGAsYHQ/h240/Aishia.png",
+		colorBg: "#fbadd0"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-jEY76brijSA/Yb73JaHEeMI/AAAAAAAA2jk/3xc9NXEqD20XYNOQSLOZC8SMAQbn7YstwCNcBGAsYHQ/h240/Isaac-Foster.png",
+		colorBg: "#66585b"
+	}, 
+
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-P3S31PEkYHg/YbyEhRvGGXI/AAAAAAAA2es/nZlHTzmv41ATcF2FGlr-W1MKcg9BL388wCNcBGAsYHQ/h240/owen-knight.png",
 		colorBg: "#a0a0a0"
 	}, 
@@ -2323,7 +2352,12 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-8GOy_mdUtsM/YY9RzuKjYBI/AAAAAAAA0pQ/2GqPYZEz7pgyteDiZ-f0sl86DDRNc9p_wCNcBGAsYHQ/h240/Noé-Archiviste.png",
 		colorBg: "#6a5dca"
-	}, {
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-r20q1mzKWlA/Yb77JEyT-fI/AAAAAAAA2kU/raM33v39ZH0Zwo3lJlEwCITbdvOuF-NuwCNcBGAsYHQ/h240/NOE-ARCHIVISTE.png",
+		colorBg: "#9892d1"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-v6Iah7M-Fa8/YY9V8aM9k0I/AAAAAAAA0pw/4NZLtA0EptQpBLVrYCgYyjLbxcrOu1QLwCNcBGAsYHQ/h240/Akutagawa-Ryuunosuke.png",
 		colorBg: "#6152d0"
 	},{
