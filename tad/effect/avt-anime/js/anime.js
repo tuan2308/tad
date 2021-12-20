@@ -1972,7 +1972,14 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-AdJVHNBCeY0/YV7fz6kEfhI/AAAAAAAAyAE/BU3yFhy3jtc5gtcxFQzWAn823YUkLwH-ACNcBGAsYHQ/h240/ram.png",
 		colorBg: "#f18695"
-	}, {
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-c_m5LVklW9E/YcB04wOjVGI/AAAAAAAA2pc/VGTKTEXiP0wisHS9uevK60fGkftEkVsFgCNcBGAsYHQ/h240/felix.png",
+		colorBg: "#7bd5eb"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-Fxyo5gZabkw/YZYKETaSw_I/AAAAAAAA1RU/O87IAzPuKY8fbdCJ30OXlnnTFwZx49fsQCNcBGAsYHQ/h240/julius.png",
 		colorBg: "#9a77d6"
 	},
