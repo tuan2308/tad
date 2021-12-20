@@ -36,6 +36,14 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-ZBaOjvZ2VWU/YcB3YB9r8fI/AAAAAAAA2ps/y0Lgr7FCMUo0wbReCrIdwYpiIsWwEKsUACNcBGAsYHQ/h240/Saotome-Mary.png",
+		colorBg: "#c14b54"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-YihKK-NXfnQ/YcB210JZUGI/AAAAAAAA2pk/DPtiHJFmjBgCnYX8hF3uKvcpUyY50cyuQCNcBGAsYHQ/h240/amu-hinamori.png",
+		colorBg: "#f690a8"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-htfNpRsBKTE/YcAy0GxZYDI/AAAAAAAA2lw/m8PEUxqQIVMx4XrBJcqShZx_HObeH7JCgCNcBGAsYHQ/h240/mikey.png",
 		colorBg: "#8da83f"
 	}, 
