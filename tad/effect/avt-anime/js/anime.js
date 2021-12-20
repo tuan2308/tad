@@ -91,10 +91,7 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-ugvfwRD7XjE/Ybr2UhWpmKI/AAAAAAAA2XM/f5N8rlYkktkjPULkyX2-C_hee6d7y67NwCNcBGAsYHQ/h240/kouko-kaga.png",
 		colorBg: "#fa9a4c"
 	}, 
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-qvlnFyCj3FQ/Ybr1h66zuCI/AAAAAAAA2XE/RwGDygoBx-EEr5Pk-h4TA-4yIkuRcJS0wCNcBGAsYHQ/h240/shion.png",
-		colorBg: "#b681d1"
-	}, 
+	
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-fVoYNvnyfw0/YbYCsyoyh6I/AAAAAAAA2PA/W6xAtZIeW9c2tXuYGlrgRuJW-vYADGs7QCNcBGAsYHQ/h240/talulah.png",
@@ -1524,6 +1521,9 @@ var dsAnime = [
 	},{
 		imgAnime: "https://1.bp.blogspot.com/-Bgvdzwyxx_s/YVWjLrcY_5I/AAAAAAAAxuM/ZHi1cTOwAl0RQ9hnxECBck12u3zTaJ5uwCNcBGAsYHQ/h240/chloe-aubert.png",
 		colorBg: "#48a1ec"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-qvlnFyCj3FQ/Ybr1h66zuCI/AAAAAAAA2XE/RwGDygoBx-EEr5Pk-h4TA-4yIkuRcJS0wCNcBGAsYHQ/h240/shion.png",
+		colorBg: "#b681d1"
 	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-aUwKF3nuIVw/YVWjmIyZNcI/AAAAAAAAxuU/l1okySWBpyw_aXGldHuft3NOq8nkdGHhACNcBGAsYHQ/h240/shuna.png",
