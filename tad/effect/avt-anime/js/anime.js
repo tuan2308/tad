@@ -2441,7 +2441,7 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-QmvhBAjYzcY/YbsqlRjfpOI/AAAAAAAA2X8/gUPVf20-qt0c1VrcmcvgoHFOf6MthwjZQCNcBGAsYHQ/h240/virgo.png",
 		colorBg: "#6ec9db"
 	}, 
-	
+	///one pice
 	{
 		imgAnime: "https://1.bp.blogspot.com/-Nn9cqk74CRI/YQqaQFBMe9I/AAAAAAAAv3M/7Ln3AFlxpw82coa1WJMo1ASoDQ1kozkXACNcBGAsYHQ/h240/luffy.png",
 		colorBg: "#f1bc1c"
@@ -2571,7 +2571,12 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-YM53F3uWdbk/YbcWlJUgdYI/AAAAAAAA2QI/mHDt6IzwvgMmM0MMizelAvjYtU3iEXCLwCNcBGAsYHQ/h240/Carrot.png",
 		colorBg: "#ef9f77"
 	}, 
-///one pice
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-NRMY-rqvFl0/YcLTtht0FkI/AAAAAAAA2sk/VEul_mq2B94V1HoDMf0hKw8san9_ovFqQCNcBGAsYHQ/h240/enel.png",
+		colorBg: "#ffa032"
+	}, 
+
+///naruto
 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-L6zjbaWc0VM/YQqZ_877g4I/AAAAAAAAv3E/k4V_f1JiP-gmKq0Hj5IItqIbjHD5mULtgCNcBGAsYHQ/h240/naruto.png",
@@ -2872,7 +2877,13 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-UpvgGRlIbSA/YZIvWr-DRKI/AAAAAAAA09w/2qtCrxsIQcAVBGhCIp7RZj8fBpFE8gWzgCNcBGAsYHQ/h240/Mahiru-Kasumi.png",
 	colorBg: "#f28598"
 },
-	
+{
+    imgAnime: "https://lh3.googleusercontent.com/-mFrJ0Xg2_WQ/YcLUfhLqnLI/AAAAAAAA2ss/7aGGU2bnb6MzKS4irfZE-vPBBKGfcJVVACNcBGAsYHQ/h240/Shibuki-Ran.png",
+    colorBg: "#6368d6"
+}, {
+    imgAnime: "https://lh3.googleusercontent.com/-9e5MX4QngQc/YcLVERxgO9I/AAAAAAAA2s0/9mx3ou6Y3zYKGbS8k2zbf0db3e6za53kACNcBGAsYHQ/h240/Kiriya-Aoi.png",
+    colorBg: "#6399d6"
+}, 
 ];
 
 
