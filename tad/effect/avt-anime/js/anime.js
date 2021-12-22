@@ -36,6 +36,14 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-aHN8kcY3I1w/YcLboIB9q-I/AAAAAAAA2tc/h9xjMujyHSEf9tgfujsSVmmrf8mHyxNtgCNcBGAsYHQ/h240/serinuma-kae.png",
+		colorBg: "#c17fc6"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-YUiEu8AVPB4/YcLZn4sByNI/AAAAAAAA2tM/btieiL0mhDgG2chw-8_Ubwul7Kdd8GH8QCNcBGAsYHQ/h240/hyanna-natsu.png",
+		colorBg: "#ef909b"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-ZBaOjvZ2VWU/YcB3YB9r8fI/AAAAAAAA2ps/y0Lgr7FCMUo0wbReCrIdwYpiIsWwEKsUACNcBGAsYHQ/h240/Saotome-Mary.png",
 		colorBg: "#c14b54"
 	}, 
@@ -1311,6 +1319,9 @@ var dsAnime = [
     },  {
 		imgAnime: "https://lh3.googleusercontent.com/-z4YyJLgoK4Y/YY9Pn8QpdII/AAAAAAAA0pA/_uD0aPpxWFsKh_OsOZoL1P7-b5fAM_sVACNcBGAsYHQ/h240/Yako.png",
 		colorBg: "#f05c80"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-i_EbozyHemE/YcLVXfFTliI/AAAAAAAA2s8/DcKoduRfdKQs932akj0bg87Q11_DFqm7gCNcBGAsYHQ/h240/Kou-Minamoto.png",
+		colorBg: "#ed9b40"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-DsJCkAvDjkQ/Yb78HfVjCGI/AAAAAAAA2kk/3BJ0dz62wvQuMQ_ymZlXCo8oVhrQCon9QCNcBGAsYHQ/h240/akane-aoi.png",
@@ -1404,7 +1415,10 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/--fQyJVG_a8w/YQjvnVLWzVI/AAAAAAAAv0o/h0zvBsl8ui8BslbvieRhT_S-tF9pgQ8ugCNcBGAsYHQ/h240/zero-two.png",
 		colorBg: "#eb7381"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-fnCkC_jvbkc/YcLa3UcWQII/AAAAAAAA2tU/B1Yc7Q5rUJYl_Izq-nAdTH21DTytkHlHQCNcBGAsYHQ/h240/hiro.png",
+		colorBg: "#63c5ed"
+	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-UurSmwFQu3w/YRkDhF5a50I/AAAAAAAAwWo/GE3qZZ31Sv82R8dRYLMy3dEwnKfTeqHSQCNcBGAsYHQ/h240/ichigo.png",
 		colorBg: "#76b1db"
@@ -2211,16 +2225,22 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-gc5EIlvG8-I/YYJHg9kJM8I/AAAAAAAAzKo/chVZZiQbzp4Uhh6fV3ZOOYZBYZCLb8PAwCNcBGAsYHQ/h240/naoto-tachibana.png",
 		colorBg: "#49a6e1"
 	}, {
-		imgAnime: "https://lh3.googleusercontent.com/-G7PjKUprzY8/YaLr_ETKiVI/AAAAAAAA1mY/5qFmiQYnG5Y5ae_tt4nC091WxNmZykJLgCNcBGAsYHQ/h240/Mikey.png",
+		imgAnime: "https://lh3.googleusercontent.com/-G7PjKUprzY8/YaLr_ETKiVI/AAAAAAAA1mY/5qFmiQYnG5Y5ae_tt4nC091WxNmZykJLgCNcBGAsYHQ/h240/Manjiro-Sano-[mikey].png",
 		colorBg: "#f5c442"
-	}, {
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-hoZRmBeDoCs/YcLW7oUVMAI/AAAAAAAA2tE/kiMl-1Fro9wysIkX_ZVwsuKpCVeJo_EygCNcBGAsYHQ/h240/Manjiro-Sano-[mikey].png",
+		colorBg: "#6fa6c0"
+	},
+	
+	{
 		imgAnime: "https://1.bp.blogspot.com/-v6NJ2xU97mw/YTYpHwSIm-I/AAAAAAAAxAo/IMTenQHNJoo5Z_dg672r0xAymBEpAogkACNcBGAsYHQ/h240/black-mikey.png",
 		colorBg: "#b5b5b5"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-KVp19_Hml0Y/YSo18XzX4VI/AAAAAAAAwyw/BBYZOdscXSoRXWbD989AzFpUPuaXIeRXQCNcBGAsYHQ/h240/Emma-Sano.png",
 		colorBg: "#d6ba62"
 	}, {
-		imgAnime: "https://1.bp.blogspot.com/-rOMaglwetqw/YREhKg_tsVI/AAAAAAAAwEU/Qj5XpOlUk1IeHoOHWw8JUwn2afR1qPZIACNcBGAsYHQ/h240/draken.png",
+		imgAnime: "https://1.bp.blogspot.com/-rOMaglwetqw/YREhKg_tsVI/AAAAAAAAwEU/Qj5XpOlUk1IeHoOHWw8JUwn2afR1qPZIACNcBGAsYHQ/h240/Ken-Ryuguji-[draken].png",
 		colorBg: "#1f242a"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-4jbj8k0oAcM/YRSr5HqBM5I/AAAAAAAAwJQ/Swt100rUtk06KL8TWCcIZ92s8lTNpZ9xgCNcBGAsYHQ/h240/Tetta-Kisaki.png",
