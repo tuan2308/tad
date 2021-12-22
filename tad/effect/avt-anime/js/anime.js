@@ -25,6 +25,10 @@ var dsAnime = [
 		colorBg: "#345763"
 	},
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-bhrRW3VOKRI/YcLnMSNMeKI/AAAAAAAA2tk/7BBW3Z1kktsv_6bGCEir0s_Krn8qDAnegCNcBGAsYHQ/h240/boy-6.png",
+		colorBg: "#6b54c0"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-eMi-Ag6cIXY/YRTYOJOmtmI/AAAAAAAAwLQ/kLGFd3REUiUZ2uoslq5hu4HVLPjj73GBwCNcBGAsYHQ/h240/girl-1.png",
 		colorBg: "#8cbcc7"
 	}, 
