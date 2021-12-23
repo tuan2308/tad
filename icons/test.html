@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script> var tmbq = '127.0.0.1'; </script>
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+<body style="
+background: #606060;
+">
+
+<p>Image to use:</p>
+<img id="scream" width="220" height="277" src="https://cdn.taoanhdep.com/icons/ic-phone.svg" alt="The Scream">
+
+<p>Canvas:</p>
+<canvas id="myCanvas" width="240" height="297" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.
+</canvas>
+
+<script>
+
+
+$.get('https://cdn.taoanhdep.com/icons/ic-phone.svg', function(svgXml) {
+var j1 = new Image();
+var zzzz = "data:image/svg+xml;base64,"+ window.btoa((new XMLSerializer).serializeToString(svgXml).replace(/#FFFFFF/g,'#000000').replace(/#ffffff/g,'#000000'))
+j1.src = zzzz;
+
+j1.onload = function(){
+
+
+
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+ 
+ 
+  ctx.drawImage(j1,0,0,100,100)
+
+}
+
+});
+ 
+
+
+
+
+</script>
+
+</body>
+</html>

@@ -36,9 +36,18 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-XxNWgrTSqPk/YWq0niOzTEI/AAAAAAAAyT8/jUVj-I70IrQgjlEFV4pHqN0rCyQ3zruRQCNcBGAsYHQ/h240/girl-2.png",
 		colorBg: "#d2c5b4"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-uRlCVSJ70Xw/YcRiw6XgXBI/AAAAAAAA2wg/eFPyemNRuXAFuuJQgu0qzIBmTgb8aEO3gCNcBGAsYHQ/h240/girl-3.png",
+		colorBg: "#f9da97"
+	}, 
 
 	////newwww
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-97NM6CfnBBI/YcRkXALfS9I/AAAAAAAA2wo/nJUDNEHD9QgrEuffdCRjauQAXHo7OC8FQCNcBGAsYHQ/h240/Soma-Yukihira.png",
+		colorBg: "#ffcf5b"
+	}, 
+
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-aHN8kcY3I1w/YcLboIB9q-I/AAAAAAAA2tc/h9xjMujyHSEf9tgfujsSVmmrf8mHyxNtgCNcBGAsYHQ/h240/serinuma-kae.png",
 		colorBg: "#c17fc6"
@@ -1478,12 +1487,21 @@ var dsAnime = [
 	},
 
 
+	
 	{
-		imgAnime: "https://lh3.googleusercontent.com/-XkNma0J8pAg/YbFt-m8NtoI/AAAAAAAA2A8/h2HujB-XGbcuCCyVGYRXuLZgtLR1to80ACNcBGAsYHQ/h240/Tamako-Kitashirakawa.png",
+		imgAnime: "https://lh3.googleusercontent.com/-m7o6Q5WGjkA/YcRh8NdXxSI/AAAAAAAA2wY/s-tRrcVCWykfLoLPZ1bjmKd_UKitAlDUwCNcBGAsYHQ/h240/tamako-Kitashirakawa.png",
+		colorBg: "#6eafdd"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-E3rWuDxWYfI/YcRguoj_EfI/AAAAAAAA2wQ/iab3YNEMzwoY8xQ-wORXYVq6OVq-iVp0wCNcBGAsYHQ/h240/mochizou-oji.png",
+		colorBg: "#80bbd1"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-XkNma0J8pAg/YbFt-m8NtoI/AAAAAAAA2A8/h2HujB-XGbcuCCyVGYRXuLZgtLR1to80ACNcBGAsYHQ/h240/Anko-Kitashirakawa.png",
 		colorBg: "#e69cb3"
 	},
 	{
-        imgAnime: "https://1.bp.blogspot.com/-OPUv8BBx4Rk/YRkBGf-JVoI/AAAAAAAAwWI/5y6IsQSeE5gNx5WF4Y3-W_a2C7khMZ98wCNcBGAsYHQ/h240/Tamako-Kitashirakawa.png",
+        imgAnime: "https://1.bp.blogspot.com/-OPUv8BBx4Rk/YRkBGf-JVoI/AAAAAAAAwWI/5y6IsQSeE5gNx5WF4Y3-W_a2C7khMZ98wCNcBGAsYHQ/h240/Anko-Kitashirakawa.png",
         colorBg: "#71a7d4"
     },
 	{
