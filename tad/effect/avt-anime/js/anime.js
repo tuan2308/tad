@@ -1314,10 +1314,7 @@ var dsAnime = [
         imgAnime: "https://1.bp.blogspot.com/-ttJapMwcp0Y/YTDDQeQ8J-I/AAAAAAAAw64/a4HG6G-N7u0fkSyewCRZdwu2gXAQvv-5QCNcBGAsYHQ/h240/yuu-otosaka.png",
         colorBg: "#87635f"
     },
-{
-        imgAnime: "https://lh3.googleusercontent.com/-tK2aQgRb7Mo/YWlwVS7F84I/AAAAAAAAyP8/NPqsOMp2uoIWpXnjhdWWBAh-FRkbIFeAwCNcBGAsYHQ/h240/nao-midorikawa.png",
-        colorBg: "#7cd252"
-    }, 
+
 
 	{
         imgAnime: "https://1.bp.blogspot.com/-KQK1LnPa-Bs/YSS1A2wCYkI/AAAAAAAAwoU/JuEOM_ICDXocI8AgVTV7_HRbOeKMBmnaACNcBGAsYHQ/h240/reki-Kyan.png",
@@ -2906,6 +2903,9 @@ var dsAnime = [
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-tvzZZibv-cU/YWlvxbcn5gI/AAAAAAAAyP0/nUHefZV4MyQ3x61EwP8JnKYFrdTNGvO3ACNcBGAsYHQ/h240/yayoi-kise.png",
 	colorBg: "#fbd85e"
+}, {
+	imgAnime: "https://lh3.googleusercontent.com/-tK2aQgRb7Mo/YWlwVS7F84I/AAAAAAAAyP8/NPqsOMp2uoIWpXnjhdWWBAh-FRkbIFeAwCNcBGAsYHQ/h240/nao-midorikawa.png",
+	colorBg: "#7cd252"
 }, {
 	imgAnime: "https://lh3.googleusercontent.com/-2HQo-cO4bSI/YWlvYHUbOnI/AAAAAAAAyPs/d79C2L_HPNcG6R0ldwGaPR5f9HxlpNUFwCNcBGAsYHQ/h240/akane-hino.png",
 	colorBg: "#eca748"
