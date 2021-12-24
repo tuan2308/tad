@@ -756,6 +756,11 @@ var dsAnime = [
 		colorBg: "#4cba93"
 	}, 
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-2PWZGMEgddk/YcVo0rAwq6I/AAAAAAAA21I/feBRsFMCjAIVrwr8W0_j3ssSQq_x--PbACNcBGAsYHQ/h240/Kamado-Tanjiro.png",
+		colorBg: "#fd3f3f"
+	}, 
+
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-HfdEbDXmcf4/Ybxrtv-YV-I/AAAAAAAA2eU/bJKFqbIs_M0Id1iDG3XRLcZAf3QCwxVVwCNcBGAsYHQ/h240/tanjiro.png",
 		colorBg: "#3da6df"
 	}, 
