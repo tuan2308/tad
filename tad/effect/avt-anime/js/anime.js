@@ -43,6 +43,13 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-CGAnHl6Vf_Q/YcVpptzsySI/AAAAAAAA21c/i9Ln16-lA-gZJg1CCUJyrW4aIuzmUzJZACNcBGAsYHQ/h240/junko-enoshima.png",
+		colorBg: "#bf2b3d"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-7J33jK0c-Ac/YcVqSn-EHjI/AAAAAAAA21o/oi-bSInSBKgIiT4My-Q3ME_CHp9Sx2VagCNcBGAsYHQ/h240/Nagito-Komaeda.png",
+		colorBg: "#63866f"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-e28mWYgdboc/YcSNmHIW3nI/AAAAAAAA2xg/qv9fr_m_rYY2zsv647k25aUByFO0Yp87ACNcBGAsYHQ/h240/Satsuki-Momoi.png",
 		colorBg: "#59c9d6"
 	}, 
@@ -2264,6 +2271,9 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-OentbjRR0_E/YbFvsxII-qI/AAAAAAAA2C8/no1q8VEnknoYAwMdnkEs9yTpypWoo7aGACNcBGAsYHQ/h240/takemichi.png",
 		colorBg: "#ebbc6b"
 	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-2wNadOWkBRw/YcVrz-2A0EI/AAAAAAAA214/1KXuZp5nbm8npZr_tHYZ52N9ItGgEHDZQCNcBGAsYHQ/h240/takemichi.png",
+		colorBg: "#50a7d9"
+	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-OBzvL_nMlmg/YbFvxuKSORI/AAAAAAAA2DE/P5xZbeKiNkg3k3oJZJx6DOPTsE7gSy8-wCNcBGAsYHQ/h240/Hinata-Tachibana.png",
 		colorBg: "#e68e92"
 	}, {
@@ -2284,7 +2294,10 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-KVp19_Hml0Y/YSo18XzX4VI/AAAAAAAAwyw/BBYZOdscXSoRXWbD989AzFpUPuaXIeRXQCNcBGAsYHQ/h240/Emma-Sano.png",
 		colorBg: "#d6ba62"
-	}, {
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-ZnX_6zvI0kE/YcVqxqiEk8I/AAAAAAAA21w/hwLTuixJ3go1aL8nCAD4CUGk51FjcIDRwCNcBGAsYHQ/h240/Emma-Sano.png",
+		colorBg: "#68a8cd"
+	},  {
 		imgAnime: "https://1.bp.blogspot.com/-rOMaglwetqw/YREhKg_tsVI/AAAAAAAAwEU/Qj5XpOlUk1IeHoOHWw8JUwn2afR1qPZIACNcBGAsYHQ/h240/Ken-Ryuguji-[draken].png",
 		colorBg: "#1f242a"
 	}, {
