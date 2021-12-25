@@ -48,15 +48,18 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-7J33jK0c-Ac/YcVqSn-EHjI/AAAAAAAA21o/oi-bSInSBKgIiT4My-Q3ME_CHp9Sx2VagCNcBGAsYHQ/h240/Nagito-Komaeda.png",
 		colorBg: "#63866f"
+	}, 	{
+		imgAnime: "https://lh3.googleusercontent.com/-FHAgMf0QYA4/YcSOPQ5FDRI/AAAAAAAA2xo/5PWTLgqYQw8fu1plJFqZwjkYxMxLu-2zgCNcBGAsYHQ/h240/Aomine-Daiki.png",
+		colorBg: "#ed6d39"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-e28mWYgdboc/YcSNmHIW3nI/AAAAAAAA2xg/qv9fr_m_rYY2zsv647k25aUByFO0Yp87ACNcBGAsYHQ/h240/Satsuki-Momoi.png",
 		colorBg: "#59c9d6"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-vs3eR-Wcsq4/YcbG-g37fzI/AAAAAAAA25U/68qljwz3mvYzvWJP_5my4C35Pe-7tet5gCNcBGAsYHQ/h240/satsuki-momoi.png",
+		colorBg: "#86e2b5"
 	}, 
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-FHAgMf0QYA4/YcSOPQ5FDRI/AAAAAAAA2xo/5PWTLgqYQw8fu1plJFqZwjkYxMxLu-2zgCNcBGAsYHQ/h240/Aomine-Daiki.png",
-		colorBg: "#ed6d39"
-	}, 
+
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-gxpBBPJpyn8/YcSNECFqEKI/AAAAAAAA2xY/4V1f3AxxEg8UxTWrXe8f6yTFxRL3mowJQCNcBGAsYHQ/h240/Jack-The-Ripper.png",
 		colorBg: "#af3c3c"
@@ -2462,7 +2465,13 @@ var dsAnime = [
 	{
 		imgAnime: "https://1.bp.blogspot.com/-x64VmYubxkQ/YROJ3n7BzfI/AAAAAAAAwF8/NSvGfJCRg7kSs9KTHWob_X7mcZDRq7eTgCNcBGAsYHQ/h240/natsu.png",
 		colorBg: "#b63232"
-	}, {
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-ulTv05Nrn6g/YcbFpFg7yHI/AAAAAAAA25I/AIV4SJO_ZZ02aXp0EFJYdJza16YHsy2zQCNcBGAsYHQ/h240/Natsu.png",
+		colorBg: "#c82f2a"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-xEp-d8mWSbE/YRSzW79ql7I/AAAAAAAAwJw/khwKicWerJg9j8Pl-pRdo9i9ypqjRxLJQCNcBGAsYHQ/h240/lucy.png",
 		colorBg: "#6a8eb5"
 	}, {
