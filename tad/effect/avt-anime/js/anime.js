@@ -2333,7 +2333,13 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-QqE2bIkcOZ4/YRFCN1Pws4I/AAAAAAAAwEk/xFgTOqAw9_EMwwO86Mb3zO0m7BPlrNfhQCNcBGAsYHQ/h240/Chifuyu-Matsuno.png",
 		colorBg: "#243231"
-	}, {
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-_gA6TjnRECw/YcbsbWEpdWI/AAAAAAAA26g/7xH6Wn-h2HECxE1p1zdzTIzxpDfznFdEwCNcBGAsYHQ/h240/Chifuyu-Matsuno.png",
+		colorBg: "#f37a31"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-lSPUp5eyKnM/YRSHaw7DhTI/AAAAAAAAwJE/B8P5Hkzg_OwsU2DF27uhnT3gfNrP1SQ2wCNcBGAsYHQ/h240/Takashi-Mitsuya.png",
 		colorBg: "#51597d"
 	}, {
@@ -2366,7 +2372,10 @@ var dsAnime = [
 	{
 		imgAnime: "https://1.bp.blogspot.com/-pQ0-vSzmK9I/YSOV-Abl-PI/AAAAAAAAwmE/-lFZ7zCBgt0gQIpaFepjW0DqtRAYO1x2QCNcBGAsYHQ/h240/Kazutora-Hanemiya.png",
 		colorBg: "#d7ba61"
-	}, {
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-lrtlUv5gbr0/Ycbr-1a2jkI/AAAAAAAA26Y/GNBKNryUhWsz6MNZdF_tHWNAqY_PWeDygCNcBGAsYHQ/h240/Kazutora-Hanemiya.png",
+		colorBg: "#f3ba31"
+	},  {
 		imgAnime: "https://1.bp.blogspot.com/-ZYSwi6ydyko/YTDA3Vs_d2I/AAAAAAAAw6o/HRq4bpRZPRMhko7QP3wdY6fAeqE2EJL9gCNcBGAsYHQ/h240/Shuji-Hanma.png",
 		colorBg: "#7d957d"
 	},{
@@ -2538,6 +2547,9 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-H-K_wN9MNy8/YRYbdrUgw4I/AAAAAAAAwNQ/-7tDa6sAISEJlbIz84yKQbSPJZUbbNWcgCNcBGAsYHQ/h240/wendy.png",
 		colorBg: "#7183aa"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-T2aea4Py5HM/YcbriKEoPJI/AAAAAAAA26Q/xi7D5tLCTJgL8J-N9HoGKXy3kuwYTCWaQCNcBGAsYHQ/h240/Carla.png",
+		colorBg: "#e77ec7"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-XFm0T_rHQ9M/YTNVSQla_UI/AAAAAAAAw-s/BbxBKQzMzocoH4HXlJOvmFCAh1ZUHyF7wCNcBGAsYHQ/h240/gajeel.png",
 		colorBg: "#646a74"
