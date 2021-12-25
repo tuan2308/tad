@@ -47,6 +47,26 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-gaxg2htS6Y8/YcbVswrPziI/AAAAAAAA250/koDH5N0Kq0ALOFld2Ay1iJKnb61OjPZ9ACNcBGAsYHQ/h240/destiny.png",
+		colorBg: "#c33144"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-nwkZujAAZ0U/YcbXMQ9Yb_I/AAAAAAAA258/E5ib_Xk1nLceOKj4dO6gI3VkRZAiURJSQCNcBGAsYHQ/h240/destiny.png",
+		colorBg: "#c9465c"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-gBjDGYXYMFw/YXKDJtGXXoI/AAAAAAAAyh4/UVQvNHhuJb0ygHz6R1wHSNF4xZ-Y_0rbgCNcBGAsYHQ/h240/Destiny.png",
+		colorBg: "#d83e49"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Zt-0vVj8sv0/YcbXjKe5_1I/AAAAAAAA26E/AWIVOyVXefs4osgZcvISKub-WkkXVzLwQCNcBGAsYHQ/h240/TAKT-ASAHINA.png",
+		colorBg: "#539dd0"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-a-JPPUhb9wA/YY4o3ZdUqmI/AAAAAAAA0j8/f2rsJPLhvL0OmNX9CsapPTcRW3v8FLh4wCNcBGAsYHQ/h240/Takt-Asahina.png",
+		colorBg: "#65a2c2"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-CGAnHl6Vf_Q/YcVpptzsySI/AAAAAAAA21c/i9Ln16-lA-gZJg1CCUJyrW4aIuzmUzJZACNcBGAsYHQ/h240/junko-enoshima.png",
 		colorBg: "#bf2b3d"
 	}, {
@@ -356,15 +376,6 @@ var dsAnime = [
 	},{
 		imgAnime: "https://lh3.googleusercontent.com/-WTUTvXRXK-s/YY8vt9X_9pI/AAAAAAAA0oM/tqKN9qsKUe4dwyCEwSF-6u9QdgjauUOPwCNcBGAsYHQ/h240/Yukihana-Lamy.png",
 		colorBg: "#63aae7"
-	}, {
-		imgAnime: "https://lh3.googleusercontent.com/-gBjDGYXYMFw/YXKDJtGXXoI/AAAAAAAAyh4/UVQvNHhuJb0ygHz6R1wHSNF4xZ-Y_0rbgCNcBGAsYHQ/h240/Destiny.png",
-		colorBg: "#d83e49"
-	}, {
-		imgAnime: "https://lh3.googleusercontent.com/-gaxg2htS6Y8/YcbVswrPziI/AAAAAAAA250/koDH5N0Kq0ALOFld2Ay1iJKnb61OjPZ9ACNcBGAsYHQ/h240/destiny.png",
-		colorBg: "#c33144"
-	}, {
-		imgAnime: "https://lh3.googleusercontent.com/-a-JPPUhb9wA/YY4o3ZdUqmI/AAAAAAAA0j8/f2rsJPLhvL0OmNX9CsapPTcRW3v8FLh4wCNcBGAsYHQ/h240/Takt-Asahina.png",
-		colorBg: "#65a2c2"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-tK5IwzC4z-g/YY4lrySuIDI/AAAAAAAA0j0/ipuKZ1Ad4FgxMwouU0Dw9o-kCiml-ruzgCNcBGAsYHQ/h240/keiji-akaashi.png",
 		colorBg: "#f2d85e"
