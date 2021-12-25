@@ -29,6 +29,10 @@ var dsAnime = [
 		colorBg: "#6b54c0"
 	}, 
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-0aQCCz3u860/YcbS7mLJvyI/AAAAAAAA25s/klj1EfWo8LIRRUcxNHiQgfNRW3qkc8aIACNcBGAsYHQ/h240/boy-7.png",
+		colorBg: "#49a8e4"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-eMi-Ag6cIXY/YRTYOJOmtmI/AAAAAAAAwLQ/kLGFd3REUiUZ2uoslq5hu4HVLPjj73GBwCNcBGAsYHQ/h240/girl-1.png",
 		colorBg: "#8cbcc7"
 	}, 
@@ -652,7 +656,13 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-wJ-idSqrHqM/YRooLbjVYaI/AAAAAAAAwYs/Q1LS3_45gk84ELg9MPd_ZMiBjD3Nv-9HACNcBGAsYHQ/h240/elaina.png",
 		colorBg: "#9e80af"
-	}, {
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-bGoQNErXsDQ/YcbNvl_yX0I/AAAAAAAA25k/VLp-BMvn77w7QRCiXrxzDE4EvM7JbcH0ACNcBGAsYHQ/h240/elaina.png",
+		colorBg: "#49a8e4"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-We9e4i3lrco/YRonHbAFFyI/AAAAAAAAwYk/-qLa9GEhFRMLPg9wFnMuHB1Rylq7XwvXgCNcBGAsYHQ/h240/mirai.png",
 		colorBg: "#e08e7c"
 	}, {
@@ -2959,7 +2969,10 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-uQ9jr9bs680/YXag7CcQy2I/AAAAAAAAyoA/9lJJRt7GK7sZNsO63z_E1jz5RssVQS9MgCNcBGAsYHQ/h240/minato-mio.png",
 	colorBg: "#5b81d4"
 }, 
-
+{
+    imgAnime: "https://lh3.googleusercontent.com/-L54Be0Ro0rY/YcbKaNHoCxI/AAAAAAAA25c/VzL4dqdjXvswYWh7yY4UT-nHZQrASoeagCNcBGAsYHQ/h240/kaguya.png",
+    colorBg: "#996bff"
+}, 
 {
     imgAnime: "https://lh3.googleusercontent.com/-gvNvhP_Sb4w/YY9S6qiNcrI/AAAAAAAA0pg/BeWDvtLgQHEaHVVIjDZLwDTLc6NftYnqgCNcBGAsYHQ/h240/yume-nijino.png",
     colorBg: "#d86f9f"
