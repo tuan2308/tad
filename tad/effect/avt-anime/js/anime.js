@@ -360,6 +360,9 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-gBjDGYXYMFw/YXKDJtGXXoI/AAAAAAAAyh4/UVQvNHhuJb0ygHz6R1wHSNF4xZ-Y_0rbgCNcBGAsYHQ/h240/Destiny.png",
 		colorBg: "#d83e49"
 	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-gaxg2htS6Y8/YcbVswrPziI/AAAAAAAA250/koDH5N0Kq0ALOFld2Ay1iJKnb61OjPZ9ACNcBGAsYHQ/h240/destiny.png",
+		colorBg: "#c33144"
+	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-a-JPPUhb9wA/YY4o3ZdUqmI/AAAAAAAA0j8/f2rsJPLhvL0OmNX9CsapPTcRW3v8FLh4wCNcBGAsYHQ/h240/Takt-Asahina.png",
 		colorBg: "#65a2c2"
 	}, {
