@@ -1814,7 +1814,15 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-EAkKo3u5b6g/YQ4-grJXtvI/AAAAAAAAv9I/5q99kAI5QZMcicrlhDlERmQfxdUhdBYogCNcBGAsYHQ/h240/bakugou.png",
 		colorBg: "#556b71"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-TUnPt3_F5dk/Yck0GSze9YI/AAAAAAAA28M/qYMFOqnnwEsPrWgAG-JleQvLLNQKmIZ-gCNcBGAsYHQ/h240/Bakugou.png",
+		colorBg: "#fb973f"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-ujCVgT-yEgA/Yck0k-X056I/AAAAAAAA28U/r2pnmF1fvnwp7TEMqGz--PGtlKgZRVkuwCNcBGAsYHQ/h240/Bakugou.png",
+		colorBg: "#254a38"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-GVrD_x-QaFs/YZeGG36uuMI/AAAAAAAA1To/-sGoyWbnKh8_MNVQiTDnFfYxo_Pid2fbgCNcBGAsYHQ/h240/Jiro-Kyoka.png",
 		colorBg: "#6c69d9"
@@ -2107,7 +2115,11 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-0G8C-3jV7OA/YRkaIbWPk6I/AAAAAAAAwXQ/r7yNvt9hkn4iU0HQPhwesVULOvun_zV5gCNcBGAsYHQ/h240/fubuki.png",
 		colorBg: "#44756a"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-3ALfrHLb6sU/Yck1NHN7vZI/AAAAAAAA28c/qhFxw5ulL4waJAHdO2GeWrOK0bj5Vm6yQCNcBGAsYHQ/h240/Garou.png",
+		colorBg: "#b92020"
+	}, 
+	
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-EgxdQiAXfZI/YZYIj_1pp9I/AAAAAAAA1RE/pVGMqTQtql49ZvBi48vXQtTK3WDWQpiCQCNcBGAsYHQ/h240/Rokuro-Enmado.png",
