@@ -3007,11 +3007,21 @@ var dsAnime = [
     imgAnime: "https://lh3.googleusercontent.com/-q2BbiqhIMP0/YbWhAo6jqCI/AAAAAAAA2OQ/R6KcGmt7Z38RRm_v0Be8TuMw9rrSg8ArwCNcBGAsYHQ/h240/Hoshimiya-Ichigo.png",
     colorBg: "#f499b1"
 }, 
+{
+    imgAnime: "https://lh3.googleusercontent.com/-AlIcXzxH3ds/YckjkEgBFJI/AAAAAAAA28E/KxoSm3RKDescNRSZr16DzTfCVw5oxT40QCNcBGAsYHQ/h240/Kanzaki-Mizuki.png",
+    colorBg: "#d272eb"
+}, 
 
 {
 	imgAnime: "https://lh3.googleusercontent.com/-UpvgGRlIbSA/YZIvWr-DRKI/AAAAAAAA09w/2qtCrxsIQcAVBGhCIp7RZj8fBpFE8gWzgCNcBGAsYHQ/h240/Mahiru-Kasumi.png",
 	colorBg: "#f28598"
 },
+{
+    imgAnime: "https://lh3.googleusercontent.com/-D0w5Sew7Cnc/YckinNVPtfI/AAAAAAAA278/EDLCXLKNyHceq42VFR_rWpeTtQyHis4kACNcBGAsYHQ/h240/koharu-nanakura.png",
+    colorBg: "#9a7ce1"
+}, 
+
+
 {
     imgAnime: "https://lh3.googleusercontent.com/-mFrJ0Xg2_WQ/YcLUfhLqnLI/AAAAAAAA2ss/7aGGU2bnb6MzKS4irfZE-vPBBKGfcJVVACNcBGAsYHQ/h240/Shibuki-Ran.png",
     colorBg: "#6368d6"
