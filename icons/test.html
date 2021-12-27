@@ -28,7 +28,7 @@ Your browser does not support the HTML5 canvas tag.
 <script>
 
 
-$.get('https://cdn.taoanhdep.com/icons/ic-phone.svg', function(svgXml) {
+$.get('./ic-address.svg', function(svgXml) {
 var j1 = new Image();
 var zzzz = "data:image/svg+xml;base64,"+ window.btoa((new XMLSerializer).serializeToString(svgXml).replace(/#FFFFFF/g,'#000000').replace(/#ffffff/g,'#000000'))
 j1.src = zzzz;
