@@ -2198,7 +2198,11 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-NiQiVn5bwC0/YbGxEUbzF2I/AAAAAAAA2FE/lMHlpvX6fMAcQvJL3ZkHkuVpQQP1ixvqgCNcBGAsYHQ/h240/Tsutarja.png",
 		colorBg: "#abca5b"
-	},
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-lPTU2Im8mCQ/YclE3pkm5tI/AAAAAAAA28k/v4ZyE6A0erISG4G9dXx51Ipw0BoAAhV9ACNcBGAsYHQ/h240/charizard.png",
+		colorBg: "#f48f40"
+	}, 
+	
 	{
 		imgAnime: "https://1.bp.blogspot.com/-BmO6CxcuilM/YQ48dJgF4yI/AAAAAAAAv84/L_uHCWjHRsInbfjc4DTB5fSf_YcE61h7wCNcBGAsYHQ/h240/dio.png",
 		colorBg: "#0d692b"
