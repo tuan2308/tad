@@ -47,6 +47,18 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-aXWs-YJwPT4/Ycsh1A_6qWI/AAAAAAAA2_w/X12tWgLoflgaWIfug6P9k3T7hrzIeazQACNcBGAsYHQ/h240/Qin-Shi-Huang.png",
+		colorBg: "#d93c3c"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-zoSna_4_om0/YcsgN0D1XtI/AAAAAAAA2_o/3maXeU9wj1YRLZpcliEpKwBTKEbLIyY_gCNcBGAsYHQ/h240/provato-pecora.png",
+		colorBg: "#a5d24f"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-9b1dJv-qJIA/YcsfwLNJMWI/AAAAAAAA2_g/zkHXK6aNWpMaJTZx9Jtuai1Wg-wXOs5_wCNcBGAsYHQ/h240/keyaru.png",
+		colorBg: "#df8f58"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-gaxg2htS6Y8/YcbVswrPziI/AAAAAAAA250/koDH5N0Kq0ALOFld2Ay1iJKnb61OjPZ9ACNcBGAsYHQ/h240/destiny.png",
 		colorBg: "#c33144"
 	}, 
@@ -1801,7 +1813,14 @@ var dsAnime = [
 	{
 		imgAnime: "https://1.bp.blogspot.com/-xb561qOPUcI/YRYevHx7j-I/AAAAAAAAwN4/Y-z3NiL5rxgQA6FhdZ9JrJf0jkkfZfhCQCNcBGAsYHQ/h240/midoriya.png",
 		colorBg: "#3b867a"
-	}, {
+	},
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-hchq7F0IDyI/YcsfCfqDWWI/AAAAAAAA2_Y/nO7CR2-6z2cLPuKnebk-LNPKSspF0pfsQCNcBGAsYHQ/h240/MIDORIYA.png",
+		colorBg: "#34b4a6"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-acU0cQbiUKo/YZeKK6LscFI/AAAAAAAA1Tw/NXMcnV8kXWQWAxR05F74d4-NIYUi4tolQCNcBGAsYHQ/h240/Todoroki-Shouto.png",
 		colorBg: "#2581ff"
 	}, {
