@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+<script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-6 bg-primary">
+
+    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" />
+
+    <img alt="Blank" class="d-none" height="0" id="Cimg"
+        src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png"
+        width="0">
+
+    <canvas id="temp" width="1500" height="1500" style="border:1px solid #d3d3d3;width: 100%;">
+        Your browser does not support the canvas element.
+    </canvas>
+    <link rel="stylesheet" href="https://cdn.taoanhdep.com/tad/effect/cover-anime-2/fonts/stylesheet.css" media="all">
+    <script>
+
+
+
+        document.fonts.load('10pt "GMV DIN Pro Cond"').then(function () {
+            var ab = new Image();
+            ab.crossOrigin = "Anonymous";
+            ab.src = "https://lh3.googleusercontent.com/-We064NIlvN4/YbFtAQRoOzI/AAAAAAAA2Aw/2Y1gohTqiEIndlNyQg2g1tj7mE01CrqXgCNcBGAsYHQ/s0/zero-two.png";
+            ab.onload = function () {
+            var a = new Image();
+            a.crossOrigin = "Anonymous";
+            a.src = "https://lh3.googleusercontent.com/-89LsILbZS0U/Ycnes2X3EXI/AAAAAAAA2-A/wEvBW90hxhMDnoV9n8BX6PO2IVRXNN92gCNcBGAsYHQ/s0/mask.png";
+            a.onload = function () {
+                var az = new Image();
+            az.crossOrigin = "Anonymous";
+            az.src = "https://lh3.googleusercontent.com/-gS4qkfvKATQ/Ycp10TDCJmI/AAAAAAAA2-Q/n0K0hJkAunU-caoDlWdFoO70QxjYGqa2gCNcBGAsYHQ/s0/layer-2.png";
+            az.onload = function () {
+
+
+                var newcanvas = document.createElement("canvas"); 
+                newcanvas.width = 1500;
+                newcanvas.height = 1500;
+                var ctx1 = newcanvas.getContext("2d");
+
+                ctx1.fillStyle = "#ffff"
+         
+                ctx1.fillRect(0,0,newcanvas.width,newcanvas.height)
+
+                ctx1.save();
+               
+                ctx1.globalAlpha =  "0.1";
+          
+                ctx1.drawImage(ab, 0, 0, newcanvas.width, newcanvas.height);
+                ctx1.restore();
+                ctx1.save();
+                ctx1.fillStyle = "#000"
+                ctx1.globalCompositeOperation = "color";
+                ctx1.fillRect(0,0,newcanvas.width,newcanvas.height)
+                ctx1.restore();
+
+
+
+               var t1 = "Tuan Deeptry".toUpperCase().split("").join(String.fromCharCode(8201))
+                var c = document.getElementById("temp");
+
+                var ctx = c.getContext("2d");
+                ctx.clearRect(0, 0, c.width, c.height);
+   
+ctx.fillStyle = "#e85f8a";
+ctx.fillRect(0, 0, c.width, c.height);
+ctx.globalCompositeOperation = "destination-in";
+ctx.drawImage(a, 0, 0, c.width, c.height);
+ctx.globalCompositeOperation = "destination-over";
+ctx.save();      
+     ctx.fillStyle = "#fff";
+     ctx.fillRect(0, 0, c.width, c.height);    
+     ctx.restore();
+     ctx.globalCompositeOperation = "source-over";
+       ctx.drawImage(az, 0, 0, c.width, c.height);
+       ctx.save();
+ctx.textAlign = "center";
+
+ctx.fillStyle = "rgba(255, 255, 255,0.8)";
+ctx.strokeStyle = "#fff";
+ctx.lineWidth = 2;
+                ctx.font = "200px GMV DIN Pro Cond";
+                ctx.strokeText(t1, c.width/2, 650);
+                ctx.fillText(t1, c.width/2, 825);
+                ctx.strokeText(t1, c.width/2, 1000);
+                ctx.restore();
+
+
+
+                ctx.save();
+                //      ctx.filter = 'grayscale(1)';
+                // ctx.globalAlpha =  "0.1";
+                ctx.globalCompositeOperation = "multiply";
+                ctx.drawImage(newcanvas, -c.width/4, -c.width/4, c.width*1.5, c.height*1.5);
+           
+                ctx.restore();
+                    
+                ctx.save();
+                ctx.shadowColor = "rgba(0,0,0, 0.3)";
+                ctx.shadowBlur = 10;
+                ctx.shadowOffsetX = 0;
+                ctx.shadowOffsetY = 0;
+                ctx.drawImage(ab, 0, 0, c.width, c.height);
+          
+                ctx.restore();
+         
+
+ctx.save()
+ctx.textAlign = "center";
+ctx.fillStyle = "#e85f8a";
+ctx.font = "120px Asem Kandis"
+ctx.fillText("Tuan Deeptry",c.width/2,200)
+
+
+            }
+            }
+
+            }
+        })
+
+    </script>
+
+
+
+</body>
+</html>
