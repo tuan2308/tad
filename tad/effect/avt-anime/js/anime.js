@@ -47,6 +47,27 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-APd0yFLXPnQ/YcvzgYpF35I/AAAAAAAA3Ao/kr64zmnfKFsk_WSr4JAba59z8SDUnpQiACNcBGAsYHQ/h240/Tairitsu.png",
+		colorBg: "#7aaecc"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-w80G7s8wLYQ/YcvyZ1XbSEI/AAAAAAAA3AY/_miCjOABdAcYbsR4RctKctTSQ8m9H4gSQCNcBGAsYHQ/h240/isla.png",
+		colorBg: "#948aed"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-TZVVL_k0Ql8/Ycvsd_jt-yI/AAAAAAAA3AI/bxjKj5Sn33g_2ZFqRpP93wQEBhH7jvlMgCNcBGAsYHQ/h240/Rin-Okumura.png",
+		colorBg: "#6a9be6"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-dNbzNiHUG_U/YcvuFKmBiwI/AAAAAAAA3AQ/kZ7wGWxX3TUCxx2yV3og8u0onq0a0X75wCNcBGAsYHQ/h240/Rin-Okumura.png",
+		colorBg: "#50a3f4",
+		marginL: 100
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-eimUTq6w8W0/YcvrAwu94gI/AAAAAAAA3AA/zVmhQY9KRkwcQJU6znaJa83XV-uk7xBAgCNcBGAsYHQ/h240/Kuro-Usagi.png",
+		colorBg: "#78b3f4"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-aXWs-YJwPT4/Ycsh1A_6qWI/AAAAAAAA2_w/X12tWgLoflgaWIfug6P9k3T7hrzIeazQACNcBGAsYHQ/h240/Qin-Shi-Huang.png",
 		colorBg: "#d93c3c"
 	}, 
@@ -1470,6 +1491,9 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-QXV5Ljdipoc/YTNFhItQ9pI/AAAAAAAAw-k/jcocxjXBO1U2Z4_MD9BG7O3CrptVNGXwQCNcBGAsYHQ/h240/guren.png",
 		colorBg: "#6c809e"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-IDyhuMJzeVE/Ycvy68QgldI/AAAAAAAA3Ag/_No2CyYUQjYzMzszTPSiYzoCJOPkq5yoQCNcBGAsYHQ/h240/Shinya-Hiiragi.png",
+		colorBg: "#e7b255"
 	},  {
 		imgAnime: "https://lh3.googleusercontent.com/-TGA22nV3PnM/YXP_mVEuZKI/AAAAAAAAykU/I5LseemIOCAJf3hufJ7wtiq4654WmEVjgCNcBGAsYHQ/h240/Izumi-miyamura.png",
 		colorBg: "#2397f0"
