@@ -51,7 +51,7 @@ var dsAnime = [
 		colorBg: "#7aaecc"
 	}, 
 	{
-		imgAnime: "https://lh3.googleusercontent.com/-w80G7s8wLYQ/YcvyZ1XbSEI/AAAAAAAA3AY/_miCjOABdAcYbsR4RctKctTSQ8m9H4gSQCNcBGAsYHQ/h240/isla.png",
+		imgAnime: "https://lh3.googleusercontent.com/-ugcaqIIFngQ/Ycv1rOFFHfI/AAAAAAAA3Aw/ijHgqM4bmKEvJnOmuXHIbfkmGYujBbuHQCNcBGAsYHQ/h240/isla.png",
 		colorBg: "#948aed"
 	}, 
 	{
