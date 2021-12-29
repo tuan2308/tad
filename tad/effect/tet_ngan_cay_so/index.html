@@ -79,7 +79,13 @@
             $("#img-out").hide();
                     $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
         
-        $.get("https://cdn.taoanhdep.com/tad/effect/cover-voi-chung-ta/main.svg", function(m) {
+var svg = "./main.svg"
+                    var az = new Image();
+                    az.crossOrigin = "Anonymous";
+                    az.src = svg;
+                    az.onload = function () {
+
+        $.get(svg, function(m) {
           
         var t1 = $(".tad-in-text1").val();
         
@@ -108,7 +114,7 @@
         
                     }
         
-        })
+        })  }
         })
             </script>
 </body>
