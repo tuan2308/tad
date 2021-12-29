@@ -2362,7 +2362,10 @@ var dsAnime = [
 	},  {
 		imgAnime: "https://1.bp.blogspot.com/-rOMaglwetqw/YREhKg_tsVI/AAAAAAAAwEU/Qj5XpOlUk1IeHoOHWw8JUwn2afR1qPZIACNcBGAsYHQ/h240/Ken-Ryuguji-[draken].png",
 		colorBg: "#1f242a"
-	}, {
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-nBmPgzVu_ZA/YcvmsQkYdbI/AAAAAAAA2_4/CfKkQmaX01kVolE8w3EaJ9btIaT-aSltwCNcBGAsYHQ/h240/Ken-Ryuguji-[draken].png",
+		colorBg: "#2d4953"
+	},  {
 		imgAnime: "https://1.bp.blogspot.com/-4jbj8k0oAcM/YRSr5HqBM5I/AAAAAAAAwJQ/Swt100rUtk06KL8TWCcIZ92s8lTNpZ9xgCNcBGAsYHQ/h240/Tetta-Kisaki.png",
 		colorBg: "#caab2f"
 	}, {
