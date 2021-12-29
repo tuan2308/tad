@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+<script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-6">
+
+    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" />
+
+    <img alt="Blank" class="d-none" height="0" id="Cimg"
+        src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png"
+        width="0">
+
+    <canvas id="temp" width="2000" height="760" style="border:1px solid #d3d3d3;width: 100%;">
+        Your browser does not support the canvas element.
+    </canvas>
+
+    <script>
+
+
+function showTextDemo(){
+/** Include fullScreenCanvas.js begin **/
+var canvas = document.getElementById("canv");
+if(canvas !== null){
+    document.body.removeChild(canvas);
+}
+canvas = (function () {
+    // creates a blank image with 2d context
+    canvas = document.createElement("canvas");  
+    canvas.id = "canv";
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight; 
+    canvas.style.position = "absolute";
+    canvas.style.top = "0px";
+    canvas.style.left = "0px";
+    canvas.ctx = canvas.getContext("2d"); 
+    document.body.appendChild(canvas);
+    return canvas;
+} ) ();
+var ctx = canvas.ctx;
+
+var measureCircleText = function(ctx, text, x, y, radius){
+    var textWidth;
+    // get the width of all the text
+    textWidth = ctx.measureText(text).width;
+    return {
+        width               :textWidth,
+        angularWidth        : (1 / radius) * textWidth,
+        pixelAngularSize    : 1 / radius
+    }
+}
+
+var circleText = function(ctx,text,x,y,radius,start,end,direction){
+    var i, textWidth, pA, pAS, a, aw, wScale, aligned, dir;
+    // save the current textAlign so that it can be restored at end
+    aligned = ctx.textAlign;
+    
+    dir = direction ? 1 : -1;
+    // get the angular size of a pixel in radians
+    pAS = 1 / radius;
+    
+    // get the width of all the text
+    textWidth = ctx.measureText(text).width;
+    
+    // if end is supplied then fit text between start and end
+    if(end !== undefined){
+        pA = ((end - start) / textWidth) * dir;
+        wScale = (pA / pAS) * dir;
+    }else{ // if no end is supplied corret start and end for alignment
+        pA = -pAS * dir;
+        wScale = -1 * dir;
+        switch(aligned){
+            case "center": // if centered move around half width
+                start -= pA * (textWidth / 2);
+                end = start + pA * textWidth;
+                break;
+            case "right":
+                end = start;
+                start -= pA * textWidth;
+                break;
+            case "left":
+                end = start + pA * textWidth;
+        }
+    }
+
+    // some code to help me test. Left it here incase someone wants to underline
+    // rmove the following 3 lines if you dont need underline
+    ctx.beginPath();
+    ctx.arc(x,y,radius,end,start,end>start?true:false);
+    ctx.stroke();
+
+    ctx.textAlign = "center"; // align for rendering
+
+    a = start;  // set the start angle
+    for (var i = 0; i < text.length; i += 1) {  // for each character
+        // get the angular width of the text
+        aw = ctx.measureText(text[i]).width * pA;
+        var xDx = Math.cos(a + aw / 2); // get the yAxies vector from the center x,y out
+        var xDy = Math.sin(a + aw / 2);
+        if (xDy < 0) {  // is the text upside down. If it is flip it
+            // sets the transform for each character scaling width if needed
+            ctx.setTransform(-xDy * wScale, xDx * wScale,-xDx,-xDy, xDx * radius + x,xDy * radius + y);
+        }else{
+            ctx.setTransform(-xDy * wScale, xDx * wScale, xDx, xDy, xDx * radius + x, xDy * radius + y);
+        }
+        // render the character
+        ctx.fillText(text[i],0,0);
+
+        a += aw;
+
+    }
+    ctx.setTransform(1,0,0,1,0,0);
+    ctx.textAlign = aligned;
+}
+
+
+// set up canvas
+var w = canvas.width;
+var h = canvas.height;
+var cw = w / 2;   // centers
+var ch = h / 2;
+var rad = (h / 2) * 0.9;  // radius
+// clear
+ctx.clearRect(0, 0, w, h)
+// the font
+var fontSize = Math.floor(h/20);
+if(h < 400){
+   var fontSize = 10;
+}
+ctx.font = fontSize + "px verdana";
+// base settings
+ctx.textAlign = "center";
+ctx.textBaseline = "bottom";
+ctx.fillStyle = "#666";
+ctx.strokeStyle = "#666";
+
+// Text under stretched
+
+// Text over stretchered
+
+// Show centered text
+rad -= fontSize + 4;
+ctx.fillStyle = "Red";
+// Use measureCircleText to get angular size
+var tw = measureCircleText(ctx, "Centered", cw, ch, rad).angularWidth;
+// centered bottom and top
+circleText(ctx, "Centered", cw, ch, rad, Math.PI / 2, undefined, true);
+
+}
+
+showTextDemo();
+window.addEventListener("resize",showTextDemo);
+    </script>
+
+
+
+</body>
+</html>
