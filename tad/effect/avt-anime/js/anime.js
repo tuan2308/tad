@@ -47,6 +47,17 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-jim-n4iYIYM/Ycv4eqWe9iI/AAAAAAAA3A4/L_LScC5EfVMYxJqy01nu4HCnwmtstfl7wCNcBGAsYHQ/h240/Takumi-Fujiwara.png",
+		colorBg: "#378aba"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-QZmQI43fNK4/Ycv4zqVHtgI/AAAAAAAA3BA/dMsBiczsmJ0y9nDPw3TRJHSDWR1tSFWCACNcBGAsYHQ/h240/Keisuke-Takahashi.png",
+		colorBg: "#ce5d4e"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-PLNFzmhzsTM/Ycv5LEsrIkI/AAAAAAAA3BI/rC1Wb5yOq88aLd7LvRsnQApBDMkp_WmPgCNcBGAsYHQ/h240/Ryosuke-Takahashi.png",
+		colorBg: "#c64545"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-APd0yFLXPnQ/YcvzgYpF35I/AAAAAAAA3Ao/kr64zmnfKFsk_WSr4JAba59z8SDUnpQiACNcBGAsYHQ/h240/Tairitsu.png",
 		colorBg: "#7aaecc"
 	}, 
