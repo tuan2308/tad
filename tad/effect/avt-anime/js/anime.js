@@ -42,7 +42,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-uRlCVSJ70Xw/YcRiw6XgXBI/AAAAAAAA2wg/eFPyemNRuXAFuuJQgu0qzIBmTgb8aEO3gCNcBGAsYHQ/h240/girl-3.png",
-		colorBg: "#f9da97"
+		colorBg: "#f7cc6f"
 	}, 
 
 	////newwww
