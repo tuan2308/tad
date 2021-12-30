@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>PayloadDescription</key>
+			<string>Configures Managed Domains</string>
+			<key>PayloadDisplayName</key>
+			<string>Domains</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.domains.58C25363-B585-4836-A93E-187C4A6F109D</string>
+			<key>PayloadType</key>
+			<string>com.apple.domains</string>
+			<key>PayloadUUID</key>
+			<string>58C25363-B585-4836-A93E-187C4A6F109D</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>WebDomains</key>
+			<array>
+				<string>https://www.taoanhdep.com/</string>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Tạo ảnh đẹp</string>
+	<key>PayloadIdentifier</key>
+	<string>MBA-M1.9E31D006-5585-4EDA-9E51-42A7C8030F93</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>4866694E-D3A8-45E6-9FAB-304C316843ED</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
