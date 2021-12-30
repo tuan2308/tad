@@ -2,7 +2,6 @@ var dsAnime = [
 
 //
 
-
 {
     imgAnime: "https://lh3.googleusercontent.com/--HHFVR4QkTE/YbyGiklcm7I/AAAAAAAA2e8/q5tbb-FB9bs5cdytxpivLp3pWj1AuRHrQCNcBGAsYHQ/h240/boy-1.png",
     colorBg: "#f8ca3e"
