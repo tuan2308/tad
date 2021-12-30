@@ -43,9 +43,34 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-uRlCVSJ70Xw/YcRiw6XgXBI/AAAAAAAA2wg/eFPyemNRuXAFuuJQgu0qzIBmTgb8aEO3gCNcBGAsYHQ/h240/girl-3.png",
 		colorBg: "#f7cc6f"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-j00shRErSaw/Yc2bADolwjI/AAAAAAAA3D0/uOPeCvC2-6Y-KBqI7ccBWpRF1yAgvEiFACNcBGAsYHQ/h240/boy-8.png",
+		colorBg: "#70b1df"
 	}, 
 
 	////newwww
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-JxomaNtuLnI/Yc2ZRtgjhvI/AAAAAAAA3Ds/oGuY2Sxlk4ciRUOw6Q2PExAyu1Mo6rVpwCNcBGAsYHQ/h240/yuichiro-hyakuya.png",
+		colorBg: "#9cca53"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-hrOYwQ5-Hyk/Yc2XScX7sgI/AAAAAAAA3Dc/iZ-TTYKdLpIVWS7vLPqVfQkzi2zenZDdwCNcBGAsYHQ/h240/Sniper-Mask.png",
+		colorBg: "#464c5c"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-i-Ode9sJLE4/Yc2YuDFNvwI/AAAAAAAA3Dk/DSIrifhEC7YLaILjhJBzgG0ypsNI3dkOgCNcBGAsYHQ/h240/Chrollo-Lucilfer.png",
+		colorBg: "#a01c1f"
+	}, 
+	
+	
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-A2LgmTjoruU/Yc2VRlkfIoI/AAAAAAAA3DM/Ns_8BPQQylw33jiUDVcuGHxa5m29CopsQCNcBGAsYHQ/h240/aiko-chan.png",
+		colorBg: "#f4cd65"
+	}, 
+	
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-jim-n4iYIYM/Ycv4eqWe9iI/AAAAAAAA3A4/L_LScC5EfVMYxJqy01nu4HCnwmtstfl7wCNcBGAsYHQ/h240/Takumi-Fujiwara.png",
 		colorBg: "#378aba"
@@ -1377,7 +1402,15 @@ var dsAnime = [
 	{
 			imgAnime: "https://lh3.googleusercontent.com/-f9AY38ZwX4k/YYe_TMWZnkI/AAAAAAAAz9I/6Rx9nLtGpbsAsnt9fAZOJc3gPYLPq6tjQCNcBGAsYHQ/h240/shido-itsuka.png",
 			colorBg: "#5b87bd"
-		}, {
+		},
+		{
+			imgAnime: "https://lh3.googleusercontent.com/-6F_j-mstApk/Yc2WJh1uXeI/AAAAAAAA3DU/jvfjXU9npQc321VopjKCnA2SMRA6A0NzACNcBGAsYHQ/h240/Yatogami-Tohka.png",
+			colorBg: "#ba92d8"
+		}, 
+		
+		
+		
+		{
 		imgAnime: "https://1.bp.blogspot.com/-3LHa3SDsYa4/YRM6c2x61fI/AAAAAAAAwFo/-FRHA-xDPloZORv9DkwmI0kRjMzC_agPQCNcBGAsYHQ/h240/kurumi.png",
 		colorBg: "#4d5190"
 	},  {
