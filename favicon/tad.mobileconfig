@@ -175,13 +175,13 @@
 	<key>PayloadIdentifier</key>
 	<string>com.taoanhdep</string>
 	<key>PayloadOrganization</key>
-	<string>Tuấn Deeptry</string>
+	<string>taoanhdep.com</string>
 	<key>PayloadRemovalDisallowed</key>
 	<false/>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>A668AEC7-7F09-4F1E-9AF0-781E11E37C07</string>
+	<string>C25D8280-18E9-4149-8DEA-6A3F95ED51FB</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
