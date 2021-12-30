@@ -170,6 +170,8 @@
 			<string>https://www.taoanhdep.com/</string>
 		</dict>
 	</array>
+	<key>PayloadDescription</key>
+	<string>Bạn đang cài đặt cấu hình web Tạo ảnh đẹp để hiển thị web app trên màn hình chính.</string>
 	<key>PayloadDisplayName</key>
 	<string>Tạo ảnh đẹp</string>
 	<key>PayloadIdentifier</key>
@@ -181,7 +183,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>C25D8280-18E9-4149-8DEA-6A3F95ED51FB</string>
+	<string>0636ABF2-42BD-43DE-8C82-C4F38B783ACD</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
