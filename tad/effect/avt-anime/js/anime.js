@@ -49,6 +49,26 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-t7dgC9NH6a0/YdBHiFc4uwI/AAAAAAAA3Ng/5KSzq9_H-Fw4ISUB3rPglrfG3BcLi96wgCNcBGAsYHQ/h240/onigasaki-kaikoku.png",
+		colorBg: "#6677a6"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-vUeJpXDlXw0/YdBG1rxy-VI/AAAAAAAA3NY/acqvsTBYaAMDjbN7RjcsowCiJQIyBnsogCNcBGAsYHQ/h240/Alucard.png",
+		colorBg: "#7a8296"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-QiYvf1HPs2U/YdBF4VP4qdI/AAAAAAAA3NQ/sQvAGPInQGAObYwW5v4O3F-9X05M5QrhQCNcBGAsYHQ/h240/Tina-Sprout.png",
+		colorBg: "#6ba7ad"
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-1Aoz4yyFwdg/YdBFHdGhx9I/AAAAAAAA3M8/ITWfFefIi04imU2fN1JVadeL7Tmz1S4XgCNcBGAsYHQ/h240/tohsaka-Rin.png",
+		colorBg: "#eb4d73"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-JxomaNtuLnI/Yc2ZRtgjhvI/AAAAAAAA3Ds/oGuY2Sxlk4ciRUOw6Q2PExAyu1Mo6rVpwCNcBGAsYHQ/h240/yuichiro-hyakuya.png",
 		colorBg: "#9cca53"
 	}, 
@@ -1550,7 +1570,15 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-FwR4ll1itks/YYTgRDLWh7I/AAAAAAAAzQQ/RWNC0la-ENwHk4XZy87K553C06UMaY2-QCNcBGAsYHQ/h240/Athanasia.png",
 		colorBg: "#559fde"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/--x0toj2tUuE/YdA_rVhRgVI/AAAAAAAA3Ms/j0O9Z868AdwSztr3Z8T5gHLChQNVVWtugCNcBGAsYHQ/h240/zero-two.png",
+		colorBg: "#f890bc"
 	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-WJkdEhDmelw/YdBD_5k5_BI/AAAAAAAA3M0/m2wUW3Oks5MpQy_zcvHHiOyAW1MMbNIegCNcBGAsYHQ/h240/zero-two.png",
+		colorBg: "#ee7998"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-We064NIlvN4/YbFtAQRoOzI/AAAAAAAA2Aw/2Y1gohTqiEIndlNyQg2g1tj7mE01CrqXgCNcBGAsYHQ/h240/zero-two.png",
 		colorBg: "#e85f8a"
