@@ -2464,7 +2464,7 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-4jbj8k0oAcM/YRSr5HqBM5I/AAAAAAAAwJQ/Swt100rUtk06KL8TWCcIZ92s8lTNpZ9xgCNcBGAsYHQ/h240/Tetta-Kisaki.png",
 		colorBg: "#caab2f"
 	}, {
-		imgAnime: "https://1.bp.blogspot.com/-QqE2bIkcOZ4/YRFCN1Pws4I/AAAAAAAAwEk/xFgTOqAw9_EMwwO86Mb3zO0m7BPlrNfhQCNcBGAsYHQ/h240/Chifuyu-Matsuno.png",
+		imgAnime: "https://lh3.googleusercontent.com/-xswHUWYfM6M/YdERoQVRJlI/AAAAAAAA3UQ/AHYlepv3sT4equ6VQekfG5z4sj94PEb7wCNcBGAsYHQ/h240/Chifuyu-Matsuno.png",
 		colorBg: "#243231"
 	},
 	
