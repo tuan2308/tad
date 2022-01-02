@@ -49,6 +49,10 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-_COp9_IU2Rc/YdGF5ynFLUI/AAAAAAAA3VM/SV_A-IVxJeo8AOiQ62GS7trDlwOpd9hlACNcBGAsYHQ/h240/Hayasaka-Ai.png",
+		colorBg: "#6fc2e5"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-zdxLq_sidsA/YdGDZmLwT6I/AAAAAAAA3U0/quouM1tqAQcjfwk0psLayHEf-5_RK1DPgCNcBGAsYHQ/h240/chizuru.png",
 		colorBg: "#8277cd"
 	}, 
@@ -1227,6 +1231,9 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-yiT6uj1p6s8/YV7eN5ql7bI/AAAAAAAAx_w/1LIQA0Et4McKKssuYYK8EjIJB9ASR8p7wCNcBGAsYHQ/h240/rushia.png",
 		colorBg: "#17bbb9"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-_z8KvcEYOt0/YdGG18v3RLI/AAAAAAAA3VU/pHGIDY2MD4wj-LAGLX2gD5N03obfz8yUQCNcBGAsYHQ/h240/Houshou-Marine.png",
+		colorBg: "#e04553"
 	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-BIrM18_ZZL0/YRKw_XC78GI/AAAAAAAAwFE/dYGr-JTSLkI2RwHgv-kOyAra7tnzAaM8gCNcBGAsYHQ/h240/gura.png",
@@ -1438,13 +1445,13 @@ var dsAnime = [
 	{
 		imgAnime: "https://1.bp.blogspot.com/-PyYvjL4q_pU/YSYyB9jk92I/AAAAAAAAwqM/mjr1Wg-K3gotm7IbF7ydABGSsSMTSfzAQCNcBGAsYHQ/h240/saber.png",
 		colorBg: "#5a9ece"
-	}, {
-		imgAnime: "https://1.bp.blogspot.com/-jXl6-T3ZDqU/YSIdY5NKglI/AAAAAAAAwjY/BwD8wWrB_Fk0_WfW8hNXOEFruLsULSImACNcBGAsYHQ/h240/sakura-saber.png",
-		colorBg: "#6ab9be"
-	},
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-2eQk_ifc0OY/YbSqZLjoeiI/AAAAAAAA2No/4-PKWj0msQA_KxuRrp6NX3Xjqqda2ZIdACNcBGAsYHQ/h240/alter-saber.png",
 		colorBg: "#4950f2"
+	},{
+		imgAnime: "https://1.bp.blogspot.com/-jXl6-T3ZDqU/YSIdY5NKglI/AAAAAAAAwjY/BwD8wWrB_Fk0_WfW8hNXOEFruLsULSImACNcBGAsYHQ/h240/okita-souji.png",
+		colorBg: "#6ab9be"
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-Tn8X-VeRFDg/YSIWAH53gwI/AAAAAAAAwiw/IlI2FTaBpp4FUwdp4sFMX0RUEuST-AkvwCNcBGAsYHQ/h240/yugi.png",
@@ -2960,7 +2967,7 @@ var dsAnime = [
 	},
 
 	{
-		imgAnime: "https://lh3.googleusercontent.com/-lB6kVDS2yy0/YbSkYlK4CbI/AAAAAAAA2M4/kMlTeD-QLB4zmbj8f2J33j7WOW6nryxMwCNcBGAsYHQ/h240/indra-uchiha.png",
+		imgAnime: "https://lh3.googleusercontent.com/-lB6kVDS2yy0/YbSkYlK4CbI/AAAAAAAA2M4/kMlTeD-QLB4zmbj8f2J33j7WOW6nryxMwCNcBGAsYHQ/h240/otsutsuki-indra.png",
 		colorBg: "#901b1b"
 	},
 
