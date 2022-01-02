@@ -88,6 +88,33 @@ var dsAnime = [
 		colorBg: "#76b1db"
 	},
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-XfNu6ABSCsY/YdGHv0jeG4I/AAAAAAAA3Vc/u0bz6edlCUI1u0KzejxSNz-JZc1XpU7vwCNcBGAsYHQ/h240/Bloom.png",
+		colorBg: "#4ac2c6"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-UwiMxChFvac/YdGIFqJ_UtI/AAAAAAAA3Vk/BCVBG9GhQik_LO2XxKuGXwiDk-D0HdKjACNcBGAsYHQ/h240/Stella.png",
+		colorBg: "#f6c756"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-PaBOnl1GiNU/YdGIXQu0VAI/AAAAAAAA3Vs/J8Me_mK8onw1WECwMeYQPSdGq4mk-N2ywCNcBGAsYHQ/h240/Flora.png",
+		colorBg: "#f19dcd"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-qVnWWR5GuYk/YdGIsZuGEhI/AAAAAAAA3V0/3_ZZA-e32bEIiQUVNHz6ka-9mhDxSat1ACNcBGAsYHQ/h240/Musa.png",
+		colorBg: "#ef6297"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-aSaFw_6rX5w/YdGKtAZB2jI/AAAAAAAA3V8/FSU0OGOu8OI7bXCfkGH7OIn_SD-LMl_RQCNcBGAsYHQ/h240/Tecna.png",
+		colorBg: "#e463a6"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-7Pyo9NlHtvE/YdGK97HNErI/AAAAAAAA3WE/b5XjTqcCgFcaAfks4EYuiJx_kG0fHjfBACNcBGAsYHQ/h240/Aisha.png",
+		colorBg: "#29ad6d"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-Mx2A9xXLF5I/YdGLUlCimYI/AAAAAAAA3WM/eHueYoQ3CvA_yM6ClN8ZIoO1t-higwxywCNcBGAsYHQ/h240/Roxy.png",
+		colorBg: "#e888cc"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-euV2xS13F1s/YdGLpcVIXKI/AAAAAAAA3WU/w31FzIEIG0EzJ3-B3G_KiSoaXTSYsfN1ACNcBGAsYHQ/h240/Daphne.png",
+		colorBg: "#e28ce5"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-64M9B6Ay7QU/YdGBWQDRn3I/AAAAAAAA3Uk/5hfT2XCFLbI_W0L1eM1tCEZlR2cDbiAhACNcBGAsYHQ/h240/shiki-ryougi.png",
 		colorBg: "#6c7bda"
 	}, 
