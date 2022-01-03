@@ -4,16 +4,19 @@ var dsAnime = [
 
 {
     imgAnime: "https://lh3.googleusercontent.com/--HHFVR4QkTE/YbyGiklcm7I/AAAAAAAA2e8/q5tbb-FB9bs5cdytxpivLp3pWj1AuRHrQCNcBGAsYHQ/h240/boy-1.png",
-    colorBg: "#f8ca3e"
+    colorBg: "#f8ca3e",
+	dm: "boy"
 }, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-BrCbdZUqVi0/YbFvE6sIPvI/AAAAAAAA2CQ/145Yk71SYAUk2LpVME6ZvA2DRb_9YQ2egCNcBGAsYHQ/h240/boy-2.png",
-		colorBg: "#9fc177"
+		colorBg: "#9fc177",
+		dm:"boy"
 	},
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-ESzEN4e9KCI/Yad386gx7SI/AAAAAAAA1yk/ty7r8jI_DF0-EAE6FeOYghqk1I55OyAmACNcBGAsYHQ/h240/boy-3.png",
-		colorBg: "#3f4a8a"
+		colorBg: "#3f4a8a",
+		dm:"boy"
 	},
 
 	{
@@ -44,10 +47,16 @@ var dsAnime = [
 		colorBg: "#f7cc6f"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-j00shRErSaw/Yc2bADolwjI/AAAAAAAA3D0/uOPeCvC2-6Y-KBqI7ccBWpRF1yAgvEiFACNcBGAsYHQ/h240/boy-8.png",
-		colorBg: "#70b1df"
+		colorBg: "#70b1df",
+		dm:"girl"
 	}, 
 
 	////newwww
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-s75uSOasgWc/YdKxCdGc-HI/AAAAAAAA3XI/VymQMDEeA8U0BeBc-Rcj3WudEMH_9-SQACNcBGAsYHQ/h240/Beelzebub.png",
+		colorBg: "#867bc4"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-_COp9_IU2Rc/YdGF5ynFLUI/AAAAAAAA3VM/SV_A-IVxJeo8AOiQ62GS7trDlwOpd9hlACNcBGAsYHQ/h240/Hayasaka-Ai.png",
 		colorBg: "#6fc2e5"
@@ -2204,7 +2213,11 @@ var dsAnime = [
 		colorBg: "#a8545f"
 	}, 
 	
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-ncqC2Mw53oE/YdKxwTzAkkI/AAAAAAAA3XQ/VDRYxUPoqmIe4PX9nB6LfIQNFmqfhi1cwCNcBGAsYHQ/h240/bokuto.png",
+		colorBg: "#f9df6e"
+	}, 
+	
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-oCj4w-jx9-o/YbGxpzLy3YI/AAAAAAAA2FM/wnggFV8lHdUPHm1Ls3woWIelGEI_8HF8gCNcBGAsYHQ/h240/kiyoko-Shimizu.png",
