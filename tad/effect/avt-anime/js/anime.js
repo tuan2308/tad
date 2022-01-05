@@ -53,6 +53,11 @@ var dsAnime = [
 
 	////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-IZm5ALOzgDU/YdT2YF4tjLI/AAAAAAAA3ZI/MDqbKYMafmwoG6jlLLXo36XqEFuE2ALwQCNcBGAsYHQ/h240/Yuliy-Jirov.png",
+		colorBg: "#537187"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-s75uSOasgWc/YdKxCdGc-HI/AAAAAAAA3XI/VymQMDEeA8U0BeBc-Rcj3WudEMH_9-SQACNcBGAsYHQ/h240/Beelzebub.png",
 		colorBg: "#867bc4"
 	}, 
@@ -1216,7 +1221,15 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-JxnlDlN8Fm0/YXaf9nnVVJI/AAAAAAAAyns/ZIes6EYSBxQRTLQMNPMMD42tHuTonnntACNcBGAsYHQ/h240/futaba-rio.png",
 		colorBg: "#ae9e82"
+	},{
+		imgAnime: "https://1.bp.blogspot.com/-BIrM18_ZZL0/YRKw_XC78GI/AAAAAAAAwFE/dYGr-JTSLkI2RwHgv-kOyAra7tnzAaM8gCNcBGAsYHQ/h240/gura.png",
+		colorBg: "#5ea9d4"
 	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-9JpRo2xDJtk/YdTy8_q0BxI/AAAAAAAA3Yw/3BUMgoL2iPMqZrj42oOuDD3JlKrjdwUhgCNcBGAsYHQ/h240/gura.png",
+		colorBg: "#6aace3"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-Rll97SErf0g/Yb737Pc8SQI/AAAAAAAA2js/lDMoaXf2Mj8nd8Usp0lOeUnog9UZyf5WQCNcBGAsYHQ/h240/Tokoyami-Towa.png",
 		colorBg: "#ff9ec3"
@@ -1271,11 +1284,7 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-_z8KvcEYOt0/YdGG18v3RLI/AAAAAAAA3VU/pHGIDY2MD4wj-LAGLX2gD5N03obfz8yUQCNcBGAsYHQ/h240/Houshou-Marine.png",
 		colorBg: "#e04553"
 	}, 
-	{
-		imgAnime: "https://1.bp.blogspot.com/-BIrM18_ZZL0/YRKw_XC78GI/AAAAAAAAwFE/dYGr-JTSLkI2RwHgv-kOyAra7tnzAaM8gCNcBGAsYHQ/h240/gura.png",
-		colorBg: "#5ea9d4"
-	},
-
+	
 	{
 		imgAnime: "https://1.bp.blogspot.com/-3W9_NlCIWYc/YVWrtuvZlII/AAAAAAAAxvY/BnzvILd6XAAK2y1nFG_a5jVojCSMpce_QCNcBGAsYHQ/h240/shirogane-noel.png",
 		colorBg: "#7ccc5a"
@@ -1564,7 +1573,15 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-i_EbozyHemE/YcLVXfFTliI/AAAAAAAA2s8/DcKoduRfdKQs932akj0bg87Q11_DFqm7gCNcBGAsYHQ/h240/Kou-Minamoto.png",
 		colorBg: "#ed9b40"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-cm-e-dFBvXQ/YdT0lFRLFYI/AAAAAAAA3Y4/iwPyyOK4vogTgf0iH2Us9l_qnh6Vf9cbwCNcBGAsYHQ/h240/Nene-Yashiro.png",
+		colorBg: "#ea484d"
 	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-6d1Q1l9y918/YdT1qI-8mYI/AAAAAAAA3ZA/n_JJYleDPSYsxPS9g9rwsQmmz1hn7WCEwCNcBGAsYHQ/h240/Minamoto-Teru.png",
+		colorBg: "#0c192a"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-DsJCkAvDjkQ/Yb78HfVjCGI/AAAAAAAA2kk/3BJ0dz62wvQuMQ_ymZlXCo8oVhrQCon9QCNcBGAsYHQ/h240/akane-aoi.png",
 		colorBg: "#a684d1"
