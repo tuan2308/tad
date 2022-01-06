@@ -2709,7 +2709,7 @@ var dsAnime = [
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-m6zV1PuysqU/YcSLd7NiAGI/AAAAAAAA2xA/0_JzONBZFxQHu0KA0r5OSCQ6Pq0_ma5uACNcBGAsYHQ/h240/piccolo.png",
-		colorBg: "#71ba35",dm:"fairy-tail"
+		colorBg: "#71ba35",dm:"dragon-ball-z"
 	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-x64VmYubxkQ/YROJ3n7BzfI/AAAAAAAAwF8/NSvGfJCRg7kSs9KTHWob_X7mcZDRq7eTgCNcBGAsYHQ/h240/natsu.png",
