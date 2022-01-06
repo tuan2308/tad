@@ -86,7 +86,7 @@
         return a
     }
     
-function titleCase(string) {
+function hoa_dau(string) {
   //1. Tách các từ, cụm từ trong chuỗi ban đầu
   let sentence = string.toLowerCase().split(" ");
 
@@ -148,8 +148,15 @@ console.log(dsDm)
 for(var ii= 0;ii<dsDm.length;ii++ ){
 if(dsDm[ii] != undefined){
 
-    
-    $("#chondanhmuc").append("<option value="+dsDm[ii]+">"+titleCase(dsDm[ii].replace(/-/g, " "))+"</option>")}
+
+var option = document.createElement("option");
+  var textnode = document.createTextNode(hoa_dau(dsDm[ii].replace(/-/g, " ")));
+  option.appendChild(textnode);
+  option.value = dsDm[ii]; 
+  document.getElementById("chondanhmuc").appendChild(option);
+
+
+}
 }
 
 
