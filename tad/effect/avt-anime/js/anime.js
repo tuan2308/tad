@@ -2345,7 +2345,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-tvMW9KcU1hw/YZOOtdWZlmI/AAAAAAAA1FQ/tvqpzB56h48DKH245TOKGbeEJU14Zk-TACNcBGAsYHQ/h240/Haru.png",
-		colorBg: "#eebeb1",dm:"death-note"
+		colorBg: "#eebeb1",dm:"beastars"
 	},
 
 
