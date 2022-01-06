@@ -3259,4 +3259,79 @@ var dsAnime = [
 
 document.querySelector(".label-chonnv span").innerText = "("+Object.keys(dsAnime).length+")";
 
+  
+$(".tad-cnvnext").click(function() {
+	$("#tad-chonnv").animate({
+		scrollLeft: "+=" + $("#tad-chonnv").width()
+	})
+});
+$(".tad-cnvprev").click(function() {
+	$("#tad-chonnv").animate({
+		scrollLeft: "-=" + $("#tad-chonnv").width()
+	})
+});
 
+function timnv() {
+	var m, a, l, k, i, n, j;
+	m = document.getElementById("tad-timnv");
+	a = m.value.toUpperCase();
+	l = document.getElementById("tad-chonnv");
+	k = l.getElementsByTagName("div");
+	for (n = 0; n < k.length; n++) {
+		i = k[n].getElementsByTagName("span")[0];
+		j = i.textContent || i.innerText;
+		if (j.toUpperCase().indexOf(a) > -1) {
+			k[n].style.display = ""
+		} else {
+			k[n].style.display = "none"
+		}
+	}
+}
+  
+     function timdm() {
+        var a, m, k, j, n, l, i;
+        a = document.getElementById("chondanhmuc");
+        m = a.value.toUpperCase();
+        k = document.getElementById("tad-chonnv");
+        j = k.getElementsByTagName("div");
+        for (l = 0; l < j.length; l++) {
+            n = j[l].getElementsByTagName("b")[0];
+            i = n.textContent || n.innerText;
+           
+            if (m =="") {
+
+j[l].classList.remove("dm-block");
+j[l].classList.remove("dm-none");
+
+}
+          
+          else if (i.toUpperCase() == m){
+                j[l].classList.remove("dm-block");
+                j[l].classList.remove("dm-none");
+                j[l].classList.add("dm-block");
+            } else {
+                j[l].classList.remove("dm-block");
+                j[l].classList.remove("dm-none");
+                j[l].classList.add("dm-none");
+            }
+        }
+    }
+
+var dsDm = [];
+for (var i = 0; i < dsAnime.length; i++) {
+  if (!dsDm.includes(dsAnime[i].dm)) dsDm.push(dsAnime[i].dm);
+
+}
+dsDm.sort();
+for(var ii= 0;ii<dsDm.length;ii++ ){
+if(dsDm[ii] != undefined){
+
+    
+    
+var option = document.createElement("option");
+  var textnode = document.createTextNode(hoa_dau(dsDm[ii].replace(/-/g, " ")));
+  option.appendChild(textnode);
+  option.value = dsDm[ii]; 
+  document.getElementById("chondanhmuc").appendChild(option);}
+}
+  

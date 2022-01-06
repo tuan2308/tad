@@ -66,8 +66,18 @@
 
 #tad-chonnv b{display: none;}
 </style>
-
-    <script src="./js/anime.js"></script>
+<script>function hoa_dau(string) {
+    //1. Tách các từ, cụm từ trong chuỗi ban đầu
+    let sentence = string.toLowerCase().split(" ");
+  
+    //2. Tạo vòng lặp và viết hoa chữ cái đầu tiên của các từ, cụm từ trên
+    for(var i = 0; i< sentence.length; i++){
+       sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
+    }
+    //3. Nối các từ, cụm từ đã xử lý ở trên và trả về kết quả
+    return sentence.join(" ");
+  }</script>
+    <script src="./js/anime-1.js"></script>
     <script>function xoa_dau(a) {
         a = a.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ/g, "a");
         a = a.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ/g, "e");
@@ -86,93 +96,83 @@
         return a
     }
     
-function hoa_dau(string) {
-  //1. Tách các từ, cụm từ trong chuỗi ban đầu
-  let sentence = string.toLowerCase().split(" ");
 
-  //2. Tạo vòng lặp và viết hoa chữ cái đầu tiên của các từ, cụm từ trên
-  for(var i = 0; i< sentence.length; i++){
-     sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
-  }
-  //3. Nối các từ, cụm từ đã xử lý ở trên và trả về kết quả
-  return sentence.join(" ");
-}
-    function timnv() {
-        var a, m, k, j, n, l, i;
-        a = document.getElementById("tad-timnv");
-        m = a.value.toUpperCase();
-        k = document.getElementById("tad-chonnv");
-        j = k.getElementsByTagName("div");
-        for (l = 0; l < j.length; l++) {
-            n = j[l].getElementsByTagName("span")[0];
-            i = n.textContent || n.innerText;
-            if (i.toUpperCase().indexOf(m) > -1) {
-                j[l].style.display = ""
-            } else {
-                j[l].style.display = "none"
-            }
-        }
-    }
+//     function timnv() {
+//         var a, m, k, j, n, l, i;
+//         a = document.getElementById("tad-timnv");
+//         m = a.value.toUpperCase();
+//         k = document.getElementById("tad-chonnv");
+//         j = k.getElementsByTagName("div");
+//         for (l = 0; l < j.length; l++) {
+//             n = j[l].getElementsByTagName("span")[0];
+//             i = n.textContent || n.innerText;
+//             if (i.toUpperCase().indexOf(m) > -1) {
+//                 j[l].style.display = ""
+//             } else {
+//                 j[l].style.display = "none"
+//             }
+//         }
+//     }
     
     
-    function timdm() {
-        var a, m, k, j, n, l, i;
-        a = document.getElementById("chondanhmuc");
-        m = a.value.toUpperCase();
-        k = document.getElementById("tad-chonnv");
-        j = k.getElementsByTagName("div");
-        for (l = 0; l < j.length; l++) {
-            n = j[l].getElementsByTagName("b")[0];
-            i = n.textContent || n.innerText;
+//     function timdm() {
+//         var a, m, k, j, n, l, i;
+//         a = document.getElementById("chondanhmuc");
+//         m = a.value.toUpperCase();
+//         k = document.getElementById("tad-chonnv");
+//         j = k.getElementsByTagName("div");
+//         for (l = 0; l < j.length; l++) {
+//             n = j[l].getElementsByTagName("b")[0];
+//             i = n.textContent || n.innerText;
 
-            if (m =="") {
+//             if (m =="") {
 
-j[l].classList.remove("dm-block");
-j[l].classList.remove("dm-none");
+// j[l].classList.remove("dm-block");
+// j[l].classList.remove("dm-none");
 
-}
-           else if (i.toUpperCase() == m) {
-                j[l].classList.remove("dm-block");
-                j[l].classList.remove("dm-none");
-                j[l].classList.add("dm-block");
-            } else {
-                j[l].classList.remove("dm-block");
-                j[l].classList.remove("dm-none");
-                j[l].classList.add("dm-none");
-            }
+// }
+//            else if (i.toUpperCase() == m) {
+//                 j[l].classList.remove("dm-block");
+//                 j[l].classList.remove("dm-none");
+//                 j[l].classList.add("dm-block");
+//             } else {
+//                 j[l].classList.remove("dm-block");
+//                 j[l].classList.remove("dm-none");
+//                 j[l].classList.add("dm-none");
+//             }
         
 
-        }
-    }
+//         }
+//     }
 
 
 
 
-var dsDm = [];
-for (var i = 0; i < dsAnime.length; i++) {
-  if (!dsDm.includes(dsAnime[i].dm))
-  {
-  dsDm.push(dsAnime[i].dm);
-}
+// var dsDm = [];
+// for (var i = 0; i < dsAnime.length; i++) {
+//   if (!dsDm.includes(dsAnime[i].dm))
+//   {
+//   dsDm.push(dsAnime[i].dm);
+// }
 
 
-}
-console.log(dsDm)
+// }
+// console.log(dsDm)
 
-dsDm.sort();
-for(var ii= 0;ii<dsDm.length;ii++ ){
-if(dsDm[ii] != undefined){
-
-
-var option = document.createElement("option");
-  var textnode = document.createTextNode(hoa_dau(dsDm[ii].replace(/-/g, " ")));
-  option.appendChild(textnode);
-  option.value = dsDm[ii]; 
-  document.getElementById("chondanhmuc").appendChild(option);
+// dsDm.sort();
+// for(var ii= 0;ii<dsDm.length;ii++ ){
+// if(dsDm[ii] != undefined){
 
 
-}
-}
+// var option = document.createElement("option");
+//   var textnode = document.createTextNode(hoa_dau(dsDm[ii].replace(/-/g, " ")));
+//   option.appendChild(textnode);
+//   option.value = dsDm[ii]; 
+//   document.getElementById("chondanhmuc").appendChild(option);
+
+
+// }
+// }
 
 
     $(document).ready(function() {
