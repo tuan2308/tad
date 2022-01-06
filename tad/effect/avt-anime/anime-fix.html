@@ -124,7 +124,14 @@ function hoa_dau(string) {
         for (l = 0; l < j.length; l++) {
             n = j[l].getElementsByTagName("b")[0];
             i = n.textContent || n.innerText;
-            if (i.toUpperCase().indexOf(m) > -1) {
+
+            if (m =="") {
+
+j[l].classList.remove("dm-block");
+j[l].classList.remove("dm-none");
+
+}
+           else if (i.toUpperCase() == m) {
                 j[l].classList.remove("dm-block");
                 j[l].classList.remove("dm-none");
                 j[l].classList.add("dm-block");
@@ -133,6 +140,8 @@ function hoa_dau(string) {
                 j[l].classList.remove("dm-none");
                 j[l].classList.add("dm-none");
             }
+        
+
         }
     }
 

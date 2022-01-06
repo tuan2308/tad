@@ -58,83 +58,83 @@ var dsAnime = [
 	////newwww
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-S_tAjXNpK2U/YZIvspY5MpI/AAAAAAAA094/ogPM9j6KLOoFPvpeLQKRek7nOGKLsrXAQCNcBGAsYHQ/h240/Koito-Minase.png",
-		colorBg: "#dc7bb3",dm:"musaigen no phantom world"
+		colorBg: "#dc7bb3",dm:"musaigen-no-phantom-world"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-IZm5ALOzgDU/YdT2YF4tjLI/AAAAAAAA3ZI/MDqbKYMafmwoG6jlLLXo36XqEFuE2ALwQCNcBGAsYHQ/h240/Yuliy-Jirov.png",
-		colorBg: "#537187"
+		colorBg: "#537187",dm:"sirius-the-jaeger."
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-s75uSOasgWc/YdKxCdGc-HI/AAAAAAAA3XI/VymQMDEeA8U0BeBc-Rcj3WudEMH_9-SQACNcBGAsYHQ/h240/Beelzebub.png",
-		colorBg: "#867bc4"
+		colorBg: "#867bc4",dm:"beelzebub-winter-clothes"
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-_COp9_IU2Rc/YdGF5ynFLUI/AAAAAAAA3VM/SV_A-IVxJeo8AOiQ62GS7trDlwOpd9hlACNcBGAsYHQ/h240/Hayasaka-Ai.png",
-		colorBg: "#6fc2e5"
+		colorBg: "#6fc2e5",dm:"kaguyasama-wa-kokurasetai"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-zdxLq_sidsA/YdGDZmLwT6I/AAAAAAAA3U0/quouM1tqAQcjfwk0psLayHEf-5_RK1DPgCNcBGAsYHQ/h240/chizuru.png",
-		colorBg: "#8277cd"
+		colorBg: "#8277cd",dm:"kanojo-okarishimasu"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-onrcTcEBoVw/YdGDzeKixiI/AAAAAAAA3U8/D0XnXOfW1ns9Acer90FN3gH9LedX8BpQgCNcBGAsYHQ/h240/yoshino.png",
-		colorBg: "#61a1d3"
+		colorBg: "#61a1d3",dm:"date-a-live"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-pGIJP5-cWwk/YdGChsHFSQI/AAAAAAAA3Us/gafjcZpNsBA_ZDHq9e_SB7bHBpdHA1aIQCNcBGAsYHQ/h240/zero-two.png",
-		colorBg: "#e54d55"
+		colorBg: "#e54d55",dm:"darling-in-the-franxx"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/--x0toj2tUuE/YdA_rVhRgVI/AAAAAAAA3Ms/j0O9Z868AdwSztr3Z8T5gHLChQNVVWtugCNcBGAsYHQ/h240/zero-two.png",
-		colorBg: "#f890bc"
+		colorBg: "#f890bc",dm:"darling-in-the-franxx"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-WJkdEhDmelw/YdBD_5k5_BI/AAAAAAAA3M0/m2wUW3Oks5MpQy_zcvHHiOyAW1MMbNIegCNcBGAsYHQ/h240/zero-two.png",
-		colorBg: "#ee7998"
+		colorBg: "#ee7998",dm:"darling-in-the-franxx"
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-We064NIlvN4/YbFtAQRoOzI/AAAAAAAA2Aw/2Y1gohTqiEIndlNyQg2g1tj7mE01CrqXgCNcBGAsYHQ/h240/zero-two.png",
-		colorBg: "#e85f8a"
+		colorBg: "#e85f8a",dm:"darling-in-the-franxx"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/--fQyJVG_a8w/YQjvnVLWzVI/AAAAAAAAv0o/h0zvBsl8ui8BslbvieRhT_S-tF9pgQ8ugCNcBGAsYHQ/h240/zero-two.png",
-		colorBg: "#eb7381"
+		colorBg: "#eb7381",dm:"darling-in-the-franxx"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-fnCkC_jvbkc/YcLa3UcWQII/AAAAAAAA2tU/B1Yc7Q5rUJYl_Izq-nAdTH21DTytkHlHQCNcBGAsYHQ/h240/hiro.png",
-		colorBg: "#63c5ed"
+		colorBg: "#63c5ed",dm:"darling-in-the-franxx"
 	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-UurSmwFQu3w/YRkDhF5a50I/AAAAAAAAwWo/GE3qZZ31Sv82R8dRYLMy3dEwnKfTeqHSQCNcBGAsYHQ/h240/ichigo.png",
-		colorBg: "#76b1db"
+		colorBg: "#76b1db",dm:"darling-in-the-franxx"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-XfNu6ABSCsY/YdGHv0jeG4I/AAAAAAAA3Vc/u0bz6edlCUI1u0KzejxSNz-JZc1XpU7vwCNcBGAsYHQ/h240/Bloom.png",
-		colorBg: "#4ac2c6"
+		colorBg: "#4ac2c6",dm:"winx-club"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-UwiMxChFvac/YdGIFqJ_UtI/AAAAAAAA3Vk/BCVBG9GhQik_LO2XxKuGXwiDk-D0HdKjACNcBGAsYHQ/h240/Stella.png",
-		colorBg: "#f6c756"
+		colorBg: "#f6c756",dm:"winx-club"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-PaBOnl1GiNU/YdGIXQu0VAI/AAAAAAAA3Vs/J8Me_mK8onw1WECwMeYQPSdGq4mk-N2ywCNcBGAsYHQ/h240/Flora.png",
-		colorBg: "#f19dcd"
+		colorBg: "#f19dcd",dm:"winx-club"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-qVnWWR5GuYk/YdGIsZuGEhI/AAAAAAAA3V0/3_ZZA-e32bEIiQUVNHz6ka-9mhDxSat1ACNcBGAsYHQ/h240/Musa.png",
-		colorBg: "#ef6297"
+		colorBg: "#ef6297",dm:"winx-club"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-aSaFw_6rX5w/YdGKtAZB2jI/AAAAAAAA3V8/FSU0OGOu8OI7bXCfkGH7OIn_SD-LMl_RQCNcBGAsYHQ/h240/Tecna.png",
-		colorBg: "#e463a6"
+		colorBg: "#e463a6",dm:"winx-club"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-7Pyo9NlHtvE/YdGK97HNErI/AAAAAAAA3WE/b5XjTqcCgFcaAfks4EYuiJx_kG0fHjfBACNcBGAsYHQ/h240/Aisha.png",
-		colorBg: "#29ad6d"
+		colorBg: "#29ad6d",dm:"winx-club"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-Mx2A9xXLF5I/YdGLUlCimYI/AAAAAAAA3WM/eHueYoQ3CvA_yM6ClN8ZIoO1t-higwxywCNcBGAsYHQ/h240/Roxy.png",
-		colorBg: "#e888cc"
+		colorBg: "#e888cc",dm:"winx-club"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-euV2xS13F1s/YdGLpcVIXKI/AAAAAAAA3WU/w31FzIEIG0EzJ3-B3G_KiSoaXTSYsfN1ACNcBGAsYHQ/h240/Daphne.png",
-		colorBg: "#e28ce5"
+		colorBg: "#e28ce5",dm:"winx-club"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-64M9B6Ay7QU/YdGBWQDRn3I/AAAAAAAA3Uk/5hfT2XCFLbI_W0L1eM1tCEZlR2cDbiAhACNcBGAsYHQ/h240/shiki-ryougi.png",
