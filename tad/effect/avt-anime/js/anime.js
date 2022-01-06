@@ -130,10 +130,7 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-euV2xS13F1s/YdGLpcVIXKI/AAAAAAAA3WU/w31FzIEIG0EzJ3-B3G_KiSoaXTSYsfN1ACNcBGAsYHQ/h240/Daphne.png",
 		colorBg: "#e28ce5",dm:"winx-club"
 	}, 
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-64M9B6Ay7QU/YdGBWQDRn3I/AAAAAAAA3Uk/5hfT2XCFLbI_W0L1eM1tCEZlR2cDbiAhACNcBGAsYHQ/h240/shiki-ryougi.png",
-		colorBg: "#6c7bda",dm:"type-moon"
-	}, 
+
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-t7dgC9NH6a0/YdBHiFc4uwI/AAAAAAAA3Ng/5KSzq9_H-Fw4ISUB3rPglrfG3BcLi96wgCNcBGAsYHQ/h240/onigasaki-kaikoku.png",
 		colorBg: "#6677a6",dm:"naka-no-hito"
@@ -149,10 +146,7 @@ var dsAnime = [
 		colorBg: "#6ba7ad",dm:"black-bullet"
 	}, 
 	
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-1Aoz4yyFwdg/YdBFHdGhx9I/AAAAAAAA3M8/ITWfFefIi04imU2fN1JVadeL7Tmz1S4XgCNcBGAsYHQ/h240/tohsaka-Rin.png",
-		colorBg: "#eb4d73",dm:"type-moon"
-	}, 
+	
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-JxomaNtuLnI/Yc2ZRtgjhvI/AAAAAAAA3Ds/oGuY2Sxlk4ciRUOw6Q2PExAyu1Mo6rVpwCNcBGAsYHQ/h240/yuichiro-hyakuya.png",
@@ -382,11 +376,7 @@ var dsAnime = [
 		colorBg: "#56d087",dm:"the-hidden-dungeon-only-i-can-enter"
 	},
 
-	{
-		imgAnime: "https://lh3.googleusercontent.com/-O0c7tWikhDk/YbSk9EntO2I/AAAAAAAA2NA/B0eVUjwCopwWnVJLtSU2qOz1asFslNiygCNcBGAsYHQ/h240/EMIYA.png",
-		colorBg: "#ab9b9b",dm:"type-moon"
-	},
-
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-d0WxgzIkwdI/YbRKxczxTuI/AAAAAAAA2MY/Kutg2BWmE_sK2bXxEToiCDJdEumti9S4ACNcBGAsYHQ/h240/Masuzu-Natsukawa.png",
 		colorBg: "#8d9bde",dm:"oreshura"
@@ -1453,6 +1443,16 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-IVq3938YjSY/YXpipcwGi4I/AAAAAAAAy8w/XCpQsR9JtXQVAQO8XlK66GdGD_kDnSCyACNcBGAsYHQ/h240/emiya-shirou.png",
 		colorBg: "#3e4588",dm:"type-moon"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-O0c7tWikhDk/YbSk9EntO2I/AAAAAAAA2NA/B0eVUjwCopwWnVJLtSU2qOz1asFslNiygCNcBGAsYHQ/h240/EMIYA.png",
+		colorBg: "#ab9b9b",dm:"type-moon"
+	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-1Aoz4yyFwdg/YdBFHdGhx9I/AAAAAAAA3M8/ITWfFefIi04imU2fN1JVadeL7Tmz1S4XgCNcBGAsYHQ/h240/tohsaka-Rin.png",
+		colorBg: "#eb4d73",dm:"type-moon"
+	}, 	{
+		imgAnime: "https://lh3.googleusercontent.com/-64M9B6Ay7QU/YdGBWQDRn3I/AAAAAAAA3Uk/5hfT2XCFLbI_W0L1eM1tCEZlR2cDbiAhACNcBGAsYHQ/h240/shiki-ryougi.png",
+		colorBg: "#6c7bda",dm:"type-moon"
 	}, 
 	{
 		imgAnime: "https://1.bp.blogspot.com/-PyYvjL4q_pU/YSYyB9jk92I/AAAAAAAAwqM/mjr1Wg-K3gotm7IbF7ydABGSsSMTSfzAQCNcBGAsYHQ/h240/saber.png",
