@@ -139,17 +139,17 @@ function titleCase(string) {
 
 
 
-var unique = [];
+var dsDm = [];
 for (var i = 0; i < dsAnime.length; i++) {
-  if (!unique.includes(dsAnime[i].dm)) unique.push(dsAnime[i].dm);
+  if (!dsDm.includes(dsAnime[i].dm)) dsDm.push(dsAnime[i].dm);
 
 }
-console.log(unique)
-for(var ii= 0;ii<unique.length;ii++ ){
-if(unique[ii] != undefined){
+console.log(dsDm)
+for(var ii= 0;ii<dsDm.length;ii++ ){
+if(dsDm[ii] != undefined){
 
     
-    $("#chondanhmuc").append("<option value="+unique[ii]+">"+titleCase(unique[ii].replace(/-/g, " "))+"</option>")}
+    $("#chondanhmuc").append("<option value="+dsDm[ii]+">"+titleCase(dsDm[ii].replace(/-/g, " "))+"</option>")}
 }
 
 
