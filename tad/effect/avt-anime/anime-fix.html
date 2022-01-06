@@ -28,6 +28,12 @@
     }</style>
 
     <!--more--><label class="label-chonnv">Chọn nhân vật <span>(842)</span> <a class="badge badge-primary mr-2" href="javascript:void(0)"><i class="fas fa-random"></i> Xếp ngẫu nhiên</a></label>
+  
+    <select class="custom-select mb-2" onchange="timdm()" onclick="timdm()" id="chondanhmuc">
+<option value="">Tất cả</option>
+    </select>
+
+   
     <div class="mb-2 has-search">
     <span class="fa fa-search form-control-feedback"></span>
     <input type="text" id="tad-timnv" onkeyup="timnv()" class="form-control" placeholder="Tìm nhân vật">
@@ -53,7 +59,13 @@
     <script>var tenanhxuat="cover_anime_2";
     </script>
 
-<div class="xxx"></div>
+<style>
+
+.dm-block{display: block;}
+.dm-none{display: none;}
+
+#tad-chonnv b{display: none;}
+</style>
 
     <script src="./js/anime.js"></script>
     <script>function xoa_dau(a) {
@@ -74,6 +86,17 @@
         return a
     }
     
+function titleCase(string) {
+  //1. Tách các từ, cụm từ trong chuỗi ban đầu
+  let sentence = string.toLowerCase().split(" ");
+
+  //2. Tạo vòng lặp và viết hoa chữ cái đầu tiên của các từ, cụm từ trên
+  for(var i = 0; i< sentence.length; i++){
+     sentence[i] = sentence[i][0].toUpperCase() + sentence[i].slice(1);
+  }
+  //3. Nối các từ, cụm từ đã xử lý ở trên và trả về kết quả
+  return sentence.join(" ");
+}
     function timnv() {
         var a, m, k, j, n, l, i;
         a = document.getElementById("tad-timnv");
@@ -92,16 +115,44 @@
     }
     
     
-    var output = dsAnime.filter(xxx => xxx.dm);
+    function timdm() {
+        var a, m, k, j, n, l, i;
+        a = document.getElementById("chondanhmuc");
+        m = a.value.toUpperCase();
+        k = document.getElementById("tad-chonnv");
+        j = k.getElementsByTagName("div");
+        for (l = 0; l < j.length; l++) {
+            n = j[l].getElementsByTagName("b")[0];
+            i = n.textContent || n.innerText;
+            if (i.toUpperCase().indexOf(m) > -1) {
+                j[l].classList.remove("dm-block");
+                j[l].classList.remove("dm-none");
+                j[l].classList.add("dm-block");
+            } else {
+                j[l].classList.remove("dm-block");
+                j[l].classList.remove("dm-none");
+                j[l].classList.add("dm-none");
+            }
+        }
+    }
 
 
-    for(var i=0;i<output.length;i++){
- 
-  $(".xxx").append(output[i].dm)
 
 
-};
+var unique = [];
+for (var i = 0; i < dsAnime.length; i++) {
+  if (!unique.includes(dsAnime[i].dm)) unique.push(dsAnime[i].dm);
+
+}
+console.log(unique)
+for(var ii= 0;ii<unique.length;ii++ ){
+if(unique[ii] != undefined){
+
     
+    $("#chondanhmuc").append("<option value="+unique[ii]+">"+titleCase(unique[ii].replace(/-/g, " "))+"</option>")}
+}
+
+
     $(document).ready(function() {
         // if (window.location.hostname == tmbq) {
             var g = document.getElementById("tad-chonnv");
@@ -123,7 +174,7 @@ $("body").append("<img src='"+zzzz+"'referrerpolicy='no-referrer' style='width:1
 
                 var d = a.substring(a.lastIndexOf("/") + 1, a.length).replace(/-/g, " ").replace(/.png/g, "");
    
-                b.innerHTML = "<span>" + d + "</span><i style='background-image: url(" + c.imgAnime.replace(/h240/g, "s120") + ");'></i>";
+                b.innerHTML = "<span>" + d + "</span><i style='background-image: url(" + c.imgAnime.replace(/h240/g, "s120") + ");'></i><b>"+c.dm+"</b>";
            
             }
               
@@ -161,7 +212,14 @@ $("body").append("<img src='"+zzzz+"'referrerpolicy='no-referrer' style='width:1
                 colorBg = a;
                 marginL = b;
                 $("#doimaunen").val(a).trigger("change");
-                $("#doimaunen").colorpicker("setValue", a)
+                $("#doimaunen").colorpicker("setValue", a);
+
+                var bb = $(this).find("b").text();
+
+       
+$("#chondanhmuc").val(bb)
+
+
             });
             $("#tad-chonnv").children("div:first-child").click();
             var h = $(".tad-in-text1");
