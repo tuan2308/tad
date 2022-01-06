@@ -2077,7 +2077,7 @@ var dsAnime = [
 		colorBg: "#967ea8",dm:"doki-doki-literature-club"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-68INF7MjzIY/YX0wYqJOE3I/AAAAAAAAy9c/VHKeEFbQmFYu2ANTOQMmQLyl0GZRzKANQCNcBGAsYHQ/h240/natsuki.png",
-		colorBg: "#f089ae",dm:"5-toubun-no-hanayome"
+		colorBg: "#f089ae",dm:"doki-doki-literature-club"
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-PqvcS2ihiFY/YR8pNRsxRqI/AAAAAAAAwe8/cBfsAJZW5C0lPTlChR151wQLPdCVDf6jgCNcBGAsYHQ/h240/nakano-ichika.png",
