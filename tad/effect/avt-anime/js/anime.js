@@ -3257,6 +3257,6 @@ var dsAnime = [
 ];
 
 
-document.querySelector(".label-chonnv span").innerText = "("+Object.keys(dsAnime).length+")";
+document.querySelector(".tatca-nv").innerText = "Tất cả ("+Object.keys(dsAnime).length+")";
 
 
