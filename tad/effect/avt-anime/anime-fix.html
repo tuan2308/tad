@@ -163,7 +163,7 @@ var current = null;
             if (cnt > 0) {
             
                 var option = document.createElement("option");
-                var textnode = document.createTextNode(hoa_dau(current.replace(/-/g, " ")) +" ("+ cnt+")");
+                var textnode = document.createTextNode(current.replace(/-/g, " ") +" ("+ cnt+")");
   option.appendChild(textnode);
   option.value = current; 
                 document.getElementById("chondanhmuc").appendChild(option);
