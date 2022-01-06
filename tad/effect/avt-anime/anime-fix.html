@@ -141,10 +141,16 @@ function hoa_dau(string) {
 
 var dsDm = [];
 for (var i = 0; i < dsAnime.length; i++) {
-  if (!dsDm.includes(dsAnime[i].dm)) dsDm.push(dsAnime[i].dm);
+  if (!dsDm.includes(dsAnime[i].dm))
+  {
+  dsDm.push(dsAnime[i].dm);
+}
+
 
 }
 console.log(dsDm)
+
+dsDm.sort();
 for(var ii= 0;ii<dsDm.length;ii++ ){
 if(dsDm[ii] != undefined){
 
