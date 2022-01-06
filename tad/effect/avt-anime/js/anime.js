@@ -138,40 +138,40 @@ var dsAnime = [
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-64M9B6Ay7QU/YdGBWQDRn3I/AAAAAAAA3Uk/5hfT2XCFLbI_W0L1eM1tCEZlR2cDbiAhACNcBGAsYHQ/h240/shiki-ryougi.png",
-		colorBg: "#6c7bda"
+		colorBg: "#6c7bda",dm:"type-moon"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-t7dgC9NH6a0/YdBHiFc4uwI/AAAAAAAA3Ng/5KSzq9_H-Fw4ISUB3rPglrfG3BcLi96wgCNcBGAsYHQ/h240/onigasaki-kaikoku.png",
-		colorBg: "#6677a6"
+		colorBg: "#6677a6",dm:"naka-no-hito"
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-vUeJpXDlXw0/YdBG1rxy-VI/AAAAAAAA3NY/acqvsTBYaAMDjbN7RjcsowCiJQIyBnsogCNcBGAsYHQ/h240/Alucard.png",
-		colorBg: "#7a8296"
+		colorBg: "#7a8296",dm:"hellsing"
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-QiYvf1HPs2U/YdBF4VP4qdI/AAAAAAAA3NQ/sQvAGPInQGAObYwW5v4O3F-9X05M5QrhQCNcBGAsYHQ/h240/Tina-Sprout.png",
-		colorBg: "#6ba7ad"
+		colorBg: "#6ba7ad",dm:"black-bullet"
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-1Aoz4yyFwdg/YdBFHdGhx9I/AAAAAAAA3M8/ITWfFefIi04imU2fN1JVadeL7Tmz1S4XgCNcBGAsYHQ/h240/tohsaka-Rin.png",
-		colorBg: "#eb4d73"
+		colorBg: "#eb4d73",dm:"type-moon"
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-JxomaNtuLnI/Yc2ZRtgjhvI/AAAAAAAA3Ds/oGuY2Sxlk4ciRUOw6Q2PExAyu1Mo6rVpwCNcBGAsYHQ/h240/yuichiro-hyakuya.png",
-		colorBg: "#9cca53"
+		colorBg: "#9cca53",dm:"owari-no-seraph"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-hrOYwQ5-Hyk/Yc2XScX7sgI/AAAAAAAA3Dc/iZ-TTYKdLpIVWS7vLPqVfQkzi2zenZDdwCNcBGAsYHQ/h240/Sniper-Mask.png",
-		colorBg: "#464c5c"
+		colorBg: "#464c5c",dm:"tenkuu-shinpan"
 	}, 
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-i-Ode9sJLE4/Yc2YuDFNvwI/AAAAAAAA3Dk/DSIrifhEC7YLaILjhJBzgG0ypsNI3dkOgCNcBGAsYHQ/h240/Chrollo-Lucilfer.png",
-		colorBg: "#a01c1f"
+		colorBg: "#a01c1f",dm:"hunter-x-hunter"
 	}, 
 	
 	
@@ -184,39 +184,39 @@ var dsAnime = [
 	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-jim-n4iYIYM/Ycv4eqWe9iI/AAAAAAAA3A4/L_LScC5EfVMYxJqy01nu4HCnwmtstfl7wCNcBGAsYHQ/h240/Takumi-Fujiwara.png",
-		colorBg: "#378aba"
+		colorBg: "#378aba",dm:"initiald"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-QZmQI43fNK4/Ycv4zqVHtgI/AAAAAAAA3BA/dMsBiczsmJ0y9nDPw3TRJHSDWR1tSFWCACNcBGAsYHQ/h240/Keisuke-Takahashi.png",
-		colorBg: "#ce5d4e"
+		colorBg: "#ce5d4e",dm:"initiald"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-PLNFzmhzsTM/Ycv5LEsrIkI/AAAAAAAA3BI/rC1Wb5yOq88aLd7LvRsnQApBDMkp_WmPgCNcBGAsYHQ/h240/Ryosuke-Takahashi.png",
-		colorBg: "#c64545"
+		colorBg: "#c64545",dm:"initiald"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-APd0yFLXPnQ/YcvzgYpF35I/AAAAAAAA3Ao/kr64zmnfKFsk_WSr4JAba59z8SDUnpQiACNcBGAsYHQ/h240/Tairitsu.png",
-		colorBg: "#7aaecc"
+		colorBg: "#7aaecc",dm:"arcaea"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-ugcaqIIFngQ/Ycv1rOFFHfI/AAAAAAAA3Aw/ijHgqM4bmKEvJnOmuXHIbfkmGYujBbuHQCNcBGAsYHQ/h240/isla.png",
-		colorBg: "#948aed"
+		colorBg: "#948aed",dm:"plastic-memories"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-TZVVL_k0Ql8/Ycvsd_jt-yI/AAAAAAAA3AI/bxjKj5Sn33g_2ZFqRpP93wQEBhH7jvlMgCNcBGAsYHQ/h240/Rin-Okumura.png",
-		colorBg: "#6a9be6"
+		colorBg: "#6a9be6",dm:"ao-no-exorcist"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-dNbzNiHUG_U/YcvuFKmBiwI/AAAAAAAA3AQ/kZ7wGWxX3TUCxx2yV3og8u0onq0a0X75wCNcBGAsYHQ/h240/Rin-Okumura.png",
 		colorBg: "#50a3f4",
-		marginL: 100
+		marginL: 100,dm:"ao-no-exorcist"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-eimUTq6w8W0/YcvrAwu94gI/AAAAAAAA3AA/zVmhQY9KRkwcQJU6znaJa83XV-uk7xBAgCNcBGAsYHQ/h240/Kuro-Usagi.png",
-		colorBg: "#78b3f4"
+		colorBg: "#78b3f4",dm:"mondaiji-tachi"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-aXWs-YJwPT4/Ycsh1A_6qWI/AAAAAAAA2_w/X12tWgLoflgaWIfug6P9k3T7hrzIeazQACNcBGAsYHQ/h240/Qin-Shi-Huang.png",
-		colorBg: "#d93c3c"
+		colorBg: "#d93c3c",dm:"record-of-ragnarok"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-zoSna_4_om0/YcsgN0D1XtI/AAAAAAAA2_o/3maXeU9wj1YRLZpcliEpKwBTKEbLIyY_gCNcBGAsYHQ/h240/provato-pecora.png",
@@ -1189,22 +1189,22 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-pZ9KtoMLkiY/YUxhvlR0KBI/AAAAAAAAxig/h1DcX4FNIr84-QJZm61dkY1t_B2xE4Z9ACNcBGAsYHQ/h240/tohru.png",
-		colorBg: "#ffc560",dm:"kobayashi-san-Chi-no-Maid-Dragon"
+		colorBg: "#ffc560",dm:"kobayashi-san-chi-no-maid-dragon"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-UksZ9hx6GPc/YZeDke6lYpI/AAAAAAAA1TQ/GHnCoXpoqb4nptrvk7-PC-6tzONc0RgjACNcBGAsYHQ/h240/Elma.png",
-		colorBg: "#6767e6",dm:"kobayashi-san-Chi-no-Maid-Dragon"
+		colorBg: "#6767e6",dm:"kobayashi-san-chi-no-maid-dragon"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-ufx7N8Uj-k4/YWWVmPYxBOI/AAAAAAAAyKE/_dS5s4BsbncLR9mER5cDeSKGSWDkuvKdwCNcBGAsYHQ/h240/ilulu.png",
-		colorBg: "#d781c2",dm:"kobayashi-san-Chi-no-Maid-Dragon"
+		colorBg: "#d781c2",dm:"kobayashi-san-chi-no-maid-dragon"
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-GUfoqwtCUMM/YQutcKmSA4I/AAAAAAAAv5g/yCR267Bt5aoJTLZ2XmapgPRKcfcGR2MUQCNcBGAsYHQ/h240/kanna-kamui.png",
-		colorBg: "#eb9ead",dm:"kobayashi-san-Chi-no-Maid-Dragon"
+		colorBg: "#eb9ead",dm:"kobayashi-san-chi-no-maid-dragon"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-ttmlHJL5IKo/YbGvBmOLRUI/AAAAAAAA2E8/qM_bBeXqgig1Mhp8uXZw6LLPhKOomBl4wCNcBGAsYHQ/h240/lucoa.png",
-		colorBg: "#abca5b",dm:"kobayashi-san-Chi-no-Maid-Dragon"
+		colorBg: "#abca5b",dm:"kobayashi-san-chi-no-maid-dragon"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-DdniOeoDPgg/YZeB_Q6sCEI/AAAAAAAA1S4/81h7SJTz1bgH3eQAXo0u_aQxHd2VQfH2wCNcBGAsYHQ/h240/sakuta-azusagawa.png",
@@ -3035,7 +3035,7 @@ var dsAnime = [
 		colorBg: "#6f7f5e",dm:"naruto"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-lmCYjuEEqT4/YRYyAJxY5pI/AAAAAAAAwPE/C04ktU6o9QIQHpwRC4IXUGlXVJgsMspsQCNcBGAsYHQ/h240/temari.png",
-		colorBg: "#a095b5"
+		colorBg: "#a095b5",dm:"naruto"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-hQS6uQuxWTo/YRj8PN8QL7I/AAAAAAAAwVY/rFO88neKNQA4uzGHPZ1eKDcB3_ldZXk3gCNcBGAsYHQ/h240/uchiha-shisui.png",
 		colorBg: "#595f41",dm:"naruto"
