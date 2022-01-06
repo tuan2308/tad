@@ -62,7 +62,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-IZm5ALOzgDU/YdT2YF4tjLI/AAAAAAAA3ZI/MDqbKYMafmwoG6jlLLXo36XqEFuE2ALwQCNcBGAsYHQ/h240/Yuliy-Jirov.png",
-		colorBg: "#537187",dm:"sirius-the-jaeger."
+		colorBg: "#537187",dm:"sirius-the-jaeger"
 	}, 
 	
 	{
