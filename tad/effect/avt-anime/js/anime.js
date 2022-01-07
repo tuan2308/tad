@@ -796,7 +796,7 @@ var dsAnime = [
 		colorBg: "#8ca5d6",dm:"kyoukai-no-kanata"
 	},{
 		imgAnime: "https://1.bp.blogspot.com/-dVpmyiUWUjI/YRomRtXCTQI/AAAAAAAAwYc/KEo1d5_HVg4FruI72FaMhTMarLqwLiYuACNcBGAsYHQ/h240/umaru.png",
-		colorBg: "#ee8c44",dm:"/himouto-umaru-chan"
+		colorBg: "#ee8c44",dm:"himouto-umaru-chan"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-De8cXmbTJ5I/YRkBvmtVItI/AAAAAAAAwWQ/_1yGmv0iao8BN7VmqF7x7ljaI13P5gPEwCNcBGAsYHQ/h240/violet-evergarden.png",
 		colorBg: "#71a7d4",dm:"violet-evergarden"
