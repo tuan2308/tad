@@ -57,6 +57,14 @@ var dsAnime = [
 	}, 
 	/////newwww
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-zeJrGSB_V74/Ydf7v2tl_xI/AAAAAAAA3cc/uirsPPfTJngNnFW6wP5-OFptci90xN9GwCNcBGAsYHQ/h240/Hibiki.png",
+		colorBg: "#66a9ec",dm:"kancolle"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-RZ-sa7l12Y4/Ydf60Mo-vaI/AAAAAAAA3cQ/eHfKKCHhBfkzhQIoOM-tMacZVnIKTcGswCNcBGAsYHQ/h240/Nagatoro.png",
+		colorBg: "#6574cf",dm:"Nagatoro"
+	}, 
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-3fR6qdUZYPs/Ydf3TxiInnI/AAAAAAAA3b8/spmw9NF3MW4865lACmZllmTh8ktxHrMfgCNcBGAsYHQ/h240/Rinu.png",
 		colorBg: "#fd97ab",dm:"strawberry-prince"
 	}, 
@@ -655,6 +663,9 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-Dvt8kuj-Gno/YXageFyWOpI/AAAAAAAAyn4/OpJ0R9Eyi0QSxlX-7QQJ55aFeNzxqc5ygCNcBGAsYHQ/h240/chara.png",
 		colorBg: "#70bd6b",dm:"undertale"
 	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-3Ps8DFozSrs/Ydf-DcWoP7I/AAAAAAAA3ck/u5GR1OX4SNQn84ol1zvIJz-OHh6Pfcn9QCNcBGAsYHQ/h240/mettaton.png",
+		colorBg: "#ff85b8",dm:"undertale"
+	},{
 		imgAnime: "https://lh3.googleusercontent.com/-XztkjBMGyDE/YXfL3E-DClI/AAAAAAAAyps/Lo9Yb4U-n50pkxkZFUjBOKPgp3FuuPwKwCNcBGAsYHQ/h240/senko.png",
 		colorBg: "#f5a933",dm:"senko-san"
 	}, 
