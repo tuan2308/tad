@@ -595,7 +595,10 @@ var dsAnime = [
 	},{
 		imgAnime: "https://1.bp.blogspot.com/-9x-5Z7CEsag/YRd9DWpiJ-I/AAAAAAAAwRY/DNlMLG12fPAmeeZKLXMcy_O6jb7XT_-nACNcBGAsYHQ/h240/kaneki-ken.png",
 		colorBg: "#b22a2a",dm:"tokyo-ghoul"
-	}, {
+	},  {
+		imgAnime: "https://1.bp.blogspot.com/-9WD9n1tXeSE/YS99QxqIITI/AAAAAAAAw44/0c2LNr0d5Mon0RqhLrLCueo47CPNDdMdACNcBGAsYHQ/h240/suzuya-juuzou.png",
+		colorBg: "#c43432",dm:"tokyo-ghoul"
+	},{
 		imgAnime: "https://lh3.googleusercontent.com/-NEp5yxfVbzw/YYuO9Cax2LI/AAAAAAAA0WM/D2cOZILoEbYzvsqYgtqih0zxPJVVhVdAgCNcBGAsYHQ/h240/yoshimura-eto.png",
 		colorBg: "#6f253e",
 		marginL: 100,dm:"tokyo-ghoul"
@@ -735,9 +738,6 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-fXXY-ggAV_Q/YUSN_1LI1hI/AAAAAAAAxUw/HX33ePuhwz8JdSL-UlBHGFrhMIZRAUElgCNcBGAsYHQ/h240/sawada.png",
 		colorBg: "#f24917",dm:"reborn"
-	}, {
-		imgAnime: "https://1.bp.blogspot.com/-9WD9n1tXeSE/YS99QxqIITI/AAAAAAAAw44/0c2LNr0d5Mon0RqhLrLCueo47CPNDdMdACNcBGAsYHQ/h240/juuzou.png",
-		colorBg: "#c43432"
 	}, {
 		imgAnime: "https://1.bp.blogspot.com/-uCAwvdz8eNQ/YS82B8WTHWI/AAAAAAAAw3o/U9-pyn0DGkMFFJ-2GODNLF6ZJPH1_P7wgCNcBGAsYHQ/h240/yamauchi-sakura.png",
 		colorBg: "#64608a",dm:"i-want-to-eat-your-pancreas"
@@ -1847,7 +1847,10 @@ var dsAnime = [
 	{
 		imgAnime: "https://1.bp.blogspot.com/-rU5kOWEtTMc/YQzvR0DHARI/AAAAAAAAv7U/kTMGmdciDoEWji2CvCc7XPNnli7TcZPLgCNcBGAsYHQ/h240/satoru-gojo.png",
 		colorBg: "#746294",dm:"jujutsu-kaisen"
-	}, {
+	},{
+		imgAnime: "https://lh3.googleusercontent.com/-h16l_FsT_TY/Ydf4-5El8XI/AAAAAAAA3cE/r5v1ktgdtD8cPZ3C1SjlqXGdZ7tgxvdoQCNcBGAsYHQ/h240/sukuna.png",
+		colorBg: "#e87e98",dm:"jujutsu-kaisen"
+	},  {
 		imgAnime: "https://1.bp.blogspot.com/-iCpLylmNJf4/YSyq5Gj06iI/AAAAAAAAw1U/2iRtPrlXKJ4ywgQBKC7rju10YSx29wdbQCNcBGAsYHQ/h240/sukuna.png",
 		colorBg: "#c66163",dm:"jujutsu-kaisen"
 	}, {
