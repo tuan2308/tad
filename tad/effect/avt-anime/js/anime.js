@@ -55,7 +55,15 @@ var dsAnime = [
 		imgAnime: "https://1.bp.blogspot.com/-TkK1lZHat10/YQutoQC_JLI/AAAAAAAAv5k/Eejn12Mxgl0XnZIDAD4yZF00tiPneJOzwCNcBGAsYHQ/h240/girl-4.png",
 		colorBg: "#3aa3c5",dm:"girl"
 	}, 
-	////newwww
+	/////newwww
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-3fR6qdUZYPs/Ydf3TxiInnI/AAAAAAAA3b8/spmw9NF3MW4865lACmZllmTh8ktxHrMfgCNcBGAsYHQ/h240/Rinu.png",
+		colorBg: "#fd97ab",dm:"strawberry-prince"
+	}, 
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-C1BoqWeE4JM/Ydf1lwD7XLI/AAAAAAAA3b0/ajLB0iU3ioUyIZEgyrv4uaezrMMj_Zk_ACNcBGAsYHQ/h240/sakura-kinomoto.png",
+		colorBg: "#fd97ab",dm:"cardcaptor-sakura"
+	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-S_tAjXNpK2U/YZIvspY5MpI/AAAAAAAA094/ogPM9j6KLOoFPvpeLQKRek7nOGKLsrXAQCNcBGAsYHQ/h240/Koito-Minase.png",
 		colorBg: "#dc7bb3",dm:"musaigen-no-phantom-world"
@@ -1087,6 +1095,9 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-ufx7N8Uj-k4/YWWVmPYxBOI/AAAAAAAAyKE/_dS5s4BsbncLR9mER5cDeSKGSWDkuvKdwCNcBGAsYHQ/h240/ilulu.png",
 		colorBg: "#d781c2",dm:"kobayashi-san-chi-no-maid-dragon"
+	},	{
+		imgAnime: "https://lh3.googleusercontent.com/-mdQZoo76DUU/YdfwcvnxcVI/AAAAAAAA3bk/RpDrnQepZiMNeRmTHNBi4wqW089D0Ht1QCNcBGAsYHQ/h240/kanna-kamui.png",
+		colorBg: "#fd91ef",dm:"kobayashi-san-chi-no-maid-dragon"
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-GUfoqwtCUMM/YQutcKmSA4I/AAAAAAAAv5g/yCR267Bt5aoJTLZ2XmapgPRKcfcGR2MUQCNcBGAsYHQ/h240/kanna-kamui.png",
@@ -1212,7 +1223,11 @@ var dsAnime = [
 	},
 
 ////
-	{
+{
+	imgAnime: "https://lh3.googleusercontent.com/-Q6_BT5jcP8Q/Ydfxz05-M3I/AAAAAAAA3bs/JqN0Mh58i4Yj5LxKUG8niYMkgVJPNmalgCNcBGAsYHQ/h240/sayu.png",
+	colorBg: "#91c9fd",dm:"genshin-impact"
+},
+{
 		imgAnime: "https://lh3.googleusercontent.com/-V3G9zignwoQ/YZYLvX5kToI/AAAAAAAA1Rs/uoxK8jPkRVonNM8ioagJpiHfJMsMPeGPQCNcBGAsYHQ/h240/noelle.png",
 		colorBg: "#ed6793",dm:"genshin-impact"
 	}, {
@@ -2915,6 +2930,9 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-lLJJBxK-H-c/YdGEcaNF56I/AAAAAAAA3VE/nVViwo0sdXwbKUKx5FbbU97Vxd6YOn3sACNcBGAsYHQ/h240/jinbei.png",
 		colorBg: "#61a1d3",dm:"one-piece"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-uayfxOWxCpg/YdfrlMKh27I/AAAAAAAA3bc/kyPR56vaa_wy_xDsp4k7mBVfo0fHj5AlwCNcBGAsYHQ/h240/macro.png",
+		colorBg: "#9e5ed0",dm:"one-piece"
 	}, 
 ///naruto
 
