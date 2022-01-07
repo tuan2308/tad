@@ -860,10 +860,10 @@ var dsAnime = [
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-1H3p56vWetc/YZchk73tfdI/AAAAAAAA1Sw/z1HUjkerzEE8wLZmCuib4QJrBusiAhekACNcBGAsYHQ/h240/Hajime-Nagumo.png",
-		colorBg: "#d53535"
+		colorBg: "#d53535",dm:"arifureta"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-2emRfUpaZek/YZchCTJWVtI/AAAAAAAA1So/0mm7FKkCmSQi8OkxEEKxgO94teo0t9YYwCNcBGAsYHQ/h240/Emma.png",
-		colorBg: "#fb9245"
+		colorBg: "#fb9245",dm:"the-promised-neverland"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-YKTkl17_RJE/YZYRtegjVII/AAAAAAAA1R8/Ys75tftdXnY2dVoZLh04if9SySVDAERKwCNcBGAsYHQ/h240/karin.png",
 		colorBg: "#e68599",dm:"naka-no-hito"
@@ -1139,7 +1139,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-JxnlDlN8Fm0/YXaf9nnVVJI/AAAAAAAAyns/ZIes6EYSBxQRTLQMNPMMD42tHuTonnntACNcBGAsYHQ/h240/futaba-rio.png",
-		colorBg: "#ae9e82"
+		colorBg: "#ae9e82",dm:"seishun-buta-yarou"
 	},  {
 		imgAnime: "https://1.bp.blogspot.com/-6lzw-haSWbM/YUAqxjCb1lI/AAAAAAAAxMI/4A1wKOq_hRQUCUmDMrHI_nHcz3YVBdg5ACNcBGAsYHQ/h240/nanashi-mumei.png",
 		colorBg: "#1bbbc5",dm:"virtual-youtuber"
@@ -1222,7 +1222,7 @@ var dsAnime = [
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-yiT6uj1p6s8/YV7eN5ql7bI/AAAAAAAAx_w/1LIQA0Et4McKKssuYYK8EjIJB9ASR8p7wCNcBGAsYHQ/h240/rushia.png",
-		colorBg: "#17bbb9"
+		colorBg: "#17bbb9",dm:"virtual-youtuber"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-_z8KvcEYOt0/YdGG18v3RLI/AAAAAAAA3VU/pHGIDY2MD4wj-LAGLX2gD5N03obfz8yUQCNcBGAsYHQ/h240/Houshou-Marine.png",
 		colorBg: "#e04553",dm:"virtual-youtuber"
@@ -1764,7 +1764,7 @@ var dsAnime = [
 	},
 	{
 		imgAnime: "https://1.bp.blogspot.com/-FeUaudTnGfw/YRPh8v5oiaI/AAAAAAAAwHM/HCDEzHqRlT8kbTDtAX8QQw8XP2rGKk8FgCNcBGAsYHQ/h240/Rimuru-Tempest.png",
-		colorBg: "#5d9bae"
+		colorBg: "#5d9bae",dm:"chuunibyou-demo-koi-ga-shitai"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-F_XciqcWiOU/YY4rc3_JBgI/AAAAAAAA0kM/_LJHy5OK7AMb-o2lLv9bWTACBvIjDDM-ACNcBGAsYHQ/h240/Rimuru-Tempest.png",
 		colorBg: "#69a6dd",dm:"tensei-shitara-slime-datta-ken"
@@ -1875,7 +1875,7 @@ var dsAnime = [
 		colorBg: "#778aa4",dm:"jujutsu-kaisen"
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-wcoI_Ephhgs/YbFuvc7-wWI/AAAAAAAA2B4/hrW8_lFcZbcZrcSy2D8IItXyZ3h0MMZZgCNcBGAsYHQ/h240/nobara-kugisaki.png",
-		colorBg: "#8658b4"
+		colorBg: "#8658b4",dm:"jujutsu-kaisen"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-Ez8do3xxe1A/YbFsNVAWKcI/AAAAAAAA2AQ/FRbVad1E1w4DF1xncgd3ARMOPm5OOCn5gCNcBGAsYHQ/h240/Maki-Zenin.png",

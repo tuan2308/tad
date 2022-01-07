@@ -175,9 +175,16 @@ var current = null;
             cnt++;
         }
     }
-    // if (cnt > 0) {
-    //     // document.write(current + ' (' + cnt + ')');
-    // }
+    if (cnt > 0) {
+        // document.write(current + ' (' + cnt + ')');
+
+       
+        var option = document.createElement("option");
+                var textnode = document.createTextNode(current);
+  option.appendChild(textnode);
+  option.value = current; 
+                document.getElementById("chondanhmuc").appendChild(option);
+    }
 
 
 // for(var ii= 0;ii<counts.length;ii++ ){
