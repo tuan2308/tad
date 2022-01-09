@@ -664,7 +664,14 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-x6jibRH6XXE/YX0zEJHbLZI/AAAAAAAAy9s/21541bg65BAoCUNgoeZsV7dFp0RvSwNmACNcBGAsYHQ/h240/ayano-aishi.png",
 		colorBg: "#425cba",dm:"yandere-simulator"
-	}, {
+	}, 
+	
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-tVASdTHSKNw/YdrO0x-gcTI/AAAAAAAA3fc/jzQgbHjZ6Lg8I4U7zrB1M5mmwk8aEIuvQCNcBGAsYHQ/h240/ayano-aishi.png",
+		colorBg: "#5065ba",dm:"yandere-simulator"
+	}, 
+	
+	{
 		imgAnime: "https://lh3.googleusercontent.com/-8fmUCPgWc4g/YX0vcNGbiAI/AAAAAAAAy9U/l0vqaH1Xgy81QM5v6EA0-L5Jr5H_HsLCACNcBGAsYHQ/h240/saiki-kusuo.png",
 		colorBg: "#2ec38b",dm:"saikikusuo-no-psinan"
 	},{
@@ -1821,6 +1828,12 @@ var dsAnime = [
 	}, {
 		imgAnime: "https://lh3.googleusercontent.com/-9JUI_Fe4kqI/YYPTdUdNYMI/AAAAAAAAzNg/sFIVgPFcinkqUzerV09mA25HaPwRjSYkACNcBGAsYHQ/h240/luminous-valentine.png",
 		colorBg: "#776ec9",dm:"tensei-shitara-slime-datta-ken"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-tfl2iZGee9c/YdrP3ysJHkI/AAAAAAAA3fs/ZtChWmRXqms86cLWOVKXEN8ddWTlHgQtQCNcBGAsYHQ/h240/velzard.png",
+		colorBg: "#64a8ef",dm:"tensei-shitara-slime-datta-ken"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-nBrPiw6MnhM/YdrRZDBb_7I/AAAAAAAA3f8/c6flZbfXC70MfNcg0gDcX4g4kE5ya2b1QCNcBGAsYHQ/h240/velgrynd.png",
+		colorBg: "#ecba66",dm:"tensei-shitara-slime-datta-ken"
 	}, 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-v6Iah7M-Fa8/YY9V8aM9k0I/AAAAAAAA0pw/4NZLtA0EptQpBLVrYCgYyjLbxcrOu1QLwCNcBGAsYHQ/h240/Akutagawa-Ryuunosuke.png",
@@ -2078,6 +2091,9 @@ var dsAnime = [
 	{
 		imgAnime: "https://1.bp.blogspot.com/-4eukR2D0IRo/YRTYYWOtD2I/AAAAAAAAwLU/6cztrMXEZrEQ-9M7esEtyAabylOSDGrbQCNcBGAsYHQ/h240/amajiki.png",
 		colorBg: "#515480",dm:"my-hero-academia"
+	},	{
+		imgAnime: "https://lh3.googleusercontent.com/-__CIu3kXPGk/YdrPP4yPPLI/AAAAAAAA3fk/PeI3fSLsPO0JvYSFgIhyOS0SwFQrslEhwCNcBGAsYHQ/h240/aizawa.png",
+		colorBg: "#375d48",dm:"my-hero-academia"
 	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-VIv8_L9B4sw/YYPRult_V_I/AAAAAAAAzM4/ugTEOza5fFUf-4IEOPfeq-HE_g_Ad6LbQCNcBGAsYHQ/h240/sayori.png",
