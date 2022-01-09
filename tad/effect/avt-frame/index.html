@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+<script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+        <script type='text/javascript'>function loadCSS(c,b,f){var a=window.document.createElement("link");var d=b||window.document.getElementsByTagName("script")[0];a.rel="stylesheet";a.href=c;a.media="only x";d.parentNode.insertBefore(a,d);setTimeout(function(){a.media=f||"all"})}loadCSS("//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css");
+       
+            </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+    <script crossorigin='anonymous' integrity='sha512-q583ppKrCRc7N5O0n2nzUiJ+suUv7Et1JGels4bXOaMFQcamPk9HjdUknZuuFjBNs7tsMuadge5k9RzdmO+1GQ==' referrerpolicy='no-referrer' src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.3.2/lazysizes.min.js'></script>
+</head>
+
+<body class="col-md-6">
+
+ 
+        <!--more-->
+        <style>
+        div#tad-chonkieu{overflow:auto;margin-bottom:10px!important;flex-wrap:nowrap!important;display:flex;padding-left:5px;max-height:160px}div#tad-chonkieu>div{width:100px;height:100px;margin-top:10px;margin-bottom:10px;margin-right:15px;background-color:#fff;border:1px solid #dee2e6;border-radius:.25rem;max-width:100%;cursor:pointer;-ms-flex:none;flex:none;position:relative}div#tad-chonkieu>div.active{box-shadow:0 0 0 .2rem rgba(38,143,255 ,0.5);border-color:rgba(38,143,255,0.5)}div#tad-chonkieu img{width:100%;margin:0}@media only screen and (max-width:576px){div#tad-chonkieu{max-height:250px;flex-direction:column;flex-wrap:wrap!important;align-content:flex-start}div#tad-chonkieu>div{width:80px;height:80px}}
+        
+        .colorpicker-element{border-radius:.25rem!important}.demomau{position:absolute;padding:10px;right:0;margin:7px;border:2px solid #ddd;border-radius:3px;z-index:9;pointer-events:none}.has-search .form-control{padding-left:2.375rem}.has-search .form-control-feedback{position:absolute;z-index:2;display:block;width:2.375rem;height:2.375rem;line-height:2.375rem;text-align:center;pointer-events:none;color:#aaa}#chonmaulogo{overflow:auto;margin-bottom:10px!important;flex-wrap:nowrap!important;display:flex;padding-left:5px;padding-bottom:10px}#chonmaulogo li{overflow:hidden;width:50px;height:50px;line-height:50px;border-radius:100px;margin-right:10px;text-align:center;cursor:pointer;flex:none}#chonmaulogo .active:after{font-size:38px;font-family:"Font Awesome 5 Free";font-weight:900;content:"\f058";color:#fff;border-radius:100%}</style>
+        
+        <label>Hướng màu</label>
+        <select class="custom-select mb-2" id="huongmaulogo">
+<option value="180">180°</option>
+<option value="90">90°</option>
+<option value="45">45°</option>
+<option value="-45">-45°</option>
+        </select>
+        <label>Chọn màu</label>
+        <ul id="chonmaulogo" class="tad-scrollbar">
+        </ul>
+        <label>Đổi màu</label>
+        <div class="row">
+        <div class="col">
+        <div class="input-group mb-3">
+        <input class="form-control colorpicker-element" id="tad-color1" placeholder="Nhập mã màu" value="#00ffd1">
+        <div class="demomau1 demomau"></div></div>
+        </div>
+        <div class="col">
+        <div class="input-group mb-3">
+        <input class="form-control colorpicker-element" id="tad-color2" placeholder="Nhập mã màu" value="#616ff2">
+        <div class="demomau2 demomau"></div></div>
+        </div>
+        </div>
+       
+        
+    
+
+        
+        <div>
+        <button type="button" class="btn btn-primary disabled d-block" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+        ảnh</button>
+        </div>
+        <div id="img-out"></div>
+        <canvas id="temp" width="1500" height="1500" style="width:100%">
+        Your browser does not support the canvas element.
+        </canvas>
+        
+        
+        <script>var tenanhxuat="mega_logo";
+          
+          
+          loadCSS("https://cdn.taoanhdep.com/font/avo/stylesheet.css");
+          loadCSS("https://cdn.taoanhdep.com/font/din-cond/stylesheet.css");
+          loadCSS("https://cdn.taoanhdep.com/font/svn-zelda/stylesheet.css");
+          
+        listColor = [{
+            c1: "red",
+            c2: "blue",
+            c3: "green"
+
+        },{
+          
+            c1: "#333",
+            c2: "#000",
+     
+          
+        },{
+            c1: "#fff",
+            c2: "#aaa",
+           
+          
+        }, {
+            c1: "#00e0ff",
+            c2: "#0094ff"
+        }, {
+            c1: "#2ce228",
+            c2: "#34bd31"
+        }, {
+            c1: "#da28e2",
+            c2: "#ea1a1f"
+        }, {
+            c1: "#ffe600",
+            c2: "#ff5c00"
+        }, {
+            c1: "#fc42d3",
+            c2: "#4334eb"
+        }, {
+            c1: "#138df7",
+            c2: "#00ffd1"
+        }, {
+            c1: "#6949e6",
+            c2: "#3b278a"
+        }, {
+            c1: "#f7ff00",
+            c2: "#ff06ac"
+        }, {
+            c1: "#aa42fc",
+            c2: "#34eba9"
+        },  ];
+       
+          
+        </script>
+        
+        
+        
+        
+        
+        
+        <script>/*<![CDATA[*/$(document).ready(function() {
+            if (window.location.hostname == tmbq) {
+                var c;
+                var j = "#fff";
+              var zzz = "UTM Avo";
+             
+              
+
+
+
+
+                var h = document.getElementById("chonmaulogo");
+                listColor.forEach(function(b) {
+                    var a = document.createElement("li");
+                    a.style.backgroundImage = "linear-gradient(180deg, " + b.c1 + " 0%, " + b.c2 + " 100%)";
+                    a.setAttribute("dataC1", b.c1);
+                    a.setAttribute("dataC2", b.c2);
+                  a.setAttribute("dataC3", b.c3);
+                    h.appendChild(a)
+                });
+                $("#chonmaulogo>li").click(function() {
+                    $("#chonmaulogo>li").removeClass("active");
+                    $(this).addClass("active");
+                    var b = $(this).attr("dataC1");
+                    var a = $(this).attr("dataC2");
+                  var cc = $(this).attr("dataC3");
+                    $("#tad-color1").colorpicker("setValue", b);
+                    $("#tad-color2").colorpicker("setValue", a);
+                  
+            
+                  
+                  $(".chonmau #kieu"+ cc).click();
+                  
+                });
+                $("#tad-color1").colorpicker().change(function() {
+                    var a = $("#tad-color1").val();
+                    $(".demomau1").css("background-color", a);
+                    k = a;
+                    i()
+                });
+                $("#tad-color2").colorpicker().change(function() {
+                    var a = $("#tad-color2").val();
+                    $(".demomau2").css("background-color", a);
+                    f = a;
+                    i()
+                });
+                  $("#tad-chonkieu").children("div:first-child").click();
+              
+                $("#chonmaulogo").children("li:first-child").click();
+                var g = $(".tad-in-text1");
+                var r = $(".tad-in-text2");
+                g.on("input", function() {
+                    s()
+                });
+                r.on("input", function() {
+                    s()
+                });
+        
+                function s() {
+                    if (undefined !== g.val() && g.val().length == 0) {
+                        $("#tad-taoanh").addClass("disabled")
+                    } else {
+                        if (undefined !== r.val() && r.val().length == 0) {
+                            $("#tad-taoanh").addClass("disabled")
+                        } else {
+                            $("#tad-taoanh").removeClass("disabled")
+                        }
+                    }
+                }
+              
+              
+                $(".chonmau #kieu1").click(function() {
+                    j = "#fff"
+                });
+                $(".chonmau #kieu2").click(function() {
+                    j = "#111"
+                });
+              
+              $(".chonfont input").click(function() {
+                    zzz = $(this).val();
+                
+        
+                });
+              
+                var k = $("#tad-color1").val();
+                var f = $("#tad-color2").val();
+                $("#tad-taoanh").click(function() {
+                    $("#img-out").hide();
+                    $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
+                    e()
+                });
+           
+          
+
+ e()
+
+                function e() {
+                   
+
+                    var a = new Image();
+            a.crossOrigin = "Anonymous";
+            a.src = "./overlay.svg";
+            a.onload = function () {
+
+
+
+
+
+                                var b = document.getElementById("temp");
+                                var m = b.getContext("2d");
+                                m.clearRect(0, 0, b.width, b.height);
+m.save()
+
+
+                                var n = m.createLinearGradient(0, 0, 0, 1500);
+                                n.addColorStop(0, k);
+                                n.addColorStop(1, f);
+                                m.fillStyle = n;
+                                m.fillRect(0, 0, b.width, b.height);
+                              
+                              m.restore();
+                              
+                                m.drawImage(a,0,0,b.width,b.height)
+                            }
+                        }
+        
+                function i() {
+                    $("#chonmaulogo .active").attr("style", "background-image:linear-gradient(180deg, " + k + " 0%, " + f + " 100%)")
+                }  
+            }
+        });/*]]>*/</script>
+        
+        <link rel='stylesheet' href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
+        
+
+
+</body>
+</html>

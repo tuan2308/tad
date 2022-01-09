@@ -1,3 +1,121 @@
-<script> if ('serviceWorker' in navigator) {    console.log("Will the service worker register?");    navigator.serviceWorker.register('service-worker.js')
-    .then(function(reg){        console.log("Yes, it did.");     }).catch(function(err) {        console.log("No it didn't. This happened:", err)    });
-}</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script> var tmbq = '127.0.0.1'; </script>
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body>
+    
+    
+    
+    <button class="tad-notify">vcxbxcvbc</button>
+
+
+<div class='row row-cols-1' id='recentpostbstand'></div>
+<div class='float-right row' id='bsdrecentpostnavfeed'></div>
+
+<script type='text/javascript'>/*<![CDATA[*/var numfeed = 5;
+var startfeed = 0;
+var urlblog = "https://khunganh.taoanhdep.com";
+var charac = 40;
+var urlprevious, urlnext;
+
+function bloggersstandfeed(h, f) {
+	for (var g = h.split("<"), e = 0; e < g.length; e++) {
+		-1 != g[e].indexOf(">") && (g[e] = g[e].substring(g[e].indexOf(">") + 1, g[e].length))
+	}
+	return g = g.join(""), g = g.substring(0, f - 1)
+}
+
+function showrecentpostbstand(l) {
+	var d, q, r, e, n, a = "";
+	urlprevious = "", urlnext = "";
+	for (var p = 0; p < l.feed.link.length; p++) {
+		"previous" == l.feed.link[p].rel && (urlprevious = l.feed.link[p].href), "next" == l.feed.link[p].rel && (urlnext = l.feed.link[p].href)
+	}
+	for (var i = 0; i < numfeed && i != l.feed.entry.length; i++) {
+		d = l.feed.entry[i], q = d.title.$t;
+		for (var p = 0; p < d.link.length; p++) {
+			if ("alternate" == d.link[p].rel) {
+				r = d.link[p].href;
+
+
+
+				break
+			}
+		}
+
+        var xxx = d.content.$t.indexOf("https://i.imgur.com")
+        var yyy,zzz;
+
+if(d.content.$t.indexOf(".png") < 0){
+alert("a")
+     yyy = d.content.$t.indexOf(".jpg")
+
+ zzz =  d.content.$t.slice(xxx,yyy) + "_d.jpg"
+
+
+}else{
+     yyy = d.content.$t.indexOf(".png")
+
+ zzz =  d.content.$t.slice(xxx,yyy) + "_d.png"
+ 
+}
+
+console.log(d.content.$t.indexOf(".png"))
+
+
+
+
+		n = "content" in d ? d.content.$t : "summary" in d ? d.summary.$t : "", e = "media$thumbnail" in d ? d.media$thumbnail.url : zzz, a += "<div class='mb-3 media'>", a += "<a href='" + r + "' target='_blank' class='mr-3'><img width='72' height='72' class='m-0 rounded-lg' src='" + e + "' /></a>", a += "<div class='media-body mr-3'><h6><a href='" + r + "'>" + q + "</a></h6></div>", a += "</div>"
+	
+
+    
+    }
+	document.getElementById("recentpostbstand").innerHTML = a, a = "", a += urlprevious ? "<a href='javascript:bstandfeed(-1);' class='previous btn btn-primary mr-2'><i class='fas fa-arrow-left'></i></a>" : "<style>#recentpostbstand>div:nth-child(1) .media-body>:after,#recentpostbstand>div:nth-child(1) .media-body>:after{content:'Mới';background:#dc3545;color:#fff;padding:2px 10px;border-radius:3px;font-size:12px;font-weight:bold}div#recentpostbstand>div:nth-child(1) .media-body a,div#recentpostbstand>div:nth-child(1) .media-body a{display:block;margin-bottom:5px}</style><span class='disabled previous btn btn-primary mr-2'><i class='fas fa-arrow-left'></i></span>", a += urlnext ? "<a href='javascript:bstandfeed(1);' class='next btn btn-primary'><i class='fas fa-arrow-right'></i></a>" : "<span class='disabled next btn btn-primary'><i class='fas fa-arrow-right'></i></span>", document.getElementById("bsdrecentpostnavfeed").innerHTML = a
+}
+
+function bstandfeed(d) {
+	var e, f; - 1 == d ? (e = urlprevious.indexOf("?"), f = urlprevious.substring(e)) : 1 == d ? (e = urlnext.indexOf("?"), f = urlnext.substring(e)) : f = "?start-index=1&max-results=" + numfeed + "&orderby=published&alt=json-in-script", f += "&callback=showrecentpostbstand", incluirscript(f)
+}
+
+function incluirscript(d) {
+	1 == startfeed && removerscript(), document.getElementById("recentpostbstand").innerHTML = "<div id='recentpostload' class='text-center'><div class='spinner-border text-primary' role='status'> <span class='sr-only'>Loading...</span> </div></div>", document.getElementById("bsdrecentpostnavfeed").innerHTML = "";
+	var e = urlblog + "/feeds/posts/default" + d,
+		f = document.createElement("script");
+
+	f.setAttribute("type", "text/javascript"), f.setAttribute("src", e), f.setAttribute("id", "bloggersstandlabel"), document.getElementsByTagName("head")[0].appendChild(f), startfeed = 1
+
+  
+  
+}
+
+function removerscript() {
+	var c = document.getElementById("bloggersstandlabel"),
+		d = c.parentNode;
+	d.removeChild(c)
+}
+
+bstandfeed(0)
+$(document).ready(function() {
+	$(".tad-notify").on("click", function() {
+		$(".tad-notify").removeClass("noti");
+		bstandfeed(0)
+	});
+});/*]]>*/</script>
+
+</body>
+</html>

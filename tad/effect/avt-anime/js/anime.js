@@ -56,6 +56,12 @@ var dsAnime = [
 		colorBg: "#3aa3c5",dm:"girl"
 	}, 
 	/////newwww
+
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-20BV05vhBs4/YdrMZKv-VEI/AAAAAAAA3e8/W3thnf3p3o0Ihdf8uxAg1xOxfv3oJ7dmwCNcBGAsYHQ/h240/Sinestria.png",
+		colorBg: "#ce4147",dm:"arena-of-valor"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-zeJrGSB_V74/Ydf7v2tl_xI/AAAAAAAA3cc/uirsPPfTJngNnFW6wP5-OFptci90xN9GwCNcBGAsYHQ/h240/Hibiki.png",
 		colorBg: "#66a9ec",dm:"kancolle"
@@ -459,6 +465,11 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-fVRCHPJnNm0/Yan0wzqmX5I/AAAAAAAA134/RdF0fFytk_cQPvBndNw1JKHPsz9B_kXEwCNcBGAsYHQ/h240/harry-potter.png",
 		colorBg: "#bf2121",dm:"harry-potter"
 	},
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-bF0NJasFSoA/YdrJ-MpzKtI/AAAAAAAA3ek/voKOrpF0--c-8-Y6tx0oo1DvIUP9fkm_wCNcBGAsYHQ/h240/draco-malfoy.png",
+		colorBg: "#34ab61",dm:"harry-potter"
+	}, 
+	
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-W25kOL7bmvQ/Yam073siyZI/AAAAAAAA120/9AKlNHAsUAMg1G8I4dlDtkk26WAXBgQXwCNcBGAsYHQ/h240/tanya-degurechaff.png",
 		colorBg: "#679066",dm:"youjo-senki"
@@ -1495,6 +1506,9 @@ var dsAnime = [
 		{
 		imgAnime: "https://1.bp.blogspot.com/-3LHa3SDsYa4/YRM6c2x61fI/AAAAAAAAwFo/-FRHA-xDPloZORv9DkwmI0kRjMzC_agPQCNcBGAsYHQ/h240/kurumi.png",
 		colorBg: "#4d5190",dm:"date-a-live"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-nixa3cWr9R8/YdrOSjw9YVI/AAAAAAAA3fU/XeFDyAeLM_wr6OWbD_nQ6THHn6qZpu6AQCNcBGAsYHQ/h240/kurumi.png",
+		colorBg: "#ed4032",dm:"date-a-live"
 	},  {
 		imgAnime: "https://1.bp.blogspot.com/-HniZtfzU0FU/YSORrle6wQI/AAAAAAAAwlc/GbvJ7jGH-gQAI0mIQ-w6iDovHyE-67i8wCNcBGAsYHQ/h240/kotori.png",
 		colorBg: "#ed9595",dm:"date-a-live"
@@ -2451,6 +2465,9 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-L-ORMRtJ7-g/YYJMQPASj0I/AAAAAAAAzLY/k8-QVDw1sI0cpHdTiIo2pUTlTSSs-OQggCNcBGAsYHQ/h240/Josuke.png",
 		colorBg: "#396cb1",dm:"jojo"
 	},{
+		imgAnime: "https://lh3.googleusercontent.com/-wOmVn07OBjs/YdrLXFwqE9I/AAAAAAAA3e0/hC3EZzJLLcMWGHemDCfGsWp9G3SWwVItACNcBGAsYHQ/h240/Reimi.png",
+		colorBg: "#d489af",dm:"jojo"
+	},{
 		imgAnime: "https://1.bp.blogspot.com/-nDX2y2Dub6c/YTzFBBLoCiI/AAAAAAAAxHo/7GzF-Th7U6wCOYeg4lqFeI9mQ1TOktVOgCNcBGAsYHQ/h240/conan.png",
 		colorBg: "#256ccd",dm:"conan"
 	},
@@ -2522,7 +2539,7 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-0LsCDLMcy0A/YZzaAQQsUjI/AAAAAAAA1aU/wl2NPfyAGxIZyzFh6-bGsPC-f32nl0TZwCNcBGAsYHQ/h240/Kisaki-Eri.png",
 		colorBg: "#8181cd",dm:"conan"
 	},
-////
+//
 
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-OentbjRR0_E/YbFvsxII-qI/AAAAAAAA2C8/no1q8VEnknoYAwMdnkEs9yTpypWoo7aGACNcBGAsYHQ/h240/takemichi.png",
@@ -2729,6 +2746,10 @@ var dsAnime = [
 		colorBg: "#71ba35",dm:"dragon-ball-z"
 	}, 
 	{
+		imgAnime: "https://lh3.googleusercontent.com/-5-HxsoNiPf0/YdrK4D1HhGI/AAAAAAAA3es/eqFBxKZn4c4UwmWTFMe_Qt0keY_KlCXpQCNcBGAsYHQ/h240/granola.png",
+		colorBg: "#58bc8d",dm:"dragon-ball-z"
+	}, 
+	{
 		imgAnime: "https://1.bp.blogspot.com/-x64VmYubxkQ/YROJ3n7BzfI/AAAAAAAAwF8/NSvGfJCRg7kSs9KTHWob_X7mcZDRq7eTgCNcBGAsYHQ/h240/natsu.png",
 		colorBg: "#b63232",dm:"fairy-tail"
 	}, 
@@ -2812,7 +2833,11 @@ var dsAnime = [
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-SBqAtFsuCFs/Ybr0Tnb7kYI/AAAAAAAA2W8/6feQPKKv8dM6nPqlrrfRzgyNnpMwABsPwCNcBGAsYHQ/h240/luffy.png",
 		colorBg: "#ffd146",dm:"one-piece"
+	}, {
+		imgAnime: "https://lh3.googleusercontent.com/-PvTkvqsMxzI/YdrNzeylJeI/AAAAAAAA3fM/fSY783j1PsA2yPhsWfQg1q6jiNK_9G05ACNcBGAsYHQ/h240/luffy-gear-4.png",
+		colorBg: "#e82b2b",dm:"one-piece"
 	}, 
+	
 	{
 		imgAnime: "https://1.bp.blogspot.com/--yQEa2GmvJ8/YQqfp2Q3e1I/AAAAAAAAv3g/LZ5odF86OMoYBrwB1pwld3msat5vY54-gCNcBGAsYHQ/h240/zoro.png",
 		colorBg: "#2e483e",dm:"one-piece"
@@ -2878,7 +2903,10 @@ var dsAnime = [
 		imgAnime: "https://lh3.googleusercontent.com/-aFgGjScpUsA/Yad6hVFIMiI/AAAAAAAA1y8/Ch8qai4iAtICQidDaZYwhIjCfkpZYoc5gCNcBGAsYHQ/h240/Vinsmoke-Ichiji.png",
 		colorBg: "#b64238",dm:"one-piece"
 	},
-
+	{
+		imgAnime: "https://lh3.googleusercontent.com/-gUuVUJwGKO8/YdrM8DKGNfI/AAAAAAAA3fE/wCRtzYQ-ess9u2Tf4oGVmGXXBDoz7yzvACNcBGAsYHQ/h240/Vinsmoke-Ichiji.png",
+		colorBg: "#d23131",dm:"one-piece"
+	},
 	{
 		imgAnime: "https://lh3.googleusercontent.com/-VZWgbyQiltk/YbFv-pEmhoI/AAAAAAAA2DU/xQb9OBT2lXU3VGEP6kVfaU7cRmhI2j1IgCNcBGAsYHQ/h240/vinsmoke-yonji.png",
 		colorBg: "#63bc43",dm:"one-piece"
