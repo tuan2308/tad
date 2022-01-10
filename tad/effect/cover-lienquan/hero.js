@@ -1429,6 +1429,43 @@ var dsLquan = [
 	},
 
 	{
+		LQcover: "https://lh3.googleusercontent.com/-iaXOoUrUQaU/YdwqW8Eb7JI/AAAAAAAA3iQ/XczWYwAgwqUABCovDQkcgI2Y3RD8YlUEgCNcBGAsYHQ/h240/Ryoma-2.jpg",
+
+		LQthumb: "https://lh3.googleusercontent.com/-eQR6EMnfKfw/YdwrGLpGxpI/AAAAAAAA3i4/Q2shgmzCEk8TBRwpArkvmHUim1M8Q7zIgCNcBGAsYHQ/h240/393fbab80d0999d82b90b0137cc05f5059d9bf076868d.jpeg"
+	},
+	{
+        LQcover: "https://lh3.googleusercontent.com/-BYn4lvBV31k/YdwqW_hfQLI/AAAAAAAA3iM/ZbmHGQ89ItE5C-xt7Ne2AoqhFzKprHQqwCNcBGAsYHQ/h240/Ryoma-3.jpg",
+
+        LQthumb: "https://lh3.googleusercontent.com/-N03f7xmGTGI/YdwrGHrNkNI/AAAAAAAA3i8/IlVDa1eorFMR5Gj2Xm8JhOsaFQF1Myv_gCNcBGAsYHQ/h240/2e4ce6fbc15eaa41fdbb119c35cf04215ae1711f104aa.jpeg"
+    },
+
+	{
+        LQcover: "https://lh3.googleusercontent.com/-Qqr8aAVpR_M/YdwqXAh_BbI/AAAAAAAA3iU/eS-SEvfU0NgiuDbs_nodLZXRCyu5m9XPACNcBGAsYHQ/h240/Ryoma-4.jpg",
+
+        LQthumb: "https://lh3.googleusercontent.com/-vO_NRFkuhMA/YdwrG-YXClI/AAAAAAAA3jE/F_sgAcg6NWgd-3zWVsXFsqcH__Wp_iHawCNcBGAsYHQ/h240/3ec92981d7760cc9d473a33d6c78ea735be1117ce0ee4.jpeg"
+    },
+	{
+        LQcover: "https://lh3.googleusercontent.com/-KZB-LwKwl4g/YdwqXoEa1pI/AAAAAAAA3iY/exFk4LQQfXgDBFnMT4G8myZnfHmg3iEmACNcBGAsYHQ/h240/Ryoma-5.jpg",
+
+        LQthumb: "https://lh3.googleusercontent.com/-Zvz-TNJkkDQ/YdwrHH75IrI/AAAAAAAA3jI/PYLFLgrigEMpIhjAwkmhMAjLHaArlYH8ACNcBGAsYHQ/h240/b1a3864a554067fd8581d50a6cbd20755d5545baf2719.jpeg"
+    },
+
+	{
+        LQcover: "https://lh3.googleusercontent.com/-v1xcTlUdcho/YYtikF4tU-I/AAAAAAAA0QY/u54aniNKkywAGeJZlHIeC3HjTIKlxlkzACNcBGAsYHQ/s0/Ryoma-6.jpg",
+
+        LQthumb: "https://lh3.googleusercontent.com/-8xggVHy6MXg/YdwrHhw1L4I/AAAAAAAA3jQ/xLbLLBkXGugNZ3SYzOsxAMrK2_h8dQrNACNcBGAsYHQ/h240/e31c211bddd93eda132178bb511a4c355e4534e131689.jpeg"
+    },
+	{
+        LQcover: "https://lh3.googleusercontent.com/-ZNovQM162ZI/YdwqX7Yre7I/AAAAAAAA3ic/cJaFt3ZibJQqttcHGMMJSzlhTuDyZX93QCNcBGAsYHQ/h240/Ryoma-7.jpg",
+
+        LQthumb: "https://lh3.googleusercontent.com/-p8limat3qis/YdwrGDnHuUI/AAAAAAAA3jA/kzwAI2kxREsItxImrOay52xsLuiEAanJACNcBGAsYHQ/h240/2d0229d0ea8977b503fadfe35fb1da215fa386f5174fb.png"
+    },
+	{
+        LQcover: "https://lh3.googleusercontent.com/-8fDssZs4wCg/YdwqYDINFrI/AAAAAAAA3ig/CZw56IK4lpkouNksy95Bxz5_lh3RIXuhwCNcBGAsYHQ/h240/Ryoma-8.jpg",
+
+        LQthumb: "https://lh3.googleusercontent.com/-Z5SN5C-Rudc/YdwrHN8Id9I/AAAAAAAA3jM/dONvjlN5Q-gJE5cx6RCpHLD50CROQ008QCNcBGAsYHQ/h240/df73495281ed4d019cd7e45127b4ec475fbcc143cd50e.jpeg"
+    },
+	{
 		LQcover: "https://lh3.googleusercontent.com/-ghVHTh6YNfk/YYZnG3CUUEI/AAAAAAAAzeU/J6CjQHtwaaAMC00kc_WwcEjfmuJAHEyyACNcBGAsYHQ/h240/Joker.jpg",
 
 		LQthumb: "https://lh3.googleusercontent.com/-aoBoGdbkvfE/YYZnG36LT6I/AAAAAAAAzeY/kd65MEpRLPcq8rEw1nDSufb03PP-GN58QCNcBGAsYHQ/h240/99e61bc305c2debe25cdea690384ca2359d1abefe9c1b.jpeg"
