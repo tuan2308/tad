@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
 
 </head>
-<body>
+<body id="Blog1">
 
 <style>/* anime */
     div#tad-chonnv{overflow:auto;margin-bottom:10px!important;flex-wrap:nowrap!important;display:flex;padding-left:5px;max-height:140px}div#tad-chonnv>div{width:120px;height:110px;overflow: hidden;margin-top:10px;margin-bottom:10px;margin-right:15px;background-color:#fff;border:1px solid #dee2e6;border-radius:.25rem;max-width:100%;cursor:pointer;-ms-flex:none;flex:none;position:relative}div#tad-chonnv>div>i{width:120px;height:120px;display:block;background-size:cover;position:absolute;bottom:0;z-index:99}div#tad-chonnv>div>span { font-weight: bold; text-transform: uppercase; font-size: 22px; position: absolute; top: 0; left: 5px; color: #aaa; }div#tad-chonnv>div.active{box-shadow:0 0 0 .2rem rgba(38,143,255 ,0.5);border-color:rgba(38, 143, 255 ,0.5)}#doimaunen{border-radius:.25rem!important}.demomau{position:absolute;padding:10px;right:0;margin:7px;border:2px solid #ddd;border-radius:3px;z-index:9;pointer-events:none}.has-search .form-control{padding-left:2.375rem}.has-search .form-control-feedback{position:absolute;z-index:2;display:block;width:2.375rem;height:2.375rem;line-height:2.375rem;text-align:center;pointer-events:none;color:#aaa}
@@ -27,11 +27,15 @@
     div#tad-chonnv { max-height: 235px; flex-direction: column; flex-wrap: wrap !important;align-content: flex-start; }div#tad-chonnv>div { width: 100px; height: 90px; } div#tad-chonnv>div>i { width: 100px; height: 100px; } div#tad-chonnv>div>span { font-size: 20px; }
     }</style>
 
-    <!--more--><label class="label-chonnv">Chọn nhân vật <a class="badge badge-primary mr-2" href="javascript:void(0)"><i class="fas fa-random"></i> Xếp ngẫu nhiên</a></label>
-  
-    <select class="custom-select mb-2" onchange="timdm()" onclick="timdm()" id="chondanhmuc">
+    <!--more-->
+    
+    <label>Chọn danh mục</label>
+<select class="custom-select mb-2" onchange="timdm(true)" id="chondanhmuc">
 <option value="" class="tatca-nv">Tất cả</option>
-    </select>
+</select>
+    
+    <label class="label-chonnv">Chọn nhân vật <a class="badge badge-primary mr-2" href="javascript:void(0)"><i class="fas fa-random"></i> Xếp ngẫu nhiên</a></label>
+ 
 
    
     <div class="mb-2 has-search">
@@ -61,8 +65,7 @@
 
 <style>
 
-.dm-block{display: block;}
-.dm-none{display: none;}
+.dm-none{opacity: .5;}
 
 #tad-chonnv b{display: none;}
 </style>
@@ -115,36 +118,61 @@
     }
     
     
-    function timdm() {
-        var a, m, k, j, n, l, i;
-        a = document.getElementById("chondanhmuc");
-        m = a.value.toUpperCase();
-        k = document.getElementById("tad-chonnv");
-        j = k.getElementsByTagName("div");
-        for (l = 0; l < j.length; l++) {
-            n = j[l].getElementsByTagName("b")[0];
-            i = n.textContent || n.innerText;
+    function dichuyen(){  $("#tad-chonnv").scrollLeft( 300 )
+  
+  $("#tad-chonnv").animate({
+       scrollLeft: $(".dm-block").offset().left  - $("#Blog1").offset().left });}
+ 
+ 
+    function timdm(x) {
+       var a, m, k, j, n, l, i;
+       a = document.getElementById("chondanhmuc");
+       m = a.value.toUpperCase();
+       k = document.getElementById("tad-chonnv");
+       j = k.getElementsByTagName("div");
+       for (l = 0; l < j.length; l++) {
+           n = j[l].getElementsByTagName("b")[0];
+           i = n.textContent || n.innerText;
+          
+           if (m =="") {
 
-            if (m =="") {
-
+           
+             
 j[l].classList.remove("dm-block");
 j[l].classList.remove("dm-none");
+             
+               document.getElementById("tad-chonnv").firstChild.classList.add("dm-block");
+             
+     
+             
+             
 
 }
-           else if (i.toUpperCase() == m) {
-                j[l].classList.remove("dm-block");
-                j[l].classList.remove("dm-none");
-                j[l].classList.add("dm-block");
-            } else {
-                j[l].classList.remove("dm-block");
-                j[l].classList.remove("dm-none");
-                j[l].classList.add("dm-none");
-            }
-        
-
-        }
-    }
-
+         
+         else if (i.toUpperCase() == m){
+               j[l].classList.remove("dm-block");
+               j[l].classList.remove("dm-none");
+               j[l].classList.add("dm-block");
+           
+           
+           
+           
+           
+           } else {
+               j[l].classList.remove("dm-block");
+               j[l].classList.remove("dm-none");
+               j[l].classList.add("dm-none");
+           }
+         
+   
+         
+       }
+      
+      
+      if(x==true){
+          dichuyen()  
+      }
+   }
 
 
 
@@ -268,7 +296,7 @@ $("body").append("<img src='"+zzzz+"'referrerpolicy='no-referrer' style='width:1
        
 $("#chondanhmuc").val(bb)
 
-
+timdm()
             });
             $("#tad-chonnv").children("div:first-child").click();
             var h = $(".tad-in-text1");
@@ -487,4 +515,9 @@ $("#chondanhmuc").val(bb)
     }
     //]]>
     
-    </script>
+    </script><script>
+//<![CDATA[
+
+$(document).ready(function(){for(var a=0;a<$(".tad-scrollbar").length;a++){b($(".tad-scrollbar").eq(a))}function b(d){var g=$(d).eq(0);var c=false;var f;var e;g.mousedown(function(h){c=true;f=h.pageX-g.offset().left;e=g.scrollLeft()});g.mouseleave(function(){c=false});g.mouseup(function(){c=false});g.mousemove(function(j){if(!c){return}j.preventDefault();var h=j.pageX-g.offset().left;var i=(h-f)*3;g.scrollLeft(e-i);})}});
+//]]>
+</script>
