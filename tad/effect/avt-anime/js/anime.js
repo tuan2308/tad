@@ -96,6 +96,13 @@ var dsAnime = [
 	imgAnime: "https://1.bp.blogspot.com/--fQyJVG_a8w/YQjvnVLWzVI/AAAAAAAAv0o/h0zvBsl8ui8BslbvieRhT_S-tF9pgQ8ugCNcBGAsYHQ/h240/zero-two.png",
 	colorBg: "#eb7381",dm:"darling-in-the-franxx"
 },{
+	imgAnime: "https://lh3.googleusercontent.com/-fnCkC_jvbkc/YcLa3UcWQII/AAAAAAAA2tU/B1Yc7Q5rUJYl_Izq-nAdTH21DTytkHlHQCNcBGAsYHQ/h240/hiro.png",
+	colorBg: "#63c5ed",dm:"darling-in-the-franxx"
+}, 
+{
+	imgAnime: "https://1.bp.blogspot.com/-UurSmwFQu3w/YRkDhF5a50I/AAAAAAAAwWo/GE3qZZ31Sv82R8dRYLMy3dEwnKfTeqHSQCNcBGAsYHQ/h240/ichigo.png",
+	colorBg: "#76b1db",dm:"darling-in-the-franxx"
+},{
 	imgAnime: "https://lh3.googleusercontent.com/-gaxg2htS6Y8/YcbVswrPziI/AAAAAAAA250/koDH5N0Kq0ALOFld2Ay1iJKnb61OjPZ9ACNcBGAsYHQ/h240/destiny.png",
 	colorBg: "#c33144",dm:"takt-op"
 }, 
@@ -115,14 +122,7 @@ var dsAnime = [
 	imgAnime: "https://lh3.googleusercontent.com/-a-JPPUhb9wA/YY4o3ZdUqmI/AAAAAAAA0j8/f2rsJPLhvL0OmNX9CsapPTcRW3v8FLh4wCNcBGAsYHQ/h240/Takt-Asahina.png",
 	colorBg: "#65a2c2",dm:"takt-op"
 }, 
-{
-	imgAnime: "https://lh3.googleusercontent.com/-fnCkC_jvbkc/YcLa3UcWQII/AAAAAAAA2tU/B1Yc7Q5rUJYl_Izq-nAdTH21DTytkHlHQCNcBGAsYHQ/h240/hiro.png",
-	colorBg: "#63c5ed",dm:"darling-in-the-franxx"
-}, 
-{
-	imgAnime: "https://1.bp.blogspot.com/-UurSmwFQu3w/YRkDhF5a50I/AAAAAAAAwWo/GE3qZZ31Sv82R8dRYLMy3dEwnKfTeqHSQCNcBGAsYHQ/h240/ichigo.png",
-	colorBg: "#76b1db",dm:"darling-in-the-franxx"
-},
+
 {
 	imgAnime: "https://lh3.googleusercontent.com/-XfNu6ABSCsY/YdGHv0jeG4I/AAAAAAAA3Vc/u0bz6edlCUI1u0KzejxSNz-JZc1XpU7vwCNcBGAsYHQ/h240/Bloom.png",
 	colorBg: "#4ac2c6",dm:"winx-club"
