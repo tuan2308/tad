@@ -620,24 +620,33 @@ colorBg: "#ef7094",dm:"kimetsu-no-yaiba"
 },
 {
 	imgAnime: "https://lh3.googleusercontent.com/-Rt4w0oV-mjI/YX4gDMxZ9kI/AAAAAAAAy_A/424kyT1_wMEwc8oqqERdpiLdTxyOQCbBQCNcBGAsYHQ/h240/kiana.png",
-	colorBg: "#ffb243",dm:"houkai-3rd"
+	colorBg: "#ffb243",dm:"houkai-impact-3rd"
 }, 
 {
 	imgAnime: "https://lh3.googleusercontent.com/-7JocM3mnA_Y/YYuK98AmI8I/AAAAAAAA0Vc/oHcbov-Toikkv3_OfQQai3_YHVZeaykagCNcBGAsYHQ/h240/seele-vollerei.png",
-	colorBg: "#5469ed",dm:"houkai-3rd"
+	colorBg: "#5469ed",dm:"houkai-impact-3rd"
 },
 {
 	imgAnime: "https://lh3.googleusercontent.com/-vO_iwFqpuGw/YX54Ty5QNTI/AAAAAAAAzAQ/dmOqCfpQlRAzubEyyd2QFDzonHZIYkBnACNcBGAsYHQ/h240/yae-sakura.png",
-	colorBg: "#ec95ae",dm:"houkai-3rd"
+	colorBg: "#ec95ae",dm:"houkai-impact-3rd"
 },
 {
 	imgAnime: "https://1.bp.blogspot.com/-ik-NMUqZN5E/YTDBxYkkiUI/AAAAAAAAw6w/siHXmOdbIsQVhCffF1YJV3bC1WQzLQ9DgCNcBGAsYHQ/h240/raiden-mei-herrscher.png",
-	colorBg: "#d22a3c",dm:"houkai-3rd"
+	colorBg: "#d22a3c",dm:"houkai-impact-3rd"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-4tv2czpE4Vk/YS80Vh42nOI/AAAAAAAAw3Y/yRmuTPlHnG0NOh5gHWHHPziKGYyvUpHYgCNcBGAsYHQ/h240/raiden-mei.png",
-	colorBg: "#5c74ce",dm:"houkai-3rd"
+	colorBg: "#5c74ce",dm:"houkai-impact-3rd"
 },
-
+{
+    imgAnime: "https://lh3.googleusercontent.com/-croK4cPAbI8/Ydwhb4AkZ3I/AAAAAAAA3hM/dNQoqL1nGogSdq6O20T0PdetHJoMHIQBwCNcBGAsYHQ/h240/Teri-Teri.png",
+    colorBg: "#c8a0ca",dm:"houkai-impact-3rd"
+}, {
+    imgAnime: "https://lh3.googleusercontent.com/-U9gkcLxFEkA/YdwiClVxSnI/AAAAAAAA3hU/ygS6T5TAjyw37Vxjt6y10yTbhrebLRa3gCNcBGAsYHQ/h240/Bronya.png",
+    colorBg: "#5785c9",dm:"houkai-impact-3rd"
+}, {
+    imgAnime: "https://lh3.googleusercontent.com/-DhmCZb6NLDk/YdwitOout4I/AAAAAAAA3hc/F7XnVnYqoHU9k9zgwwypQHEmeoi63l6vgCNcBGAsYHQ/h240/Fuhua.png",
+    colorBg: "#d8494b",dm:"houkai-impact-3rd"
+}, 
 {
 	imgAnime: "https://lh3.googleusercontent.com/-K65lJ9gTk6k/YWq4L1rPwGI/AAAAAAAAyUk/7-wpB91p1s4j75FsV56VFPTDEq8AG03WwCNcBGAsYHQ/h240/tracer.png",
 	colorBg: "#f8c335",dm:"overwatch"
@@ -1129,7 +1138,17 @@ colorBg: "#ef7094",dm:"kimetsu-no-yaiba"
 {
 	imgAnime: "https://1.bp.blogspot.com/-rU5kOWEtTMc/YQzvR0DHARI/AAAAAAAAv7U/kTMGmdciDoEWji2CvCc7XPNnli7TcZPLgCNcBGAsYHQ/h240/satoru-gojo.png",
 	colorBg: "#746294",dm:"jujutsu-kaisen"
-},{
+},
+{
+	imgAnime: "https://lh3.googleusercontent.com/-BqNE3nx-1zM/YdwkWpCD6aI/AAAAAAAA3h0/KemmYVQyObMvudB7aeCD6HEsK4v3nXlCgCNcBGAsYHQ/h240/saturo-gojo.png",
+	colorBg: "#757bfc",dm:"jujutsu-kaisen"
+},
+{
+	imgAnime: "https://lh3.googleusercontent.com/-phvZFZHkbmc/Ydwmeo-T6oI/AAAAAAAA3h8/BvGFdqr8w6IRUulh5UUHw_4hm0UpflyswCNcBGAsYHQ/h240/saturo-gojo.png",
+	colorBg: "#e094e3",dm:"jujutsu-kaisen"
+},
+
+{
 	imgAnime: "https://lh3.googleusercontent.com/-h16l_FsT_TY/Ydf4-5El8XI/AAAAAAAA3cE/r5v1ktgdtD8cPZ3C1SjlqXGdZ7tgxvdoQCNcBGAsYHQ/h240/sukuna.png",
 	colorBg: "#e87e98",dm:"jujutsu-kaisen"
 },  {
@@ -2083,7 +2102,21 @@ colorBg: "#ef7094",dm:"kimetsu-no-yaiba"
 {
 	imgAnime: "https://1.bp.blogspot.com/--yQEa2GmvJ8/YQqfp2Q3e1I/AAAAAAAAv3g/LZ5odF86OMoYBrwB1pwld3msat5vY54-gCNcBGAsYHQ/h240/zoro.png",
 	colorBg: "#2e483e",dm:"one-piece"
-}, {
+}, 
+{
+	imgAnime: "https://lh3.googleusercontent.com/-siD3ucMEw14/YdwjYsB1a_I/AAAAAAAA3hk/JRJ8gIbennk-ziI2w-0rWYwt9jtx7cKHwCNcBGAsYHQ/h240/zoro.png",
+	colorBg: "#42a12f",dm:"one-piece"
+}, 
+{
+	imgAnime: "https://lh3.googleusercontent.com/-siD3ucMEw14/YdwjYsB1a_I/AAAAAAAA3hk/JRJ8gIbennk-ziI2w-0rWYwt9jtx7cKHwCNcBGAsYHQ/h240/zoro.png",
+	colorBg: "#42a12f",dm:"one-piece"
+}, 
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-X86hbQ-y-zY/Ydwjrgjg3bI/AAAAAAAA3hs/_q2w-kCQMKUpIjJUaqKEhZSQKU42X9MigCNcBGAsYHQ/h240/zoro.png",
+	colorBg: "#65ad42",dm:"one-piece"
+}, 
+{
 	imgAnime: "https://1.bp.blogspot.com/-d3EXXNjZcKs/YQts2JJ_CrI/AAAAAAAAv4c/OCC6qFeY_uM9oXUWEtz7YCuUzv5hudavACNcBGAsYHQ/h240/sanji.png",
 	colorBg: "#484538",dm:"one-piece"
 },
