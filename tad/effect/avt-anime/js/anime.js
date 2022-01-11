@@ -1587,7 +1587,17 @@ colorBg: "#ef7094",dm:"kimetsu-no-yaiba"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-8qoNfyqkEO4/YSOSYaIsEMI/AAAAAAAAwlk/uTZCVrF6UjIZyQAEqmmFt4FPxoJkI3NFwCNcBGAsYHQ/h240/karma.png",
 	colorBg: "#cc3d3d",dm:"ansatsu-kyoushitsu"
-}, {
+},
+
+{
+	imgAnime: "https://lh3.googleusercontent.com/-T8gwtg3aP5w/Yd2PqRNbKNI/AAAAAAAA3lA/2lMt3SXJocUetX4KNbB02FYJoyu9k7JdwCNcBGAsYHQ/h240/karma.png",
+	colorBg: "#f36160",dm:"ansatsu-kyoushitsu"
+},
+{
+	imgAnime: "https://lh3.googleusercontent.com/-alb4FwVkZlY/Yd2QFVE686I/AAAAAAAA3lI/ORuR7PqzKXEjvwf_k8ClQEBEWFSbI-GXgCNcBGAsYHQ/h240/karma.png",
+	colorBg: "#cb5251",dm:"ansatsu-kyoushitsu"
+},
+{
 	imgAnime: "https://1.bp.blogspot.com/-9yp-Meoqb3M/YRoljWoM3XI/AAAAAAAAwYU/kyqmIjGW2oMent2Bexu-X4HkAd2f9eTpACNcBGAsYHQ/h240/nagisa.png",
 	colorBg: "#6e99c2",dm:"ansatsu-kyoushitsu"
 },
