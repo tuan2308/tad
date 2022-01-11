@@ -60,6 +60,28 @@ var dsAnime = [
 //bộ
 
 {
+    imgAnime: "https://lh3.googleusercontent.com/-ll0aOYxgCc8/Yd2DNiFCe3I/AAAAAAAA3j4/AF7fZehtsZQGw1gun6pfaDJRiuyNfZt8wCNcBGAsYHQ/h240/Kamijou-Touma.png",
+    colorBg: "#f7ac54",dm:"toaru-majutsu-no-index"
+}, 
+
+{
+    imgAnime: "https://lh3.googleusercontent.com/-c4ymROziq1U/Yd2D32Jg9vI/AAAAAAAA3kA/RTXtw4BGBB4AAegJkPemqQhNNZqihk0lwCNcBGAsYHQ/h240/Index-Librorum-Prohibitorum.png",
+    colorBg: "#6084e3",dm:"toaru-majutsu-no-index"
+}, 
+{
+    imgAnime: "https://lh3.googleusercontent.com/-vCuldcD-77A/Yd2EPhMrFAI/AAAAAAAA3kI/m1uNiccp4KAL_Ae60zeGeL92bPRYmNuhgCNcBGAsYHQ/h240/Misaka-Mikoto.png",
+    colorBg: "#dbb6a6",dm:"toaru-majutsu-no-index"
+}, 
+
+{
+    imgAnime: "https://lh3.googleusercontent.com/-HvsIO4jkvxw/Yd2E5POJ8dI/AAAAAAAA3kQ/A1qqHGaiBGYAsR1LO1D8G_W38lbbimcPwCNcBGAsYHQ/h240/Accelerator.png",
+    colorBg: "#878787",dm:"toaru-majutsu-no-index"
+}, 
+{
+    imgAnime: "https://lh3.googleusercontent.com/-M8g3jDqqbwc/Yd2FQJAP4pI/AAAAAAAA3kY/s5rJukM4XnQkaC7LoZpFBOnNBztCHgEtQCNcBGAsYHQ/h240/Hamazura-Shiage.png",
+    colorBg: "#c59766",dm:"toaru-majutsu-no-index"
+}, 
+{
 	imgAnime: "https://1.bp.blogspot.com/-mh3l0YzysJA/YRkZNz6np5I/AAAAAAAAwXI/5_LO9atLRcghzYIhlgy2M4VNLQkEb3vdgCNcBGAsYHQ/h240/saitama.png",
 	colorBg: "#e5b646",dm:"one-punch-man"
 }, {

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script> var tmbq = '127.0.0.1'; </script>
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body>
+
+    <input value="1" class="form-control phantrang" type="number">
+    
+ <nav class="overflow-auto pages">
+    <ul class="pagination">
+      <li class="page-item disabled">
+        <span class="page-link">Previous</span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">1</a></li>
+      <li class="page-item active">
+        <span class="page-link">
+          2
+          <span class="sr-only">(current)</span>
+        </span>
+      </li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+
+    <div class="chonlogo chonmau row mt-5 "></div>
+
+<script>var id = '18mYO6fp_T99XBCtbAeGin8q8ctO-yvfbJP6toNK9rj0';
+    var gid = '0';
+    var url = 'https://docs.google.com/spreadsheets/d/'+id+'/gviz/tq?tqx=out:json&tq&gid='+gid;
+    fetch(url)
+      .then(response => response.text())
+      .then(data => myItems(data.substring(47).slice(0, -2))  
+      );
+
+
+    function myItems(jsonString){
+      var json = JSON.parse(jsonString);
+
+
+      var tong =   json.table.rows.length-1
+        var posts = 100;
+
+      var tongpages = tong / posts
+
+      for(i=0;i<tongpages;i++){
+
+$(".pages ul").append(' <li class="page-item"><a class="page-link" href="#">'+i+'</a></li>')
+
+      }
+
+
+
+
+    for(i=tong;i>tong - posts ;i--){
+var txt =   json.table.rows[i].c[1].v
+
+    $(".chonmau").append("<div><img alt='Typo' class='img-thumbnail' referrerpolicy='no-referrer' src='" + txt.replace(/.jpg/g, "m.jpg").replace(/.webp/g, "m.jpg").replace(/.png/g, "m.jpg") + "'></div>")
+
+}
+
+
+$(".phantrang").on("change",function(){
+    $(".chonmau").html("");
+var zzz = $(this).val();
+
+
+
+        for(i=tong -posts*(zzz-1);i>tong - posts*zzz ;i--){
+
+
+var txt =   json.table.rows[i].c[1].v
+
+    $(".chonmau").append("<div><img alt='Typo' class='img-thumbnail' referrerpolicy='no-referrer' src='" + txt.replace(/.jpg/g, "m.jpg").replace(/.webp/g, "m.jpg").replace(/.png/g, "m.jpg") + "'></div>")
+
+}
+
+
+})
+
+    }</script>
+
+
+</body>
+</html>
