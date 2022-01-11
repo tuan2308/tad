@@ -1410,7 +1410,16 @@ var dsLquan = [
 		LQthumb: "https://lh3.googleusercontent.com/-PaXrHl1ShYA/YYZoPn76fUI/AAAAAAAAzfQ/qj-gRDpBO4MdQIXmAmhkpfv6J0rG2o6dQCNcBGAsYHQ/h240/bc68101bdb00f4729a25fa5d94ab04d95a02b80264fa2.jpeg"
 	},
 
+	{
+        LQcover: "https://lh3.googleusercontent.com/-5yJeAaj-sTU/Yd2L6D1TLLI/AAAAAAAA3kk/N5Bvng5DkO8wSTtXDStUayXeY5c4ZriQgCNcBGAsYHQ/h240/Superman-2.jpg",
 
+        LQthumb: "https://lh3.googleusercontent.com/-Hs11IJrhcJ8/Yd2MDca2DxI/AAAAAAAA3ko/L8mrpl93dQMmCol-VGb4g4gGQIr9gOmhACNcBGAsYHQ/h240/674b771ab988b9990cefd5ddebd375995a02b81954294.jpeg"
+    },
+	{
+        LQcover: "https://lh3.googleusercontent.com/-und2RlUYmKo/Yd2L5w06naI/AAAAAAAA3kg/ZwzK0wu5dzgOkqO9oJLuLik5yeINx1NOQCNcBGAsYHQ/h240/Superman-3.jpg",
+
+        LQthumb: "https://lh3.googleusercontent.com/-dUARtrqsEVQ/Yd2MDdRWiFI/AAAAAAAA3ks/NXvvRWtq5bM65-2QzDS6xi0_ZvIpIc1ZwCNcBGAsYHQ/h240/ae31645476e789d87f2591d4f991a0d45b28c6b3c7d7c.jpeg"
+    },
 	{
 		LQcover: "https://lh3.googleusercontent.com/-hm0MyZ8OUF8/YYZn3dDwlqI/AAAAAAAAze4/YoJKSupNy9codQko8nmINepL7iSzmmKDgCNcBGAsYHQ/h240/Tel'Annas.jpg",
 
