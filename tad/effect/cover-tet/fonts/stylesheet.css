@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'AH-MinhTu';
+    src: url('AH-MinhTu.woff2') format('woff2'),
+        url('AH-MinhTu.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1411,7 +1411,13 @@ colorBg: "#ef7094",dm:"kimetsu-no-yaiba"
 }, {
 	imgAnime: "https://1.bp.blogspot.com/-udW1Hr18E9g/YR8qmi7gMeI/AAAAAAAAwfU/5GzcX-C1RzoMaBYh2-2gIT7xQaoPGr82ACNcBGAsYHQ/h240/nakano-yotsuba.png",
 	colorBg: "#a1b369",dm:"5-toubun-no-hanayome"
-}, {
+},
+{
+	imgAnime: "https://lh3.googleusercontent.com/-ks2XkjKGD-w/Yd7ksJnB6RI/AAAAAAAA3lQ/h2_DD4bBsD4XHHE8JUINQznWOluzyUq3ACNcBGAsYHQ/h240/yosuba.png",
+	colorBg: "#f59e76",dm:"5-toubun-no-hanayome"
+},
+
+{
 	imgAnime: "https://1.bp.blogspot.com/-EhXyCXjwzzQ/YR8q-yddHBI/AAAAAAAAwfc/Nwx8cfdXA5sK1tdTQnjVD65CCQuzY3ECQCNcBGAsYHQ/h240/nakano-itsuki.png",
 	colorBg: "#d0797f",dm:"5-toubun-no-hanayome"
 },
