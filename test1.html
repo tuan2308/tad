@@ -1,0 +1,88 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+<script> var tmbq = '127.0.0.1'; </script>
+<link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+<script crossorigin='anonymous'
+    integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+    src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+<div id="tad-chonkieu"></div>
+<script>
+
+var dsAnime;
+    var id = '1jopjdzCZMp4IbJ-4L4m9PHXML9zqhYLyH9bt1osnyK4';
+    var gid = '0';
+    var url = 'https://docs.google.com/spreadsheets/d/' + id + '/gviz/tq?tqx=out:json&tq&gid=' + gid;
+    fetch(url)
+        .then(function(response){return response.text()})
+        .then(
+            function(data){
+
+
+                return myItems(data.substring(47).slice(0, -2))
+
+            }
+        
+        
+     
+        
+        
+        
+        ).catch(function(err){alert("Lỗi: "+err)});
+    
+    
+    function myItems(jsonString) {
+        var json = JSON.parse(jsonString);
+
+        dsAnime = json.table.rows;
+        console.log(dsAnime)
+
+        // console.log(json.table.rows)
+
+
+            for (i = 0 ; i < json.table.rows.length; i++) 
+
+            {
+
+// console.log(dsAnime[i].c)
+
+
+if(dsAnime[i].c[0] != null && dsAnime[i].c[1] != null && dsAnime[i].c[2] != null && dsAnime[i].c[3] != null){
+
+ var b = dsAnime[i].c[0].v;
+		var colorb = dsAnime[i].c[1].v;
+		var dmm = dsAnime[i].c[2].v;
+		var marl = dsAnime[i].c[3].v;
+
+
+       
+                console.log(b)
+      
+            }
+
+    }
+
+
+}
+    </script>
+<!-- <div class="tatca-nv"></div>
+
+    <script src='https://cdn.taoanhdep.com/tad/effect/avt-anime/js/anime.js'></script>
+
+
+    <script>
+
+for(i=0;i<dsAnime.length;i++){
+if(dsAnime[i].marginL != undefined){
+$("#tad-chonkieu").append(dsAnime[i].marginL +" "+ i+ "<br/>")
+
+}
+
+}
+    </script> -->

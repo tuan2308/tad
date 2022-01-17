@@ -17,29 +17,30 @@
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
 </head>
 <body>
+<div id="kq"></div>
+<div id="kq1"></div>
     <script>
 
-//GET fetch request
-fetch('https://test.tuantruong8.repl.co/')
-    .then(response => response.json())
-    .then(data => {
-        
-        
-   $("body").append("<img src='"+data+"'>")
+        var url = "https://api.taoanhdep.com/edit/bannertc?apikey=DVB&name=%C4%90%C3%A0m%20V%C4%83n%20B%E1%BA%B1ng&age=2006&kieu=2"
+
+
+fetch(url).then(response => response.json()).then(data => {
+	console.log(data.img)
+
+    document.getElementById("kq").innerHTML = "<img src='" + data.img + "'>"
 
 
 })
 
-//POST fetch request
-fetch('https://test.tuantruong8.repl.co/', {
-    method: 'POST',
-    body: JSON.stringify({test:'test'}),
-    headers: {
-            "Content-Type": "application/json"
-          }
-  }).then(response => response.json())
-    .then(data => {$("body").append(data)})
+// var img = new Image;
+// img.crossOrigin = "Anonymous";
+// img.onload = function(){
 
+
+// document.getElementById("kq1").innerHTML = "<img src='" + img.src + "'>"
+
+// }
+// img.src = "https://api.taoanhdep.com/edit/123?apikey=DVB&name=%C4%90%C3%A0m%20V%C4%83n%20B%E1%BA%B1ng&age=2006&kieu=1" 
 
     </script>
 </body>
