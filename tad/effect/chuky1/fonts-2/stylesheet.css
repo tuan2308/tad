@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'MTD William Letter';
+    src: url('MTD.woff2') format('woff2'),
+        url('MTD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-The Voice';
+    src: url('SVN-TheVoiceHeavyItalic.woff2') format('woff2'),
+        url('SVN-TheVoiceHeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-The Voice';
+    src: url('SVN-TheVoiceHeavyItalic.woff2') format('woff2'),
+        url('SVN-TheVoiceHeavyItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MTD William Letter';
+    src: url('MTD.woff2') format('woff2'),
+        url('MTD.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
