@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+    <script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-9">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="tad-demoanh">
+                <a href="https://3.bp.blogspot.com/-apkMjgBV4Y0/XvieCJuax5I/AAAAAAAAgOk/o2QfCNVdzJMBrUV3LaWLniYPOGcwhiGAgCNcBGAsYHQ/s800/taoanhdep--biachuky.png"
+                    imageanchor="1"><img alt="Tạo ảnh bìa facebook với chữ ký và ngày sinh của bạn" border="0"
+                        class="img-thumbnail" data-original-height="1080" data-original-width="1920"
+                        src="https://3.bp.blogspot.com/-apkMjgBV4Y0/XvieCJuax5I/AAAAAAAAgOk/o2QfCNVdzJMBrUV3LaWLniYPOGcwhiGAgCNcBGAsYHQ/s800/taoanhdep--biachuky.png"
+                        title="Tạo ảnh bìa facebook với chữ ký và ngày sinh của bạn" />
+                    <div class="phongtoanh">
+                        <i class="fas fa-search-plus"></i>
+                    </div>
+                </a><br />
+            </div>
+        </div>
+        <div class="col-md-6">
+            <ins class="adsbygoogle" data-ad-client="ca-pub-1936887719551664" data-ad-format="auto"
+                data-ad-slot="8495386474" data-full-width-responsive="true" style="display: block;"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+    <hr />
+    Tạo ảnh bìa facebook với chữ ký và ngày sinh cá nhân của bạn tuy đơn giản mà cực kỳ đẹp.
+    Nguồn ảnh bìa chữ ký được taoanhdep.com tham khảo psd tại <a
+        href="https://www.taoanhdep.com/p/go.html?url=https://bit.ly/3eFXvhD" target="_blank" rel="noopener" class=""
+        style=" color: #000; ">nguyentinhblog.com</a>. Chúc mọi người tạo được tấm ảnh bìa ưng ý cho trang cá nhân
+    facebook của mình ^^.
+    <br />
+    <b>Hướng dẫn:</b>
+    <br />
+    - Nhập tên và năm sinh của bạn vào ô dưới<br />
+    - Nhấn nút <b> Tạo ảnh</b><br />
+    - Nhấn nút <b>Tải ảnh về</b> hoặc giữ vào ảnh 3 giây để lưu ảnh.
+    <br /><br />
+    <a href="https://www.taoanhdep.com/2021/07/tao-avatar-chu-ky-theo-ten-cua-ban.html"
+        class="btn btn-outline-primary btn-sm mr-2 mb-2">Tạo avatar chữ ký</a>
+    <a href="https://www.taoanhdep.com/2021/08/tao-anh-bia-voi-chu-ky-va-nam-sinh.html"
+        class="btn btn-outline-primary btn-sm mb-2">Ảnh bìa chữ ký ver 2</a>
+    <hr />
+    <!--more-->
+
+    <label>Màu nền</label>
+    <div class="chonmau mb-2">
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="color1" name="color1" class="custom-control-input" checked="">
+            <label class="custom-control-label" for="color1">Trắng</label>
+        </div>
+        <div class="custom-control custom-radio custom-control-inline">
+            <input type="radio" id="color2" name="color1" class="custom-control-input">
+            <label class="custom-control-label" for="color2">Đen</label>
+        </div>
+    </div>
+    <label><b>Nhập tên*</b></label>
+    <input type="text" class="form-control tad-in-text1 mb-2" placeholder="Nhập tên" value="Tuấn Trương">
+    <label><b>Nhập năm sinh*</b></label>
+    <input type="text" class="form-control tad-in-text2 mb-2" placeholder="Nhập năm sinh" value="2000">
+    <div class="mt-3">
+        <button type="button" class="btn btn-primary disabled d-block" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+            ảnh</button>
+    </div>
+    <div id="img-out"></div>
+    <canvas id="temp" style="width:100%" width="3000" height="1110"></canvas>
+    <script>
+        tenanhxuat = "chuky";
+        loadCSS("https://cdn.taoanhdep.com/tad/effect/chuky1/fonts/stylesheet.css");
+    </script>
+    <script>$(document).ready(function () {
+            if (window.location.hostname == tmbq) {
+                var j = $(".tad-in-text1");
+                var l = $(".tad-in-text2");
+                j.on("input", function () {
+                    n()
+                });
+                l.on("input", function () {
+                    n()
+                });
+
+                function n() {
+                    if (undefined !== j.val() && j.val().length == 0) {
+                        $("#tad-taoanh").addClass("disabled")
+                    } else {
+                        if (undefined !== l.val() && l.val().length == 0) {
+                            $("#tad-taoanh").addClass("disabled")
+                        } else {
+                            $("#tad-taoanh").removeClass("disabled")
+                        }
+                    }
+                }
+
+                var kieu = 1;
+
+                var f = "#000";
+                var h = "https://lh3.googleusercontent.com/-W3N1TppcoeE/YelOvAuXxUI/AAAAAAAA30A/lBxca0rxAdcEfb1_G75q3_GPiGhkX9sGgCNcBGAsYHQ/s0/net-1.png";
+                $(".chonmau #color1").click(function () {
+
+                    f = "#000";
+                    h = "https://lh3.googleusercontent.com/-W3N1TppcoeE/YelOvAuXxUI/AAAAAAAA30A/lBxca0rxAdcEfb1_G75q3_GPiGhkX9sGgCNcBGAsYHQ/s0/net-1.png"
+                });
+                $(".chonmau #color2").click(function () {
+
+                    f = "#fff";
+                    h = "https://lh3.googleusercontent.com/-WDZBgqhXoXs/YelO6EYMxjI/AAAAAAAA30E/rW6P7cCZW_gqzWZiqwA1GrNLIt-ivvU8gCNcBGAsYHQ/s0/net-2.png"
+                });
+                g()
+                function g() {
+                    try {
+
+
+
+
+
+                        var k = document.getElementById("temp");
+                        var e = k.getContext("2d");
+
+
+
+                        var c = $(".tad-in-text1").val();
+                        var d = $(".tad-in-text2").val();
+
+
+
+
+
+                        if (kieu == 1) {
+
+
+
+                            var b = new Image;
+                            b.crossOrigin = "Anonymous";
+                            b.src = h;
+                            b.onload = function () {
+
+
+
+
+                                document.fonts.load('10pt "AR DARLING"').then(function () {
+                                    document.fonts.load('10pt "Scripture"').then(function () {
+
+
+
+
+                                        e.save();
+                                        e.drawImage(b, 0, 0, k.width, k.height);
+                                        e.restore();
+
+                                        e.save();
+                                        e.font = "202px AR DARLING";
+                                        e.fillStyle = f;
+                                        e.translate(1251, 370);
+                                        e.rotate(Math.PI / 180 * -1);
+                                        e.fillText(d, 0, 0);
+                                        e.restore();
+                                        e.save();
+                                        e.font = "97px Scripture";
+                                        e.fillStyle = f;
+                                        e.translate(1516, 511);
+                                        e.rotate(Math.PI / 180 * -8);
+                                        e.fillText(c, 0, 0);
+                                        e.restore();
+                                        tadUpload(k)
+                                    })
+                                })
+                            }
+
+                        }
+
+
+
+                        if (kieu == 2) {
+
+                            h = "https://lh3.googleusercontent.com/-aJLNxne2K50/YelZzB7a78I/AAAAAAAA30Y/rV5K6Z-KyX8qOMuvOYhpQmR1BYVMACgsQCNcBGAsYHQ/s0/net-2-1.png";
+
+                            var b = new Image;
+                            b.crossOrigin = "Anonymous";
+                            b.src = h;
+                            b.onload = function () {
+
+
+
+                                document.fonts.load('10pt "SVN-The Voice"').then(function () {
+                                    document.fonts.load('10pt "MTD William Letter"').then(function () {
+
+
+                                        e.save();
+                                        e.drawImage(b, 0, 0, k.width, k.height);
+                                        e.restore();
+
+
+                                        e.save();
+                                        e.font = "italic 150px SVN-The Voice";
+                                        e.fillStyle = f;
+                                        e.translate(1265, 370);
+
+                                        e.fillText(d, 0, 0);
+                                        e.restore();
+                                        e.save();
+                                        e.font = "280px MTD William Letter";
+                                        e.fillStyle = f;
+                                        e.translate(1515, 570);
+                                        e.rotate(Math.PI / 180 * -4);
+                                        e.fillText(c, 0, 0);
+                                        e.restore();
+
+                                        tadUpload(k)
+
+                                    })
+                                })
+
+
+
+                            }
+                        }
+
+
+
+
+
+
+                       // tadUpload(k)
+
+
+                    } catch (a) {
+                        alert(a)
+                    }
+                }
+                $("#tad-taoanh").click(function () {
+                    $("#img-out").hide();
+                    $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
+                    g()
+                })
+            }
+        });</script>
+</body>
+
+</html>
