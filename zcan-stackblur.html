@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+<script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-6">
+
+    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" />
+
+    <img alt="Blank" class="d-none" height="0" id="Cimg"
+        src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png"
+        width="0">
+
+    <canvas id="temp" width="2000" height="760" style="border:1px solid #d3d3d3;width: 100%;">
+        Your browser does not support the canvas element.
+    </canvas>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stackblur-canvas/2.5.0/stackblur.min.js" integrity="sha512-W5pl1mdnRnOONc8pHMFi5xyBNNNHo6N7Q2psPRHWMPR47VyO6F/sL1G5PpRLBcsd9QL+WfDa0J9mEsGoxQH+RQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- <canvas id="canvas" width="200" height="200"></canvas>
+    <div class="demo-slider">
+        <input type="range" min="0" max="50" value="0" id="slider" />
+    </div>
+    <script>
+        // Canvas
+        var canvas = document.getElementById("canvas");
+        var cctx = canvas.getContext("2d");
+        var buff = document.createElement("canvas");
+        buff.width = canvas.width;
+        buff.height = canvas.height;
+        var bctx = buff.getContext("2d");
+
+        bctx.fillStyle = "#eee";
+        bctx.fillRect(0, 0, canvas.width, canvas.height);
+
+        bctx.fillStyle = "#08f";
+        bctx.fillRect(30, 30, 120, 90);
+
+        bctx.fillStyle = "#f04";
+        bctx.beginPath();
+        bctx.arc(120, 120, 50, 0, 2*Math.PI);
+        bctx.fill();
+
+        cctx.drawImage(buff, 0, 0);
+
+        // Slider
+        var slider = document.getElementById("slider");
+        slider.addEventListener("change", function() {
+            cctx.drawImage(buff, 0, 0);
+            StackBlur.canvasRGB(canvas, 0, 0, canvas.width, canvas.height, slider.value);
+        }, false);
+    </script> -->
+
+
+
+    <script>
+
+
+
+        document.fonts.load('10pt "AR DARLING"').then(function () {
+
+            var a = new Image();
+            a.crossOrigin = "Anonymous";
+            a.src = "https://lh3.googleusercontent.com/-nUwoTGWnfGA/YZjFyVXf7MI/AAAAAAAA1Ug/XX9QE_4WbFMQZaIJrpkDzvoUzg7JkYPbACNcBGAsYHQ/s1700/thuphap1.jpg";
+            a.onload = function () {
+
+                var cimg = document.getElementById("Cimg");
+
+                var c = document.getElementById("temp");
+
+                var ctx = c.getContext("2d");
+
+       ctx.drawImage(a, 0, 0, c.width, c.height);
+
+
+                ctx.drawImage(cimg, 0, 0, 50, 50);
+
+ctx.textAlign = "center";
+
+ctx.textBaseline = 'middle';
+
+                ctx.font = "30px Arial";
+                ctx.fillText("Hello World", 10, 50);
+
+
+      var buff = document.createElement("canvas");
+        buff.width = c.width;
+        buff.height = c.height;
+        var bctx = buff.getContext("2d");
+
+        bctx.drawImage(a, 0, 0, c.width, c.height);
+
+
+       StackBlur.canvasRGB(buff, 0, 0, c.width, c.height, 20);
+
+         ctx.drawImage(buff, 0, 0);
+
+
+            }
+        })
+
+    </script>
+
+
+
+</body>
+</html>

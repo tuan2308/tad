@@ -15,8 +15,8 @@
 <div id="tad-chonkieu"></div>
 <script>
 
-var dsAnime;
-    var id = '1jopjdzCZMp4IbJ-4L4m9PHXML9zqhYLyH9bt1osnyK4';
+var dsTypo;
+    var id = '1ijX8CpGeyCKKlIaIfWzHJ6xFW2r4uPn_zgbkuIc6GXo';
     var gid = '0';
     var url = 'https://docs.google.com/spreadsheets/d/' + id + '/gviz/tq?tqx=out:json&tq&gid=' + gid;
     fetch(url)
@@ -25,7 +25,7 @@ var dsAnime;
             function(data){
 
 
-                return myItems(data.substring(47).slice(0, -2))
+                return exportx(data.substring(47).slice(0, -2))
 
             }
         
@@ -37,32 +37,28 @@ var dsAnime;
         ).catch(function(err){alert("Lỗi: "+err)});
     
     
-    function myItems(jsonString) {
+    function exportx(jsonString) {
         var json = JSON.parse(jsonString);
 
-        dsAnime = json.table.rows;
-        console.log(dsAnime)
+        dsTypo = json.table.rows;
+        
+// console.log(dsTypo[1].c[0].v)
+
+    //    console.log(dsTypo[1].c[0].v + " - "+ dsTypo[1].c[1].v)
 
         // console.log(json.table.rows)
 
 
-            for (i = 0 ; i < json.table.rows.length; i++) 
+            for (i = 0 ; i < dsTypo.length; i++) 
 
             {
 
-// console.log(dsAnime[i].c)
+// console.log(dsTypo[i].c)
+dsTypo[i].c[0].v
 
+if(dsTypo[i].c[0] != null){
 
-if(dsAnime[i].c[0] != null && dsAnime[i].c[1] != null && dsAnime[i].c[2] != null && dsAnime[i].c[3] != null){
-
- var b = dsAnime[i].c[0].v;
-		var colorb = dsAnime[i].c[1].v;
-		var dmm = dsAnime[i].c[2].v;
-		var marl = dsAnime[i].c[3].v;
-
-
-       
-                console.log(b)
+    console.log(dsTypo[i].c[0].v )
       
             }
 
@@ -71,18 +67,20 @@ if(dsAnime[i].c[0] != null && dsAnime[i].c[1] != null && dsAnime[i].c[2] != null
 
 }
     </script>
-<!-- <div class="tatca-nv"></div>
 
-    <script src='https://cdn.taoanhdep.com/tad/effect/avt-anime/js/anime.js'></script>
+
+    <!-- <div class="tatca-nv"></div>
+
+    <script src='https://cdn.taoanhdep.com/tad/effect/ghep-typo/listtypo.js'></script>
 
 
     <script>
 
-for(i=0;i<dsAnime.length;i++){
-if(dsAnime[i].marginL != undefined){
-$("#tad-chonkieu").append(dsAnime[i].marginL +" "+ i+ "<br/>")
+for(i=0;i<listTypo.length;i++){
+// if(dsTypo[i].marginL != undefined){
+$("#tad-chonkieu").append(listTypo[i] + "<br/>")
 
-}
+// }
 
 }
     </script> -->

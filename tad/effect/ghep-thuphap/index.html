@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> var tmbq = '127.0.0.1'; </script>
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-lg-6">
+
+    <!--more-->
+    <style>
+        .chonanh-avt {
+            width: 38px;
+            height: 38px;
+            float: left;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-right: 10px
+        }
+
+        .img-preview {
+            width: 36px;
+            height: 36px;
+            background: url(//2.bp.blogspot.com/-ZTMZs1MahXE/XqZq3WgQKDI/AAAAAAAAdRI/ib4MFhw49m82VLY9b2LzZBw5w3tItLSrQCK4BGAYYCw/s36/thumbnail-man.png) no-repeat center;
+            background-size: 36px
+        }
+
+        .democan {
+            background: #eee;
+            overflow: hidden;
+            border-radius: .25rem;
+            border: 1px solid #ddd
+        }
+
+        .canvas-container {
+            width: 100% !important;
+            height: auto !important;
+            display: flex
+        }
+
+        .lower-canvas {
+            width: 100% !important;
+            height: auto !important;
+            position: relative !important
+        }
+
+        .upper-canvas {
+            width: 100% !important;
+            height: auto !important;
+            position: absolute !important
+        }
+
+        .tad-dai .lower-canvas,
+        .tad-dai .upper-canvas {
+            max-height: 375px;
+            width: auto !important;
+            top: inherit !important;
+            left: inherit !important
+        }
+
+        .canvas-container.tad-dai {
+            justify-content: center
+        }
+
+        div#tad-chonkieu {
+            overflow: auto;
+            margin-bottom: 10px !important;
+            flex-wrap: nowrap !important;
+            display: flex;
+            padding-left: 5px;
+            max-height: 160px
+        }
+
+        div#tad-chonkieu>div {
+            width: 100px;
+            height: 100px;
+            overflow: hidden;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-right: 15px;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: .25rem;
+            max-width: 100%;
+            cursor: pointer;
+            -ms-flex: none;
+            flex: none;
+            position: relative
+        }
+
+        div#tad-chonkieu>div.active {
+            box-shadow: 0 0 0 .2rem rgba(38, 143, 255, 0.5);
+            border-color: rgba(38, 143, 255, 0.5)
+        }
+
+        div#tad-chonkieu img {
+            margin: 0;
+            width: 100%
+        }
+
+        @media only screen and (max-width:576px) {
+            div#tad-chonkieu {
+                max-height: 250px;
+                flex-direction: column;
+                flex-wrap: wrap !important;
+                align-content: flex-start
+            }
+
+            div#tad-chonkieu>div {
+                width: 80px;
+                height: 80px
+            }
+        }
+    </style>
+    <link href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" rel="stylesheet">
+
+<label>Chọn nền</label>
+    <div id="tad-chonkieu" class="chonlogo tad-scrollbar"></div>
+
+
+   <b> <label class="startus">Thêm chữ</label></b>
+
+    <textarea class="form-control mb-3" id="inputtext" placeholder="Nhập chữ (Nhấn enter để xuống hàng)"></textarea>
+
+
+    <button type="button" class="btn btn-primary" id="addText">Thêm chữ</button>
+
+
+    <div id="thanhcc" style="display: none;">
+        <button class="btn btn-primary mr-2" id="backb2"><i class="fas fa-arrow-left"></i></button>
+
+        <div class="btn-group mr-2" id="canle">
+            <button type="button" class="btn btn-secondary" datat="left"><i class="fas fa-align-left"></i></button>
+            <button type="button" class="btn btn-secondary" datat="center"><i class="fas fa-align-center"></i></button>
+            <button type="button" class="btn btn-secondary" datat="right"><i class="fas fa-align-right"></i></button>
+          </div>
+
+        <button id="changecolor" class="btn btn-primary mr-2">Đổi màu</button>
+
+
+
+
+        <button id="delete" class="btn btn-primary">Xoá</button>
+    </div>
+
+    <div class="collapse show mt-2" id="collapseDieuchinh">
+        <label class="m1">Điều chỉnh:
+            <a href="javascript:void(0)"
+                onclick="alert('Dùng 1 ngón tay để di chuyển\nDùng 2 ngón tay để xoay, thu nhỏ, phóng to')"><i
+                    class="far fa-question-circle"></i></a>
+        </label>
+        <div class="democan" class="mt-3">
+            <canvas id="temp" width="500" height="500"></canvas>
+        </div>
+        <div class="mt-2 tad-chinhmau">
+
+            <label>Độ sáng</label>
+            <div style="touch-action:none">
+                <input class="custom-range mb-2 tad-in-brightness" type="range" value="0" step="1" min="-50" max="50">
+            </div>
+
+            <label>Tương phản</label>
+            <div style="touch-action:none">
+                <input class="custom-range mb-2 tad-in-contrast" type="range" value="0" step="1" min="-50" max="50">
+            </div>
+
+            <label>Vỡ hạt</label>
+            <div style="touch-action:none">
+                <input class="custom-range mb-2 tad-in-noise" type="range" value="0" step="1" min="0" max="100">
+
+
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+
+    <div class="mt-2">
+        <button type="button" class="btn btn-primary disabled" id="tad-taoanh"><i class="fas fa-cut"></i> Tạo
+            ảnh</button>
+    </div>
+    <div id="img-out"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/1.7.9/fabric.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.7/hammer.min.js"
+        integrity="sha512-fKSoxqVPlyflaK5sUZYigOGAnjMChqysp0xksbgt+pI5N+e4fT5DGGMdvLS6MvYo4S6rZ2gmg5tUpMwpNk0AcA=="
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.taoanhdep.com/tphoto/FileSaver.js"></script>
+    <script src="https://cdn.taoanhdep.com/tphoto/fontfaceobserver.js"></script>
+    <script src="https://cdn.taoanhdep.com/tphoto/fabriccontrol.js"></script>
+    <link href='https://cdn.taoanhdep.com/tad/effect/avt-anime/fonts/stylesheet.css' media='all' rel='stylesheet' />
+    <link rel='stylesheet'
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css" />
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js"></script>
+    <script>
+        var tenanhxuat = "typo";
+        listTypo = ["https://lh3.googleusercontent.com/-RhNbijS3ecU/YewGlNi0N5I/AAAAAAAA4WY/QMfNOHj-FKkxY9z6JLC00ZzkUnZNB7iHgCNcBGAsYHQ/h240/black.jpg"
+        ,"https://lh3.googleusercontent.com/-N2_T8sXnP2o/YezzNPbpntI/AAAAAAAA4XI/_fszSFhectsuLoVJygDpP5i-5jKyeknyACNcBGAsYHQ/h240/#3e445b.jpg"
+    ]
+    
+    
+    
+    
+    </script>
+    <script>
+
+        
+        $(document).ready(function () {
+            if (window.location.hostname == tmbq) {
+
+                var fontht = "utm thuphap thien an"; var mauchuht = "#000000"; var canle = "center";
+
+
+                for (var h = 0; h < listTypo.length; h++) {
+                    $(".chonlogo").append("<div><img alt='Nền' referrerpolicy='no-referrer' src='" + listTypo[h].replace(/h240/g,"s120-c") + "'></div>")
+                }
+                var canvas = new fabric.Canvas("temp");
+                fabric.Object.prototype.customiseCornerIcons({
+                    settings: {
+                        borderColor: "black",
+                        cornerSize: 5,
+                        cornerShape: "circle",
+                        cornerBackgroundColor: "black",
+                        cornerPadding: 20
+                    }
+                });
+                var r; var cc;
+                canvas.backgroundColor = "#999";
+          
+
+                //
+
+
+
+                $(".tad-in-brightness").on("change", function () {
+                    var zz = $(".tad-in-brightness").val();
+                    canvas.backgroundImage.filters[0] = new fabric.Image.filters.Brightness({
+                        brightness: parseInt(zz, 10)
+                    });
+                    canvas.backgroundImage.applyFilters(canvas.renderAll.bind(canvas));
+                });
+
+
+
+                $(".tad-in-noise").on("change", function () {
+                    var zzz = $(".tad-in-noise").val();
+                    canvas.backgroundImage.filters[1] = new fabric.Image.filters.Noise({
+                        noise: parseInt(zzz, 10)
+                    });
+                    canvas.backgroundImage.applyFilters(canvas.renderAll.bind(canvas));
+                });
+
+                $(".tad-in-contrast").on("change", function () {
+                    var zzzz = $(".tad-in-contrast").val();
+                    canvas.backgroundImage.filters[2] = new fabric.Image.filters.Contrast({
+                        contrast: parseInt(zzzz, 10)
+                    });
+                    canvas.backgroundImage.applyFilters(canvas.renderAll.bind(canvas));
+                });
+
+
+
+
+                $(".chonlogo div").click(function () {
+                    var f = $(this).children("img").attr("src").replace(/s120-c/g, "s1600");
+                    $(".chonlogo div").removeClass("active");
+                    $(this).addClass("active");
+
+
+                    var img = new Image;
+                    img.crossOrigin = "Anonymous";
+
+                    img.src = f
+                    img.onload = function () {
+                        var v = 500;
+                        if (img.width >= img.height) {
+                            canvas.setDimensions({
+ 						width: v,
+ 						height: v * img.height / img.width
+ 					});
+ 					$(".canvas-container").removeClass("tad-dai")
+ 				} else {
+                    canvas.setDimensions({
+ 						width: v * 1.2 * img.width / img.height,
+ 						height: v * 1.2
+ 					});
+ 					$(".canvas-container").addClass("tad-dai")
+ 				}
+
+
+
+                 canvas.setBackgroundImage(f, canvas.renderAll.bind(canvas), {
+ 					scaleX: canvas.width / img.width,
+ 					scaleY: canvas.height / img.height,
+                     crossOrigin: "anonymous"
+ 				});
+
+
+              
+
+                    }
+
+                    canvas.renderAll();
+
+
+
+                    canvas.renderAll();
+
+                    var d = setInterval(function () {
+                        canvas.renderAll()
+                    }, 100);
+                    setTimeout(function () {
+                        clearInterval(d)
+                    }, 3000)
+
+
+                    var c = f.substring(f.lastIndexOf("/") + 1, f.length).replace(/-/g, " ").replace(/.jpg/g, "");
+
+                    mauchuht = c
+
+
+                    if (canvas.getActiveObject() != null) {
+
+canvas.getActiveObject().setColor(c);
+canvas.renderAll()
+}
+
+
+                });
+
+                $(".chonlogo").children("div:first-child").click()
+
+
+                ////
+            
+                $("#tad-chenchu").click(function () {
+                    $("#inputtext").val("");
+                    $("#addText").show();
+
+                });
+
+
+                $("#addText").click(function () {
+                    var tw = canvas.width / 2;
+                    var nd = $("#inputtext").val();
+                    if (nd.length == 0) {
+                        alert("Vui lòng nhập chữ");
+                        $("#inputtext").focus();
+                        return false
+                    }
+                    var textbox = new fabric.IText(nd, {
+                        width: tw,
+                        left: canvas.width / 2 - tw / 2,
+                        top: canvas.height / 2,
+                        fontSize: tw / 5,
+                        textAlign: 'center',
+                        fontFamily: fontht,
+                        fill: mauchuht,
+                        // shadow: new fabric.Shadow({
+                        //     color: "rgba(0, 0, 0, 0.2)",
+                        //     blur: 2,
+                        //     offsetX: 2,
+                        //     offsetY: 2
+                        // })
+                    });
+
+
+                    var c = new FontFaceObserver("utm thuphap thien an");
+                    c.load().then(function () {
+
+
+                        canvas.add(textbox).setActiveObject(textbox);
+
+                    })
+
+
+                });
+
+                //
+                $("#delete").click(function () {
+                    canvas.isDrawingMode = false;
+                    deleteObjects();
+                });
+
+
+$("#canle button").click(function(){
+
+var val = $(this).attr("datat")
+
+    canvas.getActiveObject().set('textAlign',val);
+    canvas.renderAll()
+});
+
+
+                function deleteObjects() {
+                    var activeObject = canvas.getActiveObject();
+                    canvas.remove(activeObject);
+                    canvas.renderAll();
+                }
+                $('#changecolor').colorpicker().on('changeColor', function (e) {
+
+
+
+                    canvas.getActiveObject().setColor(e.color.toHex())
+
+                    canvas.renderAll();
+                });
+
+
+                //
+
+                canvas.on({
+                    'object:selected': function () {
+
+                        $(".startus").text("Chỉnh sửa chữ");
+
+
+                        obsel = canvas.getActiveObject()
+
+
+                        $("#changecolor").colorpicker("setValue", obsel.fill);
+
+                        // console.log(obsel)
+
+                        $("#thanhcc").show();
+                        $("#inputtext").val(obsel.text);
+
+                        // $("#mauchu").val(obsel.fill)
+
+
+                        $("#addText").hide();
+
+
+$("#tad-taoanh").removeClass("disabled")
+            
+                            $("#inputtext").on("input", function () {
+
+
+                                if (canvas.getActiveObject() != null) {
+
+                                canvas.getActiveObject().set("text", $("#inputtext").val());
+                                canvas.renderAll()
+                                }
+                            });
+
+                        
+
+                    },
+                    'selection:cleared': function () {
+
+                        noactive()
+
+
+                    }
+                });
+
+                $("#backb2").click(function () {
+
+                    canvas.deactivateAll();
+                    canvas.renderAll();
+                    noactive()
+                });
+
+                function noactive() {
+
+                    $(".startus").text("Thêm chữ khác");
+                    $("#inputtext").val("");
+                    $("#thanhcc").hide();
+
+
+
+                    $("#addText").show();
+
+                }
+
+
+
+
+                var e = null;
+                var q = null;
+                var n = null;
+                var c = null;
+                var a = 1;
+                var p = 1;
+                var o = 1;
+                var s = 0;
+                var i = new Hammer.Manager(canvas.upperCanvasEl);
+                var g = new Hammer.Rotate();
+                var j = new Hammer.Pinch();
+                i.add([j, g]);
+                i.get("rotate").set({
+                    enable: true
+                });
+                i.get("pinch").set({
+                    enable: true
+                });
+                i.on("pinchstart rotatestart", function (b) {
+                    console.log("start");
+                    s -= b.rotation;
+                    if (canvas.getActiveObject()) {
+                        var d = canvas.getActiveObject();
+                        p = d.scaleX;
+                        o = d.scaleY
+                    }
+                });
+                i.on("pinchmove rotatemove", function (b) {
+                    c = s + b.rotation;
+                    e = a * b.scale;
+                    if (canvas.getActiveObject()) {
+                        var d = canvas.getActiveObject();
+                        q = p * b.scale;
+                        n = o * b.scale;
+                        if (!(q > d.minScaleLimit && n > d.minScaleLimit)) {
+                            q = d.scaleX;
+                            n = d.scaleY
+                        }
+                        d.set({
+                            lockMovementX: true,
+                            lockMovementY: true
+                        });
+                        d.set("scaleX", q);
+                        d.set("scaleY", n);
+                        d.rotate(c);
+                        d.setCoords();
+                        canvas.renderAll()
+                    }
+                });
+                i.on("pinchend rotateend", function (b) {
+                    a = e;
+                    s = c;
+                    p = q;
+                    o = n;
+                    if (canvas.getActiveObject()) {
+                        var d = canvas.getActiveObject();
+                        setTimeout(function () {
+                            d.set({
+                                lockMovementX: false,
+                                lockMovementY: false
+                            })
+                        }, 300)
+                    }
+                    canvas.renderAll()
+                });
+                $("#tad-taoanh").click(function () {
+                    $("#img-out").hide();
+                    $("#tad-taoanh").addClass("disabled").html("<span class='spinner-border spinner-border-sm'></span> Đang tạo ảnh");
+                    canvas.deactivateAll();
+
+
+                    kichco = 3
+                    var aw = canvas.width;
+                    var ah = canvas.height;
+                    canvas.setZoom(kichco);
+                    canvas.setDimensions({
+                        width: aw * kichco,
+                        height: ah * kichco
+                    });
+                    canvas.renderAll();
+
+
+
+                    tadUpload($("#temp").get(0))
+
+                    canvas.setZoom(1);
+                    canvas.setDimensions({
+                        width: aw,
+                        height: ah
+                    })
+                    canvas.renderAll();
+
+
+                })
+            }
+        }); </script>
+
+    <link href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/css/bootstrap-colorpicker.min.css'
+        rel='stylesheet' />
+    <script
+        src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-colorpicker/2.5.3/js/bootstrap-colorpicker.min.js'></script>
+
+
+
+</body>
+
+<script>var urlanh, tadcanv;
+    function tadUpload(b, dd) {
+        tadcanv = b;
+        try {
+            if (typeof (dd) !== 'undefined') {
+                b.toBlob(function (blob) {
+                    var zz = URL.createObjectURL(blob);
+                    $("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + zz + "' alt='Kết quả' class='img-thumbnail'><a href='" + zz + "' class='btn btn-block btn-primary mt-2 taianh' download='taoanhdep_" + tenanhxuat + ".png'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a><button class='btn btn-block btn-outline-primary mt-2 tad-shareimg' onclick='shareImg(&#39;png&#39;)'><i class='fas fa-share'></i> Chia sẻ ảnh</button><div id='share-out'></div>");
+                });
+            }
+            else {
+                b.toBlob(function (blob) {
+                    var zz = URL.createObjectURL(blob);
+                    $("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + zz + "' alt='Kết quả' class='img-thumbnail'><a href='" + zz + "' class='btn btn-block btn-primary mt-2 taianh' download='taoanhdep_" + tenanhxuat + ".jpg'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a><button class='btn btn-block btn-outline-primary mt-2 tad-shareimg' onclick='shareImg()'><i class='fas fa-share'></i> Chia sẻ ảnh</button><div id='share-out'></div>");
+                }, 'image/jpeg', 0.9);
+            }
+            alert("a")
+        } catch {
+            //if png
+            if (typeof (dd) !== 'undefined') {
+                var z = b.toDataURL('image/' + dd);
+                $("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + z + "' alt='Kết quả' class='img-thumbnail'><a href='#' class='btn btn-block btn-primary mt-2 taianh' onclick='taianh(&#39;png&#39;)'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a><button class='btn btn-block btn-outline-primary mt-2 tad-shareimg' onclick='shareImg(&#39;png&#39;)'><i class='fas fa-share'></i> Chia sẻ ảnh</button><div id='share-out'></div>");
+            }
+            else {
+                var z = b.toDataURL('image/jpeg', 0.9);
+                $("#img-out").html("<label class='mt-2'> Kết quả: </label><img src='" + z + "' alt='Kết quả' class='img-thumbnail'><a href='#' class='btn btn-block btn-primary mt-2 taianh' onclick='taianh()'><i class='fas fa-cloud-download-alt'></i> Tải ảnh về</a><button class='btn btn-block btn-outline-primary mt-2 tad-shareimg' onclick='shareImg()'><i class='fas fa-share'></i> Chia sẻ ảnh</button><div id='share-out'></div>");
+            }
+            //
+            alert("b")
+        }
+        //show
+        setTimeout(function () {
+            $("#tad-taoanh").removeClass("disabled").html("<i class='fas fa-cut'></i> Tạo ảnh"); $("#img-out").show()
+        }, 1000);
+        //form
+        if (typeof (hengio) === 'undefined') { }
+        else {
+            clearTimeout(hengio);
+        }
+        if (typeof ($('#formTime')) === 'undefined') { }
+        else {
+            if ($(".tad-timetao").val() >= 10) {
+                $('#formTime').submit();
+            }
+        }
+    }
+    function taianh(ddd) {
+        var linkt = $("#img-out img").attr("src");
+        $(".taianh").attr("href", linkt)
+        if (typeof (ddd) !== 'undefined') {
+            $(".taianh").attr("download", "taoanhdep_" + tenanhxuat + "." + ddd)
+        }
+        else {
+            $(".taianh").attr("download", "taoanhdep_" + tenanhxuat + ".jpg")
+        }
+    }
+    // if(window.location.hostname!="\x77\x77\x77\x2E\x74\x61\x6F\x61\x6E\x68\x64\x65\x70\x2E\x63\x6F\x6D"){window.location="\x68\x74\x74\x70\x73\x3A\x2F\x2F\x74\x61\x6F\x61\x6E\x68\x64\x65\x70\x7A\x2E\x62\x6C\x6F\x67\x73\x70\x6F\x74\x2E\x63\x6F\x6D\x2F"}
+    function shareImg(cc) {
+        $(".tad-shareimg").html("<span class='spinner-border spinner-border-sm'></span> Đang tải ảnh lên").addClass("disabled").blur();
+        if (typeof (cc) !== 'undefined') {
+            var b = tadcanv.toDataURL('image/' + cc).split(",")[1];
+        }
+        else {
+            var b = tadcanv.toDataURL('image/jpeg', 0.9).split(",")[1];
+        }
+        $.ajax({
+            url: "https://api.imgur.com/3/image",
+            type: "POST",
+            headers: {
+                Authorization: "Client-ID 906acd390f9ab78",
+                Accept: "application/json"
+            },
+            dataType: "json",
+            data: {
+                image: b
+            },
+            success: function (c) {
+                var t = JSON.stringify(c);
+                var n = JSON.parse(t);
+                var urlanh = n.data.link.replace(/jpg/g, "webp");
+                $('#formShare #urlUp').val(urlanh);
+                $("#share-out").html("<div class='mt-3'><div class='row'><div class='col pr-2'><a class='btn btn-block btn-outline-primary btn-sm mb-2' href='https://www.facebook.com/share.php?%20v=4&amp;src=bm&amp;u=" + urlanh + "&amp;t=" + document.title + "' rel='nofollow' target='_blank' title='Facebook Share'><i class='fab fa-facebook'></i> Chia sẻ ảnh</a></div><div class='col pl-2'><a class='btn btn-block btn-outline-danger btn-sm mb-2' href='https://pinterest.com/pin/create/button/?url=https://taoanhdep.com" + location.pathname + "&amp;media=" + urlanh + "&amp;description=" + document.title + "' rel='nofollow' target='_blank' title='Pinterest Share'><i class='fab fa-pinterest'></i> Lưu ảnh</a></div></div><div class='input-group mt-2'> <input class='form-control form-control-sm' type='text' value='" + urlanh + "' id='urlShare'><div class='input-group-append'> <button class='btn btn-primary btn-sm' type='button' onclick='tadShareCopy()'><i class='fas fa-copy'></i></button> </div></div> </div>");
+                $(".tad-shareimg").hide();
+                $('#formShare').submit();
+            },
+            error: function (c) {
+                console.log(c), alert("Lỗi tải ảnh lên, hãy thử lại sau.")
+            }
+        })
+    }
+    function tadShareCopy() {
+        var b = document.getElementById("urlShare");
+        b.focus(), b.select(), document.execCommand("copy"), alert("Đã sao chép url ảnh!")
+    };
+    $('#formShare').submit(function (e) {
+        e.preventDefault();
+        $.ajax({
+            url: 'https://docs.google.com/forms/u/0/d/e/1FAIpQLScQ9-jU80GgaVTp4zkmjyNhUZcXB4TWIolCAWp3Nl-AKfxkQA/formResponse',
+            type: 'post',
+            data: $('#formShare').serialize(),
+            success: function () {
+                // Whatever you want to do after the form is successfully submitted
+            }
+        });
+    });</script>
+
+
+</html>

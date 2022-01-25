@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'UTM Libel KT';
+    src: url('UTMLibelKT.woff2') format('woff2'),
+        url('UTMLibelKT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Holidays';
+    src: url('SVN-Holidays.woff2') format('woff2'),
+        url('SVN-Holidays.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

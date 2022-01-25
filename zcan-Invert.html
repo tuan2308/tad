@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+<script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-6">
+
+    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" />
+
+    <img alt="Blank" class="d-none" height="0" id="Cimg"
+        src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png"
+        width="0">
+
+    <canvas id="temp" width="2000" height="760" style="border:1px solid #d3d3d3;width: 100%;">
+        Your browser does not support the canvas element.
+    </canvas>
+    <canvas id="testcanvas" width="300" height="200" style="background-color:lightgrey;">
+        Your browser dont support canvas.
+    </canvas>
+    <script>
+
+
+
+//         document.fonts.load('10pt "AR DARLING"').then(function () {
+
+//             var a = new Image();
+//             a.crossOrigin = "Anonymous";
+//             a.src = "https://lh3.googleusercontent.com/-nUwoTGWnfGA/YZjFyVXf7MI/AAAAAAAA1Ug/XX9QE_4WbFMQZaIJrpkDzvoUzg7JkYPbACNcBGAsYHQ/s1700/thuphap1.jpg";
+//             a.onload = function () {
+
+//                 var cimg = document.getElementById("Cimg");
+
+//                 var c = document.getElementById("temp");
+
+//                 var ctx = c.getContext("2d");
+
+//        ctx.drawImage(a, 0, 0, c.width, c.height);
+
+
+//                 ctx.drawImage(cimg, 0, 0, 50, 50);
+
+// ctx.textAlign = "center";
+
+// ctx.textBaseline = 'middle';
+
+//                 ctx.font = "30px Arial";
+//                 ctx.fillText("Hello World", 10, 50);
+
+         
+
+
+
+
+//             }
+//         })
+
+var a = new Image();
+            a.crossOrigin = "Anonymous";
+            a.src = "https://lh3.googleusercontent.com/-nUwoTGWnfGA/YZjFyVXf7MI/AAAAAAAA1Ug/XX9QE_4WbFMQZaIJrpkDzvoUzg7JkYPbACNcBGAsYHQ/s1700/thuphap1.jpg";
+            a.onload = function () {
+var ctx=document.getElementById("testcanvas").getContext("2d");
+     
+    //  var img=document.getElementById("myimage");
+    //  var x=0,y=0,width=img.width,height=img.height;
+
+     
+     ctx.drawImage(a,0,0,200,200);
+      
+     var imgd = ctx.getImageData(0,0,200,200); 
+     var pix = imgd.data;  
+ 
+     for (var i = 0, n = pix.length; i < n; i += 4) {
+        pix[i  ] = 255 - pix[i  ]; // red
+        pix[i+1] = 255 - pix[i+1]; // green
+        pix[i+2] = 255 - pix[i+2]; // blue
+        // i+3 is alpha (the fourth element) 
+     }  
+ 
+     ctx.putImageData(imgd, 0, 0); 
+
+    }
+    </script>
+
+
+
+</body>
+</html>
