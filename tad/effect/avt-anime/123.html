@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script> var tmbq = '127.0.0.1'; </script>
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body class="col col-md-6">
+
+<!-- Search form -->
+
+<style>
+.pin-load {
+    text-align: center;
+    padding: 20px;
+}
+.listpin {
+    columns: 150px;
+    -moz-columns: 150px;
+    -webkit-columns: 150px;
+    -o-columns: 150px;
+    -ms-columns: 150px;
+}
+.listpin>div {
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+    break-inside: avoid;
+    width: 100%;
+    overflow: hidden;
+}.listpin img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: contain;
+    margin: 0 !important;
+}
+</style>
+
+<form action="/search" id="pin-search" class="mb-3">
+    <div class="input-group">
+    <input aria-label="Search" class="form-control tad-tukhoa" name="q" placeholder="Tìm kiếm" required="" type="search"><div class="input-group-append">
+    <button class="btn btn-primary" type="submit"><i class="fas fa-search"></i></button>
+    </div>
+    </div>
+    </form>
+
+<div class="pintags mb-3">
+
+
+</div>
+
+
+<div class="pin-load" style="display: none;"><div class="spinner-border text-primary"></div></div>
+
+
+<div class="listpin"></div>
+    <script>
+    
+var pintags = ["Mây","Anime","Doraemon","Tokyo Ravengers","Mây","Phong Cảnh","Cute","Pikachu","Dễ Thương"]
+
+
+for(i=0;i<pintags.length;i++){
+
+$(".pintags").append('<button class="btn btn-primary mr-2 mb-2">'+pintags[i]+'</button>')
+
+
+}
+
+$(".pintags button").click(function(){
+
+
+    $("#pin-search input").val($(this).text())
+    $("#pin-search").submit();
+
+});
+
+
+
+    $("#pin-search").submit(function(e) {
+      	e.preventDefault();
+
+          $(".pin-load").show();
+          $(".listpin").html("");
+      	var tukhoa = $(".tad-tukhoa").val();
+      	var apiurl = "https://api.taoanhdep.com/tools/pinter?tukhoa=Hình nền "+ tukhoa
+        
+    
+          fetch(apiurl) .then(response => response.json()) .then(data => {
+            $(".pin-load").hide();
+            $(".listpin").html("");
+        
+        for(i=0;i<data.length;i++){
+ 
+
+ 
+$(".listpin").append("<div class='border rounded mb-3'><img src='https://res.cloudinary.com/demo/image/fetch/"+data[i]+"' onerror='this.onerror=null; this.src=&quot;"+data[i].replace(/originals/g,"600x")+"&quot;'  referrerpolicy='no-referrer' ></div>");
+ 
+ 
+        }
+         
+         
+         
+         
+         })
+
+
+      });
+    
+    
+    
+    
+   </script>
+</body>
+</html>
