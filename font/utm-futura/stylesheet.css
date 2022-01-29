@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UTM Futura Extra';
+    src: url('UTMFuturaExtra.woff2') format('woff2'),
+        url('UTMFuturaExtra.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
