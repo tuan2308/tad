@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+    <script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-6">
+    <link rel='stylesheet' href="https://cdn.taoanhdep.com/font/utm-godsword/stylesheet.css" />
+
+    <img alt="Blank" class="d-none" height="0" id="Cimg"
+        src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png"
+        width="0">
+
+    <canvas id="temp" width="1500" height="1500" style="border:1px solid #d3d3d3;width: 100%;">
+        Your browser does not support the canvas element.
+    </canvas>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stackblur-canvas/2.5.0/stackblur.min.js"
+        integrity="sha512-W5pl1mdnRnOONc8pHMFi5xyBNNNHo6N7Q2psPRHWMPR47VyO6F/sL1G5PpRLBcsd9QL+WfDa0J9mEsGoxQH+RQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+
+
+        document.fonts.load('bold 10pt "utm gods word"').then(function () {
+
+            var a = new Image();
+            a.crossOrigin = "Anonymous";
+            a.src = "https://lh3.googleusercontent.com/-g6K4Ne8YU9Y/Yf_BsXPRbBI/AAAAAAAA4ys/EoWphZ1R6XAgWReGgFMJpRrAl08mgP2zwCNcBGAsYHQ/s0/arum.jpg";
+            a.onload = function () {
+
+                var a1 = new Image();
+                a1.crossOrigin = "Anonymous";
+                a1.src = "https://lh3.googleusercontent.com/-Fi8JHTlU7fU/Yf_ExMTLUGI/AAAAAAAA4y4/eoL54UfSm4ATKqNg1OM2ormm3IdOzqfuwCNcBGAsYHQ/s0/mask-avt.png";
+                a1.onload = function () {
+
+
+                    var a2 = new Image();
+                    a2.crossOrigin = "Anonymous";
+                    a2.src = "https://lh3.googleusercontent.com/-mm1sZKUiqPM/Yf_IH_PZ2SI/AAAAAAAA4zE/i3I9jNFa1DEqz7lkw3iYWbm0F44TFmLsgCNcBGAsYHQ/s0/frame.png";
+                    a2.onload = function () {
+
+
+                        var canvas = document.getElementById("temp");
+
+                        var ctx = canvas.getContext("2d");
+
+                        ctx.save();
+
+                        var buff = document.createElement("canvas");
+                        buff.width = canvas.width;
+                        buff.height = canvas.height;
+                        var bctx = buff.getContext("2d");
+
+                        bctx.drawImage(a, 0, 0, canvas.width * a.width / a.height, canvas.height);
+
+                        ctx.drawImage(buff, 0, 0);
+
+                        StackBlur.canvasRGB(buff, 0, 0, canvas.width, canvas.height, 30);
+
+
+                        ctx.drawImage(a, canvas.width / 2 - 1000 / 2, 260, 1000, 790);
+                        ctx.globalCompositeOperation = "destination-atop";
+                        ctx.drawImage(a1, 0, 0, canvas.width, canvas.height);
+                        ctx.restore();
+
+                        ctx.drawImage(a2, 0, 0);
+                        ctx.save();
+                        ctx.textAlign = "center";
+
+
+
+                        var m = ctx.createLinearGradient(0, 0, 0, 1500);
+                        m.addColorStop(0, "#fff");
+                        m.addColorStop(0.75, "#fff");
+                        m.addColorStop(0.8, "rgba(255, 255, 255, 0)");
+
+                        ctx.fillStyle = m;
+
+
+                        ctx.font = "bold 80px utm gods word";
+                        ctx.fillText("TẠO ẢNH ĐẸP", canvas.width / 2, 1170);
+
+
+                        ctx.restore();
+
+                        ctx.globalCompositeOperation = "destination-over";
+
+
+
+
+
+                        ctx.save();
+                        ctx.fillStyle = "rgb(0 ,0 ,0 , 0.2)";
+                        ctx.fillRect(0, 0, canvas.width, canvas.height)
+                        ctx.restore();
+
+
+                        ctx.drawImage(buff, 0, 0);
+
+
+
+                    }
+                }
+            }
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>
+
+
+document.fonts.load('bold 10pt "UTM Gods Word"').then(function() {
+    document.fonts.load('10pt "UTM Gods Word"').then(function() {
+        var b = new Image();
+        b.crossOrigin = "Anonymous";
+        b.src = LQtuong;
+        b.onload = function() {
+        
+                    var k = document.getElementById("temp");
+                    var l = k.getContext("2d");
+                    var n = $(".tad-in-text1").val().toUpperCase();
+                  var nn = $(".tad-in-text2").val().toUpperCase().split("").join(" ");
+                    l.clearRect(0, 0, k.width, k.height);
+                    l.save();
+                  
+                  
+                  
+                   
+                    l.drawImage(b, 0, 0, k.width, k.height);
+                    l.save();
+          
+          
+          l.translate(0, 1500);
+                    var m = l.createLinearGradient(0, 0, 0, 500);
+                    m.addColorStop(0, "#fff");
+                    m.addColorStop(0.55, "#fff");
+                    m.addColorStop(0.65, "rgba(255, 255, 255, 0)");
+          
+         // l.fillStyle = m;
+          
+         // l.fillRect(0,0,k.width,k.height)
+          
+                    l.fillStyle = m;
+                    l.textAlign = "center";
+                    l.font = "bold 65px UTM Gods Word";
+            
+                    l.fillText(n, k.width / 2 - 10, 310);
+                      l.restore();
+                  l.save();
+          
+              l.globalCompositeOperation = "overlay";
+          l.textAlign = "center";
+                  l.fillStyle = "#fff";
+                  l.font = "35px UTM Gods Word";
+                  l.fillText(nn, k.width / 2 - 10, 1860);
+                  
+                  l.fillText(nn, k.width / 2 - 10, 1860);
+          l.fillText(nn, k.width / 2 - 10, 1860);
+          l.fillText(nn, k.width / 2 - 10, 1860);
+                    l.restore();
+          
