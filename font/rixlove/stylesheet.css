@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RixLoveFool';
+    src: url('RixLoveFool.woff2') format('woff2'),
+        url('RixLoveFool.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
