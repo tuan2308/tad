@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+    <script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body class="col-md-6">
+
+    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" />
+
+    <img alt="Blank" class="d-none" height="0" id="Cimg"
+        src="https://1.bp.blogspot.com/-vGd1b3D7B_k/X4761sSERUI/AAAAAAAAkaw/s8MTIikP0GA0QIcuEBQ_CC8BKsCz6RLoACNcBGAsYHQ/s0/d665d890d23ada55036da63d264444be.jpg"
+        width="0">
+
+    <canvas id="temp" width="2000" height="2500" style="border:1px solid #d3d3d3;width: 100%;">
+        Your browser does not support the canvas element.
+    </canvas>
+
+    <script>
+
+
+
+        document.fonts.load('10pt "AR DARLING"').then(function () {
+
+            var a = new Image();
+            a.crossOrigin = "Anonymous";
+            a.src = "https://lh3.googleusercontent.com/-Sz-YfnfqIaM/YinDsbMNFcI/AAAAAAAA5yU/KzZGfh8YqXcsozdr2jM23-m2R-y1T8Y5QCNcBGAsYHQ/s0/bg.jpg";
+            a.onload = function () {
+
+                var a1 = new Image();
+                a1.crossOrigin = "Anonymous";
+                a1.src = "https://lh3.googleusercontent.com/-4ceGVXCZOKI/YinGjglGSfI/AAAAAAAA5yc/VXxQqUmg9iE2pyLSRk3-xPSvkoq--rZcACNcBGAsYHQ/s0/mask.png";
+                a1.onload = function () {
+                    
+                    var a2 = new Image();
+                a2.crossOrigin = "Anonymous";
+                a2.src = "https://lh3.googleusercontent.com/-xdv-Vxiu06M/YinJ4tscywI/AAAAAAAA5yk/DHLxV2qo6AIJApMLwXeKi3A2ffnoDAOCwCNcBGAsYHQ/s0/fire.jpg";
+                a2.onload = function () {
+
+                    var cimg = document.getElementById("Cimg");
+
+                    var c = document.getElementById("temp");
+
+                    var ctx = c.getContext("2d");
+
+                 
+                    
+                    ctx.save();
+                    ctx.rotate(20 * Math.PI / 180);
+                   
+                    ctx.transform(1, -0.01, 0, 1, 0, 0);
+
+
+                    ctx.drawImage(cimg, 1100, 170, 675, 1050);
+
+                    ctx.restore();
+
+                    ctx.globalCompositeOperation="destination-in";
+
+
+                    ctx.save();
+                    ctx.drawImage(a1, 0, 0, c.width, c.height);
+                    ctx.restore();
+                    ctx.globalCompositeOperation = "destination-over";
+
+             
+                    ctx.save();
+                    ctx.globalCompositeOperation="multiply";
+                    ctx.drawImage(a, 0, 0, c.width, c.height);
+                    ctx.restore();
+
+                    ctx.save();
+                    ctx.globalCompositeOperation="screen";
+                    ctx.drawImage(a2, 0, 0, c.width, c.height);
+                    ctx.restore();
+                }
+
+                }
+
+            }
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>

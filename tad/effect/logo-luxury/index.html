@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'
+        media='all' rel='stylesheet' />
+    <script> var tmbq = '127.0.0.1'; </script>
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+
+<body>
+
+    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" />
+
+    <img alt="Blank" class="d-none" height="0" id="Cimg"
+        src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png"
+        width="0">
+
+    <canvas id="temp" width="2000" height="740" style="border:1px solid #d3d3d3;width: 100%;">
+        Your browser does not support the canvas element.
+    </canvas>
+
+    <script>
+
+
+function wrapText(context, text, x, y, line_width, line_height)
+{
+    var line = '';
+    var paragraphs = text.split('\n');
+    for (var i = 0; i < paragraphs.length; i++)
+    {
+        var words = paragraphs[i].split(' ');
+        for (var n = 0; n < words.length; n++)
+        {
+            var testLine = line + words[n] + ' ';
+            var metrics = context.measureText(testLine);
+            var testWidth = metrics.width;
+            if (testWidth > line_width && n > 0)
+            {
+                context.fillText(line, x, y);
+                line = words[n] + ' ';
+                y += line_height;
+            }
+            else
+            {
+                line = testLine;
+            }
+        }
+        context.fillText(line, x, y);
+        y += line_height;
+        line = '';
+    }
+}
+
+
+
+
+
+        document.fonts.load('bold 10pt "UTM Avo"').then(function () {
+
+            var a = new Image();
+            a.crossOrigin = "Anonymous";
+            a.src = "https://lh3.googleusercontent.com/-cJSxRpkchls/YiBynqoZ1qI/AAAAAAAA5lU/oBzdDXl4UZYdTuARMQ0vayRaQ9rNSVCwgCNcBGAsYHQ/s0/bg.jpg";
+            a.onload = function () {
+
+
+                var c = document.getElementById("temp");
+
+                var ctx = c.getContext("2d");
+
+
+
+                var t1 = "Sài Gòn"
+                var ta = "Đi giữa lòng Sài gòn, nếu có lỡ buông tay nhau sẽ lạc mất nhau mãi mãi."
+               
+                ctx.save();
+                ctx.fillStyle = "#fff"
+                ctx.fillRect(0, 0, c.width, c.height)
+                ctx.restore();
+
+            
+                ctx.globalCompositeOperation = 'destination-out';
+
+                ctx.save();
+                ctx.textAlign = "center";
+                ctx.font = "900 160px UTM Avo";
+                ctx.fillText(t1.toUpperCase().split("").join(" "), c.width / 2, 370);
+                ctx.restore();
+
+                ctx.save();
+                ctx.textAlign = "center";
+        
+                var maxWidth = 1200;
+      var lineHeight = 45;
+      var x = c.width / 2;
+      var y = 450;
+
+      ctx.font = '900 25px UTM Avo';
+
+  
+
+      wrapText(ctx, ta.toUpperCase(), x, y, maxWidth, lineHeight);
+
+
+               
+                ctx.restore();
+
+
+                ctx.globalCompositeOperation = "destination-over";
+             
+              
+                ctx.drawImage(a, c.width/2-1300/2, 190, 1300, 550);
+
+
+
+
+
+            }
+        })
+
+    </script>
+
+
+
+</body>
+
+</html>

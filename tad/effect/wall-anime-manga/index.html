@@ -40,7 +40,7 @@
 
             var a = new Image();
             a.crossOrigin = "Anonymous";
-            a.src = "https://lh3.googleusercontent.com/-4Mlz9SZchv8/Ybxq5FWRO_I/AAAAAAAA2eM/77Sa5dwVW3EbcSF54I2xQFFLf7feF_JhQCNcBGAsYHQ/s0/inosuke.png";
+            a.src = "https://1.bp.blogspot.com/-REeSAUh2TG4/YRjg_r4LpNI/AAAAAAAAwU4/PeXKDChyqUkpBxCRK9W_0ftwKJJWzEiFwCNcBGAsYHQ/s0/nobita.png";
             a.onload = function () {
 
                 var a1 = new Image();
@@ -98,7 +98,7 @@
                                     ctx1.drawImage(a1, 0, 0, c.width, c.height);
 
                                     ctx1.globalCompositeOperation = "source-in";
-                                    ctx1.drawImage(a, -100, -1000, 1700, 1700);
+                                    ctx1.drawImage(a, -150, -600, 1700, 1700);
                                     ctx1.restore();
                                     ///c1
 
@@ -113,7 +113,12 @@
                                     ctx2.drawImage(a2, 0, 0, c.width, c.height);
 
                                     ctx2.globalCompositeOperation = "source-in";
-                                    ctx2.drawImage(a, -400, -200, 1700, 1700);
+
+                             
+                                    ctx2.drawImage(a, -500, -500, 1700, 1700);
+                                
+
+
                                     ctx2.restore();
                                     ///c2
 
@@ -143,7 +148,7 @@
 
                                     ctx4.drawImage(b2, 0, 0, c.width, c.height);
                                     ctx4.globalCompositeOperation = "source-in";
-                                    ctx4.fillStyle = "#6493ea";
+                                    ctx4.fillStyle = "#e6b030";
                                     ctx4.fillRect(0, 0, c.width, c.height);
                                     ctx4.globalCompositeOperation="destination-atop";
                                     ctx4.drawImage(b1, 0, 0, c.width, c.height);
@@ -161,13 +166,19 @@
 
                                     ctx.save();
 
-                                    ctx.fillStyle = "#6493ea";
+                                    ctx.fillStyle = "#e6b030";
                                     ctx.fillRect(0, 0, c.width, c.height)
 
                                     ctx.drawImage(l1, 0, 0, c.width, c.height)
 
                                     ctx.drawImage(c1, 0, 0, c.width, c.height)
+
+
                                     ctx.drawImage(c2, 0, 0, c.width, c.height)
+
+
+
+
                                     ctx.drawImage(c3, 0, 0, c.width, c.height);
 
                                     ctx.drawImage(c4, -50, 130, 800, 800);
