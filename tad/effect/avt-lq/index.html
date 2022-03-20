@@ -21,7 +21,8 @@
 </head>
 
 <body class="col-md-6">
-    <link rel='stylesheet' href="https://cdn.taoanhdep.com/font/utm-godsword/stylesheet.css" />
+
+    <link rel="stylesheet" media='all' href="https://cdn.taoanhdep.com/font/thuphap/stylesheet.css" />
 
     <img alt="Blank" class="d-none" height="0" id="Cimg"
         src="https://1.bp.blogspot.com/-z3RZ2G93tVo/YHES6yUdnzI/AAAAAAAArsw/Jq_pD24Pn-sEW-XwzGl18qlgIYQZZOeqgCNcBGAsYHQ/s0/blank.png"
@@ -30,96 +31,106 @@
     <canvas id="temp" width="1500" height="1500" style="border:1px solid #d3d3d3;width: 100%;">
         Your browser does not support the canvas element.
     </canvas>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/stackblur-canvas/2.5.0/stackblur.min.js"
-        integrity="sha512-W5pl1mdnRnOONc8pHMFi5xyBNNNHo6N7Q2psPRHWMPR47VyO6F/sL1G5PpRLBcsd9QL+WfDa0J9mEsGoxQH+RQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
     <script>
 
 
 
-        document.fonts.load('bold 10pt "utm gods word"').then(function () {
+        document.fonts.load('10pt "UTM Eremitage"').then(function () {
 
             var a = new Image();
             a.crossOrigin = "Anonymous";
-            a.src = "https://lh3.googleusercontent.com/-g6K4Ne8YU9Y/Yf_BsXPRbBI/AAAAAAAA4ys/EoWphZ1R6XAgWReGgFMJpRrAl08mgP2zwCNcBGAsYHQ/s0/arum.jpg";
+            a.src = "https://lh3.googleusercontent.com/-2jk2FlpcWqg/Yjbl0GukY7I/AAAAAAAA55g/Sp5C5NbRdjkrW82D7bHn9gzozUyq8pNzACNcBGAsYHQ/s0/hayate.jpg";
             a.onload = function () {
-
                 var a1 = new Image();
                 a1.crossOrigin = "Anonymous";
-                a1.src = "https://lh3.googleusercontent.com/-Fi8JHTlU7fU/Yf_ExMTLUGI/AAAAAAAA4y4/eoL54UfSm4ATKqNg1OM2ormm3IdOzqfuwCNcBGAsYHQ/s0/mask-avt.png";
+                a1.src = "https://lh3.googleusercontent.com/-cuSSt1G8Z3w/Yjbmbn9FOWI/AAAAAAAA55o/0fmBE0nu5JAUwp_D5nebElkTEni_WVGjgCNcBGAsYHQ/s0/lens.jpg";
                 a1.onload = function () {
 
-
                     var a2 = new Image();
-                    a2.crossOrigin = "Anonymous";
-                    a2.src = "https://lh3.googleusercontent.com/-mm1sZKUiqPM/Yf_IH_PZ2SI/AAAAAAAA4zE/i3I9jNFa1DEqz7lkw3iYWbm0F44TFmLsgCNcBGAsYHQ/s0/frame.png";
-                    a2.onload = function () {
+                a2.crossOrigin = "Anonymous";
+                a2.src = "https://lh3.googleusercontent.com/-EJcHHjJagC8/YjcaLl4YaaI/AAAAAAAA56E/Ao6Reo8GH1MaqQx3DAZ6tcN5SL6Hz7HdwCNcBGAsYHQ/s0/layer.png";
+                a2.onload = function () {
+
+                    var cimg = document.getElementById("Cimg");
+
+                    var c = document.getElementById("temp");
+
+                    var ctx = c.getContext("2d");
+
+                    ctx.drawImage(a, 0, 0, c.width, c.height);
+                    ctx.drawImage(a2, 0, 0, c.width, c.height);
+
+                    
+ctx.save();
+                    ctx.textAlign = "center";
+
+                    ctx.fillStyle = "white"
+                    ctx.font = "100px UTM Eremitage";
+
+                   var txt = "TẠO ẢNH"
+                   var tw =  ctx.measureText(txt).width;
+               
+                 
+                
+              
+
+        
+      ctx.shadowColor = "#000";
+  
+      ctx.shadowOffsetY = 10
+      ctx.shadowBlur = 20;
+
+      var gradient = ctx.createLinearGradient(0, 0, 0, c.height);
+      gradient.addColorStop(0.83, "#f03caa");
+      gradient.addColorStop(0.85, "#fff");
+      ctx.fillStyle = gradient;
+
+    //   ctx.fillText(txt, c.width / 2, 1300);
+    //   ctx.fillText(txt, c.width / 2, 1300);
+      textMaxWidth(txt, "UTM Eremitage", 1300,780,100,c,ctx);
+      textMaxWidth(txt, "UTM Eremitage", 1300,780,100,c,ctx);          
+                 
 
 
-                        var canvas = document.getElementById("temp");
+ctx.restore();
+                    /////
+                    var c2 = document.createElement("CANVAS");
+                    c2.width = a1.width;
+                    c2.height = a1.height;
+                    var ctx2 = c2.getContext("2d");
 
-                        var ctx = canvas.getContext("2d");
+                    ctx2.save();
+                    ctx2.drawImage(a1, 0, 0, a1.width, a1.height);
+                    ctx2.globalCompositeOperation = "color";
+                    ctx2.fillStyle = "#f03caa"
+                    ctx2.fillRect(0, 0, a1.width, a1.height);
 
-                        ctx.save();
+                    ctx2.restore();
+                    /////
 
-                        var buff = document.createElement("canvas");
-                        buff.width = canvas.width;
-                        buff.height = canvas.height;
-                        var bctx = buff.getContext("2d");
+                    ctx.globalCompositeOperation = "screen";
+                    // ctx.drawImage(c2, 300 - tw/2 , 1080, a1.width, a1.height);
 
-                        bctx.drawImage(a, 0, 0, canvas.width * a.width / a.height, canvas.height);
+                    // ctx.drawImage(c2, 300 + tw/2 , 1010, a1.width, a1.height);
 
-                        ctx.drawImage(buff, 0, 0);
+                    ctx.drawImage(c2, c.width/2 - a1.width/2 , 1210, a1.width,250);
+                    
 
-                        StackBlur.canvasRGB(buff, 0, 0, canvas.width, canvas.height, 30);
-
-
-                        ctx.drawImage(a, canvas.width / 2 - 1000 / 2, 260, 1000, 790);
-                        ctx.globalCompositeOperation = "destination-atop";
-                        ctx.drawImage(a1, 0, 0, canvas.width, canvas.height);
-                        ctx.restore();
-
-                        ctx.drawImage(a2, 0, 0);
-                        ctx.save();
-                        ctx.textAlign = "center";
-
-
-
-                        var m = ctx.createLinearGradient(0, 0, 0, 1500);
-                        m.addColorStop(0, "#fff");
-                        m.addColorStop(0.75, "#fff");
-                        m.addColorStop(0.8, "rgba(255, 255, 255, 0)");
-
-                        ctx.fillStyle = m;
-
-
-                        ctx.font = "bold 80px utm gods word";
-                        ctx.fillText("TẠO ẢNH ĐẸP", canvas.width / 2, 1170);
-
-
-                        ctx.restore();
-
-                        ctx.globalCompositeOperation = "destination-over";
-
-
-
-
-
-                        ctx.save();
-                        ctx.fillStyle = "rgb(0 ,0 ,0 , 0.2)";
-                        ctx.fillRect(0, 0, canvas.width, canvas.height)
-                        ctx.restore();
-
-
-                        ctx.drawImage(buff, 0, 0);
-
-
-
-                    }
                 }
             }
+            }
         })
-
+   
+                  function textMaxWidth(text, font, top,maxw,maxf,can,ctx) {
+       
+                       do {
+                           maxf--;
+                           ctx.font = maxf + "px " + font
+                       } while (ctx.measureText(text).width > maxw);
+                       ctx.fillText(text, can.width / 2, top)
+              
+                   }      
     </script>
 
 
@@ -127,55 +138,3 @@
 </body>
 
 </html>
-
-
-document.fonts.load('bold 10pt "UTM Gods Word"').then(function() {
-    document.fonts.load('10pt "UTM Gods Word"').then(function() {
-        var b = new Image();
-        b.crossOrigin = "Anonymous";
-        b.src = LQtuong;
-        b.onload = function() {
-        
-                    var k = document.getElementById("temp");
-                    var l = k.getContext("2d");
-                    var n = $(".tad-in-text1").val().toUpperCase();
-                  var nn = $(".tad-in-text2").val().toUpperCase().split("").join(" ");
-                    l.clearRect(0, 0, k.width, k.height);
-                    l.save();
-                  
-                  
-                  
-                   
-                    l.drawImage(b, 0, 0, k.width, k.height);
-                    l.save();
-          
-          
-          l.translate(0, 1500);
-                    var m = l.createLinearGradient(0, 0, 0, 500);
-                    m.addColorStop(0, "#fff");
-                    m.addColorStop(0.55, "#fff");
-                    m.addColorStop(0.65, "rgba(255, 255, 255, 0)");
-          
-         // l.fillStyle = m;
-          
-         // l.fillRect(0,0,k.width,k.height)
-          
-                    l.fillStyle = m;
-                    l.textAlign = "center";
-                    l.font = "bold 65px UTM Gods Word";
-            
-                    l.fillText(n, k.width / 2 - 10, 310);
-                      l.restore();
-                  l.save();
-          
-              l.globalCompositeOperation = "overlay";
-          l.textAlign = "center";
-                  l.fillStyle = "#fff";
-                  l.font = "35px UTM Gods Word";
-                  l.fillText(nn, k.width / 2 - 10, 1860);
-                  
-                  l.fillText(nn, k.width / 2 - 10, 1860);
-          l.fillText(nn, k.width / 2 - 10, 1860);
-          l.fillText(nn, k.width / 2 - 10, 1860);
-                    l.restore();
-          
