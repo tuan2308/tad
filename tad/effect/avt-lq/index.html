@@ -48,89 +48,90 @@
                 a1.onload = function () {
 
                     var a2 = new Image();
-                a2.crossOrigin = "Anonymous";
-                a2.src = "https://lh3.googleusercontent.com/-EJcHHjJagC8/YjcaLl4YaaI/AAAAAAAA56E/Ao6Reo8GH1MaqQx3DAZ6tcN5SL6Hz7HdwCNcBGAsYHQ/s0/layer.png";
-                a2.onload = function () {
+                    a2.crossOrigin = "Anonymous";
+                    a2.src = "https://lh3.googleusercontent.com/-EJcHHjJagC8/YjcaLl4YaaI/AAAAAAAA56E/Ao6Reo8GH1MaqQx3DAZ6tcN5SL6Hz7HdwCNcBGAsYHQ/s0/layer.png";
+                    a2.onload = function () {
 
-                    var cimg = document.getElementById("Cimg");
+                        var cimg = document.getElementById("Cimg");
 
-                    var c = document.getElementById("temp");
+                        var c = document.getElementById("temp");
 
-                    var ctx = c.getContext("2d");
+                        var ctx = c.getContext("2d");
 
-                    ctx.drawImage(a, 0, 0, c.width, c.height);
-                    ctx.drawImage(a2, 0, 0, c.width, c.height);
+                        ctx.drawImage(a, 0, 0, c.width, c.height);
+                        //ctx.drawImage(a2, 0, 0, c.width, c.height);
+////
 
-                    
-ctx.save();
-                    ctx.textAlign = "center";
+var txt = "TUẤN DEEPTRY"
 
-                    ctx.fillStyle = "white"
-                    ctx.font = "100px UTM Eremitage";
+                        var c1 = document.createElement("CANVAS");
+                        c1.width = 1500;
+                        c1.height = 300;
+                        var ctx1 = c1.getContext("2d");
+                        ctx1.save();
+                        ctx1.textAlign = "center";
 
-                   var txt = "TẠO ẢNH"
-                   var tw =  ctx.measureText(txt).width;
-               
-                 
-                
-              
 
-        
-      ctx.shadowColor = "#000";
-  
-      ctx.shadowOffsetY = 10
-      ctx.shadowBlur = 20;
-
-      var gradient = ctx.createLinearGradient(0, 0, 0, c.height);
-      gradient.addColorStop(0.83, "#f03caa");
-      gradient.addColorStop(0.85, "#fff");
-      ctx.fillStyle = gradient;
-
-    //   ctx.fillText(txt, c.width / 2, 1300);
-    //   ctx.fillText(txt, c.width / 2, 1300);
-      textMaxWidth(txt, "UTM Eremitage", 1300,780,100,c,ctx);
-      textMaxWidth(txt, "UTM Eremitage", 1300,780,100,c,ctx);          
                  
 
 
-ctx.restore();
-                    /////
-                    var c2 = document.createElement("CANVAS");
-                    c2.width = a1.width;
-                    c2.height = a1.height;
-                    var ctx2 = c2.getContext("2d");
+                        ctx1.shadowColor = "#000";
 
-                    ctx2.save();
-                    ctx2.drawImage(a1, 0, 0, a1.width, a1.height);
-                    ctx2.globalCompositeOperation = "color";
-                    ctx2.fillStyle = "#f03caa"
-                    ctx2.fillRect(0, 0, a1.width, a1.height);
+                        ctx1.shadowOffsetY = 10
+                        ctx1.shadowBlur = 20;
 
-                    ctx2.restore();
-                    /////
+                        var gradient = ctx1.createLinearGradient(0, 0, 0, 300);
+                        gradient.addColorStop(0.2, "#f03caa");
+                        gradient.addColorStop(0.5, "#fff");
+                        ctx1.fillStyle = gradient;
+                        //ctx1.fillRect(0,0,1500,300)
+                        textMaxWidth(txt, "UTM Eremitage", 150, 900, 120, c1, ctx1);
+                      
 
-                    ctx.globalCompositeOperation = "screen";
-                    // ctx.drawImage(c2, 300 - tw/2 , 1080, a1.width, a1.height);
+                        ctx1.restore();
 
-                    // ctx.drawImage(c2, 300 + tw/2 , 1010, a1.width, a1.height);
+                        for(l=0;l<3;l++){
+                        ctx.drawImage(c1, 0, 1080, c.width, 300);
+                        }
+                        /////
+                        var c2 = document.createElement("CANVAS");
+                        c2.width = a1.width;
+                        c2.height = a1.height;
+                        var ctx2 = c2.getContext("2d");
 
-                    ctx.drawImage(c2, c.width/2 - a1.width/2 , 1210, a1.width,250);
-                    
+                        ctx2.save();
+                        ctx2.drawImage(a1, 0, 0, a1.width, a1.height);
+                        ctx2.globalCompositeOperation = "color";
+                        ctx2.fillStyle = "#f03caa"
+                        ctx2.fillRect(0, 0, a1.width, a1.height);
 
+                        ctx2.restore();
+                        /////
+
+                        ctx.globalCompositeOperation = "screen";
+                        // ctx.drawImage(c2, 300 - tw/2 , 1080, a1.width, a1.height);
+
+                        // ctx.drawImage(c2, 300 + tw/2 , 1010, a1.width, a1.height);
+
+                        ctx.drawImage(c2, c.width / 2 - a1.width / 2, 1180, a1.width, 250);
+
+
+                    }
                 }
             }
-            }
         })
-   
-                  function textMaxWidth(text, font, top,maxw,maxf,can,ctx) {
-       
-                       do {
-                           maxf--;
-                           ctx.font = maxf + "px " + font
-                       } while (ctx.measureText(text).width > maxw);
-                       ctx.fillText(text, can.width / 2, top)
-              
-                   }      
+
+        function textMaxWidth(text, font, top, maxw, maxf, can, ctx) {
+
+            do {
+                maxf--;
+                ctx.font = maxf + "px " + font
+            } while (ctx.measureText(text).width > maxw);
+           
+            ctx.fillText(text, can.width / 2, top);
+          
+
+        }      
     </script>
 
 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script> var tmbq = '127.0.0.1'; </script>
+    <link as='style' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css' media='all' rel='stylesheet' />
+
+    <script crossorigin='anonymous'
+        integrity='sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=='
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js'></script>
+
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" media="all">
+
+</head>
+<body>
+    
+    <div class="abc"></div>
+    <script>
+
+var id = '1CWeJdYUNmYI3of2-OHBS8muNxgiJ5EBRKBb_PaHehKA';
+    var gid = '0';
+    var url = 'https://docs.google.com/spreadsheets/d/' + id + '/gviz/tq?tqx=out:json&tq&gid=' + gid;
+    fetch(url)
+        .then(response => response.text())
+        .then(data => myItems(data.substring(47).slice(0, -2)));
+    
+    
+    function myItems(jsonString) {
+        var json = JSON.parse(jsonString);
+
+
+            for (c = 1 ; c < json.table.rows.length; c++) {
+                var  vitri = JSON.parse(json.table.rows[c].c[0].v);
+              var  demoimg = json.table.rows[c].c[1].v;
+              var  bgimg = json.table.rows[c].c[2].v;
+              var  markimg = json.table.rows[c].c[3].v;
+              
+                $(".abc").append("<a href='" + demoimg + "' data-fancybox='gallery'><img alt='Ghép ảnh trang cá nhân facebook vào góc gaming sống ảo' class='img-thumbnail' src='" + demoimg.replace(/h240/g, "s300") + "'> <i class='fas fa-search-plus'></i></a> <div class='custom-control custom-radio custom-control-inline'> <input datavitri='" + JSON.stringify(vitri) + "' databg='" + bgimg + "' datamark='" + markimg + "' type='radio' id='kieu" + c + "' name='kieu1' class='custom-control-input'> <label class='custom-control-label' for='kieu" + c + "'>Kiểu " + c + "</label> </div>")
+              
+    }
+
+
+      
+      
+}
+
+
+</script>
