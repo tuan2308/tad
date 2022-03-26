@@ -39,8 +39,12 @@
 
         var a = new Image();
         a.crossOrigin = "Anonymous";
-        a.src = "https://lh3.googleusercontent.com/-lFlRA0dTG4E/Yi7km4g-GSI/AAAAAAAA528/HtBxOPkhsvYoy7xrJ2YOt-UjM16j7JKywCNcBGAsYHQ/s0/layer.png";
+        a.src = "https://lh3.googleusercontent.com/-W2cc2upiVhY/Yj7Xu1-dfPI/AAAAAAAA6cE/QsDKVS4sqR8qu0TIqLufYUYGr8cq-6pEwCNcBGAsYHQ/s0/khung.png";
         a.onload = function () {
+            var az = new Image();
+        az.crossOrigin = "Anonymous";
+        az.src = "./thongthao/c.png";
+        az.onload = function () {
 
             var a2 = new Image();
             a2.crossOrigin = "Anonymous";
@@ -66,7 +70,7 @@
                 ctx.drawImage(a, 0, 0, c.width, c.height);
                 var btw = 128;
                 ctx.drawImage(a2, c.width / 2 - btw / 2, 905, btw, btw);
-
+                ctx.drawImage(az, 15, 10, az.width, az.height);
 
 
 
@@ -126,7 +130,7 @@ ctx.fillText("Siêu việt", c.width / 2, 700);
 
 ctx.restore();
 
-
+  }
 
             }
 
