@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'UTM Cafeta';
+    src: url('UTMCafeta.woff2') format('woff2'),
+        url('UTMCafeta.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Astronout';
+    src: url('SVN-Astronout.woff2') format('woff2'),
+        url('SVN-Astronout.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
