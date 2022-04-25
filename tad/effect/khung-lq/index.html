@@ -58,6 +58,16 @@
             a3.onload = function () {
 
 
+                var a4 = new Image();
+            a4.crossOrigin = "Anonymous";
+            a4.src = "./triky/ce.png";
+            a4.onload = function () {
+
+                var a5 = new Image();
+                a5.crossOrigin = "Anonymous";
+                a5.src = "./phuhieu/mc.png";
+            a5.onload = function () {
+
                 var cimg = document.getElementById("Cimg");
 
                 var c = document.getElementById("temp");
@@ -72,7 +82,9 @@
                 ctx.drawImage(a2, c.width / 2 - btw / 2, 905, btw, btw);
                 ctx.drawImage(az, 15, 10, az.width, az.height);
 
-
+                ctx.drawImage(a4, 108, 930, 90 * 27/24, 90);
+          
+                ctx.drawImage(a5, 482, 910, 125, 125);
 
                 ctx.save();
                 var a3scale = 2
@@ -131,11 +143,11 @@ ctx.fillText("Siêu việt", c.width / 2, 700);
 ctx.restore();
 
   }
-
+}
             }
 
         }
-
+    }
     }
     </script>
 
