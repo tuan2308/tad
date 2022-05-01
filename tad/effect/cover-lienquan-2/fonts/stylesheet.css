@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UTM Niagara';
+    src: url('UTMNiagara.woff2') format('woff2'),
+        url('UTMNiagara.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
