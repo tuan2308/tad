@@ -36,11 +36,11 @@
 
 
 
-        document.fonts.load('10pt "AR DARLING"').then(function () {
+        document.fonts.load('10pt "UTM Niagara"').then(function () {
 
             var a = new Image();
             a.crossOrigin = "Anonymous";
-            a.src = "https://lh3.googleusercontent.com/-owyh1OnKnck/Ymu8XnZoKdI/AAAAAAAA7ms/cqonz2rI7_gLH5BVwVSvH3GY-I1GIdDpACNcBGAsYHQ/s0/Aoi-3.jpg";
+            a.src = "https://lh3.googleusercontent.com/-GJWM5vCJjRg/YYtij3MnRhI/AAAAAAAA0QU/83FuLmRWSjI5WHmFwYZmy_EeQqi1rKA0wCNcBGAsYHQ/s0/Tulen-8.jpg";
             a.onload = function () {
 
 
@@ -67,17 +67,21 @@
                         var ctx = c.getContext("2d");
 
                         ctx.drawImage(a, 0, 0, c.width, c.height);
+                        
                         ctx.save();
 
 
                         ctx.globalCompositeOperation = "overlay";
+               
                         ctx.drawImage(a1, 0, 0, c.width, c.height);
 
                         ctx.restore();
 
 
-                        ctx.drawImage(a1, 0, 0, c.width, c.height);
 
+
+                        ctx.drawImage(a1, 0, 0, c.width, c.height);
+                     
 
                         var c2 = document.createElement("canvas")
                         c2.width = c.width;
@@ -85,8 +89,8 @@
                         var ctx2 = c2.getContext("2d");
 
 
-                        ctx2.shadowColor = '#e1b439';
-                        ctx2.shadowBlur = 20;
+                        ctx2.shadowColor = '#2ed8f7';
+                        ctx2.shadowBlur = 10;
                         ctx2.save();
                         ctx2.textAlign = "center";
                         ctx2.fillStyle = "#fff"
@@ -111,21 +115,18 @@
                         ctx2.drawImage(a3, c.width/2 - aw/2, 275, aw, aw)
                         ////
                         ctx.save();
-                        ctx.shadowColor = '#000';
-                        ctx.shadowBlur = 50;
+                        ctx.shadowColor = '#222';
+                        ctx.shadowBlur = 20;
+                        
                         ctx.drawImage(c2, 0, 0, c.width, c.height)
-
-                        ctx.restore();
-
-                        ctx.save();
-                        ctx.globalCompositeOperation = "overlay";
-                        for (var i = 0; i < 3; i++) {
-
-                            ctx.drawImage(c2, 0, 0, c.width, c.height)
-                        }
+                    
+                       
                         ctx.restore();
 
                         ctx.drawImage(c2, 0, 0, c.width, c.height)
+                        ctx.drawImage(c2, 0, 0, c.width, c.height)
+
+                    
 
 
                     }
