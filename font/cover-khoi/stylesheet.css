@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Catamaran';
+    src: url('Catamaran-Regular.woff2') format('woff2'),
+        url('Catamaran-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'UTM Alter Gothic';
+    src: url('UTMAlterGothic.woff2') format('woff2'),
+        url('UTMAlterGothic.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Metropolis';
+    src: url('Metropolis-Black.woff2') format('woff2'),
+        url('Metropolis-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
