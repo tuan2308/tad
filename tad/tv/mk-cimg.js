@@ -32,7 +32,7 @@ var screenimg = "https://cdn.taoanhdep.com/tphoto/blank.png"
 								t && d(n, t, e.p0.x, e.p0.y, e.p1.x, e.p1.y, e.p2.x, e.p2.y, e.t0.u, e.t0.v, e.t1.u, e.t1.v, e.t2.u, e.t2.v)
 							};
 							for (triangle of (s && (s = !1, h()), r)) l(cimg, triangle);
-							if (n.save(), "black" == tadMk1 && (n.save(), n.globalAlpha = .3, n.fillStyle = "#333", n.fillRect(0, 0, e.width, e.height), n.restore()), n.globalCompositeOperation = "destination-in", n.drawImage(a, 0, 0, e.width, e.height), n.restore(), n.save(), n.globalCompositeOperation = "destination-over", n.drawImage(o, 0, 0, e.width, e.height), n.restore(), t) {
+							if (n.save(), "black" == tadMk && (n.save(), n.globalAlpha = .3, n.fillStyle = "#333", n.fillRect(0, 0, e.width, e.height), n.restore()), n.globalCompositeOperation = "destination-in", n.drawImage(a, 0, 0, e.width, e.height), n.restore(), n.save(), n.globalCompositeOperation = "destination-over", n.drawImage(o, 0, 0, e.width, e.height), n.restore(), t) {
 								n.save(), n.globalAlpha = .5;
 								var c = n.createPattern(t, "repeat");
 								n.fillStyle = c, n.fillRect(0, 0, e.width, e.height), n.restore()
