@@ -7,3 +7,20 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'SVN-Aleo';
+    src: url('SVN-AleoBoldItalic.woff2') format('woff2'),
+        url('SVN-AleoBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SVN-Aleo';
+    src: url('SVN-AleoBold.woff2') format('woff2'),
+        url('SVN-AleoBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
