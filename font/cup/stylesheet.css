@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'UTM Aristote';
+    src: url('UTMAristote.woff2') format('woff2'),
+        url('UTMAristote.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
