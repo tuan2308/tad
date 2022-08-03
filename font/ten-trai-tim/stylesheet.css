@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'tad-mono';
+    src: url('Monospace.woff2') format('woff2'),
+        url('Monospace.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
